@@ -19,25 +19,26 @@ services:
       - OMBRE_COMPRESS_API_KEY=${OMBRE_COMPRESS_API_KEY}
       - OMBRE_TRANSPORT=streamable-http
       - OMBRE_BUCKETS_DIR=/data
+      - OMBRE_EMBED_BACKEND=api             # Required: use API embedding backend / 必填：使用 API 向量化后端
       # --- 压缩组可选覆盖 ---
       # If you use Gemini instead of DeepSeek, set these in your .env:
       # 如使用 Gemini 而非 DeepSeek，在 .env 里加：
       #   OMBRE_COMPRESS_BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai/
-      #   OMBRE_COMPRESS_MODEL=gemini-2.5-flash-lite
+      #   OMBRE_COMPRESS_MODEL=gemini-2.0-flash
       - OMBRE_COMPRESS_BASE_URL=${OMBRE_COMPRESS_BASE_URL:-}
       - OMBRE_COMPRESS_MODEL=${OMBRE_COMPRESS_MODEL:-}
-      # --- 向量化组可选覆盖 ---
-      #   OMBRE_EMBED_API_KEY=your-embed-key   # 留空则语义检索不可用
-      #   OMBRE_EMBED_BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai/
-      #   OMBRE_EMBED_BACKEND=bge-small-zh     # 本地模型选项
+      # --- 向量化组（Gemini API 后端）---
+      #   OMBRE_EMBED_API_KEY=your-embed-key     # 必填，留空则语义检索不可用
+      #   OMBRE_EMBED_BASE_URL=https://...       # 可选，自定义 endpoint，默认 Gemini
+      #   OMBRE_EMBED_MODEL=gemini-embedding-001 # 可选，默认 gemini-embedding-001
       - OMBRE_EMBED_API_KEY=${OMBRE_EMBED_API_KEY:-}
       - OMBRE_EMBED_BASE_URL=${OMBRE_EMBED_BASE_URL:-}
       - OMBRE_EMBED_MODEL=${OMBRE_EMBED_MODEL:-}
-      - OMBRE_EMBED_BACKEND=${OMBRE_EMBED_BACKEND:-}
     volumes:
-      # 改成你的 Obsidian Vault 路径，或保持 ../buckets 用本地目录
-      # Change to your Obsidian Vault path, or keep ../buckets for local storage
-      - ../buckets:/data
+      # 数据目录：改成你的 Obsidian Vault 路径，或任意本地绝对路径。
+      # 用 ${OMBRE_HOST_VAULT_DIR} 在 .env 里统一管理；未设置则回退到当前目录下的 ./buckets。
+      # Data dir: set OMBRE_HOST_VAULT_DIR in .env, or change the path below.
+      - ${OMBRE_HOST_VAULT_DIR:-./buckets}:/data
       # (Optional) Mount custom config to override model / API settings:
       # （可选）挂载自定义配置，覆盖模型和 API 设置：
-      # - ../config.yaml:/app/config.yaml
+      # - ./config.yaml:/app/config.yaml

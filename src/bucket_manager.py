@@ -690,8 +690,8 @@ class BucketManager:
                     self.archive_dir,
                     f"{os.path.splitext(os.path.basename(file_path))[0]}_{bucket_id}.md",
                 )
-            with open(dest, "wb") as f:
-                frontmatter.dump(post, f)
+            with open(dest, "w", encoding="utf-8") as f:
+                f.write(frontmatter.dumps(post))
             if dest != file_path:
                 os.remove(file_path)
         except OSError as e:

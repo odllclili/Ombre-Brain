@@ -202,7 +202,10 @@ class DecayEngine:
         if metadata.get("type") in ("plan", "letter"):
             return _SCORE_FEEL
 
-        importance = max(1, min(10, int(metadata.get("importance", _DEFAULT_IMPORTANCE))))
+        try:
+            importance = max(1, min(10, int(metadata.get("importance", _DEFAULT_IMPORTANCE))))
+        except (TypeError, ValueError):
+            importance = _DEFAULT_IMPORTANCE
         activation_count = max(1.0, float(metadata.get("activation_count", 1)))
 
         # --- Days since last activation ---

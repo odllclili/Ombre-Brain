@@ -61,13 +61,19 @@ decay:
     arousal_boost: 0.8            # Arousal boost coefficient / 唤醒度加成系数
 
 # --- Embedding / 向量化配置 ---
-# 使用 OpenAI 兼容的云端 API（如 Gemini）进行向量化。
-# 需要在环境变量中设置 OMBRE_EMBED_API_KEY。
+# Two backends: `local` (default, fastembed bge-m3 ONNX, ~600-800MB auto-downloaded)
+#               `api`   (any OpenAI-compatible endpoint, requires OMBRE_EMBED_API_KEY)
+# 两种后端：local（默认，本地 fastembed bge-m3 ONNX，约 600-800MB 首次启动自动下载）
+#          api（任意 OpenAI 兼容 endpoint，需要 OMBRE_EMBED_API_KEY）
+# Switch in Dashboard → Settings → Embedding → "切换 / 重算所有 embedding…"
+# (does backup + checkpoint + rate-limited re-embed of all buckets).
+# Old literal values `gemini` / `bge-m3` / `bge-small-zh` still accepted
+# (auto-mapped to `api` / `local` / `local`).
 embedding:
   enabled: true                   # Enable embedding / 启用向量化
-  backend: "api"                  # 只支持 api（OpenAI 兼容端点）
-  model: "gemini-embedding-001"   # 云端模型名（如 gemini-embedding-001）
-  base_url: "https://generativelanguage.googleapis.com/v1beta/openai/"
+  backend: "local"                # local | api
+  model: "BAAI/bge-m3"            # local 后端固定走 bge-m3；api 后端填云端模型名（如 gemini-embedding-001）
+  # base_url: "https://generativelanguage.googleapis.com/v1beta/openai"
   # api_key: ""                   # Use OMBRE_EMBED_API_KEY / 使用 OMBRE_EMBED_API_KEY
 
 # --- Scoring weights / 检索权重参数 ---

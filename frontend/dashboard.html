@@ -982,7 +982,8 @@
         <a href="#sec-engine" style="padding:4px 10px;border:1px solid var(--border,#ddd);border-radius:14px;text-decoration:none;color:var(--text);">③ 引擎</a>
         <a href="#sec-bucket" style="padding:4px 10px;border:1px solid var(--border,#ddd);border-radius:14px;text-decoration:none;color:var(--text);">④ 桶行为</a>
         <a href="#sec-env" style="padding:4px 10px;border:1px solid var(--border,#ddd);border-radius:14px;text-decoration:none;color:var(--text);">⑤ 环境变量</a>
-        <a href="#sec-danger" style="padding:4px 10px;border:1px solid rgba(184,92,60,0.5);border-radius:14px;text-decoration:none;color:var(--accent);">⑥ 危险区</a>
+        <a href="#sec-mcp" style="padding:4px 10px;border:1px solid var(--border,#ddd);border-radius:14px;text-decoration:none;color:var(--text);">⑥ MCP 配置</a>
+        <a href="#sec-danger" style="padding:4px 10px;border:1px solid rgba(184,92,60,0.5);border-radius:14px;text-decoration:none;color:var(--accent);">⑦ 危险区</a>
       </div>
     </div>
 
@@ -1016,6 +1017,17 @@
           <div class="config-row"><label>确认</label><input type="password" id="settings-new-pwd2" placeholder="再次输入新密码" /></div>
           <button class="btn-primary" onclick="changePassword()" style="margin-top:4px;">保存</button>
           <div id="settings-pwd-msg" style="margin-top:10px;font-size:13px;"></div>
+        </div>
+      </div>
+
+      <div>
+        <div style="font-weight:600;font-size:13px;margin-bottom:6px;">急救安全问题</div>
+        <div style="font-size:12px;color:var(--text-dim);margin-bottom:8px;">忘记密码时，凭此问题重置密码进入急救模式。</div>
+        <div id="settings-qa-form">
+          <div class="config-row"><label>安全问题</label><input type="text" id="settings-qa-q" placeholder="例：我第一只猫叫什么" /></div>
+          <div class="config-row"><label>答案</label><input type="text" id="settings-qa-a" placeholder="答案（不区分大小写）" /></div>
+          <button class="btn-primary" onclick="saveSecurityQuestion()" style="margin-top:4px;">保存急救问题</button>
+          <div id="settings-qa-msg" style="margin-top:10px;font-size:13px;"></div>
         </div>
       </div>
 
@@ -1059,21 +1071,43 @@
 
       <div style="margin-bottom:18px;">
         <div style="font-weight:600;font-size:13px;margin-bottom:6px;">脱水 / 打标 LLM</div>
+        <div id="dehy-key-notice" style="display:none;font-size:12px;color:var(--warning);margin-bottom:10px;padding:7px 10px;background:rgba(184,153,98,0.08);border-radius:4px;line-height:1.6;">
+          ⚠ 压缩 API Key 未配置，桶内容将无法被自动脱水压缩，记忆系统无法正常运行。请在下方输入框填入 Key 并点击「保存 Key」。
+        </div>
         <div class="config-row"><label>Model</label><input type="text" id="cfg-dehy-model" placeholder="gemini-2.5-flash-lite" /></div>
         <div class="config-row"><label>Base URL</label><input type="text" id="cfg-dehy-url" placeholder="https://..." /></div>
-        <div class="config-row"><label>API Key</label><input type="password" id="cfg-dehy-key" placeholder="当前: 加载中…" /></div>
-        <div style="margin-top:-4px;margin-bottom:12px;padding-left:122px;font-size:11px;color:var(--text-light);">留空不改。Key 不会持久化到 yaml（请改用下方「⑤ 环境变量」中的 OMBRE_COMPRESS_API_KEY）</div>
+        <div class="config-row" style="align-items:center;">
+          <label>API Key</label>
+          <input type="password" id="cfg-dehy-key" placeholder="当前: 加载中…" style="flex:1;" />
+          <button type="button" onclick="saveCompressKey()" style="margin-left:8px;padding:6px 14px;font-size:12px;white-space:nowrap;">保存 Key</button>
+          <span id="dehy-key-msg" style="margin-left:8px;font-size:11px;"></span>
+        </div>
+        <div style="margin-top:-4px;margin-bottom:12px;padding-left:122px;font-size:11px;color:var(--text-light);">留空不改。Key 保存后立即生效并写入 .env（重启持久）。</div>
         <div class="config-row"><label>Max Tokens</label><input type="number" id="cfg-dehy-maxtokens" min="128" max="8192" /></div>
         <div class="config-row"><label>Temperature</label><input type="number" id="cfg-dehy-temp" min="0" max="2" step="0.05" /></div>
       </div>
 
       <div>
         <div style="font-weight:600;font-size:13px;margin-bottom:6px;">向量化 Embedding</div>
+        <div id="emb-key-notice" style="display:none;font-size:12px;color:var(--warning);margin-bottom:10px;padding:7px 10px;background:rgba(184,153,98,0.08);border-radius:4px;line-height:1.6;">
+          ⚠ Ombre Brain 必须配置向量化 Embedding API Key 才能正常使用。未配置时语义检索完全不可用，记忆系统无法运作。请在下方填入 Key 并点击「保存 Key」，保存后立即生效。
+        </div>
         <div id="emb-info-panel" style="margin-bottom:10px;padding:10px 12px;background:var(--bg-soft,#f4f4f4);border-radius:6px;font-size:12px;line-height:1.7;color:var(--text);">
           <div>当前后端：<b id="emb-info-backend">—</b> · 模型：<span id="emb-info-model">—</span> · 维度：<span id="emb-info-dim">—</span></div>
           <div>已索引向量：<span id="emb-info-count">—</span> 条 · 启用状态：<span id="emb-info-enabled">—</span></div>
           <div id="emb-info-meta" style="color:var(--text-light);margin-top:4px;"></div>
         </div>
+        <div class="config-row" style="align-items:center;">
+          <label>API Key</label>
+          <input type="password" id="cfg-emb-api-key" placeholder="当前: 加载中…" style="flex:1;" />
+          <button type="button" onclick="saveEmbedKey()" style="margin-left:8px;padding:6px 14px;font-size:12px;white-space:nowrap;">保存 Key</button>
+          <span id="emb-key-msg" style="margin-left:8px;font-size:11px;"></span>
+        </div>
+        <div class="config-row">
+          <label>Base URL</label>
+          <input type="text" id="cfg-emb-base-url" placeholder="https://generativelanguage.googleapis.com/v1beta/openai/" />
+        </div>
+        <div style="margin-top:-4px;margin-bottom:12px;padding-left:122px;font-size:11px;color:var(--text-light);">Key 保存后立即生效并写入 .env（重启持久）。Base URL 留空使用 Gemini 默认。</div>
         <div class="config-row">
           <label>启用</label>
           <select id="cfg-emb-enabled"><option value="true">开启</option><option value="false">关闭</option></select>
@@ -1081,7 +1115,6 @@
         <div class="config-row">
           <label>后端</label>
           <select id="cfg-emb-backend">
-            <option value="local">本地 bge-m3（默认）</option>
             <option value="api">Gemini API（云端）</option>
           </select>
         </div>
@@ -1204,9 +1237,74 @@
       </details>
     </div>
 
-    <!-- ⑥ 危险区 -->
+    <!-- ⑥ MCP 配置 -->
+    <div class="config-section" id="sec-mcp">
+      <h3>⑥ MCP 配置</h3>
+      <div style="font-size:12px;color:var(--text-dim);margin-bottom:16px;line-height:1.7;">
+        生成 Claude Desktop / claude.ai 的 MCP 连接配置。本服务拆成两个端点（主 + 副），对应 claude.ai 5 工具上限的限制。
+      </div>
+
+      <!-- 模式切换 -->
+      <div style="margin-bottom:16px;">
+        <div style="font-weight:600;font-size:13px;margin-bottom:8px;">连接模式</div>
+        <div style="display:flex;gap:16px;font-size:13px;">
+          <label style="display:flex;align-items:center;gap:6px;cursor:pointer;">
+            <input type="radio" name="mcp-mode" value="local" checked onchange="onMcpModeChange()" /> 本地模式
+          </label>
+          <label style="display:flex;align-items:center;gap:6px;cursor:pointer;">
+            <input type="radio" name="mcp-mode" value="public" onchange="onMcpModeChange()" /> 公网模式
+          </label>
+        </div>
+        <div style="margin-top:6px;font-size:11px;color:var(--text-light);">
+          本地模式使用当前页面域名（<code id="mcp-local-origin"></code>）；公网模式可填入自定义域名（Cloudflare Tunnel 等）。
+        </div>
+      </div>
+
+      <!-- 公网域名输入（仅公网模式显示） -->
+      <div id="mcp-public-domain-row" style="display:none;margin-bottom:16px;">
+        <div style="font-weight:600;font-size:13px;margin-bottom:6px;">公网域名</div>
+        <div style="display:flex;gap:8px;align-items:center;">
+          <input type="text" id="mcp-custom-domain" placeholder="例：https://ob.example.com"
+            style="flex:1;background:var(--surface);border:1px solid var(--border);color:var(--text);padding:8px 14px;border-radius:2px;font-family:monospace;font-size:12px;"
+            oninput="renderMcpUrls()" />
+        </div>
+        <div style="margin-top:4px;font-size:11px;color:var(--text-light);">填域名或完整 URL，末尾斜杠可省略。</div>
+      </div>
+
+      <!-- 生成的链接预览 -->
+      <div style="margin-bottom:16px;">
+        <div style="font-weight:600;font-size:13px;margin-bottom:8px;">端点地址</div>
+        <div style="background:var(--surface-solid);border:1px solid var(--border);border-radius:4px;padding:12px 14px;font-family:monospace;font-size:12px;line-height:2;">
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;">
+            <span style="color:var(--text-dim);font-size:11px;min-width:60px;">主 /mcp</span>
+            <span id="mcp-url-main" style="flex:1;color:var(--text);word-break:break-all;"></span>
+            <button onclick="copyMcpUrl('main')" style="padding:3px 10px;font-size:11px;white-space:nowrap;background:none;border:1px solid var(--border);border-radius:3px;cursor:pointer;color:var(--text-dim);">复制</button>
+          </div>
+          <div style="border-top:1px solid var(--border);margin:6px 0;"></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;">
+            <span style="color:var(--text-dim);font-size:11px;min-width:60px;">副 /mcp-extra</span>
+            <span id="mcp-url-extra" style="flex:1;color:var(--text);word-break:break-all;"></span>
+            <button onclick="copyMcpUrl('extra')" style="padding:3px 10px;font-size:11px;white-space:nowrap;background:none;border:1px solid var(--border);border-radius:3px;cursor:pointer;color:var(--text-dim);">复制</button>
+          </div>
+        </div>
+        <div id="mcp-copy-msg" style="margin-top:4px;font-size:11px;color:var(--positive);min-height:16px;"></div>
+      </div>
+
+      <!-- 操作按钮 -->
+      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
+        <button class="btn-primary" onclick="copyAllMcpUrls()">一键复制两条链接</button>
+        <button onclick="exportClaudeDesktopConfig()" style="padding:7px 14px;font-size:13px;border:1px solid var(--border);background:none;border-radius:2px;cursor:pointer;font-family:inherit;color:var(--text);">导出 claude_desktop_config.json</button>
+      </div>
+
+      <details style="margin-top:16px;">
+        <summary style="cursor:pointer;font-size:12px;color:var(--text-dim);">查看完整 JSON 预览</summary>
+        <pre id="mcp-json-preview" style="margin-top:8px;padding:12px;background:var(--surface-solid);border:1px solid var(--border);border-radius:4px;font-size:11px;line-height:1.6;overflow-x:auto;color:var(--text);white-space:pre-wrap;word-break:break-all;"></pre>
+      </details>
+    </div>
+
+    <!-- ⑦ 危险区 -->
     <div class="config-section" id="sec-danger" style="border:1px solid rgba(184,92,60,0.55);background:rgba(184,92,60,0.04);margin-top:40px;">
-      <h3 style="color:var(--accent);">⑥ 危险区</h3>
+      <h3 style="color:var(--accent);">⑦ 危险区</h3>
 
       <div style="margin-bottom:18px;">
         <div style="font-weight:600;font-size:13px;margin-bottom:6px;">数据导出 / 健康</div>
@@ -1290,8 +1388,11 @@
     </p>
     <ol style="font-size:13px;line-height:1.8;padding-left:20px;color:var(--text);">
       <li><b>设置 Dashboard 密码</b>：你下面会看到登录页，第一次填的密码会被记住。</li>
-      <li><b>(可选) 配置 API Key</b>：用于自动脱水压缩和向量化。<br/>
-        <span style="color:var(--text-dim);font-size:12px;">脱水压缩（必需写入）：在 .env 加 <code>OMBRE_COMPRESS_API_KEY=...</code>。向量化（可选）：加 <code>OMBRE_EMBED_API_KEY=...</code>，不配则仅关键词检索。</span>
+      <li><b>配置 API Key（必需）</b>：两项均需配置，系统才能完整运行。<br/>
+        <span style="color:var(--text-dim);font-size:12px;">
+          脱水压缩：在 .env 加 <code>OMBRE_COMPRESS_API_KEY=...</code>（必需，缺少则无法写入记忆）。<br/>
+          向量化检索：加 <code>OMBRE_EMBED_API_KEY=...</code>（必需，缺少则语义检索不可用，仅支持关键词）。
+        </span>
       </li>
     </ol>
     <p style="font-size:12px;color:var(--text-dim);margin:14px 0 0;">
@@ -1314,14 +1415,34 @@
     <div id="auth-setup-form" style="display:none;">
       <p style="font-size:13px;color:var(--text-dim);margin-bottom:16px;">首次使用，请设置访问密码</p>
       <input type="password" id="auth-setup-pwd" placeholder="设置密码（至少6位）" style="display:block;width:100%;padding:10px 16px;border:1px solid var(--border);border-radius:10px;background:var(--surface-solid);color:var(--text);font-size:14px;margin-bottom:10px;" />
-      <input type="password" id="auth-setup-pwd2" placeholder="确认密码" style="display:block;width:100%;padding:10px 16px;border:1px solid var(--border);border-radius:10px;background:var(--surface-solid);color:var(--text);font-size:14px;margin-bottom:16px;" onkeydown="if(event.key==='Enter')doSetup()" />
+      <input type="password" id="auth-setup-pwd2" placeholder="确认密码" style="display:block;width:100%;padding:10px 16px;border:1px solid var(--border);border-radius:10px;background:var(--surface-solid);color:var(--text);font-size:14px;margin-bottom:12px;" onkeydown="if(event.key==='Enter')doSetup()" />
+      <details style="margin-bottom:16px;text-align:left;">
+        <summary style="font-size:12px;color:var(--text-dim);cursor:pointer;user-select:none;">设置急救安全问题（可选，忘记密码时用）</summary>
+        <div style="margin-top:10px;">
+          <input type="text" id="auth-setup-q" placeholder="你的安全问题，例：我第一只猫叫什么" style="display:block;width:100%;padding:8px 14px;border:1px solid var(--border);border-radius:8px;background:var(--surface-solid);color:var(--text);font-size:13px;margin-bottom:8px;box-sizing:border-box;" />
+          <input type="text" id="auth-setup-a" placeholder="答案（不区分大小写）" style="display:block;width:100%;padding:8px 14px;border:1px solid var(--border);border-radius:8px;background:var(--surface-solid);color:var(--text);font-size:13px;box-sizing:border-box;" />
+        </div>
+      </details>
       <button onclick="doSetup()" style="width:100%;padding:12px;background:var(--accent);color:#fff;border:none;border-radius:10px;font-size:14px;cursor:pointer;">设置密码并进入</button>
     </div>
 
     <!-- Login form -->
     <div id="auth-login-form" style="display:none;">
-      <input type="password" id="auth-login-pwd" placeholder="输入访问密码" style="display:block;width:100%;padding:10px 16px;border:1px solid var(--border);border-radius:10px;background:var(--surface-solid);color:var(--text);font-size:14px;margin-bottom:16px;" onkeydown="if(event.key==='Enter')doLogin()" />
+      <input type="password" id="auth-login-pwd" placeholder="输入访问密码" style="display:block;width:100%;padding:10px 16px;border:1px solid var(--border);border-radius:10px;background:var(--surface-solid);color:var(--text);font-size:14px;margin-bottom:12px;" onkeydown="if(event.key==='Enter')doLogin()" />
       <button onclick="doLogin()" style="width:100%;padding:12px;background:var(--accent);color:#fff;border:none;border-radius:10px;font-size:14px;cursor:pointer;">登录</button>
+      <div style="margin-top:12px;text-align:center;">
+        <a href="#" onclick="showRecovery();return false;" style="font-size:12px;color:var(--text-dim);text-decoration:none;border-bottom:1px dashed var(--border);">忘记密码 →</a>
+      </div>
+    </div>
+
+    <!-- Recovery form -->
+    <div id="auth-recovery-form" style="display:none;">
+      <p style="font-size:13px;color:var(--text-dim);margin-bottom:4px;">急救模式</p>
+      <p id="auth-recovery-question" style="font-size:14px;color:var(--text);font-weight:500;margin-bottom:16px;"></p>
+      <input type="text" id="auth-recovery-answer" placeholder="你的答案" style="display:block;width:100%;padding:10px 16px;border:1px solid var(--border);border-radius:10px;background:var(--surface-solid);color:var(--text);font-size:14px;margin-bottom:10px;" />
+      <input type="password" id="auth-recovery-newpwd" placeholder="新密码（至少6位）" style="display:block;width:100%;padding:10px 16px;border:1px solid var(--border);border-radius:10px;background:var(--surface-solid);color:var(--text);font-size:14px;margin-bottom:16px;" onkeydown="if(event.key==='Enter')doRecover()" />
+      <button onclick="doRecover()" style="width:100%;padding:12px;background:var(--accent);color:#fff;border:none;border-radius:10px;font-size:14px;cursor:pointer;margin-bottom:8px;">重置密码并进入</button>
+      <div style="text-align:center;"><a href="#" onclick="showLogin();return false;" style="font-size:12px;color:var(--text-dim);text-decoration:none;">← 返回登录</a></div>
     </div>
 
     <div id="auth-error" style="color:var(--negative);font-size:13px;margin-top:12px;display:none;"></div>
@@ -1362,11 +1483,47 @@ async function doSetup() {
   if (p1.length < 6) return showAuthError('密码至少6位');
   if (p1 !== p2) return showAuthError('两次密码不一致');
   const resp = await fetch('/auth/setup', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({password: p1}) });
+  if (!resp.ok) {
+    const d = await resp.json();
+    return showAuthError(d.error || '设置失败');
+  }
+  // 可选：同时保存安全问题
+  const q = (document.getElementById('auth-setup-q')?.value || '').trim();
+  const a = (document.getElementById('auth-setup-a')?.value || '').trim();
+  if (q && a) {
+    await fetch('/auth/security-question', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({question: q, answer: a}) });
+  }
+  document.getElementById('auth-overlay').style.display = 'none';
+}
+
+function showLogin() {
+  document.getElementById('auth-recovery-form').style.display = 'none';
+  document.getElementById('auth-login-form').style.display = 'block';
+  document.getElementById('auth-subtitle').textContent = '请输入访问密码';
+  document.getElementById('auth-error').style.display = 'none';
+}
+
+async function showRecovery() {
+  const r = await fetch('/auth/recovery-question');
+  const d = await r.json();
+  if (!d.question) return showAuthError('未设置安全问题，无法使用急救模式');
+  document.getElementById('auth-recovery-question').textContent = d.question;
+  document.getElementById('auth-login-form').style.display = 'none';
+  document.getElementById('auth-recovery-form').style.display = 'block';
+  document.getElementById('auth-subtitle').textContent = '急救模式';
+  document.getElementById('auth-error').style.display = 'none';
+}
+
+async function doRecover() {
+  const answer = document.getElementById('auth-recovery-answer').value;
+  const newPwd = document.getElementById('auth-recovery-newpwd').value;
+  if (newPwd.length < 6) return showAuthError('新密码至少6位');
+  const resp = await fetch('/auth/recover', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({answer, new_password: newPwd}) });
   if (resp.ok) {
     document.getElementById('auth-overlay').style.display = 'none';
   } else {
     const d = await resp.json();
-    showAuthError(d.detail || '设置失败');
+    showAuthError(d.error || '验证失败');
   }
 }
 
@@ -1411,6 +1568,22 @@ async function changePassword() {
   }
 }
 
+async function saveSecurityQuestion() {
+  const q = document.getElementById('settings-qa-q').value.trim();
+  const a = document.getElementById('settings-qa-a').value.trim();
+  const msgEl = document.getElementById('settings-qa-msg');
+  if (!q || !a) { msgEl.style.color = 'var(--negative)'; msgEl.textContent = '问题和答案不能为空'; return; }
+  const resp = await authFetch('/auth/security-question', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({question: q, answer: a}) });
+  if (!resp) return;
+  if (resp.ok) {
+    msgEl.style.color = 'var(--accent)'; msgEl.textContent = '急救问题已保存';
+    document.getElementById('settings-qa-a').value = '';
+  } else {
+    const d = await resp.json();
+    msgEl.style.color = 'var(--negative)'; msgEl.textContent = d.error || '保存失败';
+  }
+}
+
 async function loadSettingsStatus() {
   const el = document.getElementById('settings-status');
   try {
@@ -1429,12 +1602,6 @@ async function loadSettingsStatus() {
   } catch(e) {
     el.textContent = '加载失败: ' + e;
   }
-  // Also refresh the host-vault input whenever the settings tab is loaded.
-  loadHostVault();
-  // iter 1.9 B: 同步加载 sampling 设置
-  loadSamplingSettings();
-  // #6: 同步加载环境变量面板
-  loadEnvVars();
 }
 
 // #6: 环境变量面板
@@ -1661,6 +1828,10 @@ document.querySelectorAll('.tab').forEach(tab => {
       loadSamplingSettings();
       loadEnvVars();
       loadHostVault();
+      // MCP 面板同步初始化（不依赖异步请求）
+      const _mcpOriginEl = document.getElementById('mcp-local-origin');
+      if (_mcpOriginEl) _mcpOriginEl.textContent = location.origin;
+      renderMcpUrls();
     }
     if (target === 'letters') loadLetters();
     if (target === 'anchors') loadAnchorsView();
@@ -2526,6 +2697,8 @@ async function refreshEmbInfo() {
     document.getElementById('emb-info-dim').textContent = d.vector_dim || '—';
     document.getElementById('emb-info-count').textContent = (d.db_count != null ? d.db_count : '—');
     document.getElementById('emb-info-enabled').textContent = d.enabled ? '已启用' : '未启用';
+    var embNotice = document.getElementById('emb-key-notice');
+    if (embNotice) embNotice.style.display = d.enabled ? 'none' : '';
     var meta = d.db_meta || {};
     var metaTxt = '';
     if (meta.model_name || meta.vector_dim) {
@@ -2628,12 +2801,13 @@ document.addEventListener('click', function(e) {
 
 async function loadConfig() {
   try {
-    var res = await fetch(BASE + '/api/config');
+    var res = await authFetch('/api/config');
+    if (!res) return;
     var cfg = await res.json();
     document.getElementById('cfg-dehy-model').value = cfg.dehydration.model || '';
     document.getElementById('cfg-dehy-url').value = cfg.dehydration.base_url || '';
-    document.getElementById('cfg-dehy-key').placeholder = '当前: ' + (cfg.dehydration.api_key_masked || '未设置');
-    document.getElementById('cfg-dehy-key').value = '';
+    var dehyNotice = document.getElementById('dehy-key-notice');
+    if (dehyNotice) dehyNotice.style.display = cfg.dehydration.api_key_masked ? 'none' : '';
     document.getElementById('cfg-dehy-maxtokens').value = cfg.dehydration.max_tokens || 1024;
     document.getElementById('cfg-dehy-temp').value = cfg.dehydration.temperature || 0.1;
     document.getElementById('cfg-emb-enabled').value = cfg.embedding.enabled ? 'true' : 'false';
@@ -2666,7 +2840,8 @@ async function loadConfig() {
 
 async function refreshEnvConfig() {
   try {
-    var r = await fetch(BASE + '/api/env-config');
+    var r = await authFetch('/api/env-config');
+    if (!r) return;
     var d = await r.json();
     if (!d || !d.ok) return;
     var f = d.fields || {};
@@ -2683,6 +2858,18 @@ async function refreshEnvConfig() {
     if (el) { el.placeholder = f['OMBRE_EMBED_API_KEY'] && f['OMBRE_EMBED_API_KEY'].is_set ? '当前：' + (f['OMBRE_EMBED_API_KEY'].value || '***') + '（留空 = 不修改）' : '未设置'; el.value = ''; }
     el = document.getElementById('env-embed-base');
     if (el) el.value = (f['OMBRE_EMBED_BASE_URL'] || {}).value || '';
+    // 同步引擎区域内联 key 输入框 placeholder
+    var embKeyInline = document.getElementById('cfg-emb-api-key');
+    if (embKeyInline) {
+      embKeyInline.placeholder = f['OMBRE_EMBED_API_KEY'] && f['OMBRE_EMBED_API_KEY'].is_set ? '当前: ' + (f['OMBRE_EMBED_API_KEY'].value || '***') : '未设置';
+      embKeyInline.value = '';
+    }
+    var embBaseInline = document.getElementById('cfg-emb-base-url');
+    if (embBaseInline) embBaseInline.value = (f['OMBRE_EMBED_BASE_URL'] || {}).value || '';
+    var compKeyInline = document.getElementById('cfg-dehy-key');
+    if (compKeyInline) {
+      compKeyInline.placeholder = f['OMBRE_COMPRESS_API_KEY'] && f['OMBRE_COMPRESS_API_KEY'].is_set ? '当前: ' + (f['OMBRE_COMPRESS_API_KEY'].value || '***') : '未设置';
+    }
     el = document.getElementById('env-embed-model');
     if (el) el.value = (f['OMBRE_EMBED_MODEL'] || {}).value || '';
     // Webhook
@@ -2721,11 +2908,12 @@ async function saveEnvConfig() {
   Object.keys(updates).forEach(function(k) { if (updates[k] === undefined) delete updates[k]; });
 
   try {
-    var r = await fetch(BASE + '/api/env-config', {
+    var r = await authFetch('/api/env-config', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ updates: updates })
     });
+    if (!r) return;
     var d = await r.json();
     if (d && d.ok) {
       statusEl.innerHTML = '<span style="color:var(--positive,#2a9d3f)">✓ 已保存：' + (d.updated || []).join(', ') + (d.warnings && d.warnings.length ? '<br><span style="color:var(--negative)">' + d.warnings.join('; ') + '</span>' : '') + '</span>';
@@ -2736,6 +2924,47 @@ async function saveEnvConfig() {
   } catch (e) {
     statusEl.innerHTML = '<span style="color:var(--negative)">请求失败：' + e.message + '</span>';
   }
+}
+
+async function _saveEnvKeys(updates, msgElId) {
+  var msgEl = document.getElementById(msgElId);
+  if (msgEl) msgEl.textContent = '保存中…';
+  try {
+    var r = await authFetch('/api/env-config', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ updates: updates })
+    });
+    if (!r) return;
+    var d = await r.json();
+    if (d && d.ok) {
+      if (msgEl) msgEl.innerHTML = '<span style="color:var(--positive,#2a9d3f)">✓ 已保存</span>';
+      refreshEnvConfig();
+      refreshEmbInfo();
+    } else {
+      if (msgEl) msgEl.innerHTML = '<span style="color:var(--negative)">✗ ' + (d && d.error ? d.error : '失败') + '</span>';
+    }
+  } catch (e) {
+    if (msgEl) msgEl.innerHTML = '<span style="color:var(--negative)">✗ ' + e.message + '</span>';
+  }
+}
+
+async function saveCompressKey() {
+  var key = (document.getElementById('cfg-dehy-key').value || '').trim();
+  if (!key) { var m = document.getElementById('dehy-key-msg'); if (m) m.textContent = '请输入 Key'; return; }
+  var updates = { 'OMBRE_COMPRESS_API_KEY': key };
+  document.getElementById('cfg-dehy-key').value = '';
+  await _saveEnvKeys(updates, 'dehy-key-msg');
+}
+
+async function saveEmbedKey() {
+  var key = (document.getElementById('cfg-emb-api-key').value || '').trim();
+  var base = (document.getElementById('cfg-emb-base-url').value || '').trim();
+  if (!key && !base) { var m = document.getElementById('emb-key-msg'); if (m) m.textContent = '请输入 Key'; return; }
+  var updates = {};
+  if (key) { updates['OMBRE_EMBED_API_KEY'] = key; document.getElementById('cfg-emb-api-key').value = ''; }
+  if (base !== undefined) updates['OMBRE_EMBED_BASE_URL'] = base;
+  await _saveEnvKeys(updates, 'emb-key-msg');
 }
 
 async function saveConfig(persist) {
@@ -2759,16 +2988,14 @@ async function saveConfig(persist) {
     },
     persist: persist,
   };
-  var keyVal = document.getElementById('cfg-dehy-key').value;
-  if (keyVal) body.dehydration.api_key = keyVal;
-
   var status = document.getElementById('config-status');
   try {
-    var res = await fetch(BASE + '/api/config', {
+    var res = await authFetch('/api/config', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify(body),
     });
+    if (!res) return;
     var result = await res.json();
     if (result.ok) {
       status.innerHTML = '<span style="color:var(--positive)">✓ 已更新: ' + result.updated.join(', ') + '</span>';
@@ -3236,6 +3463,80 @@ async function clearOBErrors() {
 function downloadExport() {
   // 直接走浏览器下载
   window.location.href = BASE + '/api/export';
+}
+
+// ========================================
+// MCP 配置面板
+// ========================================
+
+function _getMcpOrigin() {
+  const mode = document.querySelector('input[name="mcp-mode"]:checked')?.value;
+  if (mode === 'public') {
+    let domain = (document.getElementById('mcp-custom-domain')?.value || '').trim();
+    if (!domain) return location.origin;
+    if (!/^https?:\/\//i.test(domain)) domain = 'https://' + domain;
+    return domain.replace(/\/+$/, '');
+  }
+  // 本地模式：固定用 127.0.0.1 + 当前端口，保证 Claude Desktop 连本机 Docker
+  const port = location.port || (location.protocol === 'https:' ? '443' : '80');
+  return 'http://127.0.0.1:' + port;
+}
+
+function renderMcpUrls() {
+  const origin = _getMcpOrigin();
+  const mainUrl = origin + '/mcp';
+  const extraUrl = origin + '/mcp-extra';
+  document.getElementById('mcp-url-main').textContent = mainUrl;
+  document.getElementById('mcp-url-extra').textContent = extraUrl;
+  // 更新 JSON 预览
+  const cfg = _buildClaudeDesktopConfig(mainUrl, extraUrl);
+  document.getElementById('mcp-json-preview').textContent = JSON.stringify(cfg, null, 2);
+}
+
+function _buildClaudeDesktopConfig(mainUrl, extraUrl) {
+  return {
+    mcpServers: {
+      "ombre-brain": { url: mainUrl, type: "http" },
+      "ombre-brain-extra": { url: extraUrl, type: "http" }
+    }
+  };
+}
+
+function onMcpModeChange() {
+  const mode = document.querySelector('input[name="mcp-mode"]:checked')?.value;
+  const row = document.getElementById('mcp-public-domain-row');
+  if (row) row.style.display = (mode === 'public') ? '' : 'none';
+  renderMcpUrls();
+}
+
+function copyMcpUrl(which) {
+  const el = document.getElementById(which === 'main' ? 'mcp-url-main' : 'mcp-url-extra');
+  const text = el?.textContent || '';
+  navigator.clipboard.writeText(text).then(() => {
+    const msg = document.getElementById('mcp-copy-msg');
+    if (msg) { msg.textContent = '已复制 ' + text; setTimeout(() => { msg.textContent = ''; }, 2500); }
+  });
+}
+
+function copyAllMcpUrls() {
+  const main = document.getElementById('mcp-url-main')?.textContent || '';
+  const extra = document.getElementById('mcp-url-extra')?.textContent || '';
+  navigator.clipboard.writeText(main + '\n' + extra).then(() => {
+    const msg = document.getElementById('mcp-copy-msg');
+    if (msg) { msg.textContent = '已复制两条链接'; setTimeout(() => { msg.textContent = ''; }, 2500); }
+  });
+}
+
+function exportClaudeDesktopConfig() {
+  const mainUrl = document.getElementById('mcp-url-main')?.textContent || '';
+  const extraUrl = document.getElementById('mcp-url-extra')?.textContent || '';
+  const cfg = _buildClaudeDesktopConfig(mainUrl, extraUrl);
+  const blob = new Blob([JSON.stringify(cfg, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'claude_desktop_config.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
 }
 
 // ========================================
@@ -3738,8 +4039,73 @@ async function deleteLetter(id) {
   } catch (e) { alert('✗ ' + e.message); }
 }
 
+// ── E/F 级错误自动弹窗 ────────────────────────────────────────
+// 每 60s 轮询 /api/errors/recent?min_level=E，若有新条目则弹窗提示。
+// 用 localStorage 存最后确认时间戳，避免重复打扰。
+var _errorAlertTimer = null;
+
+async function pollCriticalErrors() {
+  try {
+    const r = await fetch(BASE + '/api/errors/recent?min_level=E&limit=20');
+    if (!r.ok) return;
+    const d = await r.json();
+    const items = (d.errors || []).filter(function(it) {
+      return it.level === 'E' || it.level === 'F';
+    });
+    if (!items.length) return;
+    // 取最新一条的时间戳
+    const latest = items[0].ts || '';
+    const lastSeen = localStorage.getItem('ob_error_last_seen') || '';
+    if (latest && latest <= lastSeen) return;
+    showErrorAlertPopup(items, latest);
+  } catch (_) { /* 轮询失败静默，不干扰主功能 */ }
+}
+
+function showErrorAlertPopup(items, latestTs) {
+  var popup = document.getElementById('error-alert-popup');
+  var body = document.getElementById('error-alert-body');
+  if (!popup || !body) return;
+
+  var html = items.slice(0, 5).map(function(it) {
+    var st = _obLevelStyle(it.level || 'E');
+    return (
+      '<div style="border:1px solid ' + st.border + ';background:' + st.bg +
+      ';border-radius:3px;padding:10px 12px;margin-bottom:8px;">' +
+      '<div style="display:flex;align-items:center;gap:8px;font-size:12px;flex-wrap:wrap;">' +
+        '<span style="color:' + st.color + ';font-weight:700;">' + st.label + '</span>' +
+        '<code style="font-family:Menlo,monospace;color:var(--text);font-size:11px;">' + esc(it.code || '?') + '</code>' +
+        '<span style="color:var(--text);font-weight:500;">' + esc(it.title || '') + '</span>' +
+        '<span style="margin-left:auto;color:var(--text-dim);font-size:10px;">' + esc(it.ts || '') + '</span>' +
+      '</div>' +
+      (it.detail ? '<div style="font-size:12px;color:var(--text-dim);margin-top:6px;line-height:1.6;">' + esc(it.detail) + '</div>' : '') +
+      '</div>'
+    );
+  }).join('');
+
+  if (items.length > 5) {
+    html += '<div style="font-size:12px;color:var(--text-dim);text-align:center;padding-top:4px;">…还有 ' + (items.length - 5) + ' 条，前往「日志」Tab 查看全部</div>';
+  }
+  body.innerHTML = html;
+  popup.style.display = 'flex';
+  // 记录最新已展示时间戳
+  if (latestTs) localStorage.setItem('ob_error_last_seen', latestTs);
+}
+
+function closeErrorAlertPopup() {
+  var popup = document.getElementById('error-alert-popup');
+  if (popup) popup.style.display = 'none';
+}
+
+function goToLogsTab() {
+  closeErrorAlertPopup();
+  var t = document.querySelector('.tab[data-tab="logs"]');
+  if (t) t.click();
+}
+
 // 启动后挂载
 pollHeartbeat();
+pollCriticalErrors();
+_errorAlertTimer = setInterval(pollCriticalErrors, 60000);
 maybeShowOnboarding();
 // 支持 #letters 锚点直达（老书签从 /letters → / #letters 时自动切换）
 if (location.hash === '#letters') {
@@ -4080,6 +4446,26 @@ async function saveHumanName() {
   }
 }
 </script>
+
+<!-- ── E/F 级错误自动弹窗 Modal ────────────────────────────── -->
+<div id="error-alert-popup"
+  style="display:none;position:fixed;inset:0;z-index:10000;align-items:center;justify-content:center;background:rgba(44,42,38,0.65);backdrop-filter:blur(4px);"
+  onclick="if(event.target===this)closeErrorAlertPopup()">
+  <div style="background:var(--surface-solid);border:1px solid rgba(184,92,60,0.5);border-radius:4px;width:min(560px,94vw);max-height:80vh;overflow-y:auto;padding:24px 24px 20px;box-shadow:0 8px 40px rgba(44,42,38,0.35);display:flex;flex-direction:column;gap:12px;">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;">
+      <span style="font-size:15px;font-weight:700;color:var(--accent);">⚠ 检测到服务错误</span>
+      <button onclick="closeErrorAlertPopup()" style="background:none;border:none;cursor:pointer;color:var(--text-dim);font-size:18px;line-height:1;padding:0 4px;" title="关闭">✕</button>
+    </div>
+    <p style="font-size:12px;color:var(--text-dim);margin:0;line-height:1.6;">
+      以下错误已被后端记录。请确认并按建议操作，或前往「日志」Tab 查看完整报告。
+    </p>
+    <div id="error-alert-body"></div>
+    <div style="display:flex;gap:10px;justify-content:flex-end;margin-top:4px;">
+      <button onclick="goToLogsTab()" style="background:var(--accent);border:none;color:#fff;border-radius:3px;padding:8px 20px;font-size:13px;font-weight:500;cursor:pointer;">查看日志 Tab</button>
+      <button onclick="closeErrorAlertPopup()" style="background:none;border:1px solid var(--border);color:var(--text-dim);border-radius:3px;padding:8px 16px;font-size:13px;cursor:pointer;">已知晓，关闭</button>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>

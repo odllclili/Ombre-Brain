@@ -93,7 +93,7 @@ async def grow_core(content: str) -> str:
             results.append(f"⚠️{item.get('name', '?')}")
 
     asyncio.create_task(check_plan_resolution(content))
-    summary = f"{len(items)}条|新{created}合{merged}\n" + "\n".join(results)
+    summary = f"{len(items)}条|新{created}合{merged} batch:{batch_id}\n" + "\n".join(results)
     if embed_warnings:
         summary += f"\n⚠️ {embed_warnings[0]}"
     return summary

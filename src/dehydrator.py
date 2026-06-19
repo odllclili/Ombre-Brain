@@ -47,7 +47,7 @@ logger = logging.getLogger("ombre_brain.dehydrator")
 # ============================================================
 
 # --- LLM 默认参数 ---
-_DEFAULT_MODEL = "deepseek-chat"
+_DEFAULT_MODEL = "gemini-2.0-flash"
 _DEFAULT_BASE_URL = "https://api.deepseek.com/v1"
 _DEFAULT_MAX_TOKENS = 1024
 _DEFAULT_TEMPERATURE = 0.1
@@ -64,9 +64,9 @@ _DIGEST_INPUT_LIMIT = 5000    # 一天的日记量较大
 _PLAN_JUDGE_INPUT_LIMIT = 1500  # plan 与 new event 各一份
 
 # --- 各专用调用的 max_tokens 覆盖 ---
-_ANALYZE_MAX_TOKENS = 256       # JSON 不大，多了会浪费
-_DIGEST_MAX_TOKENS = 2048       # 2~6 条加起来占位多
-_PLAN_JUDGE_MAX_TOKENS = 200
+_ANALYZE_MAX_TOKENS = 4096      # Gemini 2.5 thinking 会消耗大量 token，需留足余量
+_DIGEST_MAX_TOKENS = 8192       # 日记拆条内容多，thinking + 输出都需要足量空间
+_PLAN_JUDGE_MAX_TOKENS = 2048   # thinking 模型下 200 token 完全不够
 _PLAN_JUDGE_TEMPERATURE = 0.0   # 判定需确定性
 _DIGEST_TEMPERATURE = 0.0       # 拆条需确定性
 

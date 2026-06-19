@@ -64,6 +64,7 @@ _DUP_TOPK = 10                         # 检索前 N 个候选以判重复
 _PLAN_VECTOR_TOPK = 20                 # plan 判定的向量预筛范围
 _PLAN_VECTOR_THRESHOLD = 0.7           # 超过才交给 LLM 判定是否已完成
 _PLAN_LLM_CONFIDENCE_MIN = 0.7         # LLM judgement.confidence 下限
+_PLAN_FALLBACK_CAP = 10                # 无向量时直接送 LLM 的 plan 上限（防止过多 LLM 调用）
 
 # --- 字段截断长度（下游存储 / 日志可读性）---
 _RESOLUTION_REASON_MAX = 200           # 写入桶 frontmatter 的理由上限
@@ -468,11 +469,15 @@ async def check_plan_resolution(new_event_text: str, source_bucket_id: str = "")
                 for p in active_plans:
                     if sim_map.get(p["id"], 0.0) > _PLAN_VECTOR_THRESHOLD:
                         plan_candidates.append(p)
+                # 向量预筛没命中任何 plan → fallback 到全量（上限保护）
+                if not plan_candidates:
+                    plan_candidates = active_plans[:_PLAN_FALLBACK_CAP]
             except Exception as e:
-                rt.logger.warning(f"plan resolution: vector pre-filter failed: {e}")
-                return
+                rt.logger.warning(f"plan resolution: vector pre-filter failed, falling back: {e}")
+                plan_candidates = active_plans[:_PLAN_FALLBACK_CAP]
         else:
-            return  # 没向量后端 → 跳过，留给 dream 人工审视
+            # 无向量后端：直接把所有 active plan 送 LLM 判定（上限防止过多调用）
+            plan_candidates = active_plans[:_PLAN_FALLBACK_CAP]
         for p in plan_candidates:
             try:
                 judgement = await rt.dehydrator.judge_plan_resolution(

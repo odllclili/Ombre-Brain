@@ -1,6 +1,3 @@
 {
-  "build_type": "dockerfile",
-  "build_args": {
-    "PRELOAD_MODEL": "true"
-  }
+  "build_type": "dockerfile"
 }

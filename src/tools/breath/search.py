@@ -69,7 +69,7 @@ async def surface_search(
     try:
         vector_results = await rt.embedding_engine.search_similar(query, top_k=max(max_results, 20))
         for bucket_id, sim_score in vector_results:
-            if bucket_id not in matched_ids and sim_score > 0.5:
+            if bucket_id not in matched_ids and sim_score > 0.65:
                 bucket = await rt.bucket_mgr.get(bucket_id)
                 if (
                     bucket

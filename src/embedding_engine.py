@@ -3,14 +3,11 @@
 embedding_engine.py — 向量化引擎，给 breath/search 提供语义召回
 ========================================
 
-【2.0.3 重构】我把向量化拆成「门面 + 后端」两层：
+向量化采用「门面 + 后端」两层：
 - 后端实现（BaseEmbeddingEngine 子类）只负责把文本算成向量，不碰任何 IO/SQLite。
-  现在只有两档：本地 fastembed+bge-m3（默认）/ Gemini API。其它历史选项全部废弃。
+  后端：OpenAI 兼容 API（默认 Gemini）。
 - 门面（EmbeddingEngine）持有一个后端实例，负责 SQLite 存取、余弦搜索、删除、
   孤儿对账、模型/维度元数据校验。对外接口零变化，bucket_manager 不需要动。
-
-为什么这么拆：模型不是热路径，但每次模型变更要做的事很多（备份 db、清向量、重新
-索引）。把生成与存储解耦后，后端就是一颗螺丝，可以独立换。
 
 关键行为：
 - generate_and_store(bucket_id, content)：写入或覆盖某个桶的向量
@@ -25,11 +22,9 @@ embedding_engine.py — 向量化引擎，给 breath/search 提供语义召回
 - 不读写桶文件
 - 不做关键词检索（那是 BucketManager 的事）
 - 不做去重 / 合并判断
-- 不下载模型权重（那是 src/model_downloader.py 的事；本模块只检查文件存在）
 
 对外暴露：
-- BaseEmbeddingEngine（抽象基类，方便未来扩展第三档）
-- LocalEmbeddingEngine（fastembed + bge-m3）
+- BaseEmbeddingEngine（抽象基类，方便未来扩展）
 - APIEmbeddingEngine（OpenAI 兼容 API，默认 Gemini）
 - EmbeddingEngine（门面：保持向后兼容的对外类）
 ========================================
@@ -52,18 +47,12 @@ logger = logging.getLogger("ombre_brain.embedding")
 
 
 # ============================================================
-# 常量 / 默认路径
+# 常量
 # ============================================================
 
-# 向量维度参考（bge-m3 1024，gemini-embedding-001 默认 768）
-_BGE_M3_DIM = 1024
 _GEMINI_DEFAULT_DIM = 768
 
-# 项目根目录下 models/ 是模型权重默认位置；可被 OMBRE_MODEL_DIR / config 覆盖
-_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-_DEFAULT_MODEL_DIR = os.path.join(_REPO_ROOT, "models")
-
-# 输入截断长度。bge-m3 支持 8192 token，gemini API 走 2000 字节足够
+# 输入截断长度
 _MAX_INPUT_CHARS = 2000
 
 
@@ -75,8 +64,7 @@ class BaseEmbeddingEngine(abc.ABC):
     """所有 embedding 后端的契约。
 
     设计原则：
-    - generate 是同步的（CPU/网络都在调用方用 asyncio.to_thread 包），方便子类只想
-      写一份纯函数实现。API 后端额外提供 generate_async 走原生异步。
+    - generate 是同步接口（协议要求），生产路径应走 generate_async 原生异步。
     - model_name / vector_dim 在初始化后必须能稳定返回；不允许构造完了还说不出维度。
     - 后端不开 SQLite 连接，不读写桶文件，存储/查询交给门面 EmbeddingEngine。
     """
@@ -96,120 +84,6 @@ class BaseEmbeddingEngine(abc.ABC):
     def warmup(self) -> None:
         """子类可选：提前把模型加载到内存，避免首次调用延迟。"""
         return None
-
-
-# ============================================================
-# 本地后端：fastembed + bge-m3
-# ============================================================
-
-class LocalEmbeddingEngine(BaseEmbeddingEngine):
-    """fastembed (ONNX) + bge-m3。
-
-    选 fastembed 而不是 sentence-transformers：不依赖 torch，安装包小（~50MB），
-    ARM/x86 都能跑。fastembed 内置 bge-m3 是优化过的 ONNX（~600–800MB），磁盘
-    占用远小于 fp32 原版（~2.2GB）。
-
-    路径设计（2.0.3 修正）：我们只管 *cache_root*（默认 models/），fastembed 自己
-    在里面创建会话级的子目录（如 models--BAAI--bge-m3 / fast-bge-m3-*）。这样
-    下载与加载共用同一套路径约定，不存在不匹配。model_downloader 也只针对同一个
-    cache_root 触发下载与监控。
-    """
-
-    MODEL_ID = "BAAI/bge-m3"
-
-    def __init__(self, model_dir: str | None = None):
-        # cache_root：参数 > 环境变量 > 项目内 models/
-        # 注意：model_dir 这个参数名是历史遗留，语义实际是 cache_root。
-        env_dir = os.environ.get("OMBRE_MODEL_DIR", "").strip()
-        self.cache_root: str = (model_dir or env_dir or _DEFAULT_MODEL_DIR)
-        # 保留 model_dir 同名属性（指向同一目录），供外部观察。
-        self.model_dir: str = self.cache_root
-        self._model: Any = None  # fastembed.TextEmbedding，懒加载
-        self._dim: int = _BGE_M3_DIM
-
-    def model_name(self) -> str:
-        return self.MODEL_ID
-
-    def vector_dim(self) -> int:
-        return self._dim
-
-    def _check_model_files(self) -> bool:
-        """检查模型权重是否就绪：递归查 cache_root 下是否有 .onnx 文件。
-
-        fastembed 会在 cache_root 里创建多层子目录，平铺扫描会漏判。
-        """
-        if not os.path.isdir(self.cache_root):
-            return False
-        try:
-            for _root, _dirs, files in os.walk(self.cache_root):
-                for name in files:
-                    if name.endswith(".onnx"):
-                        return True
-        except OSError:
-            return False
-        return False
-
-    def _ensure_model(self) -> None:
-        """懒加载 fastembed 模型。"""
-        if self._model is not None:
-            return
-        if not self._check_model_files():
-            try:
-                from errors import OBStartupError  # type: ignore
-            except ImportError:
-                from .errors import OBStartupError  # type: ignore
-            raise OBStartupError(
-                "OB-F004",
-                f"cache_root={self.cache_root} 下未找到 .onnx 权重文件",
-            )
-        try:
-            from fastembed import TextEmbedding  # type: ignore
-        except ImportError as e:
-            try:
-                from errors import OBStartupError  # type: ignore
-            except ImportError:
-                from .errors import OBStartupError  # type: ignore
-            raise OBStartupError(
-                "OB-F004",
-                f"fastembed 未安装：{e}。请运行 pip install fastembed",
-            ) from e
-        logger.info(f"[embedding] loading local model: {self.MODEL_ID} from {self.cache_root}")
-        # fastembed 自己在 cache_root 下创建/查找子目录，路径约定由它全权决定，
-        # 与 model_downloader 使用同一个 cache_root 保证路径一致。
-        self._model = TextEmbedding(
-            model_name=self.MODEL_ID,
-            cache_dir=self.cache_root,
-        )
-        logger.info(f"[embedding] local model ready: dim={self._dim}")
-
-    def warmup(self) -> None:
-        try:
-            self._ensure_model()
-        except Exception as e:
-            logger.warning(f"[embedding] local warmup skipped: {e}")
-
-    def generate(self, text: str) -> list[float]:
-        if not text or not text.strip():
-            return []
-        try:
-            self._ensure_model()
-        except Exception as e:
-            # _ensure_model 抛 OBStartupError 时让它继续向上传播（启动期）；
-            # 运行期的导入/IO 错误降级为空向量，由调用方决定是否记 OB-E001。
-            if e.__class__.__name__ == "OBStartupError":
-                raise
-            logger.warning(f"[embedding] local model load failed at runtime: {e}")
-            return []
-        try:
-            # fastembed.embed 返回 generator；list 化只取第一条
-            vectors = list(self._model.embed([text[:_MAX_INPUT_CHARS]]))
-            if not vectors:
-                return []
-            vec = vectors[0]
-            return vec.tolist() if hasattr(vec, "tolist") else list(vec)
-        except Exception as e:
-            logger.warning(f"[embedding] local inference failed: {e}")
-            return []
 
 
 # ============================================================
@@ -285,36 +159,13 @@ class APIEmbeddingEngine(BaseEmbeddingEngine):
 # ============================================================
 
 class EmbeddingEngine:
-    """SQLite 存储 + 搜索 + 元数据校验，持有一颗 BaseEmbeddingEngine。
-
-    向后兼容点：
-    - 保持类名、保持 enabled / model / backend / db_path 这几个属性可读
-    - 保持 generate_and_store / search_similar / delete_embedding / list_all_ids /
-      get_embedding 这些方法的签名
-    """
-
-    # 向后兼容的 backend 名称别名
-    _BACKEND_ALIASES = {
-        "gemini": "api",
-        "bge-m3": "local",
-        "bge-small-zh": "local",  # 已废弃；做兼容映射并打警告
-    }
+    """SQLite 存储 + 搜索 + 元数据校验，持有一颗 BaseEmbeddingEngine。"""
 
     def __init__(self, config: dict):
         embed_cfg = config.get("embedding", {}) or {}
 
-        # 1) 解析 backend：env > config > 默认 local
-        env_backend = os.environ.get("OMBRE_EMBED_BACKEND", "").strip().lower()
-        raw_backend = (env_backend or embed_cfg.get("backend", "local") or "local").strip().lower()
-        if raw_backend == "bge-small-zh":
-            logger.warning(
-                "[embedding] backend=bge-small-zh 已废弃，自动切换为 local(bge-m3)。"
-                "请在 config.yaml 或环境变量 OMBRE_EMBED_BACKEND 中改为 'local'。"
-            )
-        self.backend = self._BACKEND_ALIASES.get(raw_backend, raw_backend)
-        if self.backend not in ("local", "api"):
-            logger.warning(f"[embedding] 未知 backend '{raw_backend}'，回退到 local")
-            self.backend = "local"
+        # 解析 backend：env > config > 默认 api
+        self.backend = "api"
 
         # 2) 解析 enabled。OB-F001：enabled=true 但 api_key 空，且后端是 api → 拒启
         enabled_cfg = embed_cfg.get("enabled", True)
@@ -337,36 +188,24 @@ class EmbeddingEngine:
             self._init_db()
             return
 
-        if self.backend == "api":
-            api_key = (embed_cfg.get("api_key") or "").strip()
-            if not api_key:
-                # 兼容历史 env：OMBRE_EMBED_API_KEY
-                api_key = os.environ.get("OMBRE_EMBED_API_KEY", "").strip()
-            if not api_key:
-                try:
-                    from errors import OBStartupError  # type: ignore
-                except ImportError:
-                    from .errors import OBStartupError  # type: ignore
-                raise OBStartupError(
-                    "OB-F001",
-                    "backend=api, embedding.enabled=true, api_key=<empty>",
-                )
-            base_url = (
-                (embed_cfg.get("base_url") or "").strip()
-                or "https://generativelanguage.googleapis.com/v1beta/openai/"
-            )
-            model = embed_cfg.get("model") or "gemini-embedding-001"
-            self._backend = APIEmbeddingEngine(
-                api_key=api_key,
-                base_url=base_url,
-                model=model,
-            )
-        else:  # local
-            local_cfg = embed_cfg.get("local", {}) or {}
-            model_dir = (local_cfg.get("model_dir") or "").strip() or None
-            self._backend = LocalEmbeddingEngine(model_dir=model_dir)
-            # 注意：构造时不强制加载模型权重（懒加载）。如果文件缺失，会在
-            # 第一次 generate 时抛 OB-F004。Server 启动时由 model_downloader 兜底。
+        api_key = (embed_cfg.get("api_key") or "").strip()
+        if not api_key:
+            api_key = os.environ.get("OMBRE_EMBED_API_KEY", "").strip()
+        if not api_key:
+            # 无 key → 待机模式：enabled=False，DB 仍初始化，key 通过热更新后激活
+            logger.warning("[embedding] enabled=true but no api_key — starting in standby (disabled); set OMBRE_EMBED_API_KEY to activate")
+            self._init_db()
+            return
+        base_url = (
+            (embed_cfg.get("base_url") or "").strip()
+            or "https://generativelanguage.googleapis.com/v1beta/openai/"
+        )
+        model = embed_cfg.get("model") or "gemini-embedding-001"
+        self._backend = APIEmbeddingEngine(
+            api_key=api_key,
+            base_url=base_url,
+            model=model,
+        )
 
         self.model = self._backend.model_name()
         self.enabled = True
@@ -466,12 +305,9 @@ class EmbeddingEngine:
     # -------------------- 生成 + 存储 --------------------
 
     async def _generate_async(self, text: str) -> list[float]:
-        """统一的异步生成：API 走原生 async，本地走 to_thread。"""
         if not self._backend:
             return []
-        if isinstance(self._backend, APIEmbeddingEngine):
-            return await self._backend.generate_async(text)
-        return await asyncio.to_thread(self._backend.generate, text)
+        return await self._backend.generate_async(text)
 
     async def generate_and_store(self, bucket_id: str, content: str) -> bool:
         """为内容生成 embedding 并存入 SQLite。成功返回 True。"""
@@ -620,7 +456,6 @@ class EmbeddingEngine:
 
 __all__ = [
     "BaseEmbeddingEngine",
-    "LocalEmbeddingEngine",
     "APIEmbeddingEngine",
     "EmbeddingEngine",
 ]

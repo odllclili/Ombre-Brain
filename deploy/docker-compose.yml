@@ -23,8 +23,13 @@ services:
     environment:
       # These are container-fixed; cannot be overridden via .env.
       # 容器内固定值，不允许 .env 覆盖。
+      - OMBRE_TRANSPORT=streamable-http     # Container must use HTTP transport / 容器必须用 HTTP 模式
       - OMBRE_BUCKETS_DIR=/data             # Container-internal bucket path / 容器内路径
-      - OMBRE_EMBED_BACKEND=local           # Force local bge-m3 (baked into image) / 强制本地 embedding
+      - OMBRE_EMBED_BACKEND=api             # Embedding 使用 API 后端（Gemini）
+      # 以下变量从 .env 文件加载（通过上方 env_file 指令），此处列出仅供参考：
+      # - OMBRE_EMBED_API_KEY=              # 必填：Gemini API key
+      # - OMBRE_EMBED_BASE_URL=             # 可选：自定义 endpoint，默认 Gemini
+      # - OMBRE_EMBED_MODEL=                # 可选：默认 gemini-embedding-001
     volumes:
       # Mount your Obsidian vault (or any host directory) for persistent storage.
       # Set OMBRE_HOST_VAULT_DIR in your .env (or in the Dashboard "Storage" panel)

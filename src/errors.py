@@ -59,13 +59,11 @@ ERROR_CODES: dict[str, ErrorSpec] = {
     "OB-F001": ErrorSpec(
         code="OB-F001",
         level="F",
-        title_zh="向量化后端未就绪（API key 缺失或未选择本地模型）",
-        title_en="Embedding backend not ready (API key missing or local model not chosen)",
+        title_zh="向量化 API Key 缺失",
+        title_en="Embedding API key missing",
         suggestion_zh=(
-            "二选一：\n"
-            "  • 本地模型（推荐，开箱即用）：embedding.backend=local（默认 fastembed + bge-m3）。首次启动会自动下载权重。\n"
-            "  • 远程 API：embedding.backend=api 同时设置环境变量 OMBRE_EMBED_API_KEY（或 config.yaml embedding.api_key）。\n"
-            "不允许在 enabled=true 的状态下两者都不选。"
+            "设置环境变量 OMBRE_EMBED_API_KEY（或在 config.yaml 中填写 embedding.api_key）。\n"
+            "若暂时不需要语义检索，可在 config.yaml 中设置 embedding.enabled=false 跳过。"
         ),
     ),
     "OB-F002": ErrorSpec(
@@ -91,13 +89,10 @@ ERROR_CODES: dict[str, ErrorSpec] = {
     "OB-F004": ErrorSpec(
         code="OB-F004",
         level="F",
-        title_zh="本地 embedding 模型权重缺失或 fastembed 未安装",
-        title_en="Local embedding model files missing or fastembed not installed",
+        title_zh="embedding 后端初始化失败",
+        title_en="Embedding backend initialization failed",
         suggestion_zh=(
-            "首次启动会自动下载 bge-m3 到 models/bge-m3/（约 500MB）。"
-            "若下载反复失败：1) 检查网络；2) 手动从 huggingface.co 或 hf-mirror.com 下载后 "
-            "解压到 models/bge-m3/；3) 或将 embedding.backend 改为 api 并设置 OMBRE_EMBED_API_KEY。"
-            "所需文件：model.onnx + tokenizer.json + config.json。"
+            "检查 OMBRE_EMBED_API_KEY 是否有效，以及 OMBRE_EMBED_BASE_URL 是否可达。"
         ),
     ),
 

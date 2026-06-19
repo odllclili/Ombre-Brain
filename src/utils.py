@@ -79,10 +79,10 @@ def load_config(config_path: Optional[str] = None) -> dict:
         "buckets_dir": os.path.join(project_root, "buckets"),
         "merge_threshold": 75,
         "dehydration": {
-            "model": "deepseek-chat",
-            "base_url": "https://api.deepseek.com/v1",
+            "model": "gemini-2.0-flash",
+            "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
             "api_key": "",
-            "max_tokens": 1024,
+            "max_tokens": 4096,
             "temperature": 0.1,
         },
         "decay": {

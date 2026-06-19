@@ -30,3 +30,5 @@ tools/
 
 rule.md
 models/
+test_analyze.py
+test_flow.py

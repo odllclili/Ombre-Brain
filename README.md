@@ -67,9 +67,25 @@ Ombre Brain 的边界是**时间里发生的事**，不是**你是谁**。它记
 mkdir ombre-brain && cd ombre-brain
 ```
 
-### 第三步：拿一个 LLM API Key
+### 第三步：下载 compose 文件并启动
 
-Ombre Brain 用 LLM 做脱水压缩、自动打标、合并判定——强烈推荐配置。**没有 LLM key 时 `hold` / `grow` 会直接报错并不创建桶**（返回明确提示：「API key 未配置或调用失败，请检查 OMBRE_COMPRESS_API_KEY」）。没有向量化 key（`OMBRE_EMBED_API_KEY`）时桶仍能正常写入，但返回会追加警告：「向量化失败，该桶不参与语义检索，仅支持关键词匹配」。换句话说：LLM key 是记忆写入的必要条件，embed key 是可降级选项。
+**不需要提前准备 API Key**——Ombre Brain 支持零配置启动，API Key 可以在 Dashboard 里随时填入并立即生效（类似 SillyTavern 的方式）。
+
+```bash
+# 下载用户版 compose 文件
+curl -O https://raw.githubusercontent.com/P0luz/Ombre-Brain/main/deploy/docker-compose.user.yml
+
+# 拉取镜像并启动（第一次会下载约 500MB）
+docker compose -f docker-compose.user.yml up -d
+```
+
+启动后在 Dashboard → **③ 引擎** 里填入 Key 并点「保存 Key」，立即热更新生效，无需重启。
+
+> 也可以提前在 `.env` 文件里写好 Key：
+> ```bash
+> echo "OMBRE_COMPRESS_API_KEY=your-key-here" > .env
+> echo "OMBRE_EMBED_API_KEY=your-embed-key" >> .env
+> ```
 
 **推荐免费方案：Google AI Studio**
 
@@ -81,20 +97,7 @@ Ombre Brain 用 LLM 做脱水压缩、自动打标、合并判定——强烈推
 
 也支持任何 OpenAI 兼容接口：DeepSeek / SiliconFlow / Ollama / LM Studio / vLLM 等。
 
-### 第四步：下载 compose 文件并启动
-
-```bash
-# 下载用户版 compose 文件
-curl -O https://raw.githubusercontent.com/P0luz/Ombre-Brain/main/deploy/docker-compose.user.yml
-
-# 创建 .env 文件——把 your-key-here 换成第三步拿到的 key
-echo "OMBRE_COMPRESS_API_KEY=your-key-here" > .env
-
-# 拉取镜像并启动（第一次会下载约 500MB）
-docker compose -f docker-compose.user.yml up -d
-```
-
-### 第五步：验证
+### 第四步：验证
 
 ```bash
 curl http://localhost:8000/health
@@ -106,7 +109,7 @@ curl http://localhost:8000/health
 
 > 第一次访问会弹出密码设置向导，设好密码后所有 `/api/*` 端点都需要这个密码登录。也可以通过环境变量 `OMBRE_DASHBOARD_PASSWORD` 预设密码（设置后 UI 改密码功能会被禁用）。
 
-### 第六步：接入 Claude
+### 第五步：接入 Claude
 
 #### Claude Desktop
 
@@ -156,8 +159,9 @@ docker compose -f docker-compose.user.yml up -d
 git clone https://github.com/P0luz/Ombre-Brain.git
 cd Ombre-Brain
 
-# 创建 .env
-echo "OMBRE_COMPRESS_API_KEY=你的key" > .env
+# 创建 .env（可选，也可以在启动后从 Dashboard → ③ 引擎 填入）
+# echo "OMBRE_COMPRESS_API_KEY=你的key" > .env
+# echo "OMBRE_EMBED_API_KEY=你的embed-key" >> .env
 
 # 调整 deploy/docker-compose.yml 里的 volume 挂载
 # - ../buckets:/data
@@ -186,7 +190,9 @@ source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 cp config.example.yaml config.yaml   # 按需修改
-export OMBRE_COMPRESS_API_KEY="你的key"
+# API Key 可选——不设置也能启动，在 Dashboard → ③ 引擎 里填入后立即热更新
+# export OMBRE_COMPRESS_API_KEY="你的key"
+# export OMBRE_EMBED_API_KEY="你的embed-key"
 
 python src/server.py
 ```
@@ -258,7 +264,7 @@ docker compose up -d
 - **记忆桶列表** — 浏览所有桶，按 domain / type 筛选，单桶可 pin / resolve / archive / delete
 - **Breath 调试** — 模拟检索查询，查看每个桶的四维评分分解
 - **记忆网络** — 基于 embedding 相似度的桶关系图
-- **配置** — 在线修改 dehydration / embedding / merge_threshold（可持久化到 yaml）
+- **配置（③ 引擎）** — 内联填写 LLM / Embedding API Key，点「保存 Key」立即热更新生效；在线修改 dehydration / embedding / merge_threshold（可持久化到 yaml）
 - **导入** — 上传历史对话文件（Claude JSON / ChatGPT / DeepSeek / Markdown / 纯文本）批量导入
 - **设置** — 修改密码、查看版本/embedding/decay 状态、配置宿主机 vault 路径
 - **Letters** — 双向信件入口（`/letters`）
@@ -390,7 +396,7 @@ pytest tests/regression/       # 回归测试
 |---|---|---|
 | Dashboard 401 | 未登录 / 密码错 | 浏览器登录或重置 `OMBRE_DASHBOARD_PASSWORD` |
 | Claude Desktop 看不到工具 | URL 末尾少 `/mcp` | 确认 URL 是 `http://localhost:8000/mcp` |
-| `hold` / `grow` 报 API key 错误 | LLM key 未配置或调用失败 | 检查 `OMBRE_COMPRESS_API_KEY` 是否设对。LLM key 是记忆写入的必要条件，没有 key 时 hold/grow 会直接报错而不创建桶。向量化 key（`OMBRE_EMBED_API_KEY`）缺失时桶仍可写入，但不参与语义检索；补 embed key 后可用 `tools/backfill_embeddings.py` 回填向量 |
+| `hold` / `grow` 报 API key 错误 | LLM key 未配置或调用失败 | 在 Dashboard → ③ 引擎 → 压缩引擎区填入 Key 并点「保存 Key」，立即生效无需重启。或检查 `.env` 里的 `OMBRE_COMPRESS_API_KEY`。向量化 key（`OMBRE_EMBED_API_KEY`）未配置时语义检索完全不可用，记忆系统无法正常运作；同样在 ③ 引擎 → 向量化区填入后立即热更新 |
 | 重启后记忆丢失 | Volume 没挂载 | 检查 docker-compose volume 配置或 Render Disk / Zeabur Volume |
 | 隧道连接偶尔断 | Cloudflare Free 闲置超时 | 内置 keepalive 已缓解，可缩短隧道超时配置 |
 | 改 `host_vault_dir` 不生效 | 写入 `.env` 后需要重启 | `docker compose down && docker compose up -d` |
