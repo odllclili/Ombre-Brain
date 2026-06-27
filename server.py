@@ -1290,7 +1290,7 @@ async def api_buckets(request):
                 "created": meta.get("created", "").isoformat() if hasattr(meta.get("created", ""), "isoformat") else str(meta.get("created", "")),
                 "last_active": meta.get("last_active", "").isoformat() if hasattr(meta.get("last_active", ""), "isoformat") else str(meta.get("last_active", "")),
                 "activation_count": meta.get("activation_count", 1),
-                "score": decay_engine.calculate_score(meta),
+                "score": decay_engine.calculate_score(meta) or 0,
                 "content_preview": strip_wikilinks(b.get("content", ""))[:200],
             })
         result.sort(key=lambda x: x["score"], reverse=True)
