@@ -27,8 +27,10 @@ logger = sh.logger
 
 try:
     from github_sync import GitHubSync  # type: ignore
+    from utils import parse_bool  # type: ignore
 except ImportError:  # pragma: no cover
     from ..github_sync import GitHubSync  # type: ignore
+    from ..utils import parse_bool  # type: ignore
 
 
 def _pre_import_backup(buckets_dir: str) -> str:
@@ -182,7 +184,10 @@ def register(mcp) -> None:
             body = await request.json()
         except Exception:
             body = {}
-        force = bool(body.get("force"))
+        try:
+            force = parse_bool(body.get("force", False))
+        except ValueError as e:
+            return JSONResponse({"ok": False, "error": str(e)}, status_code=400)
         # 1) 导入前自动备份本地（合并覆盖会改动本地，留个后悔药）
         backup = _pre_import_backup(buckets_dir)
         # 记忆安全闸门：备份没成功就默认不动本地记忆——覆盖不可逆，宁可拦下。

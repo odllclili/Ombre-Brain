@@ -3,7 +3,7 @@
 web/embedding.py — 向量化后端摘要 / 迁移重算 / 本地 Ollama 模型管理
 ========================================
 - /api/embedding/info、/api/embedding/migrate(+status)、/api/embedding/local/*
-- 迁移成功后热替换 sh.embedding_engine + sh.bucket_mgr/sh.import_engine 引用，全局一致。
+- 迁移成功后通过共享发布函数热替换所有 embedding 运行时引用，全局一致。
 对外暴露：register(mcp)。
 ========================================
 """
@@ -347,16 +347,7 @@ def register(mcp) -> None:
                 return
             # 成功 → 把 global engine 切到目标
             try:
-                sh.embedding_engine = target_engine
-                # bucket_mgr / import_engine 持有的引用更新
-                try:
-                    sh.bucket_mgr.embedding_engine = target_engine
-                except Exception:
-                    pass
-                try:
-                    sh.import_engine.embedding_engine = target_engine
-                except Exception:
-                    pass
+                sh.replace_embedding_engine(target_engine)
                 # 持久化到 config（进程内 + config.yaml，重启/重建不丢）
                 cfg_emb = sh.config.setdefault("embedding", {})
                 cfg_emb["backend"] = target_backend

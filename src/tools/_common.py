@@ -428,11 +428,6 @@ async def _merge_or_create_inner(
                     rt.dehydrator.invalidate_cache(bucket["content"])
                 except Exception:
                     pass
-                # --- 合并后刷新 embedding（best-effort，合并路径不返回 embed 警告）---
-                try:
-                    await rt.embedding_engine.generate_and_store(bucket["id"], merged)
-                except Exception:
-                    pass
                 rt.logger.info(
                     f"op=merge_or_create phase=branch branch=merge bucket_id={bucket['id']} "
                     f"raw_merge={int(raw_merge)} source_tool={source_tool or '_'} "

@@ -24,9 +24,9 @@ from . import _shared as sh
 logger = sh.logger
 
 try:
-    from utils import strip_wikilinks  # type: ignore
+    from utils import strip_wikilinks, parse_bool  # type: ignore
 except ImportError:  # pragma: no cover
-    from ..utils import strip_wikilinks  # type: ignore
+    from ..utils import strip_wikilinks, parse_bool  # type: ignore
 
 try:
     from tools._common import check_pinned_quota as _check_pinned_quota  # type: ignore
@@ -292,7 +292,10 @@ def register(mcp) -> None:
             return JSONResponse({"error": "ids must be a non-empty list"}, status_code=400)
         if "dont_surface" not in body:
             return JSONResponse({"error": "dont_surface (bool) required"}, status_code=400)
-        target = bool(body["dont_surface"])
+        try:
+            target = parse_bool(body["dont_surface"])
+        except ValueError as e:
+            return JSONResponse({"error": str(e)}, status_code=400)
         ok_ids, missing_ids, errors = [], [], []
         for bid in ids:
             try:
@@ -328,7 +331,7 @@ def register(mcp) -> None:
         sampling = surfacing.setdefault("sampling", {})
         if request.method == "GET":
             return JSONResponse({
-                "enabled": bool(sampling.get("enabled", False)),
+                "enabled": parse_bool(sampling.get("enabled", False), default=False),
                 "top_k": int(sampling.get("top_k") or 5),
                 "sample_k": int(sampling.get("sample_k") or 2),
                 "temperature": float(sampling.get("temperature") or 0.7),
@@ -340,7 +343,7 @@ def register(mcp) -> None:
         # Validate ranges; reject silently-corrupt inputs at the boundary
         try:
             if "enabled" in body:
-                sampling["enabled"] = bool(body["enabled"])
+                sampling["enabled"] = parse_bool(body["enabled"])
             if "top_k" in body:
                 tk = int(body["top_k"])
                 if not (1 <= tk <= 50):
@@ -516,7 +519,9 @@ def register(mcp) -> None:
         try:
             body = await request.json()
             if "value" in body:
-                target = bool(body["value"])
+                target = parse_bool(body["value"])
+        except ValueError as e:
+            return JSONResponse({"error": str(e)}, status_code=400)
         except Exception:
             pass  # no body → toggle
         if target is None:

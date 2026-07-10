@@ -25,10 +25,10 @@ tools/breath/surface.py — 无 query 浮现模式
 
 import random
 import time
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timedelta
 
 from .. import _runtime as rt
-from utils import strip_wikilinks, count_tokens_approx
+from utils import strip_wikilinks, count_tokens_approx, parse_bool, parse_iso_datetime
 
 # U-07 fix: throttle the sampling-fallback INFO log to once per 5 minutes.
 # 库小且 sampling=ON 时此分支每次 breath 都触发，原本会刷屏；改为 ≥300s
@@ -116,8 +116,8 @@ async def surface_default(max_results: int, max_tokens: int, tag_filter: list) -
         meta = b["metadata"]
         score = rt.decay_engine.calculate_score(meta)
         try:
-            last_ts = datetime.fromisoformat(
-                str(meta.get("last_active") or meta.get("created", ""))
+            last_ts = parse_iso_datetime(
+                meta.get("last_active") or meta.get("created", "")
             ).timestamp()
         except (ValueError, TypeError):
             last_ts = 0.0
@@ -149,7 +149,8 @@ async def surface_default(max_results: int, max_tokens: int, tag_filter: list) -
 
     candidates = list(scored_with_cold)
     sampling_cfg = surfacing_cfg.get("sampling", {}) or {}
-    if sampling_cfg.get("enabled", False) and len(candidates) > len(cold_start) + 1:
+    sampling_enabled = parse_bool(sampling_cfg.get("enabled", False), default=False)
+    if sampling_enabled and len(candidates) > len(cold_start) + 1:
         n_cold = len(cold_start)
         non_cold = candidates[n_cold:]
         top_k = int(sampling_cfg.get("top_k") or 5)
@@ -174,7 +175,7 @@ async def surface_default(max_results: int, max_tokens: int, tag_filter: list) -
         except Exception as e:
             rt.logger.warning(f"Weighted sampling failed, fallback to original / 加权采样失败: {e}")
     elif len(candidates) > 1:
-        if sampling_cfg.get("enabled", False):
+        if sampling_enabled:
             now_ts = time.monotonic()
             if now_ts - _fallback_log_state["last_ts"] >= _FALLBACK_LOG_INTERVAL_SEC:
                 suppressed = _fallback_log_state["suppressed"]
@@ -234,7 +235,7 @@ async def surface_default(max_results: int, max_tokens: int, tag_filter: list) -
     # --- iter 1.6 §7: passive association ---
     passive_results: list[str] = []
     try:
-        now = datetime.now(timezone.utc)
+        now = datetime.now()
         seven_days_ago = now - timedelta(days=7)
         already = {b["id"] for b in candidates}
         passive_pool = []
@@ -249,7 +250,7 @@ async def surface_default(max_results: int, max_tokens: int, tag_filter: list) -
             if imp >= 9:
                 last = meta.get("last_active") or meta.get("created", "")
                 try:
-                    last_dt = datetime.fromisoformat(last.replace("Z", "+00:00")) if last else None
+                    last_dt = parse_iso_datetime(last) if last else None
                     if last_dt and last_dt < seven_days_ago:
                         cond_b = True
                 except Exception:

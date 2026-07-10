@@ -35,7 +35,7 @@ from typing import Optional
 
 from openai import AsyncOpenAI
 
-from utils import clean_llm_json, count_tokens_approx, positive_float
+from utils import clean_llm_json, count_tokens_approx, parse_bool, positive_float
 
 try:
     from provider_detect import is_gemini_native_host, strip_native_resource_prefix
@@ -983,7 +983,7 @@ class Dehydrator:
             cleaned = self._strip_md_fence(raw)
             data = json.loads(cleaned)
             return {
-                "resolved": bool(data.get("resolved", False)),
+                "resolved": parse_bool(data.get("resolved", False), default=False),
                 "confidence": float(data.get("confidence", 0.0)),
                 "reason": str(data.get("reason", ""))[:_PLAN_REASON_MAX],
             }

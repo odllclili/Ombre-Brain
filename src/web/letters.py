@@ -130,10 +130,6 @@ def register(mcp) -> None:
                 source_tool="letter",
             )
             await sh.bucket_mgr.update(bid, **extra)
-            try:
-                await sh.embedding_engine.generate_and_store(bid, content)
-            except Exception:
-                pass
             return JSONResponse({"ok": True, "id": bid})
         except Exception as e:
             return JSONResponse({"error": str(e)}, status_code=500)
@@ -188,10 +184,6 @@ def register(mcp) -> None:
             if not ok:
                 return JSONResponse({"error": "update failed"}, status_code=500)
             if "content" in updates:
-                try:
-                    await sh.embedding_engine.generate_and_store(letter_id, updates["content"])
-                except Exception:
-                    pass
                 try:
                     sh.dehydrator.invalidate_cache(bucket["content"])
                 except Exception:

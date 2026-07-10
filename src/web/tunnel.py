@@ -28,6 +28,11 @@ from starlette.responses import Response
 
 from . import _shared as sh
 
+try:
+    from utils import parse_bool  # type: ignore
+except ImportError:  # pragma: no cover
+    from ..utils import parse_bool  # type: ignore
+
 _tunnel_proc: Optional[_subprocess.Popen] = None
 _tunnel_last_error: str = ""  # last captured stderr lines from cloudflared
 
@@ -137,7 +142,10 @@ def register(mcp) -> None:
         except Exception:
             return JSONResponse({"error": "invalid JSON"}, status_code=400)
         token = body.get("token", "").strip()
-        auto_start = bool(body.get("auto_start", False))
+        try:
+            auto_start = parse_bool(body.get("auto_start", False))
+        except ValueError as e:
+            return JSONResponse({"error": str(e)}, status_code=400)
         cfg = _load_tunnel_config()
         if token:
             cfg["token"] = token

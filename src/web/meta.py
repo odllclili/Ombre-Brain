@@ -22,6 +22,11 @@ from starlette.responses import Response
 
 from . import _shared as sh
 
+try:
+    from utils import parse_bool  # type: ignore
+except ImportError:  # pragma: no cover
+    from ..utils import parse_bool  # type: ignore
+
 
 def _restart_self() -> None:
     """热更新后跨平台自重启：用刚下载覆盖的新代码原地替换当前进程。
@@ -95,7 +100,9 @@ def _update_repo_allowed(repo: str) -> bool:
 
 def _pip_install_allowed() -> bool:
     ucfg = sh.config.get("update") if isinstance(sh.config, dict) else None
-    if isinstance(ucfg, dict) and bool(ucfg.get("allow_pip_install")):
+    if isinstance(ucfg, dict) and parse_bool(
+        ucfg.get("allow_pip_install", False), default=False
+    ):
         return True
     return os.environ.get("OMBRE_UPDATE_ALLOW_PIP", "").strip().lower() in ("1", "true", "yes", "on")
 

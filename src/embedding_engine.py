@@ -46,9 +46,9 @@ import httpx
 from openai import AsyncOpenAI
 
 try:
-    from utils import positive_float
+    from utils import parse_bool, positive_float
 except ImportError:  # pragma: no cover
-    from .utils import positive_float  # type: ignore
+    from .utils import parse_bool, positive_float  # type: ignore
 
 try:
     from provider_detect import (
@@ -361,7 +361,7 @@ class EmbeddingEngine:
         self.backend = "api"
 
         # 2) 解析 enabled。OB-F001：enabled=true 但 api_key 空，且后端是 api → 拒启
-        enabled_cfg = embed_cfg.get("enabled", True)
+        enabled_cfg = parse_bool(embed_cfg.get("enabled", True), default=True)
 
         # 3) 解析 SQLite 路径（允许测试 fixture 通过 db_path 覆盖）
         custom_db = (embed_cfg.get("db_path") or "").strip()

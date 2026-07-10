@@ -136,6 +136,39 @@ def init_runtime(**kwargs) -> None:
     globals().update(kwargs)
 
 
+def replace_embedding_engine(engine) -> None:
+    """Atomically publish a hot-reloaded embedding engine to all holders."""
+    global embedding_engine
+    embedding_engine = engine
+
+    for holder_name, attribute in (
+        ("bucket_mgr", "embedding_engine"),
+        ("import_engine", "embedding_engine"),
+        ("migrate_engine", "_embedding_engine"),
+    ):
+        holder = globals().get(holder_name)
+        if holder is not None:
+            try:
+                setattr(holder, attribute, engine)
+            except Exception:
+                logger.warning(
+                    "Failed to refresh %s.%s", holder_name, attribute,
+                    exc_info=True,
+                )
+
+    # MCP tools keep a separate runtime container. Without updating it, reads
+    # keep using the old model while Dashboard writes use the new one.
+    try:
+        from tools import _runtime as tools_runtime  # type: ignore
+    except ImportError:  # pragma: no cover
+        try:
+            from ..tools import _runtime as tools_runtime  # type: ignore
+        except ImportError:
+            tools_runtime = None
+    if tools_runtime is not None:
+        tools_runtime.embedding_engine = engine
+
+
 def evaluate_v3_update_manifest(manifest, content_by_path):
     """Evaluate hot-update manifests through v3 policy when available."""
     runtime = globals().get("v3_runtime")

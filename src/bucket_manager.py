@@ -80,7 +80,7 @@ from typing import Any, Optional
 import frontmatter
 from rapidfuzz import fuzz
 
-from utils import generate_bucket_id, sanitize_name, safe_path, now_iso
+from utils import generate_bucket_id, sanitize_name, safe_path, now_iso, parse_bool, parse_iso_datetime
 from bucket_scoring import (
     calc_topic_score,
     calc_emotion_score,
@@ -517,7 +517,7 @@ class BucketManager:
                 if "weight" in type_defaults and "weight" not in metadata and weight is None:
                     metadata["weight"] = _clamp01(type_defaults["weight"], _DEFAULT_VALENCE)
                 if "dont_surface" in type_defaults and "dont_surface" not in metadata:
-                    if bool(type_defaults["dont_surface"]):
+                    if parse_bool(type_defaults["dont_surface"], default=False):
                         metadata["dont_surface"] = True
                 if "why_remembered" in type_defaults and not why_remembered:
                     metadata["why_remembered"] = str(type_defaults["why_remembered"]).strip()[:_WHY_REMEMBERED_MAX]
@@ -677,6 +677,20 @@ class BucketManager:
         if "content" in kwargs and not allow_embedding_fallback:
             self._require_embedding_available()
 
+        # Normalize public/migration inputs at the storage boundary.  A quoted
+        # YAML value such as "false" must never be persisted as true merely
+        # because Python considers non-empty strings truthy.
+        for field in (
+            "resolved",
+            "pinned",
+            "digested",
+            "dont_surface",
+            "first_of_kind",
+            "anchor",
+        ):
+            if field in kwargs:
+                kwargs[field] = parse_bool(kwargs[field])
+
         try:
             post = frontmatter.load(file_path)
         except Exception as e:
@@ -685,8 +699,10 @@ class BucketManager:
 
         # --- Pinned/protected buckets: lock importance to 10, ignore importance changes ---
         # --- 钉选/保护桶：importance 不可修改，强制保持 10 ---
-        was_pinned = bool(post.get("pinned", False))
-        is_pinned = post.get("pinned", False) or post.get("protected", False)
+        was_pinned = parse_bool(post.get("pinned", False), default=False)
+        is_pinned = was_pinned or parse_bool(
+            post.get("protected", False), default=False
+        )
         if is_pinned:
             kwargs.pop("importance", None)  # silently ignore importance update
 
@@ -706,14 +722,14 @@ class BucketManager:
         if "name" in kwargs:
             post["name"] = sanitize_name(kwargs["name"])
         if "resolved" in kwargs:
-            post["resolved"] = bool(kwargs["resolved"])
+            post["resolved"] = kwargs["resolved"]
         if "pinned" in kwargs:
-            post["pinned"] = bool(kwargs["pinned"])
+            post["pinned"] = kwargs["pinned"]
             if kwargs["pinned"]:
                 post["importance"] = _PINNED_IMPORTANCE  # pinned → lock importance to 10
                 post.metadata.pop("anchor", None)  # pinned 与 anchor 互斥：钉为核心准则即清除坐标系标记
         if "digested" in kwargs:
-            post["digested"] = bool(kwargs["digested"])
+            post["digested"] = kwargs["digested"]
         if "model_valence" in kwargs:
             post["model_valence"] = _clamp01(kwargs["model_valence"], _DEFAULT_VALENCE)
         # --- Pass-through fields for plan/letter lifecycle ---
@@ -744,16 +760,18 @@ class BucketManager:
                 if k == "weight" and kwargs[k] is not None:
                     post[k] = _clamp01(kwargs[k], _DEFAULT_VALENCE)
                 elif k == "dont_surface":
-                    post[k] = bool(kwargs[k])
+                    post[k] = kwargs[k]
                 elif k == "first_of_kind":
-                    post[k] = bool(kwargs[k])
+                    post[k] = kwargs[k]
                 elif k == "anchor":
                     # iter 2.0: anchor 是布尔；False 时直接删除字段保持 frontmatter 干净。
                     # 修复：透传路径之前会绕过 ANCHOR_LIMIT，导致批量脚本/前端直接 update(anchor=True)
                     # 可以让 anchor 总数突破 24 上限。这里补一道校验：
                     # 仅当从 False→True 切换时才计数；当前已是 anchor 的桶重复设置不计数。
-                    if bool(kwargs[k]):
-                        already_anchor = bool(post.get("anchor", False))
+                    if kwargs[k]:
+                        already_anchor = parse_bool(
+                            post.get("anchor", False), default=False
+                        )
                         if not already_anchor:
                             # FIX (RED-02): count_anchors 是 async，必须 await，否则
                             # `coroutine >= int` 会 TypeError，整个上限校验失效。
@@ -800,7 +818,7 @@ class BucketManager:
             "pinned" in kwargs
             and not kwargs.get("pinned")
             and was_pinned
-            and not post.get("protected")
+            and not parse_bool(post.get("protected", False), default=False)
             and post.get("type") == "permanent"
         ):
             post["type"] = "dynamic"
@@ -927,7 +945,9 @@ class BucketManager:
             # --- Time ripple: boost nearby memories within ±48h ---
             # --- 时间涟漪：±48小时内的记忆轻微唤醒 ---
             if ripple:
-                current_time = datetime.fromisoformat(str(post.get("created", post.get("last_active", ""))))
+                current_time = parse_iso_datetime(
+                    post.get("created", post.get("last_active", ""))
+                )
                 await self._time_ripple(bucket_id, current_time)
         except Exception as e:
             logger.warning(f"Failed to touch bucket / 触碰桶失败: {bucket_id}: {e}")
@@ -971,7 +991,7 @@ class BucketManager:
 
             created_str = meta.get("created", meta.get("last_active", ""))
             try:
-                created = datetime.fromisoformat(str(created_str))
+                created = parse_iso_datetime(created_str)
                 delta_hours = abs((reference_time - created).total_seconds()) / 3600
             except (ValueError, TypeError):
                 continue
@@ -1210,8 +1230,10 @@ class BucketManager:
         bucket = await self.get(bucket_id)
         if not bucket:
             return {"ok": False, "error": "bucket not found", "count": 0, "limit": self.ANCHOR_LIMIT}
-        current_value = bool(bucket["metadata"].get("anchor", False))
-        target = bool(value)
+        current_value = parse_bool(
+            bucket["metadata"].get("anchor", False), default=False
+        )
+        target = parse_bool(value)
         # Idempotent: same state → noop
         if current_value == target:
             count = await self.count_anchors()

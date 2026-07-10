@@ -52,7 +52,7 @@ from decay_engine import DecayEngine
 from embedding_engine import EmbeddingEngine
 from import_memory import ImportEngine
 from migrate_engine import MigrateEngine
-from utils import load_config, setup_logging, strip_wikilinks, count_tokens_approx, get_version, extract_wikilinks
+from utils import load_config, setup_logging, strip_wikilinks, count_tokens_approx, get_version, extract_wikilinks, parse_bool
 
 # --- iter 2.1：MCP 工具实现已按代码路径拆分到 tools/ 子包 ---
 # 本文件只保留 MCP 注册 + 路由（HTTP custom_route）+ 共享辅助。
@@ -946,7 +946,9 @@ if __name__ == "__main__":
         # config.yaml: mcp_require_auth: false → 完全跳过 OAuth 检查，
         # 任何客户端（GPT / GLM / 自定义前端）可免认证直连 /mcp。
         # 不填或 true → 保持默认：必须 OAuth Bearer token。
-        _mcp_auth_required = bool(config.get("mcp_require_auth", True))
+        _mcp_auth_required = parse_bool(
+            config.get("mcp_require_auth", True), default=True
+        )
 
         class _MCPAuthMiddleware:
             def __init__(self, app):

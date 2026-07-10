@@ -25,6 +25,11 @@ from starlette.responses import Response
 
 from . import _shared as sh
 
+try:
+    from utils import parse_bool  # type: ignore
+except ImportError:  # pragma: no cover
+    from ..utils import parse_bool  # type: ignore
+
 logger = sh.logger
 
 try:
@@ -402,11 +407,17 @@ def register(mcp) -> None:
 
         for flag in ("resolved", "digested"):
             if flag in body:
-                updates[flag] = bool(body[flag])
+                try:
+                    updates[flag] = parse_bool(body[flag])
+                except ValueError as e:
+                    return JSONResponse({"error": str(e)}, status_code=400)
 
         # pinned 需要走配额检查
         if "pinned" in body:
-            new_pinned = bool(body["pinned"])
+            try:
+                new_pinned = parse_bool(body["pinned"])
+            except ValueError as e:
+                return JSONResponse({"error": str(e)}, status_code=400)
             cur_pinned = bool(bucket["metadata"].get("pinned", False))
             if new_pinned and not cur_pinned:
                 quota_err = await _check_pinned_quota()
@@ -442,10 +453,6 @@ def register(mcp) -> None:
             if not ok:
                 return JSONResponse({"error": "update failed"}, status_code=500)
             if "content" in updates:
-                try:
-                    await sh.embedding_engine.generate_and_store(bucket_id, updates["content"])
-                except Exception as e:
-                    logger.warning(f"edit: re-embedding failed for {bucket_id}: {e}")
                 try:
                     sh.dehydrator.invalidate_cache(bucket["content"])
                 except Exception:

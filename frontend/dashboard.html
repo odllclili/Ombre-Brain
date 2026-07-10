@@ -2390,15 +2390,15 @@
       <div>
         <div style="font-weight:600;font-size:13px;margin-bottom:6px;">宿主机记忆桶目录 (Docker)</div>
         <div style="font-size:12px;color:var(--text-dim);margin-bottom:8px;line-height:1.6;">
-          docker-compose 中 <code>${OMBRE_HOST_VAULT_DIR:-./buckets}:/data</code> 的宿主机路径。留空 = 项目内 <code>./buckets</code>。
-          <span style="color:var(--warning);"><svg class="icon icon-warn" aria-hidden="true"><use href="#i-warn"></use></svg> 修改后需在宿主机执行 <code>docker compose down && docker compose up -d</code> 才会生效。</span>
+          docker-compose 将 <code>${OMBRE_HOST_VAULT_DIR:-./buckets}</code> 挂到容器的 <code>/app/buckets</code>。留空 = compose 文件旁的 <code>./buckets</code>。
+          <span style="color:var(--warning);"><svg class="icon icon-warn" aria-hidden="true"><use href="#i-warn"></use></svg> 容器运行后不能修改宿主机挂载；请编辑 compose 文件旁的 <code>.env</code>，再执行 <code>docker compose up -d --force-recreate</code>。</span>
         </div>
         <div class="config-row">
           <label>路径</label>
           <input type="text" id="settings-host-vault" placeholder="例如 /Users/you/Obsidian/Ombre Brain" style="flex:1;" />
         </div>
         <div style="display:flex;gap:8px;align-items:center;margin-top:6px;">
-          <button class="btn-primary" onclick="saveHostVault()" title="保存" style="padding:0 14px;height:36px;display:inline-flex;align-items:center;gap:5px;"><i data-lucide="check"></i> 保存</button>
+          <button id="settings-host-vault-save" class="btn-primary" onclick="saveHostVault()" title="保存" style="padding:0 14px;height:36px;display:inline-flex;align-items:center;gap:5px;"><i data-lucide="check"></i> 保存</button>
           <button onclick="loadHostVault()" title="重新加载" style="font-size:12px;padding:0 12px;height:36px;display:inline-flex;align-items:center;gap:5px;"><i data-lucide="refresh-cw"></i> 重载</button>
           <span id="settings-host-vault-msg" style="font-size:12px;"></span>
         </div>
@@ -3771,7 +3771,10 @@ async function toolGithubSync() {
 async function loadHostVault() {
   const input = document.getElementById('settings-host-vault');
   const msg = document.getElementById('settings-host-vault-msg');
+  const saveBtn = document.getElementById('settings-host-vault-save');
   if (!input) return;
+  input.readOnly = false;
+  if (saveBtn) saveBtn.disabled = false;
   msg.textContent = '';
   msg.style.color = 'var(--text-dim)';
   try {
@@ -3779,7 +3782,12 @@ async function loadHostVault() {
     if (!resp) return;
     const d = await resp.json();
     input.value = d.value || '';
-    if (d.source === 'env') {
+    if (d.compose_managed) {
+      input.readOnly = true;
+      if (saveBtn) saveBtn.disabled = true;
+      msg.textContent = d.message || '该路径由宿主机 Compose 的 .env 管理';
+      msg.style.color = 'var(--warning)';
+    } else if (d.source === 'env') {
       msg.textContent = '当前由进程环境变量提供（修改 .env 不会立即覆盖）';
       msg.style.color = 'var(--warning)';
     } else if (d.source === 'file') {
@@ -7022,7 +7030,8 @@ function renderV3DebugDecision(record, index) {
   const allowed = summary.policy_allowed;
   const badgeColor = ok && allowed ? 'var(--positive)' : (allowed ? 'var(--warning)' : 'var(--negative)');
   const surfaces = (summary.projection_surfaces || []).join(', ') || '-';
-  return '<button onclick="replayV3Decision(\'' + esc(record.id) + '\')" ' +
+  const recordId = esc(record.id || '');
+  return '<button data-decision-id="' + recordId + '" onclick="replayV3Decision(this.dataset.decisionId)" ' +
     'style="text-align:left;background:var(--surface-solid);border:1px solid var(--border);border-radius:4px;padding:10px 12px;cursor:pointer;color:var(--text);">' +
     '<div style="display:flex;align-items:center;gap:8px;font-size:12px;">' +
       '<span style="width:7px;height:7px;border-radius:50%;background:' + badgeColor + ';display:inline-block;flex-shrink:0;"></span>' +

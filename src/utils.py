@@ -31,7 +31,7 @@ import json
 import yaml
 import logging
 from pathlib import Path
-from datetime import datetime
+from datetime import date, datetime
 from typing import Optional
 
 
@@ -55,6 +55,9 @@ _LOG_FALLBACK_DIR = "/tmp/ombre_logs"  # 所有候选路径都失败时的最终
 
 # sanitize_name() 桶名最大长度（防止文件名过长导致 OS 报错）。
 _BUCKET_NAME_MAX_LEN = 80
+
+_BOOL_TRUE = frozenset({"1", "true", "yes", "on"})
+_BOOL_FALSE = frozenset({"0", "false", "no", "off"})
 
 # 进程启动那一刻就被「真实 OS / 平台」注入的可配置环境变量名集合（值非空才算）。
 # 在任何 dashboard 保存动作 mutate os.environ 之前快照——这是「平台级 env」与
@@ -99,6 +102,54 @@ def config_file_path() -> str:
     return os.path.join(_project_root(), "config.yaml")
 
 
+def parse_bool(value, *, default=...) -> bool:
+    """Parse an explicit boolean without Python's ``bool('false')`` trap.
+
+    JSON/YAML callers may supply booleans, 0/1, or common textual forms. Other
+    values are rejected unless a default is supplied. This keeps public API
+    boundaries predictable while still accepting environment-style strings.
+    """
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, (int, float)) and value in (0, 1):
+        return bool(value)
+    if isinstance(value, str):
+        normalized = value.strip().lower()
+        if normalized in _BOOL_TRUE:
+            return True
+        if normalized in _BOOL_FALSE:
+            return False
+    # Ellipsis is a process-wide singleton, so this check remains valid even
+    # if a hot-update/test reloads utils while callers retain the old function.
+    if default is not ...:
+        return bool(default)
+    raise ValueError(f"expected boolean value, got {value!r}")
+
+
+def parse_iso_datetime(value) -> datetime:
+    """Parse ISO/date metadata into a timezone-compatible local datetime.
+
+    OB historically stores naive local timestamps, while imported/frontmatter
+    data may contain ``Z`` or explicit offsets. Converting aware values to local
+    time and dropping ``tzinfo`` lets existing ``datetime.now()`` comparisons
+    remain correct instead of treating valid timestamps as corrupt data.
+    """
+    if isinstance(value, datetime):
+        parsed = value
+    elif isinstance(value, date):
+        parsed = datetime.combine(value, datetime.min.time())
+    else:
+        raw = str(value or "").strip()
+        if not raw:
+            raise ValueError("empty datetime")
+        if raw[-1:].lower() == "z":
+            raw = raw[:-1] + "+00:00"
+        parsed = datetime.fromisoformat(raw)
+    if parsed.tzinfo is not None:
+        parsed = parsed.astimezone().replace(tzinfo=None)
+    return parsed
+
+
 def load_config(config_path: Optional[str] = None) -> dict:
     """
     Load configuration file.
@@ -113,6 +164,7 @@ def load_config(config_path: Optional[str] = None) -> dict:
     defaults = {
         "transport": "stdio",
         "log_level": "INFO",
+        "mcp_require_auth": True,
         "buckets_dir": os.path.join(project_root, "buckets"),
         "merge_threshold": 75,
         "dehydration": {
@@ -162,6 +214,12 @@ def load_config(config_path: Optional[str] = None) -> dict:
                 f"配置文件解析失败，使用默认配置: {e}"
             )
 
+    # Normalize YAML booleans before environment overrides. Quoted values such
+    # as mcp_require_auth: "false" must not become truthy via bool("false").
+    config["mcp_require_auth"] = parse_bool(
+        config.get("mcp_require_auth", True), default=True
+    )
+
     # --- Environment variable overrides (highest priority) ---
     # --- 环境变量覆盖敏感/运行时配置（优先级最高）---
     # 这里曾经有 6 段几乎一模一样的 if-block，每段都在做同一件事：
@@ -190,17 +248,16 @@ def load_config(config_path: Optional[str] = None) -> dict:
     env_buckets_dir = os.environ.get("OMBRE_BUCKETS_DIR", "")
 
     # MCP OAuth 开关（布尔，单独处理）—— OMBRE_MCP_REQUIRE_AUTH
-    # 不能走 _apply_env_override：它只写字符串，而 server.py 用
-    # bool(config.get("mcp_require_auth", True)) 判定——字符串 "false" 是 truthy，
-    # 会导致设了 =false 反而仍开启鉴权。这里显式解析成真正的 bool。
+    # 不能走 _apply_env_override：它只写字符串，而鉴权中间件和诊断接口都要求
+    # 配置中保存真正的 bool；否则字符串 "false" 仍可能被普通真值判断误当成开启。
     # 用途：把 OB 接进自有前端 / GPT / GLM 等不走 OAuth 的客户端时，
     # 设 OMBRE_MCP_REQUIRE_AUTH=false（或 config.yaml: mcp_require_auth: false）即可免认证直连 /mcp。
     # 仅在显式设置为可识别的值时才覆盖；不设 / 设成乱七八糟的值都保持默认（安全：默认开启）。
-    _env_mcp_auth = os.environ.get("OMBRE_MCP_REQUIRE_AUTH", "").strip().lower()
-    if _env_mcp_auth in ("0", "false", "no", "off"):
-        config["mcp_require_auth"] = False
-    elif _env_mcp_auth in ("1", "true", "yes", "on"):
-        config["mcp_require_auth"] = True
+    _env_mcp_auth = os.environ.get("OMBRE_MCP_REQUIRE_AUTH", "").strip()
+    if _env_mcp_auth:
+        config["mcp_require_auth"] = parse_bool(
+            _env_mcp_auth, default=config["mcp_require_auth"]
+        )
 
     # iter 1.9 F: 统一推荐 OMBRE_VAULT_DIR；老变量 OMBRE_BUCKETS_DIR 仍兼容
     # Priority: OMBRE_BUCKETS_DIR (legacy explicit) > OMBRE_VAULT_DIR > config.yaml.buckets_dir

@@ -25,6 +25,11 @@ try:
 except ImportError:  # pragma: no cover
     from ..errors import recent_errors, format_error, clear_errors_log, get_recent_logs  # type: ignore
 
+try:
+    from utils import parse_bool  # type: ignore
+except ImportError:  # pragma: no cover
+    from ..utils import parse_bool  # type: ignore
+
 _LOGS_DEFAULT_LIMIT = 200
 _LOGS_MAX_LIMIT = 2000
 _ERRORS_DEFAULT_LIMIT = 50
@@ -183,7 +188,7 @@ async def build_system_diagnostics() -> dict[str, Any]:
     ))
 
     emb_cfg = cfg.get("embedding", {}) or {}
-    emb_enabled_cfg = bool(emb_cfg.get("enabled", True))
+    emb_enabled_cfg = parse_bool(emb_cfg.get("enabled", True), default=True)
     emb_key_set = _secret_is_set(emb_cfg.get("api_key", ""), "OMBRE_EMBED_API_KEY")
     emb_engine = sh.embedding_engine
     emb_runtime_enabled = bool(getattr(emb_engine, "enabled", False))
@@ -283,7 +288,9 @@ async def build_system_diagnostics() -> dict[str, Any]:
         setup_needed = bool(sh._is_setup_needed())
     except Exception:
         setup_needed = False
-    mcp_oauth_required = bool(cfg.get("mcp_require_auth", True))
+    mcp_oauth_required = parse_bool(
+        cfg.get("mcp_require_auth", True), default=True
+    )
     checks.append(_check(
         "auth",
         "访问控制",

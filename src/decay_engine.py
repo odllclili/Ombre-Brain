@@ -27,6 +27,8 @@ import asyncio
 import logging
 from datetime import datetime
 
+from utils import parse_iso_datetime
+
 logger = logging.getLogger("ombre_brain.decay")
 
 
@@ -112,7 +114,7 @@ def _days_since_active(meta: dict, fallback_days: float = _DEFAULT_DAYS_FALLBACK
         return fallback_days
     raw = meta.get("last_active") or meta.get("created") or ""
     try:
-        last_active = datetime.fromisoformat(str(raw))
+        last_active = parse_iso_datetime(raw)
         return max(0.0, (datetime.now() - last_active).total_seconds() / _SECONDS_PER_DAY)
     except (ValueError, TypeError):
         return float(fallback_days)

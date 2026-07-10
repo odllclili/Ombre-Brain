@@ -164,13 +164,6 @@ def register(mcp) -> None:
             ok = await sh.bucket_mgr.update(bucket_id, **updates)
             if not ok:
                 return JSONResponse({"error": "update failed"}, status_code=500)
-            # 改了正文 → embedding 也要重新生成（否则检索会拿老向量不准）
-            # 这里故意吞异常：embedding 完全可能因为网络/配额失败，不能堆出去让前端以为保存干脆了
-            if "content" in updates and isinstance(updates["content"], str):
-                try:
-                    await sh.embedding_engine.generate_and_store(bucket_id, updates["content"])
-                except Exception:
-                    pass
             # --- plan 看板把 plan 显式标 resolved → 联动 related_bucket / resolved_by ---
             # rule.md §1：与 trace_core 同一逻辑（人工/AI 显式路径）。
             cascaded: list[str] = []
