@@ -1149,3 +1149,15 @@ class TestEmbeddingModelNorm:
     def test_different_models_stay_distinct(self):
         from embedding_engine import _norm_model
         assert _norm_model("bge-m3") != _norm_model("gemini-embedding-001")
+
+    def test_latest_tag_equivalent_to_bare(self):
+        from embedding_engine import _norm_model
+        # Ollama 的 :latest 默认 tag vs 裸名 → 同一模型（假 OB-W005 场景）
+        assert _norm_model("bge-m3:latest") == _norm_model("bge-m3")
+        assert _norm_model("BGE-M3:latest") == _norm_model("bge-m3")
+
+    def test_quantization_tags_stay_distinct(self):
+        from embedding_engine import _norm_model
+        # 非 :latest 的 tag 是不同量化版本，必须保持可区分
+        assert _norm_model("bge-m3:q4_0") != _norm_model("bge-m3")
+        assert _norm_model("bge-m3:q4_0") != _norm_model("bge-m3:latest")

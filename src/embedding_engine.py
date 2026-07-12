@@ -88,8 +88,11 @@ def _norm_model(name: str) -> str:
     Gemini OpenAI-compat 端点要求 "models/" 前缀，OpenAI 兼容代理（aihubmix /
     硅基流动等）用裸名——同一模型仅前缀不同。剥掉前缀 + 去空白 + 小写，
     让 model_name 的对账只看真实身份，不被书写约定误伤（修 OB-W005 假阳性）。
+    Ollama 的 ":latest" 是默认 tag：bge-m3 与 bge-m3:latest 是同一模型，
+    比较前剥掉结尾 ":latest"。仅剥这一个 tag——:q4_0 之类量化 tag 代表
+    不同的量化版本，是真实身份差异，不能剥。
     """
-    return strip_native_resource_prefix(name).lower()
+    return strip_native_resource_prefix(name).lower().removesuffix(":latest")
 
 
 def _humanize_api_error(e: Exception) -> str:
