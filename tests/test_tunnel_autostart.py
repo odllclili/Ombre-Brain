@@ -64,6 +64,7 @@ async def test_autostart_can_be_enabled_without_resending_saved_token(tunnel_rou
         "ok": True,
         "token_set": True,
         "auto_start": True,
+        "persisted": True,
     }
     assert json.loads(config_path.read_text(encoding="utf-8")) == {
         "token": "existing-token",
@@ -106,9 +107,31 @@ async def test_invalid_autostart_does_not_change_tunnel_config(tunnel_routes):
     assert json.loads(config_path.read_text(encoding="utf-8")) == original
 
 
+@pytest.mark.asyncio
+async def test_save_failure_is_reported_and_does_not_claim_persistence(
+    tunnel_routes, monkeypatch
+):
+    routes, _buckets_dir = tunnel_routes
+
+    def fail_save(_data):
+        raise OSError("read-only volume")
+
+    monkeypatch.setattr(tunnel, "_save_tunnel_config", fail_save)
+    response = await routes[("POST", "/api/tunnel/config")](
+        JsonRequest({"auto_start": True})
+    )
+
+    assert response.status_code == 500
+    payload = _payload(response)
+    assert "read-only volume" in payload["error"]
+
+
 def test_dashboard_autostart_switch_saves_independently_and_rolls_back_on_error():
     dashboard = (ROOT / "frontend" / "dashboard.html").read_text(encoding="utf-8")
 
     assert 'onclick="toggleTunnelAutoStart(this)"' in dashboard
     assert "body: JSON.stringify({auto_start: autoStart})" in dashboard
     assert "setHwSwitch('tunnel-autostart', previous)" in dashboard
+    assert "if (!data.persisted)" in dashboard
+    assert "if (!_tunnelAutoStartSaving) setHwSwitch('tunnel-autostart', d.auto_start)" in dashboard
+    assert "tunnel-auth-danger" in dashboard

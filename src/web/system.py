@@ -13,6 +13,7 @@ web/system.py — 心跳 / 日志 / 错误码面板
 
 import ast
 import asyncio
+import json
 import os
 import time
 from typing import Any
@@ -1273,14 +1274,35 @@ async def build_system_diagnostics() -> dict[str, Any]:
     mcp_oauth_required = parse_bool(
         cfg.get("mcp_require_auth", True), default=True
     )
+    tunnel_config = {}
+    try:
+        tunnel_path = os.path.join(buckets_dir, ".tunnel_config.json")
+        if os.path.isfile(tunnel_path):
+            with open(tunnel_path, "r", encoding="utf-8") as tunnel_file:
+                loaded_tunnel = json.load(tunnel_file)
+            if isinstance(loaded_tunnel, dict):
+                tunnel_config = loaded_tunnel
+    except Exception:
+        tunnel_config = {}
+    tunnel_public_risk = bool(
+        tunnel_config.get("token") and tunnel_config.get("auto_start")
+    )
     if setup_needed:
         auth_status = "error"
         auth_message = "Dashboard 密码未设置"
         auth_action = "先设置 Dashboard 密码"
     elif not mcp_oauth_required:
-        auth_status = "warning"
-        auth_message = "MCP OAuth 已关闭：任何能访问 /mcp 的人都可以匿名读写全部记忆"
-        auth_action = "公网部署请开启 OAuth；仅在可信本机/内网或已有反代鉴权时关闭"
+        auth_status = "error" if tunnel_public_risk else "warning"
+        auth_message = (
+            "高危：隧道已配置为自动连接，但 MCP OAuth 已关闭；公网访问者可匿名读写全部记忆"
+            if tunnel_public_risk
+            else "MCP OAuth 已关闭：任何能访问 /mcp 的人都可以匿名读写全部记忆"
+        )
+        auth_action = (
+            "立即开启 MCP OAuth 或关闭隧道自动连接"
+            if tunnel_public_risk
+            else "公网部署请开启 OAuth；仅在可信本机/内网或已有反代鉴权时关闭"
+        )
     else:
         auth_status = "ok"
         auth_message = "Dashboard 密码已设置，MCP OAuth 已开启"
@@ -1294,6 +1316,9 @@ async def build_system_diagnostics() -> dict[str, Any]:
             "dashboard_password_set": not setup_needed,
             "using_env_password": bool(os.environ.get("OMBRE_DASHBOARD_PASSWORD", "")),
             "mcp_oauth_required": mcp_oauth_required,
+            "tunnel_auto_start": bool(tunnel_config.get("auto_start")),
+            "tunnel_token_set": bool(tunnel_config.get("token")),
+            "public_exposure_risk": tunnel_public_risk and not mcp_oauth_required,
         },
         action=auth_action,
     ))

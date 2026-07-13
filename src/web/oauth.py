@@ -438,7 +438,10 @@ def register(mcp) -> None:
         sub = str(request.path_params.get("resource_path", "") or "").strip("/")
         if sub and sub != "mcp":
             return _oauth_not_found()
-        resource = f"{base}/{sub}" if sub else base
+        # The root discovery URL still describes the only real MCP resource;
+        # it must never advertise the web origin itself as a protected MCP
+        # endpoint.  Path-scoped discovery accepts /mcp only (checked above).
+        resource = f"{base}/mcp"
         return JSONResponse({
             "resource": resource,
             "authorization_servers": [base],

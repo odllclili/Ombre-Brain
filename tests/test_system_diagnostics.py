@@ -238,12 +238,20 @@ Diagnostics regression tests.
     # exercises diagnostics fields, not Docker mount detection.
     monkeypatch.setattr(system.sh, "in_docker", lambda: False)
 
+    (buckets_dir / ".tunnel_config.json").write_text(
+        json.dumps({"token": "configured", "auto_start": True}),
+        encoding="utf-8",
+    )
+
     payload = await system.build_system_diagnostics()
     by_id = {check["id"]: check for check in payload["checks"]}
 
     assert payload["ok"] is False
     assert payload["summary"]["error"] >= 2
     assert by_id["storage"]["status"] == "ok"
+    assert by_id["auth"]["status"] == "error"
+    assert by_id["auth"]["details"]["public_exposure_risk"] is True
+    assert "隧道" in by_id["auth"]["message"]
     assert by_id["ledger"]["status"] == "ok"
     assert by_id["ledger"]["details"]["canonical"] is False
     assert by_id["ledger"]["details"]["valid_events"] == 2
@@ -323,7 +331,7 @@ Diagnostics regression tests.
     assert by_id["embedding"]["status"] == "error"
     assert "待机" in by_id["embedding"]["message"]
     assert by_id["github"]["status"] == "warning"
-    assert by_id["auth"]["status"] == "warning"
+    assert by_id["auth"]["status"] == "error"
     assert "匿名读写" in by_id["auth"]["message"]
     assert by_id["auth"]["action"]
     assert by_id["auth"]["details"]["mcp_oauth_required"] is False

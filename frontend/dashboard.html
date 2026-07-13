@@ -2389,6 +2389,9 @@
             <button class="btn-primary" onclick="saveTunnelToken()" title="保存 Token / Save token" style="padding:0 14px;height:32px;font-size:12px;display:inline-flex;align-items:center;gap:5px;flex-shrink:0;"><i data-lucide="key"></i> 保存 Token</button>
           </div>
           <div id="tunnel-msg" style="margin-top:8px;font-size:12px;"></div>
+          <div id="tunnel-auth-danger" style="display:none;margin-top:10px;padding:10px 12px;border:1px solid var(--negative);border-radius:10px;background:rgba(220,60,60,.10);color:var(--negative);font-size:12px;line-height:1.6;font-weight:600;">
+            ⚠ 隧道已配置，但 MCP OAuth 已关闭。任何能访问公网地址的人都可以匿名读写全部记忆。请立即开启 MCP OAuth，或停止隧道。
+          </div>
         </div>
       </div>
 
@@ -3286,7 +3289,10 @@ async function loadTunnelStatus() {
   const resp = await authFetch('/api/tunnel/status');
   if (!resp || !resp.ok) return;
   const d = await resp.json();
-  setHwSwitch('tunnel-autostart', d.auto_start);
+  // A slower status poll must not overwrite the value while a save is in flight.
+  if (!_tunnelAutoStartSaving) setHwSwitch('tunnel-autostart', d.auto_start);
+  const authDanger = document.getElementById('tunnel-auth-danger');
+  if (authDanger) authDanger.style.display = (d.token_set && d.mcp_auth_required === false) ? '' : 'none';
   if (d.running) {
     _setTunnelUI(true, '已连接 / Connected', 'var(--positive, #9DC880)', '停止', '');
   } else {
@@ -3317,6 +3323,7 @@ async function toggleTunnelAutoStart(sw) {
     const data = await readJsonSafe(resp);
     if (!resp.ok) throw new Error(data.error || '保存失败');
 
+    if (!data.persisted) throw new Error('服务端未确认配置已持久化');
     setHwSwitch('tunnel-autostart', !!data.auto_start);
     msgEl.style.color = 'var(--accent)';
     msgEl.textContent = data.auto_start ? '已启用启动时自动连接' : '已关闭启动时自动连接';

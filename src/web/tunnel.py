@@ -35,6 +35,7 @@ except ImportError:  # pragma: no cover
 
 _tunnel_proc: Optional[_subprocess.Popen] = None
 _tunnel_last_error: str = ""  # last captured stderr lines from cloudflared
+_tunnel_config_lock = _threading.RLock()
 
 
 def _get_tunnel_config_file() -> str:
@@ -53,8 +54,26 @@ def _load_tunnel_config() -> dict:
 
 
 def _save_tunnel_config(data: dict) -> None:
-    with open(_get_tunnel_config_file(), "w", encoding="utf-8") as f:
-        _json_lib.dump(data, f, ensure_ascii=False)
+    path = _get_tunnel_config_file()
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    tmp = f"{path}.tmp.{os.getpid()}.{_threading.get_ident()}"
+    payload = _json_lib.dumps(data, ensure_ascii=False)
+    with _tunnel_config_lock:
+        try:
+            with open(tmp, "w", encoding="utf-8", newline="\n") as f:
+                f.write(payload)
+                f.flush()
+                os.fsync(f.fileno())
+            os.replace(tmp, path)
+            persisted = _load_tunnel_config()
+            if persisted != data:
+                raise OSError("tunnel config verification failed after write")
+        finally:
+            try:
+                if os.path.exists(tmp):
+                    os.unlink(tmp)
+            except OSError:
+                pass
 
 
 def _tunnel_running() -> bool:
@@ -128,6 +147,9 @@ def register(mcp) -> None:
             "running": running,
             "token_set": bool(cfg.get("token")),
             "auto_start": cfg.get("auto_start", False),
+            "mcp_auth_required": parse_bool(
+                sh.config.get("mcp_require_auth", True), default=True
+            ),
             "last_error": _tunnel_last_error if not running else "",
         })
 
@@ -158,11 +180,18 @@ def register(mcp) -> None:
             except ValueError as e:
                 return JSONResponse({"error": str(e)}, status_code=400)
 
-        _save_tunnel_config(cfg)
+        try:
+            _save_tunnel_config(cfg)
+            persisted = _load_tunnel_config()
+        except Exception as exc:
+            return JSONResponse({
+                "error": f"tunnel config save failed: {exc}",
+            }, status_code=500)
         return JSONResponse({
             "ok": True,
-            "token_set": bool(cfg.get("token")),
-            "auto_start": cfg.get("auto_start", False),
+            "token_set": bool(persisted.get("token")),
+            "auto_start": persisted.get("auto_start", False),
+            "persisted": True,
         })
 
     @mcp.custom_route("/api/tunnel/start", methods=["POST"])

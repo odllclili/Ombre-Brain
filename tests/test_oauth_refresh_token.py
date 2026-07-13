@@ -144,7 +144,7 @@ async def test_protected_resource_metadata_only_describes_real_mcp_resource(
     ](JsonRequest(method="GET", path_params={"resource_path": "mcp"}))
 
     assert root_response.status_code == 200
-    assert _payload(root_response)["resource"] == "https://ombre.example"
+    assert _payload(root_response)["resource"] == "https://ombre.example/mcp"
     assert root_response.headers["cache-control"] == "no-store"
     assert mcp_response.status_code == 200
     assert _payload(mcp_response)["resource"] == "https://ombre.example/mcp"
