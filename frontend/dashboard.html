@@ -1841,6 +1841,105 @@
     transition: opacity 0.3s;
   }
   .self-overlay.show { opacity: 1; pointer-events: auto; }
+
+  /* ============ Desire dashboard / 欲望仪表盘 ============ */
+  .desire-shell { max-width: 1120px; margin: 0 auto; }
+  .desire-toolbar {
+    display:flex; align-items:center; justify-content:space-between; gap:14px;
+    margin-bottom:18px; flex-wrap:wrap;
+  }
+  .desire-toolbar-copy h2 {
+    font-family:'Share Tech Mono','Noto Sans SC',sans-serif; font-size:17px;
+    letter-spacing:1px; margin:0 0 2px; color:var(--text);
+  }
+  .desire-toolbar-copy p { margin:0; color:var(--text-dim); font-size:12px; }
+  .desire-refresh {
+    min-height:34px; padding:0 13px; display:inline-flex; align-items:center; gap:6px;
+    border:0; border-radius:12px; color:var(--text-dim); background:var(--surface);
+    box-shadow:4px 4px 9px var(--shadow-dark-subtle), -4px -4px 8px var(--shadow-light);
+    cursor:pointer;
+  }
+  .desire-refresh:hover { color:var(--accent); transform:translateY(-1px); }
+  .desire-refresh:active { transform:translateY(1px); box-shadow:inset 3px 3px 6px var(--shadow-dark-subtle), inset -2px -2px 5px var(--shadow-light); }
+  .desire-hero {
+    display:grid; grid-template-columns:minmax(0,1.65fr) minmax(240px,.75fr); gap:16px;
+    margin-bottom:16px;
+  }
+  .desire-card {
+    background:var(--surface); border-radius:var(--shell-radius); padding:22px;
+    box-shadow:8px 8px 22px var(--shadow-dark-subtle), -7px -7px 16px var(--shadow-light), inset 0 1px 0 rgba(255,255,255,.55);
+  }
+  .desire-intent-card { display:flex; align-items:center; gap:24px; min-height:190px; }
+  .desire-score-ring {
+    --score:0deg; --ring-color:var(--accent);
+    width:126px; height:126px; border-radius:50%; flex:0 0 auto;
+    background:conic-gradient(var(--ring-color) var(--score), var(--surface-solid) 0);
+    padding:11px; box-shadow:5px 5px 12px var(--shadow-dark-subtle), -4px -4px 10px var(--shadow-light);
+  }
+  .desire-score-ring-inner {
+    width:100%; height:100%; border-radius:50%; background:var(--lcd);
+    box-shadow:inset 4px 4px 9px rgba(63,63,48,.18), inset -3px -3px 7px rgba(255,255,255,.25);
+    display:flex; flex-direction:column; align-items:center; justify-content:center; color:var(--lcd-text);
+  }
+  .desire-score-value { font-family:'VT323','Share Tech Mono',monospace; font-size:33px; line-height:1; }
+  .desire-score-label { font-size:9px; letter-spacing:1.2px; color:var(--lcd-dim); margin-top:3px; }
+  .desire-intent-copy { min-width:0; }
+  .desire-eyebrow { color:var(--text-light); font-size:10px; letter-spacing:1.3px; text-transform:uppercase; }
+  .desire-intent-title { font-family:'Noto Serif SC',serif; font-size:28px; font-weight:500; margin:4px 0 7px; }
+  .desire-intent-reason { color:var(--text-dim); font-family:'Noto Serif SC',serif; font-size:14px; line-height:1.8; }
+  .desire-threshold-note { margin-top:11px; color:var(--text-light); font-size:11px; }
+  .desire-engine-card { display:flex; flex-direction:column; justify-content:center; gap:13px; }
+  .desire-engine-row { display:flex; align-items:center; justify-content:space-between; gap:10px; font-size:12px; }
+  .desire-engine-row b { color:var(--text); font-weight:600; }
+  .desire-status-dot { width:8px; height:8px; border-radius:50%; display:inline-block; margin-right:6px; background:var(--text-light); box-shadow:0 0 0 4px rgba(158,152,140,.12); }
+  .desire-status-dot.on { background:var(--positive); box-shadow:0 0 0 4px rgba(135,169,135,.16); }
+  .desire-status-dot.off { background:var(--negative); box-shadow:0 0 0 4px rgba(190,90,65,.12); }
+  .desire-drive-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin-bottom:16px; }
+  .desire-drive {
+    min-width:0; padding:16px; border-radius:18px; background:var(--surface);
+    box-shadow:5px 5px 13px var(--shadow-dark-subtle), -4px -4px 10px var(--shadow-light);
+  }
+  .desire-drive-head { display:flex; align-items:baseline; justify-content:space-between; gap:8px; margin-bottom:11px; }
+  .desire-drive-name { font-size:13px; font-weight:600; color:var(--text); }
+  .desire-drive-en { display:block; color:var(--text-light); font-size:9px; letter-spacing:.6px; line-height:1.2; }
+  .desire-drive-value { font-family:'VT323','Share Tech Mono',monospace; font-size:25px; color:var(--lcd-text); }
+  .desire-track {
+    position:relative; height:10px; overflow:visible; border-radius:999px; background:var(--surface-solid);
+    box-shadow:inset 2px 2px 5px var(--shadow-dark-subtle), inset -2px -2px 4px var(--shadow-light);
+  }
+  .desire-fill { height:100%; width:0; border-radius:inherit; background:linear-gradient(90deg,color-mix(in srgb,var(--drive-color,var(--accent)) 68%, white),var(--drive-color,var(--accent))); transition:width .55s ease; }
+  .desire-baseline-mark { position:absolute; top:-3px; height:16px; width:2px; border-radius:2px; background:var(--text-dim); opacity:.55; }
+  .desire-drive-foot { display:flex; justify-content:space-between; margin-top:8px; color:var(--text-light); font-size:9px; }
+  .desire-lower { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+  .desire-section-title { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:14px; font-size:13px; font-weight:600; }
+  .desire-gates { display:flex; flex-wrap:wrap; gap:8px; }
+  .desire-gate {
+    display:inline-flex; align-items:center; gap:6px; padding:6px 10px; border-radius:999px;
+    background:var(--surface-solid); color:var(--text-dim); font-size:10px;
+    box-shadow:inset 2px 2px 5px var(--shadow-dark-subtle), inset -2px -2px 4px var(--shadow-light);
+  }
+  .desire-gate.on { color:#577257; }
+  .desire-gate.off { color:var(--negative); }
+  .desire-thoughts { display:flex; flex-direction:column; gap:8px; max-height:220px; overflow:auto; }
+  .desire-thought {
+    background:var(--surface-solid); border-radius:12px; padding:10px 12px; font-size:12px;
+    box-shadow:inset 2px 2px 5px var(--shadow-dark-subtle), inset -2px -2px 4px var(--shadow-light);
+  }
+  .desire-thought-meta { color:var(--text-light); font-size:9px; margin-top:4px; }
+  .desire-empty { color:var(--text-light); font-size:12px; padding:18px 0; text-align:center; }
+  .desire-error { color:var(--negative); font-size:12px; padding:18px; text-align:center; }
+  @media (max-width:900px) {
+    .desire-drive-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  }
+  @media (max-width:640px) {
+    .desire-hero, .desire-lower { grid-template-columns:1fr; }
+    .desire-intent-card { align-items:flex-start; gap:16px; min-height:0; padding:18px; }
+    .desire-score-ring { width:96px; height:96px; padding:9px; }
+    .desire-score-value { font-size:27px; }
+    .desire-intent-title { font-size:22px; }
+    .desire-drive-grid { gap:9px; }
+    .desire-drive { padding:13px; border-radius:15px; }
+  }
 </style>
 </head>
 <body>
@@ -1903,6 +2002,7 @@
 <div class="tabs">
   <div class="tab active" data-tab="list"><span>记忆桶</span><span class="tab-en">Buckets</span></div>
   <div class="tab" data-tab="breath"><span>Breath 模拟</span><span class="tab-en">Breath Trace</span></div>
+  <div class="tab" data-tab="desire"><span>欲望</span><span class="tab-en">Desire</span></div>
   <div class="tab" data-tab="network"><span>记忆网络</span><span class="tab-en">Network</span></div>
   <div class="tab" data-tab="plan"><span>计划</span><span class="tab-en">Plans</span></div>
   <div class="tab" data-tab="letters"><span>信</span><span class="tab-en">Letters</span></div>
@@ -2003,6 +2103,61 @@
   <div class="breath-info" id="breath-info" style="display:none"></div>
   <div id="breath-results">
     <div class="loading">输入 query 后点击「模拟」查看评分链路 · Enter a query and click Simulate</div>
+  </div>
+</div>
+
+<div class="content" id="desire-view" style="display:none">
+  <div class="desire-shell">
+    <div class="desire-toolbar">
+      <div class="desire-toolbar-copy">
+        <h2>欲望状态 <span class="en">Desire State</span></h2>
+        <p>只读显示当前内在状态，不推进时钟，不改动数值。</p>
+      </div>
+      <button class="desire-refresh" onclick="loadDesireState(true)" title="刷新欲望状态">
+        <i data-lucide="refresh-cw"></i><span>刷新 Refresh</span>
+      </button>
+    </div>
+
+    <div id="desire-loading" class="desire-card desire-empty">正在读取内心… / Reading…</div>
+    <div id="desire-dashboard" style="display:none">
+      <div class="desire-hero">
+        <section class="desire-card desire-intent-card">
+          <div class="desire-score-ring" id="desire-score-ring">
+            <div class="desire-score-ring-inner">
+              <div class="desire-score-value" id="desire-score-value">0%</div>
+              <div class="desire-score-label">INTENT</div>
+            </div>
+          </div>
+          <div class="desire-intent-copy">
+            <div class="desire-eyebrow">此刻最想做的事 / TOP INTENT</div>
+            <div class="desire-intent-title" id="desire-intent-title">—</div>
+            <div class="desire-intent-reason" id="desire-intent-reason">—</div>
+            <div class="desire-threshold-note" id="desire-threshold-note"></div>
+          </div>
+        </section>
+
+        <section class="desire-card desire-engine-card">
+          <div class="desire-section-title"><span>发动机 <span class="en">Engine</span></span><span id="desire-last-updated" class="desire-eyebrow"></span></div>
+          <div class="desire-engine-row"><span>活跃窗口</span><b id="desire-session">—</b></div>
+          <div class="desire-engine-row"><span>下次醒来</span><b id="desire-next-wake">—</b></div>
+          <div class="desire-engine-row"><span>自我驱动</span><b id="desire-self-drive">—</b></div>
+          <div class="desire-engine-row"><span>今日主动</span><b id="desire-push-count">0</b></div>
+        </section>
+      </div>
+
+      <div class="desire-drive-grid" id="desire-drive-grid"></div>
+
+      <div class="desire-lower">
+        <section class="desire-card">
+          <div class="desire-section-title"><span>安全开关 <span class="en">Gates</span></span><span id="desire-gate-summary" class="desire-eyebrow"></span></div>
+          <div class="desire-gates" id="desire-gates"></div>
+        </section>
+        <section class="desire-card">
+          <div class="desire-section-title"><span>念头池 <span class="en">Thoughts</span></span><span id="desire-thought-count" class="desire-eyebrow">0</span></div>
+          <div class="desire-thoughts" id="desire-thoughts"></div>
+        </section>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -4307,6 +4462,128 @@ async function hardDeleteSelectedTests() {
   await loadBuckets();
 }
 
+const DESIRE_DRIVES = [
+  {key:'attachment', zh:'依恋', color:'#B86C70'},
+  {key:'curiosity', zh:'好奇', color:'#C2982F'},
+  {key:'reflection', zh:'反思', color:'#8276A2'},
+  {key:'duty', zh:'责任', color:'#8E805A'},
+  {key:'social', zh:'社交', color:'#6F9A91'},
+  {key:'fatigue', zh:'疲劳', color:'#8C8D86'},
+  {key:'libido', zh:'亲密欲望', color:'#A85F72'},
+  {key:'stress', zh:'压力', color:'#BE5A41'}
+];
+const DESIRE_GATE_LABELS = {
+  desire_driven:'欲望驱动',
+  desire_coupling:'维度耦合',
+  desire_baseline_drift:'基线漂移',
+  heartbeat_autonomy:'自主心跳',
+  desire_self_drive:'自我驱动'
+};
+const DESIRE_INTENT_LABELS = {
+  reach_out:'想你', explore:'探索', reflect:'沉淀', make_progress:'推进',
+  connect:'连接', rest:'休息', seek_closeness:'亲近', stabilize:'稳住自己'
+};
+let desireStateCache = null;
+
+function desirePercent(value, digits) {
+  var number = Math.max(0, Math.min(1, Number(value) || 0)) * 100;
+  return number.toFixed(digits == null ? (number % 1 ? 1 : 0) : digits).replace(/\.0$/, '') + '%';
+}
+
+function desireWakeLabel(epochSeconds) {
+  var target = Number(epochSeconds || 0) * 1000;
+  if (!target) return '—';
+  var delta = target - Date.now();
+  if (delta <= 0) return '等待心跳';
+  var minutes = Math.max(1, Math.ceil(delta / 60000));
+  if (minutes < 60) return minutes + ' 分钟后';
+  var hours = Math.floor(minutes / 60);
+  var rest = minutes % 60;
+  return hours + 'h' + (rest ? ' ' + rest + 'm' : '') + ' 后';
+}
+
+function renderDesireState(data) {
+  desireStateCache = data;
+  var drives = data.drives || {};
+  var baselines = data.baselines || {};
+  var score = Math.max(0, Math.min(1, Number(data.top_intent_score) || 0));
+  var threshold = Number(data.thresholds && data.thresholds.speak);
+  if (!Number.isFinite(threshold)) threshold = 0.72;
+  var ring = document.getElementById('desire-score-ring');
+  ring.style.setProperty('--score', (score * 360).toFixed(1) + 'deg');
+  ring.style.setProperty('--ring-color', score >= threshold ? 'var(--positive)' : 'var(--accent)');
+  document.getElementById('desire-score-value').textContent = desirePercent(score, 1);
+  var intentName = DESIRE_INTENT_LABELS[data.top_intent] || data.top_intent || '—';
+  var action = data.intent && data.intent.want_action;
+  document.getElementById('desire-intent-title').textContent = intentName + (action ? ' · ' + action : '');
+  document.getElementById('desire-intent-reason').textContent = '“' + ((data.intent && data.intent.reason) || data.last_reason || '还没有一个清晰的念头。') + '”';
+  document.getElementById('desire-threshold-note').textContent = score >= threshold
+    ? '已越过 ' + desirePercent(threshold) + ' 主动开口线'
+    : '距离 ' + desirePercent(threshold) + ' 主动开口线还差 ' + desirePercent(threshold - score, 1);
+
+  document.getElementById('desire-drive-grid').innerHTML = DESIRE_DRIVES.map(function (item) {
+    var value = Math.max(0, Math.min(1, Number(drives[item.key]) || 0));
+    var baseline = Math.max(0, Math.min(1, Number(baselines[item.key]) || 0));
+    return '<article class="desire-drive">' +
+      '<div class="desire-drive-head"><div><span class="desire-drive-name">' + esc(item.zh) + '</span><span class="desire-drive-en">' + esc(item.key) + '</span></div>' +
+      '<span class="desire-drive-value">' + desirePercent(value, 1) + '</span></div>' +
+      '<div class="desire-track"><div class="desire-fill" style="--drive-color:' + item.color + ';width:' + (value * 100).toFixed(2) + '%"></div>' +
+      '<span class="desire-baseline-mark" title="baseline ' + desirePercent(baseline, 1) + '" style="left:calc(' + (baseline * 100).toFixed(2) + '% - 1px)"></span></div>' +
+      '<div class="desire-drive-foot"><span>0</span><span>基线 ' + desirePercent(baseline, 1) + '</span><span>100</span></div></article>';
+  }).join('');
+
+  var gates = data.gates || {};
+  var gateKeys = Object.keys(DESIRE_GATE_LABELS);
+  var enabledCount = gateKeys.filter(function (key) { return !!gates[key]; }).length;
+  document.getElementById('desire-gate-summary').textContent = enabledCount + '/' + gateKeys.length + ' ON';
+  document.getElementById('desire-gates').innerHTML = gateKeys.map(function (key) {
+    var on = !!gates[key];
+    return '<span class="desire-gate ' + (on ? 'on' : 'off') + '"><span class="desire-status-dot ' + (on ? 'on' : 'off') + '"></span>' + esc(DESIRE_GATE_LABELS[key]) + '</span>';
+  }).join('');
+
+  var session = data.active_session || {};
+  document.getElementById('desire-session').innerHTML = '<span class="desire-status-dot ' + (session.claimed ? 'on' : 'off') + '"></span>' + (session.claimed ? '已接管' : '未接管');
+  document.getElementById('desire-next-wake').textContent = desireWakeLabel(data.next_wake_at);
+  var selfDrive = data.self_drive || {};
+  document.getElementById('desire-self-drive').innerHTML = '<span class="desire-status-dot ' + (selfDrive.enabled ? 'on' : 'off') + '"></span>' + (selfDrive.enabled ? '运行中' : '已关闭');
+  document.getElementById('desire-push-count').textContent = Number(data.push_count_today || 0) + ' 次';
+  document.getElementById('desire-last-updated').textContent = '刚刚刷新';
+
+  var thoughts = Array.isArray(data.thoughts) ? data.thoughts : [];
+  document.getElementById('desire-thought-count').textContent = thoughts.length + ' / 24';
+  document.getElementById('desire-thoughts').innerHTML = thoughts.length ? thoughts.map(function (thought) {
+    var label = DESIRE_DRIVES.find(function (item) { return item.key === thought.drive; });
+    return '<div class="desire-thought"><div>' + esc(thought.text || '') + '</div><div class="desire-thought-meta">' +
+      esc(label ? label.zh : thought.drive) + ' · ' + (thought.kind === 'fixation' ? '执念' : '闪念') + ' · ' + desirePercent(thought.strength, 1) +
+      ' · fed ' + Number(thought.feeds || 1) + '</div></div>';
+  }).join('') : '<div class="desire-empty">还没有留下的闪念。</div>';
+
+  document.getElementById('desire-loading').style.display = 'none';
+  document.getElementById('desire-dashboard').style.display = '';
+  if (window.lucide) lucide.createIcons();
+}
+
+async function loadDesireState(manual) {
+  var loading = document.getElementById('desire-loading');
+  if (!desireStateCache) {
+    loading.className = 'desire-card desire-empty';
+    loading.textContent = '正在读取内心… / Reading…';
+    loading.style.display = '';
+  }
+  try {
+    var response = await authFetch('/api/desire/state');
+    if (!response) return;
+    var data = await readJsonSafe(response);
+    if (!response.ok) throw new Error(data.error || '读取失败');
+    renderDesireState(data);
+  } catch (error) {
+    loading.className = 'desire-card desire-error';
+    loading.textContent = '欲望状态读取失败：' + error.message;
+    loading.style.display = '';
+    if (manual) document.getElementById('desire-dashboard').style.display = 'none';
+  }
+}
+
 document.querySelectorAll('.tab').forEach(tab => {
   tab.addEventListener('click', () => {
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
@@ -4314,6 +4591,7 @@ document.querySelectorAll('.tab').forEach(tab => {
     const target = tab.dataset.tab;
     document.getElementById('list-view').style.display = target === 'list' ? '' : 'none';
     document.getElementById('breath-view').style.display = target === 'breath' ? '' : 'none';
+    document.getElementById('desire-view').style.display = target === 'desire' ? '' : 'none';
     document.getElementById('network-view').style.display = target === 'network' ? '' : 'none';
     document.getElementById('plan-view').style.display = target === 'plan' ? '' : 'none';
     document.getElementById('import-view').style.display = target === 'import' ? '' : 'none';
@@ -4325,6 +4603,7 @@ document.querySelectorAll('.tab').forEach(tab => {
     document.getElementById('about-view').style.display = target === 'about' ? '' : 'none';
     if (target !== 'network' && _netRAF) { cancelAnimationFrame(_netRAF); _netRAF = null; }
     if (target === 'network') loadNetwork();
+    if (target === 'desire') loadDesireState(false);
     if (target === 'plan') loadPlans();
     if (target === 'import') { pollImportStatus(); loadImportResults(); }
     if (target === 'logs') { loadLogs(); loadOBErrors(); }

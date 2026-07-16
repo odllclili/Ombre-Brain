@@ -74,6 +74,11 @@ def test_state_projects_first_person_intent_and_self_drive_metrics(tmp_path) -> 
 
     assert state["intent"]["reason"].startswith("我")
     assert state["intent"]["drive_key"] in state["drives"]
+    assert state["thresholds"] == {
+        "speak": 0.72,
+        "fatigue": 0.82,
+        "fixation": 0.72,
+    }
     assert state["self_drive"]["enabled"] is True
     assert state["self_drive"]["actions_today"] == 1
     assert state["self_drive"]["last_experience_pulse_drive"] == "curiosity"

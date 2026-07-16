@@ -82,6 +82,11 @@ class DesireService:
             "top_intent_score": round(score, 4),
             "intent": intent_projection,
             "intent_scores": {name: round(value, 4) for name, value in scores.items()},
+            "thresholds": {
+                "speak": round(self.config.intent_threshold, 4),
+                "fatigue": round(self.config.fatigue_gate, 4),
+                "fixation": round(self.config.fixation_threshold, 4),
+            },
             "gates": self.config.gates.to_dict(),
             "last_tick_at": state.last_tick_at,
             "next_wake_at": state.next_wake_at,
