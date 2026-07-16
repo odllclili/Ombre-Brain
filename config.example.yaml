@@ -88,6 +88,42 @@ storage:
 # 存新记忆时，如果与已有桶的相似度超过此值（0-100），则合并而非新建
 merge_threshold: 75
 
+# --- Desire engine / 欲望引擎 ---
+# Operational state is stored at <buckets_dir>/.system/desire_state.json. It is
+# separate from long-term memory buckets. Every behavior-changing gate defaults
+# to false; with all gates off the engine can be inspected but cannot act.
+desire:
+  gates:
+    desire_driven: false
+    desire_coupling: false
+    desire_baseline_drift: false
+    heartbeat_autonomy: false
+    desire_self_drive: false
+  tick_seconds: 300
+  fixation_release_cycles: 3
+  intent_threshold: 0.72
+  fatigue_gate: 0.82
+  # Attachment is the only emotional baseline allowed to drift. It can rise
+  # no higher than 0.50, and one user interaction pulls 60% of the excess home.
+  attachment_home: 0.42
+  attachment_baseline_cap: 0.50
+  attachment_return_ratio: 0.60
+  self_curiosity_cap: 0.62
+  self_experience_pulse_cap: 0.10
+  heartbeat_base_seconds: 3600
+  heartbeat_min_seconds: 900
+  heartbeat_max_seconds: 7200
+  quiet_heartbeat_floor_seconds: 3600
+  lease_minutes: 10080
+  daily_push_cap: 7
+  cooldown_min_minutes: 120
+  cooldown_max_minutes: 210
+  timezone: "Asia/Tokyo"
+  weekday_quiet_start: 0
+  weekday_quiet_end: 8
+  weekend_quiet_start: 2
+  weekend_quiet_end: 11
+
 # --- Dehydration API / 脱水压缩 API 配置 ---
 # Uses a cheap LLM for intelligent compression. API is required; if the
 # configured key/endpoint is unavailable, hold/grow will raise an explicit

@@ -172,6 +172,7 @@ embedding_outbox = None
 import_engine = None
 migrate_engine = None
 github_sync_instance = None
+desire_service = None
 v3_runtime = None
 
 

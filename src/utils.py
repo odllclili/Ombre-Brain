@@ -442,6 +442,37 @@ def load_config(config_path: Optional[str] = None) -> dict:
         "storage": {
             "external_change_poll_seconds": 1.0,
         },
+        "desire": {
+            "gates": {
+                "desire_driven": False,
+                "desire_coupling": False,
+                "desire_baseline_drift": False,
+                "heartbeat_autonomy": False,
+                "desire_self_drive": False,
+            },
+            "tick_seconds": 300,
+            "fixation_release_cycles": 3,
+            "intent_threshold": 0.72,
+            "fatigue_gate": 0.82,
+            "attachment_home": 0.42,
+            "attachment_baseline_cap": 0.50,
+            "attachment_return_ratio": 0.60,
+            "self_curiosity_cap": 0.62,
+            "self_experience_pulse_cap": 0.10,
+            "heartbeat_base_seconds": 3600,
+            "heartbeat_min_seconds": 900,
+            "heartbeat_max_seconds": 7200,
+            "quiet_heartbeat_floor_seconds": 3600,
+            "lease_minutes": 10080,
+            "daily_push_cap": 7,
+            "cooldown_min_minutes": 120,
+            "cooldown_max_minutes": 210,
+            "timezone": "Asia/Tokyo",
+            "weekday_quiet_start": 0,
+            "weekday_quiet_end": 8,
+            "weekend_quiet_start": 2,
+            "weekend_quiet_end": 11,
+        },
         "embedding": {
             "enabled": True,
             "background_indexing": True,
@@ -583,6 +614,25 @@ def load_config(config_path: Optional[str] = None) -> dict:
         config["mcp_auth_mode"] = _env_mcp_auth_mode
 
     _apply_env_override(config, "OMBRE_MCP_TOKEN", "mcp_token")
+
+    _desire_gate_env = {
+        "OMBRE_DESIRE_DRIVEN": "desire_driven",
+        "OMBRE_DESIRE_COUPLING": "desire_coupling",
+        "OMBRE_DESIRE_BASELINE_DRIFT": "desire_baseline_drift",
+        "OMBRE_HEARTBEAT_AUTONOMY": "heartbeat_autonomy",
+        "OMBRE_DESIRE_SELF_DRIVE": "desire_self_drive",
+    }
+    for _env_name, _gate_name in _desire_gate_env.items():
+        _raw_gate = os.environ.get(_env_name, "").strip()
+        if _raw_gate:
+            config.setdefault("desire", {}).setdefault("gates", {})[_gate_name] = parse_bool(
+                _raw_gate, default=False
+            )
+    _apply_env_override(config, "OMBRE_DESIRE_TIMEZONE", "desire", "timezone")
+    _apply_env_float_override(config, "OMBRE_DESIRE_INTENT_THRESHOLD", "desire", "intent_threshold")
+    _apply_env_float_override(config, "OMBRE_DESIRE_DAILY_PUSH_CAP", "desire", "daily_push_cap")
+    _apply_env_float_override(config, "OMBRE_DESIRE_COOLDOWN_MIN_MINUTES", "desire", "cooldown_min_minutes")
+    _apply_env_float_override(config, "OMBRE_DESIRE_COOLDOWN_MAX_MINUTES", "desire", "cooldown_max_minutes")
 
     # 安全兜底：选了 token 模式却没配密钥——宁可继续用更强的 OAuth 兜底，也不要让用户
     # 误以为已经开了保护、实际上 /mcp 会因校验函数拿不到密钥而被意外锁死或裸奔。

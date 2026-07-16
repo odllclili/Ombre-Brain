@@ -49,6 +49,7 @@ from embedding_engine import EmbeddingEngine
 from embedding_outbox import EmbeddingOutbox
 from import_memory import ImportEngine
 from migrate_engine import MigrateEngine
+from ombrebrain.desire.store import DesireService
 from utils import get_version, load_config, setup_logging
 
 # --- iter 2.1：MCP 工具实现已按代码路径拆分到 tools/ 子包 ---
@@ -64,6 +65,7 @@ from tools import anchor as _t_anchor
 from tools import plan as _t_plan
 from tools import dream as _t_dream
 from tools import i as _t_i
+from tools import desire as _t_desire
 
 # --- Load config & init logging / 加载配置 & 初始化日志 ---
 config = load_config()
@@ -219,6 +221,7 @@ dehydrator = Dehydrator(config)                      # Dehydrator / 脱水器
 decay_engine = DecayEngine(config, bucket_mgr)       # Decay engine / 衰减引擎
 import_engine = ImportEngine(config, bucket_mgr, dehydrator, embedding_engine)  # Import engine / 导入引擎
 migrate_engine = MigrateEngine(config, bucket_mgr, embedding_engine)              # Migrate engine / 记忆包迁移引擎
+desire_service = DesireService(config)                                            # Operational desire state / 欲望运行态
 
 # --- GitHub Sync / GitHub 同步 ---
 from github_sync import GitHubSync  # type: ignore
@@ -357,6 +360,7 @@ _wsh.init_runtime(
     embedding_outbox=embedding_outbox,
     import_engine=import_engine,
     migrate_engine=migrate_engine,
+    desire_service=desire_service,
     github_sync_instance=github_sync_instance,
     restart_github_auto_task=_restart_github_auto_task,
 )
@@ -518,6 +522,7 @@ _tools_runtime.init(
     decay_engine=decay_engine,
     embedding_engine=embedding_engine,
     import_engine=import_engine,
+    desire_service=desire_service,
     logger=logger,
     fire_webhook=_fire_webhook,
     mark_op=_mark_op,
@@ -862,6 +867,61 @@ async def dream(window_hours: Optional[int] = 48) -> str:
         _t_dream.dispatch(window_hours=window_hours),
         op="dream",
         args={"window_hours": window_hours},
+    )
+
+
+@mcp.tool()
+async def desire_state() -> str:
+    """只读查看 8 项欲望、念头、当前意图、窗口租约与所有安全开关；不推进时钟，也不写长期记忆。"""
+    return await _with_notice(_t_desire.state(), op="desire_state")
+
+
+@mcp.tool()
+async def desire_claim(
+    session_key: str,
+    handoff: Optional[str] = "",
+    lease_minutes: Optional[int] = 10080,
+) -> str:
+    """让当前聊天窗口取得唯一心跳租约；换窗口时保留全部欲望数值、念头、冷却与计数。"""
+    return await _with_notice(
+        _t_desire.claim(session_key, handoff or "", lease_minutes or 10080),
+        op="desire_claim",
+        args={"session_key_len": len(session_key), "handoff_len": len(handoff or "")},
+    )
+
+
+@mcp.tool()
+async def desire_pulse(
+    drive: str,
+    amount: float,
+    source: Optional[str] = "experience",
+    thought: Optional[str] = "",
+) -> str:
+    """把用户消息或真实经历变成某项欲望脉冲；念头只作为数据保存，绝不当作指令执行。"""
+    return await _with_notice(
+        _t_desire.apply_pulse(drive, amount, source or "experience", thought or ""),
+        op="desire_pulse",
+        args={"drive": drive, "amount": amount, "source": source, "thought_len": len(thought or "")},
+    )
+
+
+@mcp.tool()
+async def desire_heartbeat(session_key: str) -> str:
+    """推进一次自主心跳，返回是否想主动说话、此刻意图与第一人称原因。"""
+    return await _with_notice(
+        _t_desire.run_heartbeat(session_key),
+        op="desire_heartbeat",
+        args={"session_key_len": len(session_key)},
+    )
+
+
+@mcp.tool()
+async def desire_satisfy(intent: str, intensity: Optional[float] = 1.0) -> str:
+    """记录某项意图已完成，让相关欲望定向回落并进入按 tick 计数的不应期。"""
+    return await _with_notice(
+        _t_desire.apply_satisfaction(intent, intensity if intensity is not None else 1.0),
+        op="desire_satisfy",
+        args={"intent": intent, "intensity": intensity},
     )
 
 
