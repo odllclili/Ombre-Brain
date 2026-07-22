@@ -15,6 +15,17 @@ DRIVE_NAMES: tuple[str, ...] = (
     "stress",
 )
 
+INTENT_NAMES: tuple[str, ...] = (
+    "reach_out",
+    "explore",
+    "reflect",
+    "make_progress",
+    "connect",
+    "rest",
+    "seek_closeness",
+    "stabilize",
+)
+
 DEFAULT_BASELINES: dict[str, float] = {
     "attachment": 0.42,
     "curiosity": 0.48,
@@ -230,6 +241,50 @@ class SessionLease:
 
 
 @dataclass(frozen=True)
+class PendingSpeak:
+    intent: str
+    score: float
+    reason: str
+    want_action: str
+    drive_key: str
+    query_hint: str
+    latched_at: float
+    source: str = "experience"
+
+    @classmethod
+    def from_dict(cls, data: Mapping[str, Any] | None) -> "PendingSpeak | None":
+        raw = data or {}
+        intent = _bounded_text(raw.get("intent"), 80)
+        if intent not in INTENT_NAMES:
+            return None
+        drive_key = _bounded_text(raw.get("drive_key"), 40)
+        if drive_key not in DRIVE_NAMES:
+            drive_key = "reflection"
+        return cls(
+            intent=intent,
+            score=clamp01(raw.get("score", 0.0)),
+            reason=_bounded_text(raw.get("reason"), 300),
+            want_action=_bounded_text(raw.get("want_action"), 120),
+            drive_key=drive_key,
+            query_hint=_bounded_text(raw.get("query_hint"), 300),
+            latched_at=float(raw.get("latched_at", 0.0) or 0.0),
+            source=_bounded_text(raw.get("source"), 40) or "experience",
+        )
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "intent": self.intent,
+            "score": self.score,
+            "reason": self.reason,
+            "want_action": self.want_action,
+            "drive_key": self.drive_key,
+            "query_hint": self.query_hint,
+            "latched_at": self.latched_at,
+            "source": self.source,
+        }
+
+
+@dataclass(frozen=True)
 class DesireState:
     schema_version: int
     drives: Mapping[str, float]
@@ -253,6 +308,7 @@ class DesireState:
     last_push_at: float = 0.0
     last_intent: str = ""
     last_reason: str = ""
+    pending_speak: PendingSpeak | None = None
 
     @classmethod
     def from_dict(cls, data: Mapping[str, Any], config: DesireConfig) -> "DesireState":
@@ -260,7 +316,7 @@ class DesireState:
         raw_baselines = data.get("baselines") if isinstance(data.get("baselines"), Mapping) else {}
         thoughts_raw = data.get("thoughts") if isinstance(data.get("thoughts"), list) else []
         return cls(
-            schema_version=1,
+            schema_version=2,
             drives={name: clamp01(raw_drives.get(name, config.baselines[name])) for name in DRIVE_NAMES},
             baselines={name: clamp01(raw_baselines.get(name, config.baselines[name])) for name in DRIVE_NAMES},
             thoughts=tuple(Thought.from_dict(item) for item in thoughts_raw if isinstance(item, Mapping))[: config.thought_limit],
@@ -288,6 +344,7 @@ class DesireState:
             last_push_at=float(data.get("last_push_at", 0.0) or 0.0),
             last_intent=_bounded_text(data.get("last_intent"), 80),
             last_reason=_bounded_text(data.get("last_reason"), 300),
+            pending_speak=PendingSpeak.from_dict(data.get("pending_speak")),
         )
 
     def to_dict(self) -> dict[str, Any]:
@@ -314,4 +371,5 @@ class DesireState:
             "last_push_at": self.last_push_at,
             "last_intent": self.last_intent,
             "last_reason": self.last_reason,
+            "pending_speak": self.pending_speak.to_dict() if self.pending_speak else None,
         }

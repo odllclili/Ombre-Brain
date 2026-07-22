@@ -95,6 +95,7 @@ class DesireService:
                 "lease_expires_at": state.active_session.lease_expires_at,
                 "handoff": state.active_session.handoff,
             },
+            "pending_speak": state.pending_speak.to_dict() if state.pending_speak else None,
             "self_drive": {
                 "enabled": self.config.gates.desire_self_drive,
                 "curiosity_floor": round(state.baselines["curiosity"], 4),
@@ -127,7 +128,7 @@ class DesireService:
         return {
             "claimed": True,
             "lease_expires_at": updated.active_session.lease_expires_at,
-            "preserved": ["drives", "thoughts", "cooldowns", "push_counters"],
+            "preserved": ["drives", "thoughts", "cooldowns", "push_counters", "pending_speak"],
             "reason": "我把活跃房间交给了这个窗口，原来的欲望数值没有重置。",
         }
 
@@ -138,10 +139,11 @@ class DesireService:
         except ZoneInfoNotFoundError:
             zone = ZoneInfo("UTC")
         local_day = datetime.fromtimestamp(current_now, zone).date().isoformat()
-        before_holder: dict[str, float] = {}
+        before_holder: dict[str, Any] = {}
 
         def transform(state: DesireState) -> DesireState:
             before_holder["value"] = float(state.drives.get(drive, 0.0))
+            before_holder["pending_speak"] = state.pending_speak
             return pulse(
                 state,
                 drive,
@@ -155,12 +157,15 @@ class DesireService:
 
         updated = self.store.update(transform, current_now)
         intent, score, _scores = top_intent(updated, current_now, self.config)
+        crossed = before_holder.get("pending_speak") is None and updated.pending_speak is not None
         return {
             "drive": drive,
             "before": round(before_holder.get("value", 0.0), 4),
             "after": round(updated.drives[drive], 4),
             "top_intent": intent,
             "top_intent_score": round(score, 4),
+            "crossed_speak_threshold": crossed,
+            "pending_speak": updated.pending_speak.to_dict() if updated.pending_speak else None,
             "reason": f"我感到 {drive} 变成了 {updated.drives[drive]:.2f}。",
         }
 

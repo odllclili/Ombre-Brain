@@ -82,3 +82,22 @@ def test_state_projects_first_person_intent_and_self_drive_metrics(tmp_path) -> 
     assert state["self_drive"]["enabled"] is True
     assert state["self_drive"]["actions_today"] == 1
     assert state["self_drive"]["last_experience_pulse_drive"] == "curiosity"
+
+
+def test_pending_speak_is_persisted_and_exposed(tmp_path) -> None:
+    service = make_service(tmp_path, driven=True)
+    now = 1_700_000_000.0
+    service.claim("room", now=now)
+
+    pulse_result = service.pulse(
+        "attachment",
+        0.75,
+        "user",
+        "我想现在就去找她。",
+        now + 1,
+    )
+    reloaded = make_service(tmp_path, driven=True).state(now + 1)
+
+    assert pulse_result["crossed_speak_threshold"] is True
+    assert pulse_result["pending_speak"]["intent"] == "reach_out"
+    assert reloaded["pending_speak"]["intent"] == "reach_out"

@@ -12,13 +12,14 @@ from .core import (
     tick,
     top_intent,
 )
-from .models import DRIVE_NAMES, DesireConfig, DesireGates, DesireState, SessionLease, Thought
+from .models import DRIVE_NAMES, DesireConfig, DesireGates, DesireState, PendingSpeak, SessionLease, Thought
 
 __all__ = [
     "DRIVE_NAMES",
     "DesireConfig",
     "DesireGates",
     "DesireState",
+    "PendingSpeak",
     "SessionLease",
     "Thought",
     "claim_session",

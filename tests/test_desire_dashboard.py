@@ -21,3 +21,5 @@ def test_desire_dashboard_reads_the_authenticated_read_only_state_route() -> Non
     assert 'id="desire-drive-grid"' in html
     assert 'id="desire-gates"' in html
     assert 'id="desire-thoughts"' in html
+    assert 'id="desire-pending-speak"' in html
+    assert "data.pending_speak" in html

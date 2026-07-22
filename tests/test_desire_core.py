@@ -228,3 +228,79 @@ def test_coupling_directionality_matches_declared_edges() -> None:
 
     assert coupled.drives["attachment"] > uncoupled.drives["attachment"]
     assert coupled.drives["curiosity"] < uncoupled.drives["curiosity"]
+
+
+def test_threshold_crossing_latches_and_next_active_heartbeat_must_speak() -> None:
+    cfg = config_with(desire_driven=True, heartbeat_autonomy=True)
+    now = 1_700_000_000.0
+    state = claim_session(new_state(now, cfg), "room", now, cfg)
+
+    state = pulse(
+        state,
+        "attachment",
+        0.75,
+        now + 1,
+        cfg,
+        source="user",
+        thought_text="我想现在就去找她。",
+    )
+
+    assert state.pending_speak is not None
+    assert state.pending_speak.intent == "reach_out"
+    assert state.pending_speak.score >= cfg.intent_threshold
+
+    # A latched crossing bypasses quiet hours, cooldown, and the daily cap.
+    state = replace(
+        state,
+        push_day="2026-07-16",
+        push_count=cfg.daily_push_cap,
+        last_push_at=now + 1,
+    )
+    state, result = heartbeat(
+        state,
+        "room",
+        now + 2,
+        cfg,
+        local_day="2026-07-16",
+        local_hour=3,
+        weekend=False,
+    )
+
+    assert result["should_speak"] is True
+    assert result["blocked_by"] == ""
+    assert result["pending_speak"] is True
+    assert result["intent"] == "reach_out"
+    assert state.pending_speak is None
+
+
+def test_inactive_window_cannot_consume_latched_speech() -> None:
+    cfg = config_with(desire_driven=True, heartbeat_autonomy=True)
+    now = 1_700_000_000.0
+    state = claim_session(new_state(now, cfg), "new-room", now, cfg)
+    state = pulse(state, "attachment", 0.75, now + 1, cfg, source="user")
+
+    state, result = heartbeat(
+        state,
+        "old-room",
+        now + 2,
+        cfg,
+        local_day="2026-07-16",
+        local_hour=14,
+        weekend=False,
+    )
+
+    assert result["should_speak"] is False
+    assert result["blocked_by"] == "inactive_session"
+    assert state.pending_speak is not None
+
+
+def test_above_threshold_pulses_do_not_replace_existing_latch() -> None:
+    cfg = config_with(desire_driven=True, heartbeat_autonomy=True)
+    now = 1_700_000_000.0
+    state = pulse(new_state(now, cfg), "attachment", 0.75, now, cfg, source="user")
+    first = state.pending_speak
+
+    state = pulse(state, "curiosity", 0.75, now + 601, cfg, source="experience")
+
+    assert first is not None
+    assert state.pending_speak == first

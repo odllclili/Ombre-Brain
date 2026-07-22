@@ -2140,6 +2140,7 @@
           <div class="desire-section-title"><span>发动机 <span class="en">Engine</span></span><span id="desire-last-updated" class="desire-eyebrow"></span></div>
           <div class="desire-engine-row"><span>活跃窗口</span><b id="desire-session">—</b></div>
           <div class="desire-engine-row"><span>下次醒来</span><b id="desire-next-wake">—</b></div>
+          <div class="desire-engine-row"><span>主动开口</span><b id="desire-pending-speak">未锁存</b></div>
           <div class="desire-engine-row"><span>自我驱动</span><b id="desire-self-drive">—</b></div>
           <div class="desire-engine-row"><span>今日主动</span><b id="desire-push-count">0</b></div>
         </section>
@@ -4515,11 +4516,14 @@ function renderDesireState(data) {
   document.getElementById('desire-score-value').textContent = desirePercent(score, 1);
   var intentName = DESIRE_INTENT_LABELS[data.top_intent] || data.top_intent || '—';
   var action = data.intent && data.intent.want_action;
+  var pendingSpeak = data.pending_speak;
   document.getElementById('desire-intent-title').textContent = intentName + (action ? ' · ' + action : '');
   document.getElementById('desire-intent-reason').textContent = '“' + ((data.intent && data.intent.reason) || data.last_reason || '还没有一个清晰的念头。') + '”';
-  document.getElementById('desire-threshold-note').textContent = score >= threshold
-    ? '已越过 ' + desirePercent(threshold) + ' 主动开口线'
-    : '距离 ' + desirePercent(threshold) + ' 主动开口线还差 ' + desirePercent(threshold - score, 1);
+  document.getElementById('desire-threshold-note').textContent = pendingSpeak
+    ? '已锁存，下次心跳必说'
+    : (score >= threshold
+      ? '已越过 ' + desirePercent(threshold) + ' 主动开口线'
+      : '距离 ' + desirePercent(threshold) + ' 主动开口线还差 ' + desirePercent(threshold - score, 1));
 
   document.getElementById('desire-drive-grid').innerHTML = DESIRE_DRIVES.map(function (item) {
     var value = Math.max(0, Math.min(1, Number(drives[item.key]) || 0));
@@ -4544,6 +4548,7 @@ function renderDesireState(data) {
   var session = data.active_session || {};
   document.getElementById('desire-session').innerHTML = '<span class="desire-status-dot ' + (session.claimed ? 'on' : 'off') + '"></span>' + (session.claimed ? '已接管' : '未接管');
   document.getElementById('desire-next-wake').textContent = desireWakeLabel(data.next_wake_at);
+  document.getElementById('desire-pending-speak').innerHTML = '<span class="desire-status-dot ' + (pendingSpeak ? 'on' : 'off') + '"></span>' + (pendingSpeak ? '已锁存' : '未锁存');
   var selfDrive = data.self_drive || {};
   document.getElementById('desire-self-drive').innerHTML = '<span class="desire-status-dot ' + (selfDrive.enabled ? 'on' : 'off') + '"></span>' + (selfDrive.enabled ? '运行中' : '已关闭');
   document.getElementById('desire-push-count').textContent = Number(data.push_count_today || 0) + ' 次';

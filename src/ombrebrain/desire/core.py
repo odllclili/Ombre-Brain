@@ -9,6 +9,7 @@ from .models import (
     DRIVE_NAMES,
     DesireConfig,
     DesireState,
+    PendingSpeak,
     SessionLease,
     Thought,
     clamp01,
@@ -73,7 +74,7 @@ _COUPLING_EDGES: tuple[tuple[str, str, float, str], ...] = (
 def new_state(now: float, config: DesireConfig) -> DesireState:
     baselines = {name: clamp01(config.baselines.get(name, DEFAULT_BASELINES[name])) for name in DRIVE_NAMES}
     return DesireState(
-        schema_version=1,
+        schema_version=2,
         drives=dict(baselines),
         baselines=dict(baselines),
         thoughts=(),
@@ -252,6 +253,7 @@ def pulse(
     if drive not in DRIVE_NAMES:
         raise ValueError(f"unknown drive: {drive}")
     state = tick(state, now, config)
+    _before_intent, before_score, _before_scores = top_intent(state, now, config)
     requested = min(0.75, max(-0.75, float(amount)))
     is_self_experience = source in {"self", "self_experience"}
     if is_self_experience and requested > 0:
@@ -304,6 +306,27 @@ def pulse(
         safeguarded = dict(updated.drives)
         safeguarded["attachment"] = max(safeguarded["attachment"], current)
         updated = replace(updated, drives=safeguarded)
+
+    # Edge-triggered latch: preserve the first moment an intent crosses the
+    # speaking threshold. Subsequent decay or a different top intent cannot
+    # erase it before the next eligible heartbeat consumes it.
+    if updated.pending_speak is None and before_score < config.intent_threshold:
+        after_intent, after_score, _after_scores = top_intent(updated, now, config)
+        if after_score >= config.intent_threshold:
+            details = intent_details(after_intent, after_score)
+            updated = replace(
+                updated,
+                pending_speak=PendingSpeak(
+                    intent=after_intent,
+                    score=after_score,
+                    reason=details["reason"],
+                    want_action=details["want_action"],
+                    drive_key=details["drive_key"],
+                    query_hint=details["query_hint"],
+                    latched_at=float(now),
+                    source=str(source or "experience")[:40],
+                ),
+            )
     return updated
 
 
@@ -455,6 +478,7 @@ def heartbeat(
         "next_wake_at": state.next_wake_at,
         "active_session": session_is_active(state, session_key, now),
         "scores": {name: round(value, 4) for name, value in scores.items()},
+        "pending_speak": False,
     }
 
     if not result["active_session"]:
@@ -468,6 +492,54 @@ def heartbeat(
     if not config.gates.heartbeat_autonomy:
         result["blocked_by"] = "heartbeat_autonomy_off"
         result["reason"] = reason + "心跳自主开关没有打开。"
+        return state, result
+
+    # A threshold crossing is an edge event, not a level to recalculate later.
+    # Once latched, the active room's next heartbeat must emit it even if quiet
+    # hours, cooldown, the daily cap, or later decay would normally suppress it.
+    pending = state.pending_speak
+    if pending is not None:
+        seed, roll = _next_random(state.rng_state)
+        cooldown_minutes = config.cooldown_min_minutes + round(
+            roll * (config.cooldown_max_minutes - config.cooldown_min_minutes)
+        )
+        push_count = state.push_count if state.push_day == local_day else 0
+        pending_reason = pending.reason or reason
+        result.update(
+            should_speak=True,
+            blocked_by="",
+            pending_speak=True,
+            intent=pending.intent,
+            score=round(pending.score, 4),
+            reason=pending_reason + "这件事已经越过开口线并被我记住，我现在来当前窗口找你。",
+            want_action=pending.want_action,
+            drive_key=pending.drive_key,
+            query_hint=pending.query_hint,
+            latched_at=pending.latched_at,
+            cooldown_minutes=cooldown_minutes,
+            wildcard=False,
+        )
+        state = replace(
+            state,
+            pending_speak=None,
+            rng_state=seed,
+            push_day=local_day,
+            push_count=push_count + 1,
+            last_push_at=now,
+            last_intent=pending.intent,
+            last_reason=result["reason"],
+            refractory_until={
+                **state.refractory_until,
+                pending.intent: now + cooldown_minutes * 60,
+            },
+            refractory_ticks={
+                **state.refractory_ticks,
+                pending.intent: max(
+                    1,
+                    int(math.ceil(cooldown_minutes * 60 / config.tick_seconds)),
+                ),
+            },
+        )
         return state, result
 
     quiet_start = config.weekend_quiet_start if weekend else config.weekday_quiet_start
