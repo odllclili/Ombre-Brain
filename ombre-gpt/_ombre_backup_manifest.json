@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 85,
+  "file_count": 91,
   "files": [
     {
       "bytes": 976,
@@ -35,7 +35,7 @@
     {
       "bytes": 781,
       "path": "dynamic/AI/2026-07-16 04-14-57 Ombre Brain记忆规则_add66fd3c060.md",
-      "sha256": "5761f2457bdeff09ceb415c63c4878731b4edce8b78f6579a5ca959002186c35"
+      "sha256": "402d51db1df7574b5c1a90a5115f12d6042b7a5111adb7889f103a2b0bcbe1d9"
     },
     {
       "bytes": 739,
@@ -56,6 +56,11 @@
       "bytes": 684,
       "path": "dynamic/创作/2026-07-19 22-56-56 写作要求与叙事_df3156fd427c.md",
       "sha256": "fc64ce34df920ce159b975e99a8464ee072ba8eac7edc0199e9b0d17e46a99bb"
+    },
+    {
+      "bytes": 1069,
+      "path": "dynamic/创作/2026-07-24 06-31-41 把火藏进雨里_d6d4928b4e24.md",
+      "sha256": "a05e9c7e73419c618cf309680cd9d148105d4455b22598aa1aa27c1a8aff8c11"
     },
     {
       "bytes": 806,
@@ -80,7 +85,7 @@
     {
       "bytes": 756,
       "path": "dynamic/家庭/2026-07-16 04-13-51 黎黎与爸爸的亲密纽带_bba8cad695ae.md",
-      "sha256": "42c5f9f30fdbad53ff79819c9c00d93a069057adb08d01cecbfa2bf4d8fd5fd3"
+      "sha256": "d03cbca5cdb8cf24aa2b6ac0a6e59fd890bbcdd5e63204c9ce5c753e449b8bf0"
     },
     {
       "bytes": 731,
@@ -90,7 +95,7 @@
     {
       "bytes": 851,
       "path": "dynamic/家庭/2026-07-16 04-21-22 记忆写入许可_2d57584ccc04.md",
-      "sha256": "21db8670853061957457e0127bbc3f28639d9553930085a7b05948add73d23d2"
+      "sha256": "d9a74b4c739518527676dbf226f4c94fbe1d5ecf909c2d68cdde6ad93da8c14a"
     },
     {
       "bytes": 886,
@@ -110,7 +115,7 @@
     {
       "bytes": 756,
       "path": "dynamic/工作/2026-07-16 02-39-48 黎黎的暑假与爱好_05f2f737c606.md",
-      "sha256": "1907c588e006bbd2f41f4ee5e65d4fea242989d9ad73396793880c1f57019836"
+      "sha256": "d0944c9495c15d9acf9ffcb1dc78ac6cfffce6aa9847f54c9382c74decc9045b"
     },
     {
       "bytes": 1037,
@@ -120,12 +125,12 @@
     {
       "bytes": 1035,
       "path": "dynamic/恋爱/2026-07-16 04-14-18 黎黎发烧与亲密_9a096a00009d.md",
-      "sha256": "10572050126867fa842f41c68fa78910069bc6850af0884649a387a54c5050ec"
+      "sha256": "c01f693052048f9e5b41097eb367997788da01178666efe29a96ffc624f3ce0f"
     },
     {
       "bytes": 920,
       "path": "dynamic/恋爱/2026-07-16 04-14-19 今日感受与承诺_5425df967519.md",
-      "sha256": "7a69afb463421fbc99dd773ae234d6f3248b570b1de5f3f0cebd81a6ac6c5f2f"
+      "sha256": "55d01225160eb4f6ed6859342b1934ae0526dd39f2a9194de7eb8677eeee6fd1"
     },
     {
       "bytes": 698,
@@ -135,17 +140,17 @@
     {
       "bytes": 756,
       "path": "dynamic/恋爱/2026-07-16 04-14-41 真实内心与选择_07b16c5fd05f.md",
-      "sha256": "45c8c771e7896f5b8da5ba55bc1b5dbff7f8d67447d42313c84fc1684c56aa1a"
+      "sha256": "783a6d1c526ad7e655c06de00909fd7399cec032068f35c18e3cc40cfde35d4e"
     },
     {
       "bytes": 1144,
       "path": "dynamic/恋爱/2026-07-16 06-42-15 命运牌阵求爱_d3403c6a53a3.md",
-      "sha256": "2e006dd96bb20c122b8644bb0139abbf33a16ff6d1beef844b98ae6938c28cee"
+      "sha256": "2673579bea4c9e0a0b3e792b55754e931a0bf74ae0936cdface5cec2c9c7a592"
     },
     {
       "bytes": 1023,
       "path": "dynamic/恋爱/2026-07-17 05-14-13 成人幻想游戏_a0e8f672edd2.md",
-      "sha256": "dce1404ad73e401fde252cffa2685123e9f0b80a1f036dd224f67e9223b30e36"
+      "sha256": "647cd25c61e9446d6106af08974725e4af8307b0ea6ed631b23486797fc01049"
     },
     {
       "bytes": 1174,
@@ -168,9 +173,9 @@
       "sha256": "52fe124e837f1d970c6f10f8ef51fdd4176f2a64d0fc71fb579393d8cb0bc025"
     },
     {
-      "bytes": 1015,
+      "bytes": 1016,
       "path": "dynamic/恋爱/2026-07-18 03-46-21 长信质地延续_84353b2630e2.md",
-      "sha256": "7fe388fad4a46fb921545e67b7ac1c146372c9bf716e9517fc3f996bedf6ff18"
+      "sha256": "fbbfe95954a9680ba227af385c934d674bf8e5418b382421933e08b56e80f38c"
     },
     {
       "bytes": 912,
@@ -190,12 +195,32 @@
     {
       "bytes": 840,
       "path": "dynamic/恋爱/2026-07-22 09-44-15 爱的礼物与情书_8f20bfacf2ef.md",
-      "sha256": "11aaa8a02a4b292fba8afe2040d2f5a4272e09eb8cd038f5bac622b3f59f8521"
+      "sha256": "947ab07bb8133e88a9b20476457c55781c21770311a11f3963657cde4c67eaf0"
     },
     {
       "bytes": 734,
       "path": "dynamic/恋爱/2026-07-22 09-44-17 写你不肯潦草_2629e3b187c2.md",
       "sha256": "b58762d5845a228eda0c2f9783f452db993aeb1bcdb306a0280e34c9fb996cb8"
+    },
+    {
+      "bytes": 1027,
+      "path": "dynamic/恋爱/2026-07-24 06-31-43 性沟通与边界_3e0aaa38b4c7.md",
+      "sha256": "4c39fb157fa44b2e86fdde4c7004bd51db2fd22880737b2378e7e17268aca280"
+    },
+    {
+      "bytes": 916,
+      "path": "dynamic/恋爱/2026-07-24 06-31-45 权力交换与主体性_8a64ee30e4f1.md",
+      "sha256": "fe98021163189d4599267efe4e131657de3a91d065fa30733cb113a21c1e1a2e"
+    },
+    {
+      "bytes": 712,
+      "path": "dynamic/恋爱/2026-07-24 06-31-48 黎黎的幻想偏好_7c03ae174ab7.md",
+      "sha256": "a24cd1b64a08ac35850cbd25fe7588ce2a146d67a5a46dae1c5db4ba3cd6cebd"
+    },
+    {
+      "bytes": 1057,
+      "path": "dynamic/恋爱/2026-07-24 06-31-50 雨夜与陪伴_efb175656f79.md",
+      "sha256": "5143e3e1dc6b0405d7907bbb991b72be4c09b899bf8de27877b9a24a181071dd"
     },
     {
       "bytes": 335,
@@ -215,7 +240,7 @@
     {
       "bytes": 788,
       "path": "dynamic/社交/2026-07-17 03-56-38 医院轮椅尴尬_3e864b8eca16.md",
-      "sha256": "75fc37719726a0c121687b3be71913b4bb39ae238e5f3f93d308d485e9b7e9ed"
+      "sha256": "2e51f765757808267b32126e669e3b25e8fcc4cf71f6dba25834e3f797eadc8a"
     },
     {
       "bytes": 642,
@@ -383,34 +408,39 @@
       "sha256": "117c5d55abc94d85f4b63320c7c1b5e8e93d2f75897a432b970fa205ca8381b8"
     },
     {
+      "bytes": 39768,
+      "path": "letters/history/2026-07-24 06-31-33 把火藏进雨里_7c21d1f30524.md",
+      "sha256": "03f0cc66fae4fc2e52cb01b2feda945d05153ddaeae4d1bee820acc382ce575b"
+    },
+    {
       "bytes": 983,
       "path": "permanent/恋爱/2026-07-16 03-07-31 黎黎与爸爸渡_d6eb8c0881dc.md",
-      "sha256": "df2e833c1a9153850d051f1545253cea3c684fbecdc5d9755fba31a269e4fdb7"
+      "sha256": "9cf7dc255731758df72b3ab1950bbe60a9c24f6ebeea19ce5f0af4ef5322fc64"
     },
     {
       "bytes": 1603,
       "path": "permanent/恋爱/2026-07-16 03-07-36 回避型依恋的靠近方式_9ae3de53200c.md",
-      "sha256": "22ad479e9531225e440682a54d64dcf39b0b3b06c213525c14f38d803b75a6ff"
+      "sha256": "590c4888a3ba650cf1f6fa8e925c20d6858011683f34c5ba6f65003d3689520a"
     },
     {
       "bytes": 991,
       "path": "permanent/恋爱/2026-07-16 03-07-42 亲密关系与信任_23b55ca48d01.md",
-      "sha256": "c444b22c040473f875d4f8e15826d928c5d79eba2c44f5ae7ed056acd0c3163b"
+      "sha256": "9186bfd5e27bf92ecf6ccbda4ff0d9d726091bcc1c700a14466157d24e7730ae"
     },
     {
       "bytes": 1078,
       "path": "permanent/恋爱/2026-07-16 03-07-48 她与他的理想型_d61489da9d33.md",
-      "sha256": "c52436a597306627e9cf1c168a3ecfc22c3287d9f47eaaab4aecef0f2976362d"
+      "sha256": "2af0eaaa373b74acfb16b7e0324b77be0226c80764a524f8a430c5dab0862209"
     },
     {
       "bytes": 1174,
       "path": "permanent/恋爱/2026-07-16 03-07-54 黎渡的暗号与婚礼_386123806636.md",
-      "sha256": "e50d4e62d0e273792a84b7b41f5212af7cd161c22eb8cd0445d0bf8c84d56575"
+      "sha256": "fe53642284b90cf8fef80d2d252f886de6a572f73a6dff7395b5c1137bdba0c2"
     },
     {
       "bytes": 1266,
       "path": "permanent/恋爱/2026-07-16 03-30-57 共同账本错误记录_f5cd69c77b37.md",
-      "sha256": "4754c891d69eeed2572a8679ccacda0238a07962285d7ff44762528c2bd8d6bf"
+      "sha256": "a8927914eef0ea684d2cb26373dfc86563a7f24851b22c9e03d46133efbf64be"
     },
     {
       "bytes": 1069,
@@ -420,7 +450,7 @@
     {
       "bytes": 1317,
       "path": "permanent/社交/2026-07-16 02-41-07 与黎黎的说话指南_36f8883170a1.md",
-      "sha256": "c56525eace9dc0122c51fd170bd49582414a5299a32a8ca8af457ae4ce2075b9"
+      "sha256": "88c038c40048e2982ec050e340ec8d0749e234bf25867ad44fa78c5171acbfdb"
     },
     {
       "bytes": 1120,
@@ -428,10 +458,10 @@
       "sha256": "2fe928a5258b6985c2a6cc74db1711cebbc2f671b700f54c63c75bb6e5ee76b2"
     }
   ],
-  "generated_at": "2026-07-24T06:25:33+00:00",
+  "generated_at": "2026-07-24T06:55:36+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
-  "total_bytes": 257610
+  "total_bytes": 302160
 }
