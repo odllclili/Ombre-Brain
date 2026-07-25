@@ -27,6 +27,8 @@ tools/grow/core.py — grow 长内容主路径（digest + merge）
 import asyncio
 import uuid
 
+from dehydrator import safe_provider_error
+
 from .. import _runtime as rt
 from .._common import (
     merge_or_create,
@@ -138,6 +140,7 @@ async def grow_items(items: list) -> str:
     embed_warnings = []
 
     metadata_fallback = False
+    metadata_errors: list[str] = []
     for content_str in clean:
         try:
             size_err = check_content_size(content_str)
@@ -150,9 +153,15 @@ async def grow_items(items: list) -> str:
                 meta = await rt.dehydrator.analyze(content_str)
             except Exception as e:
                 metadata_fallback = True
+                metadata_error = safe_provider_error(
+                    e,
+                    getattr(rt.dehydrator, "api_key", ""),
+                )
+                if metadata_error not in metadata_errors:
+                    metadata_errors.append(metadata_error)
                 rt.logger.warning(
                     "grow items metadata analysis failed; preserving raw content with local defaults / "
-                    f"grow items 打标失败，使用本地默认元数据并原样保存正文: {type(e).__name__}: {e}"
+                    f"grow items 打标失败，使用本地默认元数据并原样保存正文: {metadata_error}"
                 )
                 default_analysis = getattr(rt.dehydrator, "_default_analysis", None)
                 meta = default_analysis() if callable(default_analysis) else {
@@ -188,5 +197,9 @@ async def grow_items(items: list) -> str:
     if embed_warnings:
         summary += f"\n⚠️ {embed_warnings[0]}"
     if metadata_fallback:
-        summary += "\n⚠️ 打标 API 暂不可用：正文已逐字保存，未做任何压缩；元数据暂用本地中性值。"
+        cause = metadata_errors[0] if metadata_errors else "未知 provider 错误"
+        summary += (
+            "\n⚠️ 打标 API 暂不可用：正文已逐字保存，未做任何压缩；"
+            f"元数据暂用本地中性值。原因：{cause}"
+        )
     return summary

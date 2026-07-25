@@ -2,6 +2,19 @@
 
 本项目版本号见根目录 `VERSION` 文件，Docker 镜像 tag 与之对应（`p0luz/ombre-brain:<VERSION>`）。
 
+## 2.7.5
+
+### 修复 / Fixed
+
+- 适配 DeepSeek 官方 API 在 2026-07-24 退役 `deepseek-chat` 与 `deepseek-reasoner` 后的新模型名：官方端点上的旧配置会按原语义迁移到 `deepseek-v4-flash`，打标等机械式转换显式关闭思考模式，第三方 OpenAI 兼容端点不受影响。
+- 更新示例配置与 Dashboard DeepSeek 预设，避免新部署继续写入已退役模型名。
+- 关闭 OpenAI SDK 内层自动重试，由 Ombre Brain 的三次退避重试统一负责，避免一次 provider 故障被放大成九次请求。
+- `hold`、`grow(items)` 与钉选写入降级时继续逐字保存正文，并在警告中返回经过脱敏的 provider 原因，便于区分模型退役、鉴权、限流和网络故障。
+
+### 版本 / Version
+
+- 根目录 `VERSION` 与热更新优先读取的 `src/VERSION` 同步更新为 `2.7.5`。
+
 ## 2.7.4
 
 ### 修复 / Fixed

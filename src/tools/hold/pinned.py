@@ -22,6 +22,8 @@ permanent 目录，不衰减、不会被合并掉。
 ========================================
 """
 
+from dehydrator import safe_provider_error
+
 from .. import _runtime as rt
 from .._common import check_pinned_quota, _quota_turn
 
@@ -35,10 +37,18 @@ async def store_pinned(
     meaning: str = "",
     media: list | None = None,
 ) -> str:
+    metadata_error = ""
     try:
         analysis = await rt.dehydrator.analyze(content)
     except Exception as e:
-        rt.logger.warning(f"Auto-tagging failed, using defaults / 自动打标失败: {e}")
+        metadata_error = safe_provider_error(
+            e,
+            getattr(rt.dehydrator, "api_key", ""),
+        )
+        rt.logger.warning(
+            "Auto-tagging failed, using defaults / "
+            f"自动打标失败: {metadata_error}"
+        )
         analysis = {
             "domain": ["未分类"], "valence": 0.5, "arousal": 0.3,
             "tags": [], "suggested_name": "",
@@ -78,4 +88,10 @@ async def store_pinned(
             meaning=meaning,
             media=media,
         )
-    return f"📌钉选→{bucket_id} {','.join(str(d) for d in domain if d is not None)}"
+    result = f"📌钉选→{bucket_id} {','.join(str(d) for d in domain if d is not None)}"
+    if metadata_error:
+        result += (
+            "\n⚠️ 打标 API 暂不可用：正文已逐字保存；"
+            f"元数据暂用本地中性值。原因：{metadata_error}"
+        )
+    return result

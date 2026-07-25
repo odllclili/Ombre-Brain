@@ -86,6 +86,26 @@ async def test_items_share_batch_and_metadata(grow_rt):
 
 
 @pytest.mark.asyncio
+async def test_items_tagging_failure_keeps_body_and_reports_cause(
+    grow_rt, monkeypatch
+):
+    bucket_mgr, stub = grow_rt
+    original = "打标服务坏掉时，这段正文仍然必须一字不差。"
+
+    async def fail_analysis(_content):
+        raise TimeoutError("provider timed out")
+
+    monkeypatch.setattr(stub, "analyze", fail_analysis)
+    out = await grow_items([original])
+    buckets = await bucket_mgr.list_all(include_archive=False)
+
+    assert [bucket["content"] for bucket in buckets] == [original]
+    assert buckets[0]["metadata"]["domain"] == ["未分类"]
+    assert "正文已逐字保存，未做任何压缩" in out
+    assert "原因：provider timed out" in out
+
+
+@pytest.mark.asyncio
 async def test_empty_items_creates_nothing(grow_rt):
     bucket_mgr, stub = grow_rt
     out = await grow_items(["", "   ", None])

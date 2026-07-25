@@ -17,6 +17,12 @@ models/ 前缀混淆）的根源之一。这里把判断逻辑收敛成一份，
 
 from __future__ import annotations
 
+from urllib.parse import urlsplit
+
+
+_OFFICIAL_DEEPSEEK_HOST = "api.deepseek.com"
+_DEEPSEEK_V4_MODELS = frozenset({"deepseek-v4-flash", "deepseek-v4-pro"})
+
 
 def is_gemini_native_host(base_url: str) -> bool:
     """base_url 是否指向 Google 的 generativelanguage.googleapis.com 域名。
@@ -62,3 +68,44 @@ def strip_native_resource_prefix(model: str) -> str:
     重复带前缀，否则拼出 "models/models/xxx" 这种坏 URL。
     """
     return (model or "").strip().removeprefix("models/").strip()
+
+
+def is_official_deepseek_endpoint(base_url: str) -> bool:
+    """Return whether ``base_url`` is DeepSeek's official API host.
+
+    Match the parsed hostname exactly.  Third-party OpenAI-compatible gateways
+    may legitimately expose their own model named ``deepseek-chat`` and must
+    not receive DeepSeek-specific request fields or model rewrites.
+    """
+
+    raw = (base_url or "").strip()
+    if not raw:
+        return False
+    parsed = urlsplit(raw if "://" in raw else f"https://{raw}")
+    return (parsed.hostname or "").lower().rstrip(".") == _OFFICIAL_DEEPSEEK_HOST
+
+
+def deepseek_chat_request_options(
+    model: str,
+    base_url: str,
+) -> tuple[str, dict | None]:
+    """Return the effective model and request body additions for DeepSeek.
+
+    DeepSeek retired ``deepseek-chat`` and ``deepseek-reasoner`` on
+    2026-07-24.  Preserve their old non-thinking/thinking semantics while
+    transparently moving official-API requests to ``deepseek-v4-flash``.
+    Ombre Brain's current V4 compression/tagging calls default to non-thinking
+    because they are deterministic transformations, not reasoning tasks.
+    """
+
+    configured = (model or "").strip()
+    if not is_official_deepseek_endpoint(base_url):
+        return configured, None
+
+    if configured == "deepseek-chat":
+        return "deepseek-v4-flash", {"thinking": {"type": "disabled"}}
+    if configured == "deepseek-reasoner":
+        return "deepseek-v4-flash", {"thinking": {"type": "enabled"}}
+    if configured in _DEEPSEEK_V4_MODELS:
+        return configured, {"thinking": {"type": "disabled"}}
+    return configured, None

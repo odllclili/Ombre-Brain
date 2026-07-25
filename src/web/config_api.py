@@ -27,6 +27,7 @@ from starlette.requests import Request
 from starlette.responses import Response
 
 from deployment_profile import normalize_public_https_origin
+from provider_detect import deepseek_chat_request_options
 from public_origin import configured_public_origin
 
 from . import _shared as sh
@@ -703,7 +704,17 @@ def register(mcp) -> None:
         try:
             import httpx as _httpx
             headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
-            payload = {"model": model, "messages": [{"role": "user", "content": "hi"}], "max_tokens": 5}
+            request_model, deepseek_options = deepseek_chat_request_options(
+                model,
+                base_url,
+            )
+            payload = {
+                "model": request_model,
+                "messages": [{"role": "user", "content": "hi"}],
+                "max_tokens": 5,
+            }
+            if deepseek_options:
+                payload.update(deepseek_options)
             async with _httpx.AsyncClient(timeout=15) as client:
                 r = await client.post(f"{base_url.rstrip('/')}/chat/completions", json=payload, headers=headers)
             if r.status_code in (200, 201):

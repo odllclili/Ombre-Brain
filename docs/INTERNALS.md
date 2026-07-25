@@ -1354,7 +1354,7 @@ normalized = total / w_sum × 100   # 归一化到 0~100
 | `log_level` | `INFO` | 日志级别 |
 | `buckets_dir` | `./buckets` | 记忆桶目录 |
 | `merge_threshold` | `75` | 合并相似度阈值 (0~100) |
-| `dehydration.model` | `deepseek-chat` | LLM 模型名 |
+| `dehydration.model` | `deepseek-v4-flash` | LLM 模型名 |
 | `dehydration.base_url` | `https://api.deepseek.com/v1` | OpenAI 兼容 endpoint |
 | `dehydration.api_key` | `""` | 推荐用环境变量传入，不要写文件 |
 | `dehydration.max_tokens` | `1024` | 单次生成上限 |
@@ -1398,7 +1398,7 @@ normalized = total / w_sum × 100   # 归一化到 0~100
 |---|---|---|
 | `OMBRE_COMPRESS_API_KEY` | — | 压缩/打标/合并/拆分（dehydration）的 LLM API Key |
 | `OMBRE_COMPRESS_BASE_URL` | `https://api.deepseek.com/v1` | 覆盖 `dehydration.base_url` |
-| `OMBRE_COMPRESS_MODEL` | `deepseek-chat` | 覆盖 `dehydration.model` |
+| `OMBRE_COMPRESS_MODEL` | `deepseek-v4-flash` | 覆盖 `dehydration.model` |
 | `OMBRE_EMBED_API_KEY` | — | 向量化（embedding）的 API Key；不设则语义检索不可用，桶仍可写入 |
 | `OMBRE_EMBED_BASE_URL` | `https://generativelanguage.googleapis.com/v1beta/openai/` | 覆盖 `embedding.base_url` |
 | `OMBRE_EMBED_MODEL` | `gemini-embedding-001` | 覆盖 `embedding.model` |

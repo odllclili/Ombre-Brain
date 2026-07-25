@@ -39,9 +39,14 @@ from openai import AsyncOpenAI
 from utils import clean_llm_json, count_tokens_approx, parse_bool, positive_float
 
 try:
-    from provider_detect import is_gemini_native_host, strip_native_resource_prefix
+    from provider_detect import (
+        deepseek_chat_request_options,
+        is_gemini_native_host,
+        strip_native_resource_prefix,
+    )
 except ImportError:  # pragma: no cover
     from .provider_detect import (  # type: ignore
+        deepseek_chat_request_options,
         is_gemini_native_host,
         strip_native_resource_prefix,
     )
@@ -107,11 +112,87 @@ _DOMAIN_MAX = 3          # domain 最多保留几个（rule.md 推荐选 1~2 个
 _NAME_MAX_CHARS = 20     # suggested_name 上限
 _PLAN_REASON_MAX = 200   # plan 判定 reason 上限
 _PARSE_ERR_PREVIEW = 200  # JSON 解析失败时日志中 raw 预览长度
+_PROVIDER_ERROR_MAX_CHARS = 240
 
 # --- importance 范围（与哲学边界一致）---
 _IMPORTANCE_MIN = 1
 _IMPORTANCE_MAX = 10
 _DEFAULT_IMPORTANCE = 5
+
+
+_BEARER_SECRET_RE = re.compile(
+    r"(?i)\b(Bearer\s+)[A-Za-z0-9._~+/=-]+"
+)
+_QUERY_SECRET_RE = re.compile(
+    r"(?i)([?&](?:api[_-]?key|key|token|access[_-]?token)=)[^&\s]+"
+)
+_COMMON_API_KEY_RE = re.compile(
+    r"(?i)\b(?:sk|key|api)[-_][A-Za-z0-9._-]{8,}\b"
+)
+
+
+def _redact_provider_text(value: object, api_key: str = "") -> str:
+    """Return one bounded, single-line provider message with secrets removed."""
+
+    text = str(value or "")
+    if api_key:
+        text = text.replace(str(api_key), "[REDACTED]")
+    text = _BEARER_SECRET_RE.sub(r"\1[REDACTED]", text)
+    text = _QUERY_SECRET_RE.sub(r"\1[REDACTED]", text)
+    text = _COMMON_API_KEY_RE.sub("[REDACTED]", text)
+    text = " ".join(text.replace("\x00", " ").split())
+    if len(text) > _PROVIDER_ERROR_MAX_CHARS:
+        text = text[: _PROVIDER_ERROR_MAX_CHARS - 1].rstrip() + "…"
+    return text
+
+
+def safe_provider_error(exc: BaseException, api_key: str = "") -> str:
+    """Extract a useful provider error without echoing requests or credentials."""
+
+    chain: list[BaseException] = []
+    current: BaseException | None = exc
+    seen: set[int] = set()
+    while current is not None and id(current) not in seen:
+        seen.add(id(current))
+        chain.append(current)
+        current = current.__cause__ or current.__context__
+
+    target = chain[-1] if chain else exc
+    for candidate in chain:
+        if (
+            getattr(candidate, "status_code", None) is not None
+            or isinstance(getattr(candidate, "body", None), dict)
+        ):
+            target = candidate
+            break
+
+    status = getattr(target, "status_code", None)
+    body = getattr(target, "body", None)
+    request_id = getattr(target, "request_id", None)
+    code = ""
+    error_type = ""
+    message = ""
+    if isinstance(body, dict):
+        error = body.get("error", body)
+        if isinstance(error, dict):
+            code = _redact_provider_text(error.get("code", ""), api_key)
+            error_type = _redact_provider_text(error.get("type", ""), api_key)
+            message = _redact_provider_text(error.get("message", ""), api_key)
+    if not message:
+        message = _redact_provider_text(target, api_key)
+
+    parts: list[str] = []
+    if isinstance(status, int):
+        parts.append(f"HTTP {status}")
+    if code:
+        parts.append(f"code={code}")
+    elif error_type:
+        parts.append(f"type={error_type}")
+    if message:
+        parts.append(message)
+    if request_id:
+        parts.append(f"request_id={_redact_provider_text(request_id, api_key)}")
+    return " · ".join(parts) or type(target).__name__
 
 
 # --- Dehydration prompt: instructs cheap LLM to compress information ---
@@ -474,15 +555,29 @@ class Dehydrator:
         # openai_compat (default)
         if self.client is None:
             return ""
-        response = await self.client.chat.completions.create(
-            model=self.model,
-            messages=[
+        request_model, extra_body = deepseek_chat_request_options(
+            self.model,
+            self.base_url,
+        )
+        # The OpenAI SDK retries twice by default.  Ombre Brain already owns the
+        # retry policy in _chat(), so leaving both layers enabled turns three
+        # attempts into nine requests and can make a provider outage look hung.
+        client = self.client
+        with_options = getattr(client, "with_options", None)
+        if callable(with_options):
+            client = with_options(max_retries=0)
+        request_kwargs = {
+            "model": request_model,
+            "messages": [
                 {"role": "system", "content": system},
                 {"role": "user", "content": user},
             ],
-            max_tokens=max_tokens if max_tokens is not None else self.max_tokens,
-            temperature=temperature if temperature is not None else self.temperature,
-        )
+            "max_tokens": max_tokens if max_tokens is not None else self.max_tokens,
+            "temperature": temperature if temperature is not None else self.temperature,
+        }
+        if extra_body is not None:
+            request_kwargs["extra_body"] = extra_body
+        response = await client.chat.completions.create(**request_kwargs)
         if not response.choices:
             return ""
         return response.choices[0].message.content or ""
@@ -854,7 +949,10 @@ class Dehydrator:
         except RuntimeError:
             raise
         except Exception as e:
-            raise RuntimeError(f"API 打标失败，请检查 API 连接: {e}") from e
+            raise RuntimeError(
+                "API 打标失败，请检查 API 连接: "
+                f"{safe_provider_error(e, self.api_key)}"
+            ) from e
 
     # ---------------------------------------------------------
     # API call: auto-tagging

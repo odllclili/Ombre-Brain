@@ -27,6 +27,8 @@ tools/hold/core.py — hold 普通存入分支（含自动合并）
 
 import asyncio
 
+from dehydrator import safe_provider_error
+
 from .. import _runtime as rt
 from .._common import merge_or_create, check_duplicate_for, check_plan_resolution
 
@@ -43,13 +45,18 @@ async def store_core(
     test_data: bool = False,
 ) -> str:
     metadata_fallback = False
+    metadata_error = ""
     try:
         analysis = await rt.dehydrator.analyze(content)
     except Exception as e:
         metadata_fallback = True
+        metadata_error = safe_provider_error(
+            e,
+            getattr(rt.dehydrator, "api_key", ""),
+        )
         rt.logger.warning(
             "hold metadata analysis failed; preserving raw content with local defaults / "
-            f"hold 打标失败，使用本地默认元数据并原样保存正文: {type(e).__name__}: {e}"
+            f"hold 打标失败，使用本地默认元数据并原样保存正文: {metadata_error}"
         )
         default_analysis = getattr(rt.dehydrator, "_default_analysis", None)
         analysis = default_analysis() if callable(default_analysis) else {
@@ -95,5 +102,8 @@ async def store_core(
     if embed_warn:
         result += f"\n⚠️ {embed_warn}"
     if metadata_fallback:
-        result += "\n⚠️ 打标 API 暂不可用：正文已逐字保存，未做任何压缩；元数据暂用本地中性值。"
+        result += (
+            "\n⚠️ 打标 API 暂不可用：正文已逐字保存，未做任何压缩；"
+            f"元数据暂用本地中性值。原因：{metadata_error}"
+        )
     return result

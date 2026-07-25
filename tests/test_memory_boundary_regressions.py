@@ -67,6 +67,7 @@ async def test_hold_analysis_failure_preserves_exact_content(monkeypatch):
     assert captured["raw_merge"] is True
     assert captured["source_tool"] == "hold"
     assert "正文已逐字保存，未做任何压缩" in result
+    assert "原因：tagger unavailable" in result
 
 
 @pytest.mark.asyncio
