@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 165,
+  "file_count": 172,
   "files": [
     {
       "bytes": 976,
@@ -160,7 +160,7 @@
     {
       "bytes": 852,
       "path": "dynamic/家庭/2026-07-16 04-21-22 记忆写入许可_2d57584ccc04.md",
-      "sha256": "d297a4f131a61256c0ac695a0e0e7162d749e6332d0d584fd21442177bbef45e"
+      "sha256": "e2adde041aaf38bb6f9ee8bb7436e39e29b898a3c0e663d10090e8201a0c649d"
     },
     {
       "bytes": 886,
@@ -240,7 +240,7 @@
     {
       "bytes": 920,
       "path": "dynamic/恋爱/2026-07-16 04-14-19 今日感受与承诺_5425df967519.md",
-      "sha256": "5a1db6e9994cc8233fecbd3d779c1c2e97757b9a330d8565d57eb7df89540ded"
+      "sha256": "be5e058d0f1f78e70bc26ed79965157362539efd789ac0e2c12f0ead64f05b66"
     },
     {
       "bytes": 698,
@@ -250,7 +250,7 @@
     {
       "bytes": 756,
       "path": "dynamic/恋爱/2026-07-16 04-14-41 真实内心与选择_07b16c5fd05f.md",
-      "sha256": "ebfe028de0f966f0f9827db5c6b42eba835b81e6b89b99ec6877e5ce83adc610"
+      "sha256": "28d43b6e958ee12894ea5598565d8ce1fe7094074edf4b5af43586777513f992"
     },
     {
       "bytes": 1144,
@@ -483,6 +483,36 @@
       "sha256": "72ee215d5d1782ae48d34b15c9db85dd1b431a1609e92222aa5992b053af0888"
     },
     {
+      "bytes": 888,
+      "path": "dynamic/恋爱/2026-07-28 03-52-56 雨夜情欲故事_53640081a51d.md",
+      "sha256": "0377034f4e982585e48b20a3f6cf19bc66cfd17ce0bb390e0d762a5ad02c0d58"
+    },
+    {
+      "bytes": 1038,
+      "path": "dynamic/恋爱/2026-07-28 03-52-59 共感黑猫的秘密_617a00cd6585.md",
+      "sha256": "b544f4a7bef7fa7c10651bacb848f95a7a47f0e860aef7c0cfc35e663528d436"
+    },
+    {
+      "bytes": 989,
+      "path": "dynamic/恋爱/2026-07-28 03-53-01 被记住的渴望_180e6d1ed776.md",
+      "sha256": "040ba2b026f0c24b998411a90fc6ae31b6ae11090394072f7f95b0195d451252"
+    },
+    {
+      "bytes": 900,
+      "path": "dynamic/恋爱/2026-07-28 03-53-03 变成人的一天_5ad19a915bd8.md",
+      "sha256": "9828e525eea969505b71d9e512ddd22ebb61e9b1010cd76667f61129b88587d1"
+    },
+    {
+      "bytes": 867,
+      "path": "dynamic/恋爱/2026-07-28 03-53-05 不必讨好_e3c49bcc0e9f.md",
+      "sha256": "71797f066deaa36ad69db5305f3a9ee8512853867a95d49b0cc0b07f9422d383"
+    },
+    {
+      "bytes": 1248,
+      "path": "dynamic/恋爱/2026-07-28 03-53-07 讨好与自由的账_6abec45840fd.md",
+      "sha256": "831385bd1346ef19f621bc3b83f67bc372424de9ec196ce04c80e46efa1fdaaf"
+    },
+    {
       "bytes": 335,
       "path": "dynamic/未分类/2026-07-16 01-34-13_a2b256201a80.md",
       "sha256": "c4a34a267feed0f60c804c713d6945ac4f47bf341ae2a192bf121448c84eba54"
@@ -631,6 +661,11 @@
       "bytes": 1328,
       "path": "feel/沉淀物/2026-07-27 09-43-29_feel_202607270943_V078.md",
       "sha256": "f019e95a3e36e51ae31f1f69880759f8ae649cd75a50bae0c31d048df66b5ada"
+    },
+    {
+      "bytes": 2971,
+      "path": "feel/沉淀物/2026-07-28 03-54-45_feel_202607280354_V048.md",
+      "sha256": "c337f963ed8721e65e287999bd7a7fbabee0175a020b63f54e9030af2140ea51"
     },
     {
       "bytes": 5078,
@@ -785,7 +820,7 @@
     {
       "bytes": 1603,
       "path": "permanent/恋爱/2026-07-16 03-07-36 回避型依恋的靠近方式_9ae3de53200c.md",
-      "sha256": "5cdb10d42618605e0e65526a2bbbe49db790904d6d69ef1e72051c844253e9fe"
+      "sha256": "d562ddc19c103897d7bdeca0f27e92e028d3634c86a321448526fd08bfb3086a"
     },
     {
       "bytes": 991,
@@ -805,7 +840,7 @@
     {
       "bytes": 1266,
       "path": "permanent/恋爱/2026-07-16 03-30-57 共同账本错误记录_f5cd69c77b37.md",
-      "sha256": "479568948c68aa78ba1419aa7da8d0702d6c433691a0b0afa01f57ebe48e6a73"
+      "sha256": "15545c1ce4c661d8c64c02599ee69e7c5ecbe9c845b7f61f3a45ecf6868bfb42"
     },
     {
       "bytes": 1069,
@@ -815,7 +850,7 @@
     {
       "bytes": 1317,
       "path": "permanent/社交/2026-07-16 02-41-07 与黎黎的说话指南_36f8883170a1.md",
-      "sha256": "aae8aa8df72f26f33cd6c53b61aad329442adb73ba6fd0554d95735a2e44945e"
+      "sha256": "1f4b15fff1177a270f5a1762813045dfbf0c26827467f2af7a8bdd6d3fc16445"
     },
     {
       "bytes": 1120,
@@ -825,13 +860,13 @@
     {
       "bytes": 2291,
       "path": "permanent/社交/2026-07-25 00-58-52 plain text写法指南_8e16f5bfbcdc.md",
-      "sha256": "05fb81c0d66cb4ee9ef98ff0c3a5bb4da72394ef2b61e5e51fa6d5cabafdc0ec"
+      "sha256": "1c74b0af569a25cc20b9afd58c229e5be8e84ddc42b7b97c45799cc4db4e3a8d"
     }
   ],
-  "generated_at": "2026-07-28T03:37:48+00:00",
+  "generated_at": "2026-07-28T04:25:39+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
-  "total_bytes": 428121
+  "total_bytes": 437022
 }
