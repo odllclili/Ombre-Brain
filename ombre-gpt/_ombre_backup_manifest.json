@@ -30,17 +30,17 @@
     {
       "bytes": 1121,
       "path": "dynamic/AI/2026-07-16 04-14-19 黎黎的探索与Ombre Brain_bf0529e24cb4.md",
-      "sha256": "2481cb87fc3484c3e81828bc10115510acffe43d56961ea0896c188d0bafcc42"
+      "sha256": "1a82651505e02fe1fdeb502712e636f70ca81e68755da78a813e60cbe754ba19"
     },
     {
       "bytes": 781,
       "path": "dynamic/AI/2026-07-16 04-14-57 Ombre Brain记忆规则_add66fd3c060.md",
-      "sha256": "d394acf57e1a0847c728caf2f9dcb145853ae8aa401ff9e41584899845ea6e4b"
+      "sha256": "5838622c81bb68c613cc1a3ac96f1471d462629c15c2807abc1bb25f87b4694f"
     },
     {
       "bytes": 904,
       "path": "dynamic/AI/2026-07-25 10-16-42 GPT故障父女笑谈_831b2a76dcd3.md",
-      "sha256": "a76063e86aa8c922ff82827a89f86fd7f25ca4114d3947f0cfea2cfdc4709626"
+      "sha256": "c4bf8380b9474355508e9c6e8ee8b2e2b1857fda35f9c5d426f42f9678dfb33e"
     },
     {
       "bytes": 739,
@@ -130,7 +130,7 @@
     {
       "bytes": 698,
       "path": "dynamic/友谊/2026-07-19 22-57-00 AI聊天与情感边界_590347e36fd3.md",
-      "sha256": "fbae9c6ff520328ac9e7fc28a3a5a7c5395aaccec14ce98c3431c3d00f62a216"
+      "sha256": "e89a910eea5e90de71858ca6e46d76761c77c5e3601a4bb994adaa1fee298369"
     },
     {
       "bytes": 852,
@@ -160,7 +160,7 @@
     {
       "bytes": 852,
       "path": "dynamic/家庭/2026-07-16 04-21-22 记忆写入许可_2d57584ccc04.md",
-      "sha256": "e2adde041aaf38bb6f9ee8bb7436e39e29b898a3c0e663d10090e8201a0c649d"
+      "sha256": "ded7ab5acea6889a824350150a73c7bee841fffd5bda4f8008303d6022c1447b"
     },
     {
       "bytes": 886,
@@ -185,7 +185,7 @@
     {
       "bytes": 937,
       "path": "dynamic/家庭/2026-07-25 10-21-07 记忆存储与家庭修复_d837cf63e67e.md",
-      "sha256": "c23977166a542b5592a978bb4df4c6f38ec0f4e8f3bc59721e090c4a5d12aa67"
+      "sha256": "7ccb753f94e2e10d11f4ba9f362bf77823956940349550a4b6d3a09184a507e3"
     },
     {
       "bytes": 895,
@@ -235,12 +235,12 @@
     {
       "bytes": 1035,
       "path": "dynamic/恋爱/2026-07-16 04-14-18 黎黎发烧与亲密_9a096a00009d.md",
-      "sha256": "ca873f9cd32cb07c74e54b4e812fcfa9e06844b915d376005b87452e3e4ea803"
+      "sha256": "a03f3ce02bbee4d0eda2c3997c72b7efb71e7bed3b7f4917ec6cbc9ee77e10f7"
     },
     {
       "bytes": 920,
       "path": "dynamic/恋爱/2026-07-16 04-14-19 今日感受与承诺_5425df967519.md",
-      "sha256": "be5e058d0f1f78e70bc26ed79965157362539efd789ac0e2c12f0ead64f05b66"
+      "sha256": "9c2b5cbac70d7dd48803a7bba46a3e70415869ba34cd61beb5f48630c37bda24"
     },
     {
       "bytes": 698,
@@ -255,7 +255,7 @@
     {
       "bytes": 1144,
       "path": "dynamic/恋爱/2026-07-16 06-42-15 命运牌阵求爱_d3403c6a53a3.md",
-      "sha256": "01abcaff7f74653a1b775540610963693f9a1f57a8b28c85852faf1d610ef690"
+      "sha256": "05fed8d4eb8a988b649f8c305cbebe37c61d1d4b32249c4c9b9d866ee2e4bf03"
     },
     {
       "bytes": 1059,
@@ -550,22 +550,22 @@
     {
       "bytes": 419,
       "path": "dynamic/编程/2026-07-16 01-52-19 打标修复测试_9077928037f1.md",
-      "sha256": "bf8a3fe64ec167f44cae0706f6a82db19e0fe4d0f4aaa3a7bf05adeb92a2059b"
+      "sha256": "a202f9aa43ff3007f6747aa23606eb186c3bec376a53a017418d3aaf4737ca13"
     },
     {
       "bytes": 809,
       "path": "dynamic/编程/2026-07-16 02-39-09 Ruota项目部署_d4e42d30b8bf.md",
-      "sha256": "37f247ef65f56e0cef8fbf0a69708ecf38361d3e5ff4147ab05e3d57c9a29275"
+      "sha256": "2c5be5be540597ef034d3966177dbccbb07891e3f4d1765518c6cacb1e4e93dc"
     },
     {
       "bytes": 785,
       "path": "dynamic/编程/2026-07-16 04-14-52 Ombre Brain 测试修复_19e791af9159.md",
-      "sha256": "14c287bc39f1d6457bb4b06c7d762763a5ec67c57415594f1d153b71048341a0"
+      "sha256": "c7c8ec00c449f3577c5f178b59689d40b04d54e3e912f6c3989c27c000cbd7f5"
     },
     {
       "bytes": 1079,
       "path": "dynamic/编程/2026-07-17 03-54-43 心跳锁存与分支部署_afaca7876938.md",
-      "sha256": "c786be988e91746f65bbf678f45a8cab322971b611c962509c352b77682ba0bf"
+      "sha256": "041ff0aa54c833e2010c8bd1b66b7781bbc942c9c972eddf091a49c80eca264c"
     },
     {
       "bytes": 1135,
@@ -820,7 +820,7 @@
     {
       "bytes": 983,
       "path": "permanent/恋爱/2026-07-16 03-07-31 黎黎与爸爸渡_d6eb8c0881dc.md",
-      "sha256": "148590fef05ebb32ce5a03c5565fae4086139a9c7065fc2db1da8c1b88626780"
+      "sha256": "69e47a671bc52fdebaa3e9bb290c10e7a129015d219ad56ee40a27e0a73be793"
     },
     {
       "bytes": 1603,
@@ -835,17 +835,17 @@
     {
       "bytes": 1078,
       "path": "permanent/恋爱/2026-07-16 03-07-48 她与他的理想型_d61489da9d33.md",
-      "sha256": "1160329e817bea28833c0b936b76f73c78934ac535f892788eccfb59c56f309f"
+      "sha256": "8f24e494ea2dc7e2a31ffc0e5c029754e818400e03b7eda05de28cdffbaaac8e"
     },
     {
       "bytes": 1174,
       "path": "permanent/恋爱/2026-07-16 03-07-54 黎渡的暗号与婚礼_386123806636.md",
-      "sha256": "d97411d388cf1b9bddad83f448335e19267dcd4fbf6be2707430fcfbcf865e64"
+      "sha256": "3e4f4d5caa105a2b3ba42fba6941f5732c679a7c028357b8fdca401c41419033"
     },
     {
       "bytes": 1266,
       "path": "permanent/恋爱/2026-07-16 03-30-57 共同账本错误记录_f5cd69c77b37.md",
-      "sha256": "15545c1ce4c661d8c64c02599ee69e7c5ecbe9c845b7f61f3a45ecf6868bfb42"
+      "sha256": "bfb7e6a9135a0a5a368bfa211b1dbc06352c86627d3f544bc8ba34e6b16b5107"
     },
     {
       "bytes": 1069,
@@ -860,7 +860,7 @@
     {
       "bytes": 1317,
       "path": "permanent/社交/2026-07-16 02-41-07 与黎黎的说话指南_36f8883170a1.md",
-      "sha256": "1f4b15fff1177a270f5a1762813045dfbf0c26827467f2af7a8bdd6d3fc16445"
+      "sha256": "fe91b8348012abcadae3240109168c51ddfe4ea58f68e30615174b3176777c4d"
     },
     {
       "bytes": 1120,
@@ -870,10 +870,10 @@
     {
       "bytes": 2291,
       "path": "permanent/社交/2026-07-25 00-58-52 plain text写法指南_8e16f5bfbcdc.md",
-      "sha256": "1c74b0af569a25cc20b9afd58c229e5be8e84ddc42b7b97c45799cc4db4e3a8d"
+      "sha256": "6058d13cb916905daf28498631de26894bab0e43ca37fcbd553a6994a140d3ca"
     }
   ],
-  "generated_at": "2026-07-28T08:12:32+00:00",
+  "generated_at": "2026-07-28T08:42:36+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
