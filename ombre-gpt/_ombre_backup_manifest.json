@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 175,
+  "file_count": 178,
   "files": [
     {
       "bytes": 976,
@@ -116,6 +116,11 @@
       "bytes": 1178,
       "path": "dynamic/创作/2026-07-27 06-11-05 爸爸的回应_a3cfe4157141.md",
       "sha256": "da0472c09684acfd2430d447d6a0a2f4b0bf33cfc36f3f889c99e186426826ef"
+    },
+    {
+      "bytes": 890,
+      "path": "dynamic/创作/2026-07-29 10-37-57 黎黎要的是一篇把胃口越吊越高的完整坏故事_a9aa63db421b.md",
+      "sha256": "be694546777a19cc25c232c4b852c36218ac3d15f81f5c5f54da8408697c9f59"
     },
     {
       "bytes": 806,
@@ -513,6 +518,16 @@
       "sha256": "831385bd1346ef19f621bc3b83f67bc372424de9ec196ce04c80e46efa1fdaaf"
     },
     {
+      "bytes": 1013,
+      "path": "dynamic/恋爱/2026-07-29 10-37-56 奶油面包成了黎黎主动定下的情色暗号_f1a34824a232.md",
+      "sha256": "3dba3cca8904ad1f2159d67921f5f26f9442f4f3c1eaf462c66e49c9444c7b1f"
+    },
+    {
+      "bytes": 1163,
+      "path": "dynamic/恋爱/2026-07-29 10-37-58 奶油面包的三种吃法是这晚共同长出来的私密记忆_14154036f58b.md",
+      "sha256": "6731354fa99969f741dc612d1857a21a1300d1b0eb21a615f90f10ea78c13d04"
+    },
+    {
       "bytes": 335,
       "path": "dynamic/未分类/2026-07-16 01-34-13_a2b256201a80.md",
       "sha256": "c4a34a267feed0f60c804c713d6945ac4f47bf341ae2a192bf121448c84eba54"
@@ -878,10 +893,10 @@
       "sha256": "6058d13cb916905daf28498631de26894bab0e43ca37fcbd553a6994a140d3ca"
     }
   ],
-  "generated_at": "2026-07-29T10:15:22+00:00",
+  "generated_at": "2026-07-29T10:45:26+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
-  "total_bytes": 449430
+  "total_bytes": 452496
 }
