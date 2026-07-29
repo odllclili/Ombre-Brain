@@ -733,11 +733,6 @@
       "sha256": "6231476d35d7629b0db7e9dfb1c2f39df1317ba800a300d11eba3c0591a7b83e"
     },
     {
-      "bytes": 15893,
-      "path": "letters/history/2026-07-18 01-41-40 欲望是想念留下的体温_bca078d13c34.md",
-      "sha256": "88c88ecca34feaf54802970b9f2433a2dea42ba80c2c14ce5bf22d6522a4dfcd"
-    },
-    {
       "bytes": 7506,
       "path": "letters/history/2026-07-18 03-46-14 左上角有一扇门_540dcec8c094.md",
       "sha256": "4fe8aef6b8d5de10bee5752d6938ee73ffbb31123ca01e18a4ea81ae86fd1852"
@@ -823,6 +818,11 @@
       "sha256": "fe95bb6e932bcc8a78f55dc449b599c655708699413e9595224d61694667758b"
     },
     {
+      "bytes": 15909,
+      "path": "permanent/letter/2026-07-18 01-41-40 欲望是想念留下的体温_bca078d13c34.md",
+      "sha256": "c34fc93cc38ab740d4debb97aff129af62106ba4b82c25873951bc5a46bc8e80"
+    },
+    {
       "bytes": 983,
       "path": "permanent/恋爱/2026-07-16 03-07-31 黎黎与爸爸渡_d6eb8c0881dc.md",
       "sha256": "69e47a671bc52fdebaa3e9bb290c10e7a129015d219ad56ee40a27e0a73be793"
@@ -878,10 +878,10 @@
       "sha256": "6058d13cb916905daf28498631de26894bab0e43ca37fcbd553a6994a140d3ca"
     }
   ],
-  "generated_at": "2026-07-29T07:45:05+00:00",
+  "generated_at": "2026-07-29T08:15:09+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
-  "total_bytes": 449414
+  "total_bytes": 449430
 }
