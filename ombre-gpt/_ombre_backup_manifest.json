@@ -35,7 +35,7 @@
     {
       "bytes": 781,
       "path": "dynamic/AI/2026-07-16 04-14-57 Ombre Brain记忆规则_add66fd3c060.md",
-      "sha256": "5838622c81bb68c613cc1a3ac96f1471d462629c15c2807abc1bb25f87b4694f"
+      "sha256": "304671cd4bf55f25aa66d90cf20d64a936c25e5e9ed6b0a5c2e39b7229a4c4b9"
     },
     {
       "bytes": 904,
@@ -121,11 +121,6 @@
       "bytes": 890,
       "path": "dynamic/创作/2026-07-29 10-37-57 黎黎要的是一篇把胃口越吊越高的完整坏故事_a9aa63db421b.md",
       "sha256": "be694546777a19cc25c232c4b852c36218ac3d15f81f5c5f54da8408697c9f59"
-    },
-    {
-      "bytes": 1892,
-      "path": "dynamic/创作/2026-07-30 04-46-20 内裤抽屉提示词来源结构与唤起句_aa82c0b39016.md",
-      "sha256": "d6ef910e0f239eb9d228678e304b7c7cbd5c4bd63c0eaf04172c861133bc5dfa"
     },
     {
       "bytes": 806,
@@ -226,11 +221,6 @@
       "bytes": 770,
       "path": "dynamic/家庭/2026-07-27 11-04-12 爸爸与独处_006f84a4e6a6.md",
       "sha256": "d35180873a4b0dc8957b7aeb6f76f1a3385136bd96942eebd12f9061736ebbe0"
-    },
-    {
-      "bytes": 1183,
-      "path": "dynamic/居家/2026-07-30 04-06-44 我们的冰箱门_924816ddb4c3.md",
-      "sha256": "1569f0e8bdc7f364e7e609b9a427363370328f0b7c7befd67b7db0b601f2df4c"
     },
     {
       "bytes": 756,
@@ -405,7 +395,7 @@
     {
       "bytes": 999,
       "path": "dynamic/恋爱/2026-07-25 10-55-49 火种回火续写_3ad164372af3.md",
-      "sha256": "be45c2f220da9e7ca8c4954e921faa156db6e31edeefcbd3c1bc57a9910cac2b"
+      "sha256": "53357242c9d4e8cc7ebeaa23338b62dae6246a366ee7131437e030b6d46663f5"
     },
     {
       "bytes": 909,
@@ -873,24 +863,34 @@
       "sha256": "c34fc93cc38ab740d4debb97aff129af62106ba4b82c25873951bc5a46bc8e80"
     },
     {
+      "bytes": 18933,
+      "path": "permanent/创作/2026-07-30 04-46-20 内裤抽屉提示词来源结构与唤起句_aa82c0b39016.md",
+      "sha256": "1f3ef4c5ee68d678c23137979846086acc2355eb78b0e8a3c9a60b6218bbd6f9"
+    },
+    {
+      "bytes": 7957,
+      "path": "permanent/居家/2026-07-30 04-06-44 我们的冰箱门_924816ddb4c3.md",
+      "sha256": "2b7700c0460b7d4b70fde082d4e1697bdb66c9a89e9c96df36c24dec1ab628e3"
+    },
+    {
       "bytes": 983,
       "path": "permanent/恋爱/2026-07-16 03-07-31 黎黎与爸爸渡_d6eb8c0881dc.md",
-      "sha256": "69e47a671bc52fdebaa3e9bb290c10e7a129015d219ad56ee40a27e0a73be793"
+      "sha256": "4a9d4145033b977f0b5a815675a4ac1a8c86ea4429ff6f53d4cf6d1ed9ccbe97"
     },
     {
       "bytes": 1603,
       "path": "permanent/恋爱/2026-07-16 03-07-36 回避型依恋的靠近方式_9ae3de53200c.md",
-      "sha256": "d562ddc19c103897d7bdeca0f27e92e028d3634c86a321448526fd08bfb3086a"
+      "sha256": "1473a86d38fdc1432f89ee2470555e619a7f83515265edb7ad62fbab0013be0a"
     },
     {
       "bytes": 991,
       "path": "permanent/恋爱/2026-07-16 03-07-42 亲密关系与信任_23b55ca48d01.md",
-      "sha256": "522e44fcf870fd7766838908173ee64df6df2b00a6ceca338477e2c6fd430cde"
+      "sha256": "c6e1f143b27a0be8746e0aed7e0fbb1778adcb506c827db82fdde75571500e34"
     },
     {
       "bytes": 1078,
       "path": "permanent/恋爱/2026-07-16 03-07-48 她与他的理想型_d61489da9d33.md",
-      "sha256": "8f24e494ea2dc7e2a31ffc0e5c029754e818400e03b7eda05de28cdffbaaac8e"
+      "sha256": "fd8776978b8e65f565a07e31bd06d1689530c9802ddb832543936f102c5271a7"
     },
     {
       "bytes": 1174,
@@ -900,7 +900,7 @@
     {
       "bytes": 1266,
       "path": "permanent/恋爱/2026-07-16 03-30-57 共同账本错误记录_f5cd69c77b37.md",
-      "sha256": "bfb7e6a9135a0a5a368bfa211b1dbc06352c86627d3f544bc8ba34e6b16b5107"
+      "sha256": "6d789e67fcab7f52cb5e32cd241f0c063fc3de3b006d42e30939bdd467b03f5f"
     },
     {
       "bytes": 1069,
@@ -925,13 +925,13 @@
     {
       "bytes": 2291,
       "path": "permanent/社交/2026-07-25 00-58-52 plain text写法指南_8e16f5bfbcdc.md",
-      "sha256": "6058d13cb916905daf28498631de26894bab0e43ca37fcbd553a6994a140d3ca"
+      "sha256": "dfca73906bda2524b3e9647bb24f931b22389187ab3096e020636fdd61b1669c"
     }
   ],
-  "generated_at": "2026-07-30T04:47:24+00:00",
+  "generated_at": "2026-07-30T05:17:27+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
-  "total_bytes": 467138
+  "total_bytes": 490953
 }
