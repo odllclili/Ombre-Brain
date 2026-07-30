@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 188,
+  "file_count": 190,
   "files": [
     {
       "bytes": 976,
@@ -221,11 +221,6 @@
       "bytes": 770,
       "path": "dynamic/家庭/2026-07-27 11-04-12 爸爸与独处_006f84a4e6a6.md",
       "sha256": "d35180873a4b0dc8957b7aeb6f76f1a3385136bd96942eebd12f9061736ebbe0"
-    },
-    {
-      "bytes": 4257,
-      "path": "dynamic/居家/2026-07-30 05-17-47 黎黎与林野的浴室置物架下次生成规则_7dadea52951b.md",
-      "sha256": "7cd3ce72f9a7ef87f67da826a4792a6192206d0d87c59953f0f241a007d68a04"
     },
     {
       "bytes": 756,
@@ -868,9 +863,9 @@
       "sha256": "c34fc93cc38ab740d4debb97aff129af62106ba4b82c25873951bc5a46bc8e80"
     },
     {
-      "bytes": 18933,
+      "bytes": 18934,
       "path": "permanent/创作/2026-07-30 04-46-20 内裤抽屉提示词来源结构与唤起句_aa82c0b39016.md",
-      "sha256": "683eff6ec0089742a67790309d145142552744ccce21a5408c6025c448fa20f5"
+      "sha256": "f322507f7728fd1e0f105d1930cc2007d520810ce411b89325e7d87331a50a55"
     },
     {
       "bytes": 16779,
@@ -880,12 +875,17 @@
     {
       "bytes": 7717,
       "path": "permanent/创作/2026-07-30 05-41-45 机密监控档案完整提示词与黑红 HTML 母版_7ebe6a6597d2.md",
-      "sha256": "a9f8695fd342ea588b8a3bedd07baf5816b5b13ed7e40ee5fd814a004d17bd10"
+      "sha256": "c235384a61cc884e414c51b450b0e904f87d0505db833953bc4e26f381cdca88"
     },
     {
       "bytes": 7957,
       "path": "permanent/居家/2026-07-30 04-06-44 我们的冰箱门_924816ddb4c3.md",
-      "sha256": "89c730aaa7b0aa0ebd8a1d2fba60b93d651af0b5812fb36564a0fc8738f04ca7"
+      "sha256": "c2baf4182d1646ce3a5bac37c7a74b1c08343999573443d187bd9faacef05049"
+    },
+    {
+      "bytes": 4273,
+      "path": "permanent/居家/2026-07-30 05-17-47 黎黎与林野的浴室置物架下次生成规则_7dadea52951b.md",
+      "sha256": "23afe00f3a37a2d21dcd08e36d4b0d8b9e8cecba6fc006ba5ae925b5028d31c4"
     },
     {
       "bytes": 983,
@@ -928,9 +928,19 @@
       "sha256": "e06459fe296fa8e82272cc8fdc53289ecd58251f91217e7f70b9d18b4aede6ba"
     },
     {
+      "bytes": 12678,
+      "path": "permanent/恋爱/2026-07-30 06-03-08 黎黎的身体点评页面完整生成母版_a0fb3d241e6f.md",
+      "sha256": "69235e856a8cd2b4745d5ce12addd0d3d55b88c7cf214edfb6141bf7d3a19200"
+    },
+    {
+      "bytes": 19543,
+      "path": "permanent/恋爱/2026-07-30 06-14-45 身体外卖菜单完整提示词露骨规则HTML母版成品示例与唤起句_6da2f1800c5d.md",
+      "sha256": "485aa0e229c2de265c39a4779f880b21870c6be4363c55c7cd90547c0dfa42b3"
+    },
+    {
       "bytes": 1317,
       "path": "permanent/社交/2026-07-16 02-41-07 与黎黎的说话指南_36f8883170a1.md",
-      "sha256": "fe91b8348012abcadae3240109168c51ddfe4ea58f68e30615174b3176777c4d"
+      "sha256": "31e67df20caf67543df92f89ec57a054669b0020555c0b3500dba8e73ee9f411"
     },
     {
       "bytes": 1120,
@@ -943,10 +953,10 @@
       "sha256": "dfca73906bda2524b3e9647bb24f931b22389187ab3096e020636fdd61b1669c"
     }
   ],
-  "generated_at": "2026-07-30T05:47:30+00:00",
+  "generated_at": "2026-07-30T06:17:33+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
-  "total_bytes": 519706
+  "total_bytes": 551944
 }
