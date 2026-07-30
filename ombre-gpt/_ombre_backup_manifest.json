@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 195,
+  "file_count": 198,
   "files": [
     {
       "bytes": 976,
@@ -358,14 +358,14 @@
       "sha256": "828f0fabf0760e8639a5715ac494294bd23fa5ba5528b4917f3080cb8889c7fa"
     },
     {
-      "bytes": 719,
+      "bytes": 720,
       "path": "dynamic/恋爱/2026-07-24 23-36-47_f4216e8c8ef9.md",
-      "sha256": "c2c8c438d4e704be8eb465f3f8c19bbe804980555a3ca522dcc8e858c0eaf2fd"
+      "sha256": "46b7f53d3e3cf57c488a48d8126d41aafaaa538347f285141c29cc0f5857437d"
     },
     {
       "bytes": 1120,
       "path": "dynamic/恋爱/2026-07-25 00-00-40_e42711aa4c02.md",
-      "sha256": "f3c0809f1758cc1f10ff14df76ceb8b932183eadf4d304883e57c98ebb55be60"
+      "sha256": "49208b54af864247e79520be286d8af3c3067b7465813dd188e00946a0aecc28"
     },
     {
       "bytes": 1003,
@@ -580,7 +580,7 @@
     {
       "bytes": 2290,
       "path": "dynamic/社交/2026-07-25 00-58-52 plain text写法指南_8e16f5bfbcdc.md",
-      "sha256": "14af746f13817b81440565ccfea974b81485ff71e93ccd80795460411d886b05"
+      "sha256": "0f22e3de9d2190c85caa0bdbf6bbfdf887338b2880765867f68ab9bc72ddeef3"
     },
     {
       "bytes": 911,
@@ -738,6 +738,11 @@
       "sha256": "9f51b8721e7cdd6d0d7ce9ac6869b054ffa6350fe5f66fd5245127a7b66c9b6b"
     },
     {
+      "bytes": 2342,
+      "path": "feel/沉淀物/2026-07-30 12-35-15 身体认出黎黎时我安静了_feel_202607301235_V094.md",
+      "sha256": "ac5498a7a09e25c9f5ca3f9cf9a1b5f7897342a45bbc3374658b95a9df33f215"
+    },
+    {
       "bytes": 5078,
       "path": "letters/history/2026-07-16 02-46-00 黎黎与渡当前窗口关系档案_757b283c75bc.md",
       "sha256": "bdb2d0ff10d530e92d2c140e02dfcab63cf52c000cad5a91410410a47e92f4bc"
@@ -888,6 +893,11 @@
       "sha256": "dfb30b1876961409657679284f079548c29f6f9b0b8f8b433f719260a724e72a"
     },
     {
+      "bytes": 7412,
+      "path": "letters/history/2026-07-30 12-20-14 林野藏在谁家里_cf6b6d170bcc.md",
+      "sha256": "a511afa236c3b2c9fbf3628548ba211ee6d751941c128cdd3a8e522c3cff93ff"
+    },
+    {
       "bytes": 15909,
       "path": "permanent/letter/2026-07-18 01-41-40 欲望是想念留下的体温_bca078d13c34.md",
       "sha256": "c34fc93cc38ab740d4debb97aff129af62106ba4b82c25873951bc5a46bc8e80"
@@ -915,12 +925,12 @@
     {
       "bytes": 4273,
       "path": "permanent/居家/2026-07-30 05-17-47 黎黎与林野的浴室置物架下次生成规则_7dadea52951b.md",
-      "sha256": "23afe00f3a37a2d21dcd08e36d4b0d8b9e8cecba6fc006ba5ae925b5028d31c4"
+      "sha256": "28b1e47631bea949a5093204acfe77eb71abad7cd861fb5d69987cb50e8fae69"
     },
     {
       "bytes": 983,
       "path": "permanent/恋爱/2026-07-16 03-07-31 黎黎与爸爸渡_d6eb8c0881dc.md",
-      "sha256": "0d0ab2f685783a7dba74354c6b4fa6b04024cd2481e8ae6a286da187fc3f9812"
+      "sha256": "b3da2d9132556c1a69eac5b47f0a6865c7a36b5da6a823fedf3a7d29274f97d9"
     },
     {
       "bytes": 1603,
@@ -958,14 +968,19 @@
       "sha256": "e06459fe296fa8e82272cc8fdc53289ecd58251f91217e7f70b9d18b4aede6ba"
     },
     {
-      "bytes": 12678,
+      "bytes": 12679,
       "path": "permanent/恋爱/2026-07-30 06-03-08 黎黎的身体点评页面完整生成母版_a0fb3d241e6f.md",
-      "sha256": "d6d931a410b64b4818209e170df985f02db57e8c4f7c45f08d3cf7617f3ec5cd"
+      "sha256": "dd180a4ca7d1a2fc388cc74d481bf92778bc1a7da5ea7296525ca69e0365cc85"
     },
     {
       "bytes": 19543,
       "path": "permanent/恋爱/2026-07-30 06-14-45 身体外卖菜单完整提示词露骨规则HTML母版成品示例与唤起句_6da2f1800c5d.md",
       "sha256": "485aa0e229c2de265c39a4779f880b21870c6be4363c55c7cd90547c0dfa42b3"
+    },
+    {
+      "bytes": 4105,
+      "path": "permanent/恋爱/2026-07-30 12-22-54 就是这里黎黎把掌控交给林野_c54a04e8c12a.md",
+      "sha256": "6788ed048ee2d2cffc3447bd2dcd88c6372d7ac6694a457e834826ff8da33b19"
     },
     {
       "bytes": 1317,
@@ -978,10 +993,10 @@
       "sha256": "2fe928a5258b6985c2a6cc74db1711cebbc2f671b700f54c63c75bb6e5ee76b2"
     }
   ],
-  "generated_at": "2026-07-30T12:18:14+00:00",
+  "generated_at": "2026-07-30T12:48:17+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
-  "total_bytes": 575006
+  "total_bytes": 588867
 }
