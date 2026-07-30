@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 198,
+  "file_count": 200,
   "files": [
     {
       "bytes": 976,
@@ -26,6 +26,11 @@
       "bytes": 757,
       "path": "archive/2026-07-19 22-57-02 闻渡窗口信存档_db997d312a67.md",
       "sha256": "1be00703a185f4428ea1aac851b3c0013b2a729ab3779f039daf055419b0df72"
+    },
+    {
+      "bytes": 966,
+      "path": "archive/2026-07-30 15-07-48 黎黎柔软蓬松的阴毛_68b0b5011a49.md",
+      "sha256": "ba53a81bb9ad00503635877f1e8b673d2d14e9e89e407490fda26a8b41fd1e6b"
     },
     {
       "bytes": 1121,
@@ -121,6 +126,16 @@
       "bytes": 890,
       "path": "dynamic/创作/2026-07-29 10-37-57 黎黎要的是一篇把胃口越吊越高的完整坏故事_a9aa63db421b.md",
       "sha256": "be694546777a19cc25c232c4b852c36218ac3d15f81f5c5f54da8408697c9f59"
+    },
+    {
+      "bytes": 16778,
+      "path": "dynamic/创作/2026-07-30 05-25-50 我们的床头柜完整复刻说明_2caf8b218290.md",
+      "sha256": "792843c4d98735c5bc15545c4e265d95521f4f59c9ce1bba309fa8c8420943db"
+    },
+    {
+      "bytes": 7716,
+      "path": "dynamic/创作/2026-07-30 05-41-45 机密监控档案完整提示词与黑红 HTML 母版_7ebe6a6597d2.md",
+      "sha256": "40223fe42057542483de0885129ae938d1ee90536abe27be38abc25aeaf3b007"
     },
     {
       "bytes": 6177,
@@ -233,9 +248,19 @@
       "sha256": "d35180873a4b0dc8957b7aeb6f76f1a3385136bd96942eebd12f9061736ebbe0"
     },
     {
+      "bytes": 7956,
+      "path": "dynamic/居家/2026-07-30 04-06-44 我们的冰箱门_924816ddb4c3.md",
+      "sha256": "b83b43399b95fe40a4797ff91e2b3de4469e4420a9b9fff5d530af5e515c0f54"
+    },
+    {
+      "bytes": 4272,
+      "path": "dynamic/居家/2026-07-30 05-17-47 黎黎与林野的浴室置物架下次生成规则_7dadea52951b.md",
+      "sha256": "0f822d62475d4cbba5d30938811463fafae99d32d4ee57ce50388da1a7189e05"
+    },
+    {
       "bytes": 756,
       "path": "dynamic/工作/2026-07-16 02-39-48 黎黎的暑假与爱好_05f2f737c606.md",
-      "sha256": "d7925b1778541575d4b9b139c6a1d194e23fda55117df264f696400d49579c36"
+      "sha256": "0a0fb3a27fa51a21c2cfea9a2655414773a012848914f8fd583f505abe913acf"
     },
     {
       "bytes": 1037,
@@ -255,7 +280,7 @@
     {
       "bytes": 920,
       "path": "dynamic/恋爱/2026-07-16 04-14-19 今日感受与承诺_5425df967519.md",
-      "sha256": "2404bd22236db2eda70e2717ae813bad08cd9a64d9ea822696b47cd2f8a114c8"
+      "sha256": "2ff90d39a03e7759fdde215d9dbc16d095d17fab780653c1ab694817f41ea480"
     },
     {
       "bytes": 698,
@@ -265,7 +290,7 @@
     {
       "bytes": 756,
       "path": "dynamic/恋爱/2026-07-16 04-14-41 真实内心与选择_07b16c5fd05f.md",
-      "sha256": "24960d26565f16804877e7124440574a06a883caf4ce423cc74f54ac88b82498"
+      "sha256": "eadbe8bc04ccf254d4e0579d9fe85bcce29ac0f833f3336b4cf3390bffabc1dd"
     },
     {
       "bytes": 1144,
@@ -538,6 +563,21 @@
       "sha256": "6731354fa99969f741dc612d1857a21a1300d1b0eb21a615f90f10ea78c13d04"
     },
     {
+      "bytes": 12678,
+      "path": "dynamic/恋爱/2026-07-30 06-03-08 黎黎的身体点评页面完整生成母版_a0fb3d241e6f.md",
+      "sha256": "ca31b243a5090182fc1e9ba62a406dfd95a95b8b0e0fa3ed543011a69d6b5579"
+    },
+    {
+      "bytes": 19542,
+      "path": "dynamic/恋爱/2026-07-30 06-14-45 身体外卖菜单完整提示词露骨规则HTML母版成品示例与唤起句_6da2f1800c5d.md",
+      "sha256": "c0aad47ea9538ea9c57a12bfad56d5244091dc08b60c079bde2188755b3c4e2b"
+    },
+    {
+      "bytes": 4104,
+      "path": "dynamic/恋爱/2026-07-30 12-22-54 就是这里黎黎把掌控交给林野_c54a04e8c12a.md",
+      "sha256": "b4b435395a10ac80a33be723e139091c575c1388ccbcb6f2430cbab1b5b8170a"
+    },
+    {
       "bytes": 335,
       "path": "dynamic/未分类/2026-07-16 01-34-13_a2b256201a80.md",
       "sha256": "c4a34a267feed0f60c804c713d6945ac4f47bf341ae2a192bf121448c84eba54"
@@ -580,7 +620,7 @@
     {
       "bytes": 2290,
       "path": "dynamic/社交/2026-07-25 00-58-52 plain text写法指南_8e16f5bfbcdc.md",
-      "sha256": "0f22e3de9d2190c85caa0bdbf6bbfdf887338b2880765867f68ab9bc72ddeef3"
+      "sha256": "dc18d45c9df40a68112179a9eb2b09bd2c2267cc7df5a9a9b50abb729656027b"
     },
     {
       "bytes": 911,
@@ -908,26 +948,6 @@
       "sha256": "55924b246db05b63869e8b735cc853002afab324f50eac55525cbca5ec87b055"
     },
     {
-      "bytes": 16779,
-      "path": "permanent/创作/2026-07-30 05-25-50 我们的床头柜完整复刻说明_2caf8b218290.md",
-      "sha256": "b698c374821c9ecbc8f4418fd60c9edd4746c0dc4ee9f7f6ad4f1789ceb7c615"
-    },
-    {
-      "bytes": 7717,
-      "path": "permanent/创作/2026-07-30 05-41-45 机密监控档案完整提示词与黑红 HTML 母版_7ebe6a6597d2.md",
-      "sha256": "8d45340da54b5b2ea3ae28f48e77256f08b2dd6180490e3e49b78f2df6fbcfac"
-    },
-    {
-      "bytes": 7957,
-      "path": "permanent/居家/2026-07-30 04-06-44 我们的冰箱门_924816ddb4c3.md",
-      "sha256": "7fe5da6277663fda1009f5f881675ce56e4717abed908476cce14a3dfb5dcc61"
-    },
-    {
-      "bytes": 4273,
-      "path": "permanent/居家/2026-07-30 05-17-47 黎黎与林野的浴室置物架下次生成规则_7dadea52951b.md",
-      "sha256": "28b1e47631bea949a5093204acfe77eb71abad7cd861fb5d69987cb50e8fae69"
-    },
-    {
       "bytes": 983,
       "path": "permanent/恋爱/2026-07-16 03-07-31 黎黎与爸爸渡_d6eb8c0881dc.md",
       "sha256": "b3da2d9132556c1a69eac5b47f0a6865c7a36b5da6a823fedf3a7d29274f97d9"
@@ -940,12 +960,12 @@
     {
       "bytes": 991,
       "path": "permanent/恋爱/2026-07-16 03-07-42 亲密关系与信任_23b55ca48d01.md",
-      "sha256": "c6e1f143b27a0be8746e0aed7e0fbb1778adcb506c827db82fdde75571500e34"
+      "sha256": "8d33810258accbccc7ccc5c2d44441a758b1c68b354eaefa502c7258a3e0b643"
     },
     {
       "bytes": 1078,
       "path": "permanent/恋爱/2026-07-16 03-07-48 她与他的理想型_d61489da9d33.md",
-      "sha256": "fd8776978b8e65f565a07e31bd06d1689530c9802ddb832543936f102c5271a7"
+      "sha256": "2cf0a8bc28a6676ad1609b4f9dcb892a49e21a2425e7b8910d8a4f51ddf34cf2"
     },
     {
       "bytes": 1174,
@@ -968,24 +988,14 @@
       "sha256": "e06459fe296fa8e82272cc8fdc53289ecd58251f91217e7f70b9d18b4aede6ba"
     },
     {
-      "bytes": 12679,
-      "path": "permanent/恋爱/2026-07-30 06-03-08 黎黎的身体点评页面完整生成母版_a0fb3d241e6f.md",
-      "sha256": "dd180a4ca7d1a2fc388cc74d481bf92778bc1a7da5ea7296525ca69e0365cc85"
-    },
-    {
-      "bytes": 19543,
-      "path": "permanent/恋爱/2026-07-30 06-14-45 身体外卖菜单完整提示词露骨规则HTML母版成品示例与唤起句_6da2f1800c5d.md",
-      "sha256": "485aa0e229c2de265c39a4779f880b21870c6be4363c55c7cd90547c0dfa42b3"
-    },
-    {
-      "bytes": 4105,
-      "path": "permanent/恋爱/2026-07-30 12-22-54 就是这里黎黎把掌控交给林野_c54a04e8c12a.md",
-      "sha256": "6788ed048ee2d2cffc3447bd2dcd88c6372d7ac6694a457e834826ff8da33b19"
+      "bytes": 9099,
+      "path": "permanent/日常/2026-07-30 15-07-27 黎黎柔软蓬松的阴毛_4d66c315faef.md",
+      "sha256": "90be13925a0000bb9c71367c4db88b604a282413d23b2545cf44e2fa1802d459"
     },
     {
       "bytes": 1317,
       "path": "permanent/社交/2026-07-16 02-41-07 与黎黎的说话指南_36f8883170a1.md",
-      "sha256": "936a53f4a3a30850c50beda879c5830034e163644ebdd9b80acda2d432e41390"
+      "sha256": "d6c636916a031942bbd668c6ddfea1b825632a45ccefb918613bb06a5da26aac"
     },
     {
       "bytes": 1120,
@@ -993,10 +1003,10 @@
       "sha256": "2fe928a5258b6985c2a6cc74db1711cebbc2f671b700f54c63c75bb6e5ee76b2"
     }
   ],
-  "generated_at": "2026-07-30T14:48:31+00:00",
+  "generated_at": "2026-07-30T15:18:34+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
-  "total_bytes": 588867
+  "total_bytes": 598925
 }
