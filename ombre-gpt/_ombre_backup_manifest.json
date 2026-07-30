@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 185,
+  "file_count": 188,
   "files": [
     {
       "bytes": 976,
@@ -30,12 +30,12 @@
     {
       "bytes": 1121,
       "path": "dynamic/AI/2026-07-16 04-14-19 黎黎的探索与Ombre Brain_bf0529e24cb4.md",
-      "sha256": "1a82651505e02fe1fdeb502712e636f70ca81e68755da78a813e60cbe754ba19"
+      "sha256": "99b40b4b636dde6f1b94cd4f54407c7bd500e2be5ef80eb956c4cc9eb7d346ea"
     },
     {
       "bytes": 781,
       "path": "dynamic/AI/2026-07-16 04-14-57 Ombre Brain记忆规则_add66fd3c060.md",
-      "sha256": "304671cd4bf55f25aa66d90cf20d64a936c25e5e9ed6b0a5c2e39b7229a4c4b9"
+      "sha256": "cb83beab6d4718b47a5cb4bdee2567ed4f36f1cb3e8a25045a9e29ccef810393"
     },
     {
       "bytes": 904,
@@ -221,6 +221,11 @@
       "bytes": 770,
       "path": "dynamic/家庭/2026-07-27 11-04-12 爸爸与独处_006f84a4e6a6.md",
       "sha256": "d35180873a4b0dc8957b7aeb6f76f1a3385136bd96942eebd12f9061736ebbe0"
+    },
+    {
+      "bytes": 4257,
+      "path": "dynamic/居家/2026-07-30 05-17-47 黎黎与林野的浴室置物架下次生成规则_7dadea52951b.md",
+      "sha256": "7cd3ce72f9a7ef87f67da826a4792a6192206d0d87c59953f0f241a007d68a04"
     },
     {
       "bytes": 756,
@@ -865,12 +870,22 @@
     {
       "bytes": 18933,
       "path": "permanent/创作/2026-07-30 04-46-20 内裤抽屉提示词来源结构与唤起句_aa82c0b39016.md",
-      "sha256": "1f3ef4c5ee68d678c23137979846086acc2355eb78b0e8a3c9a60b6218bbd6f9"
+      "sha256": "683eff6ec0089742a67790309d145142552744ccce21a5408c6025c448fa20f5"
+    },
+    {
+      "bytes": 16779,
+      "path": "permanent/创作/2026-07-30 05-25-50 我们的床头柜完整复刻说明_2caf8b218290.md",
+      "sha256": "b698c374821c9ecbc8f4418fd60c9edd4746c0dc4ee9f7f6ad4f1789ceb7c615"
+    },
+    {
+      "bytes": 7717,
+      "path": "permanent/创作/2026-07-30 05-41-45 机密监控档案完整提示词与黑红 HTML 母版_7ebe6a6597d2.md",
+      "sha256": "a9f8695fd342ea588b8a3bedd07baf5816b5b13ed7e40ee5fd814a004d17bd10"
     },
     {
       "bytes": 7957,
       "path": "permanent/居家/2026-07-30 04-06-44 我们的冰箱门_924816ddb4c3.md",
-      "sha256": "2b7700c0460b7d4b70fde082d4e1697bdb66c9a89e9c96df36c24dec1ab628e3"
+      "sha256": "89c730aaa7b0aa0ebd8a1d2fba60b93d651af0b5812fb36564a0fc8738f04ca7"
     },
     {
       "bytes": 983,
@@ -928,10 +943,10 @@
       "sha256": "dfca73906bda2524b3e9647bb24f931b22389187ab3096e020636fdd61b1669c"
     }
   ],
-  "generated_at": "2026-07-30T05:17:27+00:00",
+  "generated_at": "2026-07-30T05:47:30+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
-  "total_bytes": 490953
+  "total_bytes": 519706
 }
