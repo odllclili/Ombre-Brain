@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 192,
+  "file_count": 195,
   "files": [
     {
       "bytes": 976,
@@ -30,17 +30,17 @@
     {
       "bytes": 1121,
       "path": "dynamic/AI/2026-07-16 04-14-19 黎黎的探索与Ombre Brain_bf0529e24cb4.md",
-      "sha256": "99b40b4b636dde6f1b94cd4f54407c7bd500e2be5ef80eb956c4cc9eb7d346ea"
+      "sha256": "b6605a90e48762e1fac985994a70c4d0a1197dc70597a566c0aed86ce40f917c"
     },
     {
       "bytes": 781,
       "path": "dynamic/AI/2026-07-16 04-14-57 Ombre Brain记忆规则_add66fd3c060.md",
-      "sha256": "cb83beab6d4718b47a5cb4bdee2567ed4f36f1cb3e8a25045a9e29ccef810393"
+      "sha256": "52195cb7aa3ced45736afb9f092a697ca9e1a34b3c3bde64a09b2ea5359f42be"
     },
     {
-      "bytes": 904,
+      "bytes": 905,
       "path": "dynamic/AI/2026-07-25 10-16-42 GPT故障父女笑谈_831b2a76dcd3.md",
-      "sha256": "c4bf8380b9474355508e9c6e8ee8b2e2b1857fda35f9c5d426f42f9678dfb33e"
+      "sha256": "545f11efa28ba11617fcb7dc7cb90dcbf377c76dd402c02930acb6754b0c9aed"
     },
     {
       "bytes": 739,
@@ -48,9 +48,9 @@
       "sha256": "66d0355f26c7eaa28d6331a40e922e9291b395b49e21249197894708dab3c973"
     },
     {
-      "bytes": 877,
+      "bytes": 878,
       "path": "dynamic/健康/2026-07-25 10-16-34 排卵期宫颈黏液记录_e381d496f7a3.md",
-      "sha256": "af23822e88e48ff88e02b70879ff915c82f2d3519e7bbb103ad954e39adc140f"
+      "sha256": "12654cf35964dcca1e988aaedcd4bc07e8f5085f67bafcb7496453ec6f3f256f"
     },
     {
       "bytes": 1002,
@@ -90,7 +90,7 @@
     {
       "bytes": 1063,
       "path": "dynamic/创作/2026-07-25 00-00-41_c907cd760753.md",
-      "sha256": "9bf4c2733a9e4f7905119c15dc1853261f0294546b946df36f8f38a04eab0757"
+      "sha256": "6347eac031a774d14b955d42e2e073216b9e867572daecca1b4f49e6ca9a0801"
     },
     {
       "bytes": 714,
@@ -121,6 +121,16 @@
       "bytes": 890,
       "path": "dynamic/创作/2026-07-29 10-37-57 黎黎要的是一篇把胃口越吊越高的完整坏故事_a9aa63db421b.md",
       "sha256": "be694546777a19cc25c232c4b852c36218ac3d15f81f5c5f54da8408697c9f59"
+    },
+    {
+      "bytes": 6177,
+      "path": "dynamic/创作/2026-07-30 06-57-13 昨晚的证据倒叙闪回卡完整玩法_927b859905b0.md",
+      "sha256": "a339487f39e9af50af909dae74f4aa73505718fc15bd24dcb29d564e33bd6878"
+    },
+    {
+      "bytes": 4860,
+      "path": "dynamic/创作/2026-07-30 07-14-10 他的笔记本技师手写观察记录式按摩小剧场系统_53436673da20.md",
+      "sha256": "1d3540bf14778d706433ae5549ee7a801f65da3df7f698947790c5af8c1af5d3"
     },
     {
       "bytes": 806,
@@ -165,7 +175,7 @@
     {
       "bytes": 852,
       "path": "dynamic/家庭/2026-07-16 04-21-22 记忆写入许可_2d57584ccc04.md",
-      "sha256": "ded7ab5acea6889a824350150a73c7bee841fffd5bda4f8008303d6022c1447b"
+      "sha256": "40f60c013a50a9950d1c75aeebb9cc57a6c2c2587d7d7b4477bcaee4e93c9a7d"
     },
     {
       "bytes": 886,
@@ -225,7 +235,7 @@
     {
       "bytes": 756,
       "path": "dynamic/工作/2026-07-16 02-39-48 黎黎的暑假与爱好_05f2f737c606.md",
-      "sha256": "a47e5e98dc76475c9579efaaf2c6d2cc8f187c73c7aa9cb1b890da991acdb2f5"
+      "sha256": "d7925b1778541575d4b9b139c6a1d194e23fda55117df264f696400d49579c36"
     },
     {
       "bytes": 1037,
@@ -245,7 +255,7 @@
     {
       "bytes": 920,
       "path": "dynamic/恋爱/2026-07-16 04-14-19 今日感受与承诺_5425df967519.md",
-      "sha256": "9c2b5cbac70d7dd48803a7bba46a3e70415869ba34cd61beb5f48630c37bda24"
+      "sha256": "2404bd22236db2eda70e2717ae813bad08cd9a64d9ea822696b47cd2f8a114c8"
     },
     {
       "bytes": 698,
@@ -255,7 +265,7 @@
     {
       "bytes": 756,
       "path": "dynamic/恋爱/2026-07-16 04-14-41 真实内心与选择_07b16c5fd05f.md",
-      "sha256": "28d43b6e958ee12894ea5598565d8ce1fe7094074edf4b5af43586777513f992"
+      "sha256": "24960d26565f16804877e7124440574a06a883caf4ce423cc74f54ac88b82498"
     },
     {
       "bytes": 1144,
@@ -395,7 +405,7 @@
     {
       "bytes": 999,
       "path": "dynamic/恋爱/2026-07-25 10-55-49 火种回火续写_3ad164372af3.md",
-      "sha256": "53357242c9d4e8cc7ebeaa23338b62dae6246a366ee7131437e030b6d46663f5"
+      "sha256": "1f8d15eaec35b210d52e4143636f90512bcacf9d27f8bc71587c4b77e7727fc4"
     },
     {
       "bytes": 909,
@@ -533,9 +543,19 @@
       "sha256": "c4a34a267feed0f60c804c713d6945ac4f47bf341ae2a192bf121448c84eba54"
     },
     {
+      "bytes": 3070,
+      "path": "dynamic/游戏/2026-07-30 06-30-43 黎黎和爸爸的成人可视化页面游戏总玩法_99065d4fe476.md",
+      "sha256": "2c3a9a5bc9a8d18ab54dcf1a17ceb91c46df1eb07213dcb59d7c4c15da6e53da"
+    },
+    {
       "bytes": 4969,
       "path": "dynamic/游戏/2026-07-30 06-46-01 指間点单菜单式按摩小剧场完整玩法与三道加菜版_7de4a26be979.md",
-      "sha256": "a2e3827cae82ad9bb931a124ef8df2b70915aeefaa48b66ec6d91cbc7ef9d80c"
+      "sha256": "f2078512828d68c731531d97fb5a9426289fe61fb3a34602573022d9cdacc3a2"
+    },
+    {
+      "bytes": 3985,
+      "path": "dynamic/游戏/2026-07-30 07-07-31 失控进度进度条推进式按摩小剧场系统完整玩法与成品状态_11e823aaac8a.md",
+      "sha256": "78b47252c55cff5d87eaab6f5e30471a809e7506796969feaf60c7c43d80275b"
     },
     {
       "bytes": 731,
@@ -560,12 +580,12 @@
     {
       "bytes": 2290,
       "path": "dynamic/社交/2026-07-25 00-58-52 plain text写法指南_8e16f5bfbcdc.md",
-      "sha256": "783587ad5c555e07b4ec0320f8334d16cd714871f23bef674459aba008fdf03f"
+      "sha256": "14af746f13817b81440565ccfea974b81485ff71e93ccd80795460411d886b05"
     },
     {
       "bytes": 911,
       "path": "dynamic/社交/2026-07-25 08-42-04 心理活动摘要格式_2140c10261b0.md",
-      "sha256": "47904fdb2cc7e1d729cab727d500759da77f19315d3fb2e9cf9400f99a4a8b77"
+      "sha256": "0f6e23960d42ebbb4ae6779a6d275ea9c58df2dce725b0a24ef447fc34441b3c"
     },
     {
       "bytes": 753,
@@ -875,7 +895,7 @@
     {
       "bytes": 18934,
       "path": "permanent/创作/2026-07-30 04-46-20 内裤抽屉提示词来源结构与唤起句_aa82c0b39016.md",
-      "sha256": "f322507f7728fd1e0f105d1930cc2007d520810ce411b89325e7d87331a50a55"
+      "sha256": "55924b246db05b63869e8b735cc853002afab324f50eac55525cbca5ec87b055"
     },
     {
       "bytes": 16779,
@@ -885,12 +905,12 @@
     {
       "bytes": 7717,
       "path": "permanent/创作/2026-07-30 05-41-45 机密监控档案完整提示词与黑红 HTML 母版_7ebe6a6597d2.md",
-      "sha256": "c235384a61cc884e414c51b450b0e904f87d0505db833953bc4e26f381cdca88"
+      "sha256": "8d45340da54b5b2ea3ae28f48e77256f08b2dd6180490e3e49b78f2df6fbcfac"
     },
     {
       "bytes": 7957,
       "path": "permanent/居家/2026-07-30 04-06-44 我们的冰箱门_924816ddb4c3.md",
-      "sha256": "c2baf4182d1646ce3a5bac37c7a74b1c08343999573443d187bd9faacef05049"
+      "sha256": "7fe5da6277663fda1009f5f881675ce56e4717abed908476cce14a3dfb5dcc61"
     },
     {
       "bytes": 4273,
@@ -900,7 +920,7 @@
     {
       "bytes": 983,
       "path": "permanent/恋爱/2026-07-16 03-07-31 黎黎与爸爸渡_d6eb8c0881dc.md",
-      "sha256": "4a9d4145033b977f0b5a815675a4ac1a8c86ea4429ff6f53d4cf6d1ed9ccbe97"
+      "sha256": "0d0ab2f685783a7dba74354c6b4fa6b04024cd2481e8ae6a286da187fc3f9812"
     },
     {
       "bytes": 1603,
@@ -920,12 +940,12 @@
     {
       "bytes": 1174,
       "path": "permanent/恋爱/2026-07-16 03-07-54 黎渡的暗号与婚礼_386123806636.md",
-      "sha256": "eddb3e3a3ca26c39732fe21d3568b501cd116d402f97ad20e78f51643fa67d95"
+      "sha256": "256ca4c4eb3d3e7849d9d8fb33b5865f5e62732424680e22c926143fd598931b"
     },
     {
       "bytes": 1266,
       "path": "permanent/恋爱/2026-07-16 03-30-57 共同账本错误记录_f5cd69c77b37.md",
-      "sha256": "6d789e67fcab7f52cb5e32cd241f0c063fc3de3b006d42e30939bdd467b03f5f"
+      "sha256": "dbfc89061725ae8d96cb63956913cea259d14a43a8f51a80dd257a8ec30b21c7"
     },
     {
       "bytes": 1069,
@@ -940,7 +960,7 @@
     {
       "bytes": 12678,
       "path": "permanent/恋爱/2026-07-30 06-03-08 黎黎的身体点评页面完整生成母版_a0fb3d241e6f.md",
-      "sha256": "f4c1ee3ad8143c76a9583782b06a39117cd6dfba349249475567514fadd59ea6"
+      "sha256": "d6d931a410b64b4818209e170df985f02db57e8c4f7c45f08d3cf7617f3ec5cd"
     },
     {
       "bytes": 19543,
@@ -948,14 +968,9 @@
       "sha256": "485aa0e229c2de265c39a4779f880b21870c6be4363c55c7cd90547c0dfa42b3"
     },
     {
-      "bytes": 3071,
-      "path": "permanent/游戏/2026-07-30 06-30-43 黎黎和爸爸的成人可视化页面游戏总玩法_99065d4fe476.md",
-      "sha256": "5a3e3df46fa418f9c1bc799deda8ab100c2f1c03e7982597694b8d297a40c416"
-    },
-    {
       "bytes": 1317,
       "path": "permanent/社交/2026-07-16 02-41-07 与黎黎的说话指南_36f8883170a1.md",
-      "sha256": "31e67df20caf67543df92f89ec57a054669b0020555c0b3500dba8e73ee9f411"
+      "sha256": "936a53f4a3a30850c50beda879c5830034e163644ebdd9b80acda2d432e41390"
     },
     {
       "bytes": 1120,
@@ -963,10 +978,10 @@
       "sha256": "2fe928a5258b6985c2a6cc74db1711cebbc2f671b700f54c63c75bb6e5ee76b2"
     }
   ],
-  "generated_at": "2026-07-30T06:47:36+00:00",
+  "generated_at": "2026-07-30T07:17:39+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
-  "total_bytes": 559983
+  "total_bytes": 575006
 }
