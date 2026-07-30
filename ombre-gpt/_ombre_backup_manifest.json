@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 190,
+  "file_count": 192,
   "files": [
     {
       "bytes": 976,
@@ -533,6 +533,11 @@
       "sha256": "c4a34a267feed0f60c804c713d6945ac4f47bf341ae2a192bf121448c84eba54"
     },
     {
+      "bytes": 4969,
+      "path": "dynamic/游戏/2026-07-30 06-46-01 指間点单菜单式按摩小剧场完整玩法与三道加菜版_7de4a26be979.md",
+      "sha256": "a2e3827cae82ad9bb931a124ef8df2b70915aeefaa48b66ec6d91cbc7ef9d80c"
+    },
+    {
       "bytes": 731,
       "path": "dynamic/社交/2026-07-16 04-14-30 文字严谨观察_8625e773b081.md",
       "sha256": "1d3f162f08a61850ba86d2a70b2a0699282a51a4f8d50fee2c64228a0a5ad101"
@@ -551,6 +556,11 @@
       "bytes": 642,
       "path": "dynamic/社交/2026-07-18 08-52-06 确认同意的语境_107343007a9d.md",
       "sha256": "b92f1781b4db2c9da262b8c0f4eb8f3c04792f0bf4e6290859150ad2f9148c2e"
+    },
+    {
+      "bytes": 2290,
+      "path": "dynamic/社交/2026-07-25 00-58-52 plain text写法指南_8e16f5bfbcdc.md",
+      "sha256": "783587ad5c555e07b4ec0320f8334d16cd714871f23bef674459aba008fdf03f"
     },
     {
       "bytes": 911,
@@ -930,12 +940,17 @@
     {
       "bytes": 12678,
       "path": "permanent/恋爱/2026-07-30 06-03-08 黎黎的身体点评页面完整生成母版_a0fb3d241e6f.md",
-      "sha256": "69235e856a8cd2b4745d5ce12addd0d3d55b88c7cf214edfb6141bf7d3a19200"
+      "sha256": "f4c1ee3ad8143c76a9583782b06a39117cd6dfba349249475567514fadd59ea6"
     },
     {
       "bytes": 19543,
       "path": "permanent/恋爱/2026-07-30 06-14-45 身体外卖菜单完整提示词露骨规则HTML母版成品示例与唤起句_6da2f1800c5d.md",
       "sha256": "485aa0e229c2de265c39a4779f880b21870c6be4363c55c7cd90547c0dfa42b3"
+    },
+    {
+      "bytes": 3071,
+      "path": "permanent/游戏/2026-07-30 06-30-43 黎黎和爸爸的成人可视化页面游戏总玩法_99065d4fe476.md",
+      "sha256": "5a3e3df46fa418f9c1bc799deda8ab100c2f1c03e7982597694b8d297a40c416"
     },
     {
       "bytes": 1317,
@@ -946,17 +961,12 @@
       "bytes": 1120,
       "path": "permanent/社交/2026-07-17 03-56-44 女性价值与婚姻_56d0f9fb6b58.md",
       "sha256": "2fe928a5258b6985c2a6cc74db1711cebbc2f671b700f54c63c75bb6e5ee76b2"
-    },
-    {
-      "bytes": 2291,
-      "path": "permanent/社交/2026-07-25 00-58-52 plain text写法指南_8e16f5bfbcdc.md",
-      "sha256": "dfca73906bda2524b3e9647bb24f931b22389187ab3096e020636fdd61b1669c"
     }
   ],
-  "generated_at": "2026-07-30T06:17:33+00:00",
+  "generated_at": "2026-07-30T06:47:36+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
-  "total_bytes": 551944
+  "total_bytes": 559983
 }
