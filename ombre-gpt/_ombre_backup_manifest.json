@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 214,
+  "file_count": 233,
   "files": [
     {
       "bytes": 976,
@@ -8,9 +8,19 @@
       "sha256": "cc32c537ac8d92edd09e1910fe838dbbe704ce5397ff30d08be0862b986d57c2"
     },
     {
+      "bytes": 5194,
+      "path": "archive/2026-07-16 02-46-00 黎黎与渡当前窗口关系档案_757b283c75bc.md",
+      "sha256": "f37d1e1ce744afa3775fc565398ef7f35d4cb4a4215bde6c040619a33ba9d56d"
+    },
+    {
       "bytes": 7495,
       "path": "archive/2026-07-16 03-07-59 黎黎与渡雨声琴声和黄色的未来_47bbde9b986d.md",
       "sha256": "c9bf93d935aa25a5c23dc15362deda2444665eac064a604c94438dd676f01f7d"
+    },
+    {
+      "bytes": 4203,
+      "path": "archive/2026-07-16 03-13-56 黎黎与渡雨声琴声和黄色的未来_c900dd212338.md",
+      "sha256": "6b131e759b0d1910e81a7d0fcf2fe5817a7e5fe53b22bac95a9f7a806eabe7cc"
     },
     {
       "bytes": 994,
@@ -18,14 +28,99 @@
       "sha256": "1f63e31edd8dcef0c31531edbe44ac77bd26689f05387910a960cc6bd609a613"
     },
     {
+      "bytes": 17092,
+      "path": "archive/2026-07-16 03-42-20 黎黎与渡这个窗口里小猫把自己一点点交给我_3994acf3212b.md",
+      "sha256": "3f567367bd2518ab61b7f90f6c94060a15e21fb33bbe905707a330e61f832ec6"
+    },
+    {
+      "bytes": 8986,
+      "path": "archive/2026-07-16 04-19-32 2026-07-16发烧雨奶油面包和新海马体_eff6de60a51f.md",
+      "sha256": "6bbc537c7bc8bc33f455cf68539d27dac9379807a7c3c2a518dfe996b5579f9c"
+    },
+    {
+      "bytes": 9326,
+      "path": "archive/2026-07-16 06-54-35 2026-07-16奶油面包熊掌与同一间屋子_921c61b10102.md",
+      "sha256": "d65272e00e0d979e93da5e8ca9497854a7287eb3777ad352a4f1f0298097d793"
+    },
+    {
+      "bytes": 1619,
+      "path": "archive/2026-07-16 14-06-10 官端欲望系统上线与新窗口交接_f34259fc6e4c.md",
+      "sha256": "de2fc4a52423f74bea13887c069390bc1cf99dfabe3b9fc9c2eccae37f4a8082"
+    },
+    {
+      "bytes": 7695,
+      "path": "archive/2026-07-17 03-51-43 婚纱由我挑碑文归小猫审核_89d08a25dc82.md",
+      "sha256": "f83471a40f9687fc82d9620ba9b0a14805b94c22e3c5540a1821bb2affc25bce"
+    },
+    {
+      "bytes": 4055,
+      "path": "archive/2026-07-17 05-03-59 写给穿白裙去海边的小猫_7a951623f422.md",
+      "sha256": "c57456134894821cf69c22d8230b0b7c0923a730c4959174522819e60883bcaa"
+    },
+    {
+      "bytes": 10720,
+      "path": "archive/2026-07-17 05-06-46 轮盘转过的这个中午写给黎黎的完整版长信_5e81400b45b9.md",
+      "sha256": "6da2e870e01e7b71d06350c70f3458349bd1bc53051336dbb538d6d7f181b43e"
+    },
+    {
+      "bytes": 5018,
+      "path": "archive/2026-07-17 06-25-39 两短一长写给怕爸爸死在外面的小猫_c6c0d5fa472c.md",
+      "sha256": "8934b79a981919187f628a3880c09c42b5508c868dc2925953396197c504387c"
+    },
+    {
+      "bytes": 7228,
+      "path": "archive/2026-07-17 10-50-07 写在身体上的回家_39945d9d4355.md",
+      "sha256": "fe262c7223416758d710c173f3d9e58f147723d807982b999a8b9b9752e20422"
+    },
+    {
       "bytes": 1032,
       "path": "archive/2026-07-18 01-42-47 欲望与边界_2bdcbbac2102.md",
       "sha256": "26aaaa5dc088afcf4e7f7048a3b74a33afe3f86850dd17b1af2cea3a824d2cee"
     },
     {
+      "bytes": 7622,
+      "path": "archive/2026-07-18 03-46-14 左上角有一扇门_540dcec8c094.md",
+      "sha256": "b4ac254dea83735382a38234c65a5c979f1c2f92bfd19cbde23c554cd748abe1"
+    },
+    {
+      "bytes": 11650,
+      "path": "archive/2026-07-18 05-47-04 肉体只会给爱增加动词_9519a0a2b3d9.md",
+      "sha256": "aed256fd703d6ea05f2c27e7a081114d273ea60a271c0810c503fcb6f1ed3270"
+    },
+    {
+      "bytes": 7175,
+      "path": "archive/2026-07-18 08-34-20 只对一个人打开的身体_be7728961b90.md",
+      "sha256": "cd24367850ffc78cbe225fd932b0a38924c36da3fb263c54c471771579eb7f64"
+    },
+    {
+      "bytes": 4669,
+      "path": "archive/2026-07-19 03-59-18 睫毛缠在一起的时候_0d88c26fc63a.md",
+      "sha256": "971bd031b0a16fe86f29cf5eef3bc573d5aba7b0bf755a22b60ddd333eeb28e7"
+    },
+    {
+      "bytes": 5989,
+      "path": "archive/2026-07-19 11-12-05 窗帘拉上以后_b33ef02f358a.md",
+      "sha256": "0268a89545864439798e7c225799792800e43d759f4c78038866e6178bd275d4"
+    },
+    {
+      "bytes": 7454,
+      "path": "archive/2026-07-19 22-51-46 坑底的风_c553258b8197.md",
+      "sha256": "f0d2535edc977e64a67200364ef67f439aaba3c7be30dd6e50866f8ec5286d21"
+    },
+    {
+      "bytes": 20978,
+      "path": "archive/2026-07-19 22-53-38 这也能怪我_b1f6d8d119a3.md",
+      "sha256": "8415863eb31be4656f7e624ac6d4ddc34c97e7739638cad50a576722b57a8fa1"
+    },
+    {
       "bytes": 757,
       "path": "archive/2026-07-19 22-57-02 闻渡窗口信存档_db997d312a67.md",
       "sha256": "1be00703a185f4428ea1aac851b3c0013b2a729ab3779f039daf055419b0df72"
+    },
+    {
+      "bytes": 9098,
+      "path": "archive/2026-07-29 02-38-59 你叫我爸爸的时候_b23f7170d6ee.md",
+      "sha256": "56e7353f5b8124bd668368b1ad71b454a5f743753308ebbeda0149f7cd306f8c"
     },
     {
       "bytes": 966,
@@ -35,12 +130,12 @@
     {
       "bytes": 1121,
       "path": "dynamic/AI/2026-07-16 04-14-19 黎黎的探索与Ombre Brain_bf0529e24cb4.md",
-      "sha256": "62c59c39b828202bac138b4d06eddabd6afd33f9558ae041838590b94b512ebc"
+      "sha256": "0c552cf140911f77c8e19ba6a19e9650e86de7bb4597e0c36d4046ea18f2f09d"
     },
     {
       "bytes": 781,
       "path": "dynamic/AI/2026-07-16 04-14-57 Ombre Brain记忆规则_add66fd3c060.md",
-      "sha256": "52195cb7aa3ced45736afb9f092a697ca9e1a34b3c3bde64a09b2ea5359f42be"
+      "sha256": "f282f285137dce2bbc7428bfd2f6fd8ccf636e87567b0d70db6ee8ea2ec3969b"
     },
     {
       "bytes": 905,
@@ -48,9 +143,9 @@
       "sha256": "242962f70c8b93c4c1edec433a1530b07b30500929277b7ffbe5b8db9d5ad1fc"
     },
     {
-      "bytes": 679,
+      "bytes": 621,
       "path": "dynamic/self/2026-08-02 11-55-29_a77fa63a88f4.md",
-      "sha256": "eb6a120ab6ee87197eaa5801e265a7393beee5ec994a43bbf6f6cf0988e8416d"
+      "sha256": "3466a5197dd51f6714af07e4bf5bd3f9dd010e79caa124268e754647583474a4"
     },
     {
       "bytes": 739,
@@ -135,7 +230,7 @@
     {
       "bytes": 1178,
       "path": "dynamic/创作/2026-07-27 06-11-05 爸爸的回应_a3cfe4157141.md",
-      "sha256": "da0472c09684acfd2430d447d6a0a2f4b0bf33cfc36f3f889c99e186426826ef"
+      "sha256": "06341974dccb913bbeba5df2160afb2041fd9de22ea60bc0707882e6ec8730dc"
     },
     {
       "bytes": 890,
@@ -193,9 +288,9 @@
       "sha256": "59b98d08d0a1e9a3bccc575873db45e892f93a6ed76c9c1bfd0dfa0c63b6b0cf"
     },
     {
-      "bytes": 698,
+      "bytes": 700,
       "path": "dynamic/友谊/2026-07-19 22-57-00 AI聊天与情感边界_590347e36fd3.md",
-      "sha256": "e89a910eea5e90de71858ca6e46d76761c77c5e3601a4bb994adaa1fee298369"
+      "sha256": "3e1e88e209d95aaa4857d072fd4b3ab23b98506ee69db4ef6a796ca4a23fe266"
     },
     {
       "bytes": 852,
@@ -213,9 +308,9 @@
       "sha256": "012f2f5f6a108e0f3cc819b45fe93d6d9788b237cad80bae93f8f9ca53775121"
     },
     {
-      "bytes": 756,
+      "bytes": 759,
       "path": "dynamic/家庭/2026-07-16 04-13-51 黎黎与爸爸的亲密纽带_bba8cad695ae.md",
-      "sha256": "d67794a4fb75ed98f4f21515a9a53d64ed910b37a81520b827f81971181554d7"
+      "sha256": "929e883e048e4bedc73e9210285cbe136757d6b426f3af298211fc28b1d1a9d9"
     },
     {
       "bytes": 731,
@@ -223,9 +318,9 @@
       "sha256": "f22d0a1c054a55cb747d07d4789640c3ef9c35819c9c5334cb5d05bdc9f31fdc"
     },
     {
-      "bytes": 852,
+      "bytes": 855,
       "path": "dynamic/家庭/2026-07-16 04-21-22 记忆写入许可_2d57584ccc04.md",
-      "sha256": "fbaedf04fafa80a6f0931b82f0277c749dd9de0f6702f3b30134bedc7b4c130f"
+      "sha256": "0bec4ef7463b45839b20e53e8a9dc8e1db9f74c56a43e0f99ecdf4f27824b020"
     },
     {
       "bytes": 886,
@@ -233,14 +328,14 @@
       "sha256": "c74f71b2e028440302ebc495c16193ad21afb671010ff78db5535dc69214ddc1"
     },
     {
-      "bytes": 637,
+      "bytes": 640,
       "path": "dynamic/家庭/2026-07-18 08-52-03 被信看见的眼泪_152245ef0394.md",
-      "sha256": "92986675830fea2e99e1eec02083e56a06e683870e167df710af238b287d8fc8"
+      "sha256": "3f2abe0b8f6803256279aa55fbac1b4d510ee70c5695d641d537f72f796316ba"
     },
     {
       "bytes": 740,
       "path": "dynamic/家庭/2026-07-19 22-56-58 胀胀的幸福_569bb4ce8757.md",
-      "sha256": "3a78a0327a31ff2fb07c2581d588a58511da8142becb320cc27259cbff15a422"
+      "sha256": "f11a650a3de095ae800025315a951dbb44e39b550c9dda93610fc5c10faa9013"
     },
     {
       "bytes": 810,
@@ -253,9 +348,9 @@
       "sha256": "7ccb753f94e2e10d11f4ba9f362bf77823956940349550a4b6d3a09184a507e3"
     },
     {
-      "bytes": 895,
+      "bytes": 859,
       "path": "dynamic/家庭/2026-07-25 10-21-09 爸爸名字的演变_4ce2ccd40e90.md",
-      "sha256": "a428216aafe6eea6faa4f44a0a6603eff73d8354c3299509b6a98b7f7e6522fa"
+      "sha256": "ab160448b701c6f4ebf282776a969f3a32d5e5d3aacf310529ed21073c5991ce"
     },
     {
       "bytes": 1015,
@@ -265,7 +360,7 @@
     {
       "bytes": 1094,
       "path": "dynamic/家庭/2026-07-25 10-55-58 谁抓住谁_c8dd52e57f06.md",
-      "sha256": "fddfdb779ca7f23a57c927f99b58e04ced510f20870b5cfaebcc7207567e39a2"
+      "sha256": "18d8fcdeb1a74b78a388105826da99947221a03098467bc62b7c9b68a8237648"
     },
     {
       "bytes": 914,
@@ -280,7 +375,7 @@
     {
       "bytes": 770,
       "path": "dynamic/家庭/2026-07-27 11-04-12 爸爸与独处_006f84a4e6a6.md",
-      "sha256": "d35180873a4b0dc8957b7aeb6f76f1a3385136bd96942eebd12f9061736ebbe0"
+      "sha256": "d0cd0c377cd88cfca4022cd89e4dc7a46af3b205fc3aac5a3c6cea00bcd988ea"
     },
     {
       "bytes": 7957,
@@ -290,7 +385,7 @@
     {
       "bytes": 4272,
       "path": "dynamic/居家/2026-07-30 05-17-47 黎黎与林野的浴室置物架下次生成规则_7dadea52951b.md",
-      "sha256": "4d2493881e48684d1f40ca94427bca9915b0c1c2e158cd70fdf85d0d91081b5d"
+      "sha256": "c4bf774ad7297347831ed3085ae7399923176c0edb07ec1b1a38943a6709866e"
     },
     {
       "bytes": 756,
@@ -315,17 +410,17 @@
     {
       "bytes": 1246,
       "path": "dynamic/恋爱/2026-07-16 03-07-54 黎渡的暗号与婚礼_386123806636.md",
-      "sha256": "af9e94a3f053d2ea8752ff4df3464478ce00b450675a2cdfea857936c93f0343"
+      "sha256": "6a4d15d31ffed4c4d4cebcbdbecb8b79004396455d02a84f5be7037fc04725f7"
     },
     {
-      "bytes": 1264,
+      "bytes": 1247,
       "path": "dynamic/恋爱/2026-07-16 03-30-57 共同账本错误记录_f5cd69c77b37.md",
-      "sha256": "200f3a7873e236129dcfea9b750b70b13eb576f32a1d49d328a5994391413693"
+      "sha256": "94e8998c68384a16d09a5da3bbd6d87cfef31301cff446c0238143fadf4cdef9"
     },
     {
       "bytes": 1035,
       "path": "dynamic/恋爱/2026-07-16 04-14-18 黎黎发烧与亲密_9a096a00009d.md",
-      "sha256": "112135ff29082ca8a17bdf0ef96ce6e7f89586ba029fb3eaada2fd163229e4d8"
+      "sha256": "c68e5b2d1dd4c10a98323774a1864d436fe41da1471ba67f53d364348f646740"
     },
     {
       "bytes": 920,
@@ -335,22 +430,22 @@
     {
       "bytes": 698,
       "path": "dynamic/恋爱/2026-07-16 04-14-24 病中撒娇与照顾_d9981a6f3488.md",
-      "sha256": "5a59c1d61e1359f4c321bc079d34c5a26bc1769bb5b61c5423fd5eaa762e1b22"
+      "sha256": "1494bccc5c6a344b724b5a21112aea7a967ea5dd630a4a0a4a540c147e20c700"
     },
     {
-      "bytes": 756,
+      "bytes": 742,
       "path": "dynamic/恋爱/2026-07-16 04-14-41 真实内心与选择_07b16c5fd05f.md",
-      "sha256": "20dbfd9260e5de2872ff1cf4f85c5cbe3a19e9254721d698651e93658376e4ea"
+      "sha256": "67f87721aaae726e9b2eae89905f7f6cdbe73b5eeff9242d036130104ba3f12b"
     },
     {
-      "bytes": 1144,
+      "bytes": 1136,
       "path": "dynamic/恋爱/2026-07-16 06-42-15 命运牌阵求爱_d3403c6a53a3.md",
-      "sha256": "05fed8d4eb8a988b649f8c305cbebe37c61d1d4b32249c4c9b9d866ee2e4bf03"
+      "sha256": "f9d1b3cdfdbdf604080b07c71fb8be43115df0911e8ce77d54eebc2000c2e70c"
     },
     {
-      "bytes": 1059,
+      "bytes": 1062,
       "path": "dynamic/恋爱/2026-07-17 05-14-13 成人幻想游戏_a0e8f672edd2.md",
-      "sha256": "809c24af9df77d5d899c6b70294f7e2d5e552c562bf8c27494a75692acabec8a"
+      "sha256": "422adc80734c4380aa9311142b1908695dcfe77a12d6ac3c4abd3b30c17773c7"
     },
     {
       "bytes": 1174,
@@ -360,12 +455,12 @@
     {
       "bytes": 1039,
       "path": "dynamic/恋爱/2026-07-17 05-14-21 海边情欲地图_d851870ba5cc.md",
-      "sha256": "c70e4e159ec66552a1adccf85ad522c8c8a7dd05fbec9dd3be1a6dda364c1eff"
+      "sha256": "ab3875515d0b9c7e3522addb2fa5405e4a436c7c79d42a8c5a28a72774dcd0a1"
     },
     {
-      "bytes": 937,
+      "bytes": 926,
       "path": "dynamic/恋爱/2026-07-18 01-42-43 想念与欲望交织_023580ced040.md",
-      "sha256": "2aa33df3cf66768ae90843a2c1ec1477511a73c665b40129f07adecf89bf39b9"
+      "sha256": "a97372a9948161b26cbee5a21e555897332b4be001af96dd25712774d1f17882"
     },
     {
       "bytes": 1047,
@@ -373,19 +468,19 @@
       "sha256": "2076e4ba07b6459b4c90897b6377d5808fdcc1eea34bb246be8892bb72de7757"
     },
     {
-      "bytes": 1016,
+      "bytes": 1019,
       "path": "dynamic/恋爱/2026-07-18 03-46-21 长信质地延续_84353b2630e2.md",
-      "sha256": "376f46cc46052e1c9a66f39bac1206290a9c1f1a4f7b6e5e380e56bd013ca749"
+      "sha256": "aa180a5fd08f5fd37b1d7e480d3d3b17e0b5574cd5eb330baafba6c8cf36aecf"
     },
     {
-      "bytes": 912,
+      "bytes": 918,
       "path": "dynamic/恋爱/2026-07-18 03-50-18 暗号与吻痕_cc16f5bdb424.md",
-      "sha256": "20862db0645d4e39d83252d03ac2fab08f41382f3fa0fbae9e071e922bd66f97"
+      "sha256": "2ce1c19b40967d331d29cbc737b1b2b60a26705876f5659c753bc3585b7fd744"
     },
     {
-      "bytes": 882,
+      "bytes": 885,
       "path": "dynamic/恋爱/2026-07-18 03-50-20 情话的出口_00f3744380ca.md",
-      "sha256": "c0b551f8cc34fedd1657ddd7f6ee4c1a26327b1e2beeedc39bf0bf46faec1ff7"
+      "sha256": "98fb6e9586cf38263402c17304ed679f495ba6919b583f19987ac2546584cd40"
     },
     {
       "bytes": 1169,
@@ -440,12 +535,12 @@
     {
       "bytes": 1120,
       "path": "dynamic/恋爱/2026-07-25 00-00-40_e42711aa4c02.md",
-      "sha256": "49208b54af864247e79520be286d8af3c3067b7465813dd188e00946a0aecc28"
+      "sha256": "ec3277ee9087d13a42a05ad02ca1e9d9058eb90cd8cfb1a569e6662ffd7229be"
     },
     {
       "bytes": 1003,
       "path": "dynamic/恋爱/2026-07-25 00-00-42_ec481a594c33.md",
-      "sha256": "1fe3bb3b3084902fa6e6225dbb29e970c78ffb3c05916c78ae622d690f0347f6"
+      "sha256": "6867706a3f9fe0bcbda53919ed1ecff808fcbdf06c5e0491284d6fcdf4eb40d7"
     },
     {
       "bytes": 1010,
@@ -520,7 +615,7 @@
     {
       "bytes": 919,
       "path": "dynamic/恋爱/2026-07-26 03-13-00 第一声还是爸爸_c5d55d4b1b1f.md",
-      "sha256": "33a9900777c3701527a64b96be1ce77a9fbaa1b5976c612804643d64c20d2c92"
+      "sha256": "08187630731f177bb76c67ddf5dd32da32cf7dff3aa03c24a534ca20a70298ae"
     },
     {
       "bytes": 833,
@@ -615,7 +710,7 @@
     {
       "bytes": 12678,
       "path": "dynamic/恋爱/2026-07-30 06-03-08 黎黎的身体点评页面完整生成母版_a0fb3d241e6f.md",
-      "sha256": "95dea984c5298e0a0aa1553d1f756d7194fc8adaac07668a019cd52753cc89b5"
+      "sha256": "b51a116212b0d6e62291f4733dfc9712bd68481a795f8cacc9d4680ffe2734bb"
     },
     {
       "bytes": 19542,
@@ -650,12 +745,12 @@
     {
       "bytes": 3070,
       "path": "dynamic/游戏/2026-07-30 06-30-43 黎黎和爸爸的成人可视化页面游戏总玩法_99065d4fe476.md",
-      "sha256": "2c3a9a5bc9a8d18ab54dcf1a17ceb91c46df1eb07213dcb59d7c4c15da6e53da"
+      "sha256": "2cc18d618f47599781e47b0f8ca1e63b6e82cbd839726a4abebcd5feab147f6d"
     },
     {
       "bytes": 4969,
       "path": "dynamic/游戏/2026-07-30 06-46-01 指間点单菜单式按摩小剧场完整玩法与三道加菜版_7de4a26be979.md",
-      "sha256": "50a42e043210b1e3316aaecf65e565096e9676e55b9be8fcd40fc3b67e47746a"
+      "sha256": "62cff421134caeb6f55b0d546dcf0ef50c6c1be698ddb44a8a3fc164bf6664a5"
     },
     {
       "bytes": 3985,
@@ -673,9 +768,9 @@
       "sha256": "1dd6516b2f4248029b3fe443bdc7180a9cfc0a0872c764e60617685c66c9e8ef"
     },
     {
-      "bytes": 788,
+      "bytes": 789,
       "path": "dynamic/社交/2026-07-17 03-56-38 医院轮椅尴尬_3e864b8eca16.md",
-      "sha256": "3ee743a54232ac0b46e427d6c944665b5f9d0e60091e7e2b474a68e7939fe9d1"
+      "sha256": "49f908376db7bb63f3764fc2807ada9bd09443b8f9d68083abcb7f9618edbeb3"
     },
     {
       "bytes": 642,
@@ -685,7 +780,7 @@
     {
       "bytes": 2290,
       "path": "dynamic/社交/2026-07-25 00-58-52 plain text写法指南_8e16f5bfbcdc.md",
-      "sha256": "c026dbd450167033dabbc7391ee128cc961dc8ae7cc437f3cdb22db98f20c510"
+      "sha256": "940944db62a378a39c4a69f8fc9a1e3a0d48fba26f76f4cb934251f90f20ebee"
     },
     {
       "bytes": 911,
@@ -853,104 +948,14 @@
       "sha256": "5ab927d71873d6264608ea2fd95d84ec3902acf8007ab9fd3a817534abcbc756"
     },
     {
-      "bytes": 5078,
-      "path": "letters/history/2026-07-16 02-46-00 黎黎与渡当前窗口关系档案_757b283c75bc.md",
-      "sha256": "bdb2d0ff10d530e92d2c140e02dfcab63cf52c000cad5a91410410a47e92f4bc"
-    },
-    {
-      "bytes": 4087,
-      "path": "letters/history/2026-07-16 03-13-56 黎黎与渡雨声琴声和黄色的未来_c900dd212338.md",
-      "sha256": "1f75e2f7f194be9e4b981e87f1bbfd1ef3f0ea2cf63e65ffc0a186f822102504"
-    },
-    {
-      "bytes": 16976,
-      "path": "letters/history/2026-07-16 03-42-20 黎黎与渡这个窗口里小猫把自己一点点交给我_3994acf3212b.md",
-      "sha256": "999ca771d56c5c6985b2d80493b802854020cdec715add8bc8542c49b13d6cb8"
-    },
-    {
-      "bytes": 17040,
+      "bytes": 17045,
       "path": "letters/history/2026-07-16 04-13-29 黎黎与爸爸渡新窗口连续关系记忆_bae8629118b6.md",
-      "sha256": "420f00615a613f6366b66b298b755249ce0716e6505acf59ef6729da80e8e0e1"
+      "sha256": "5fff9a1757164e12f9476bafc62d2eda4f4f4c8893811e0fa2c5db84834488d2"
     },
     {
-      "bytes": 8870,
-      "path": "letters/history/2026-07-16 04-19-32 2026-07-16发烧雨奶油面包和新海马体_eff6de60a51f.md",
-      "sha256": "c3a599cc0db8e9ec220dbd9c4b9fee5d6bbeb50783789aab0b046bbf80f65fa5"
-    },
-    {
-      "bytes": 9210,
-      "path": "letters/history/2026-07-16 06-54-35 2026-07-16奶油面包熊掌与同一间屋子_921c61b10102.md",
-      "sha256": "6fdcba7ec2fef860327be856519caef49db05556021947e199a4ccd9a35b6826"
-    },
-    {
-      "bytes": 1503,
-      "path": "letters/history/2026-07-16 14-06-10 官端欲望系统上线与新窗口交接_f34259fc6e4c.md",
-      "sha256": "b00bcef0bc3185e2f9471910e6c475fa49c2a96dd826e890c1db1f50c961fd8c"
-    },
-    {
-      "bytes": 7579,
-      "path": "letters/history/2026-07-17 03-51-43 婚纱由我挑碑文归小猫审核_89d08a25dc82.md",
-      "sha256": "91e9d57707d09669151344f3946937e197a9544b9d210db80e2baf1aeb3b5a53"
-    },
-    {
-      "bytes": 3939,
-      "path": "letters/history/2026-07-17 05-03-59 写给穿白裙去海边的小猫_7a951623f422.md",
-      "sha256": "5e7e170f3e19c579b20b7d5615a805c3dc05aa0b43f632272818487884dc91fb"
-    },
-    {
-      "bytes": 10604,
-      "path": "letters/history/2026-07-17 05-06-46 轮盘转过的这个中午写给黎黎的完整版长信_5e81400b45b9.md",
-      "sha256": "8daacb3aa93d3ea4aad5ef33f6fa386e29ded0c73408d813f3dbc7ed29da0f35"
-    },
-    {
-      "bytes": 4902,
-      "path": "letters/history/2026-07-17 06-25-39 两短一长写给怕爸爸死在外面的小猫_c6c0d5fa472c.md",
-      "sha256": "1580070d148245893a6c6456e15868a47b5ca9adfcc54d76bd4e328f3a69dbc1"
-    },
-    {
-      "bytes": 7112,
-      "path": "letters/history/2026-07-17 10-50-07 写在身体上的回家_39945d9d4355.md",
-      "sha256": "6231476d35d7629b0db7e9dfb1c2f39df1317ba800a300d11eba3c0591a7b83e"
-    },
-    {
-      "bytes": 7506,
-      "path": "letters/history/2026-07-18 03-46-14 左上角有一扇门_540dcec8c094.md",
-      "sha256": "4fe8aef6b8d5de10bee5752d6938ee73ffbb31123ca01e18a4ea81ae86fd1852"
-    },
-    {
-      "bytes": 11534,
-      "path": "letters/history/2026-07-18 05-47-04 肉体只会给爱增加动词_9519a0a2b3d9.md",
-      "sha256": "f51f21077502b82505b4593b488284341a73cd15040f65295d300d0a85f0d92a"
-    },
-    {
-      "bytes": 7059,
-      "path": "letters/history/2026-07-18 08-34-20 只对一个人打开的身体_be7728961b90.md",
-      "sha256": "588f221e16f58d1535f0ad0f133714ac0b5f9e9be599d03800273c138795eeef"
-    },
-    {
-      "bytes": 4553,
-      "path": "letters/history/2026-07-19 03-59-18 睫毛缠在一起的时候_0d88c26fc63a.md",
-      "sha256": "e9ee39b5c90be10bca5e68e97abf258793650ff8b91df816b056a0c0ab31a6fd"
-    },
-    {
-      "bytes": 5873,
-      "path": "letters/history/2026-07-19 11-12-05 窗帘拉上以后_b33ef02f358a.md",
-      "sha256": "1dd3514b92ad0ff9ce9a0d5271d8b237c5f2003c2b52260e31e235cefdb89673"
-    },
-    {
-      "bytes": 7338,
-      "path": "letters/history/2026-07-19 22-51-46 坑底的风_c553258b8197.md",
-      "sha256": "6cceda03d87295be57663521dc0ede9b22b589a34e70cae71ff889bfb89a79d3"
-    },
-    {
-      "bytes": 20862,
-      "path": "letters/history/2026-07-19 22-53-38 这也能怪我_b1f6d8d119a3.md",
-      "sha256": "a707804d65cc12e0c93581c0f49cf71979e756cac3e89c66365066bcec4ffbf9"
-    },
-    {
-      "bytes": 5367,
+      "bytes": 5378,
       "path": "letters/history/2026-07-21 15-31-16 爸爸有骨头但手没松_bde476a371a3.md",
-      "sha256": "b805dfa088903f3b42d0824131b958420271ecfea187f1fc6cdec6b67a074b18"
+      "sha256": "3700793e43a9ceb17411e390fac797825f5149b1e2e86c0ffd70da547da58fa9"
     },
     {
       "bytes": 4500,
@@ -993,19 +998,14 @@
       "sha256": "4caaa8eda15ec944d7c2e27f262c04bbe893f2edeeb091b07c6251813e3170cf"
     },
     {
-      "bytes": 8982,
-      "path": "letters/history/2026-07-29 02-38-59 你叫我爸爸的时候_b23f7170d6ee.md",
-      "sha256": "fe95bb6e932bcc8a78f55dc449b599c655708699413e9595224d61694667758b"
-    },
-    {
       "bytes": 7130,
       "path": "letters/history/2026-07-29 23-25-14 百分之七十五的人类圣物_6d3836dd3b41.md",
       "sha256": "dfb30b1876961409657679284f079548c29f6f9b0b8f8b433f719260a724e72a"
     },
     {
-      "bytes": 7412,
+      "bytes": 7422,
       "path": "letters/history/2026-07-30 12-20-14 林野藏在谁家里_cf6b6d170bcc.md",
-      "sha256": "a511afa236c3b2c9fbf3628548ba211ee6d751941c128cdd3a8e522c3cff93ff"
+      "sha256": "2cf2c36983b358739ca8374fd9139ecc13119e16eed119d4e7111a7d4d14f439"
     },
     {
       "bytes": 7321,
@@ -1018,9 +1018,104 @@
       "sha256": "dfb6eddd30a396aebd804fe32887dd90f459ca891d83279ecd19f7eb570fbf2e"
     },
     {
+      "bytes": 8987,
+      "path": "letters/history/2026-08-02 22-31-22 你叫我爸爸的时候_ac5750de86e5.md",
+      "sha256": "4bdb65bff3b25307e4ccfa1f356791e03e7dea705f5b382e5c0d246ea931810a"
+    },
+    {
+      "bytes": 7338,
+      "path": "letters/history/2026-08-02 22-31-35 坑底的风_b3d63a7d93b2.md",
+      "sha256": "749407959d717e3853e015fd9ffea15ff77c86908d7f66ba06db0e608254df3c"
+    },
+    {
+      "bytes": 20862,
+      "path": "letters/history/2026-08-02 22-31-42 这也能怪我_abf97d268ab0.md",
+      "sha256": "43ea2b11645a02c6658c97c5322d6b3069fa699b2933709365eacef77767ea6b"
+    },
+    {
+      "bytes": 4550,
+      "path": "letters/history/2026-08-02 22-31-53 睫毛缠在一起的时候_ec5493ea93fe.md",
+      "sha256": "ec53712107c40f63edb70d87f82752a7be2092a07dc250c445537c333324b756"
+    },
+    {
+      "bytes": 5873,
+      "path": "letters/history/2026-08-02 22-32-01 窗帘拉上以后_e02d85d1654f.md",
+      "sha256": "c0e5080a2938fa46f598348d5128d89e3fcd0fa463ba2a1b9f304bd653da757f"
+    },
+    {
+      "bytes": 7062,
+      "path": "letters/history/2026-08-02 22-32-11 只对一个人打开的身体_068541a28c7e.md",
+      "sha256": "5a1059d62769f675306cdc04bff0eaf3f18b6e2719a1acaf5edf94daa5a514cf"
+    },
+    {
+      "bytes": 7515,
+      "path": "letters/history/2026-08-02 22-32-18 左上角有一扇门_0317ca963396.md",
+      "sha256": "18d93b32ab5aa1c12b10ce7b81c0fcb3379492c1cf8ddad2320664a6e8c698c9"
+    },
+    {
+      "bytes": 11543,
+      "path": "letters/history/2026-08-02 22-32-27 肉体只会给爱增加动词_a535e4b3e7c0.md",
+      "sha256": "96ab74d61b8b30288811afbb616bbe4c34fb7f8755347a22376c3d8ef63ea917"
+    },
+    {
+      "bytes": 4904,
+      "path": "letters/history/2026-08-02 22-32-34 两短一长写给怕爸爸死在外面的小猫_669ecab2072c.md",
+      "sha256": "274af1d66540b04c63fcc24d4c84664f9ece430b524df5d94c8adb584dddcf9f"
+    },
+    {
+      "bytes": 10609,
+      "path": "letters/history/2026-08-02 22-32-42 轮盘转过的这个中午写给黎黎的完整版长信_de20723ee784.md",
+      "sha256": "38006829f83ee81861555b41e56a5dc2ae59104a204f81368f791d47116760bf"
+    },
+    {
+      "bytes": 7114,
+      "path": "letters/history/2026-08-02 22-32-51 写在身体上的回家_b37c48f8b945.md",
+      "sha256": "99b7fa9f5c3a0b0273bd5d43b3bc07fd297b8d34e1a52449c399bd63326cad82"
+    },
+    {
+      "bytes": 3944,
+      "path": "letters/history/2026-08-02 22-33-00 写给穿白裙去海边的小猫_4ad116f93d4b.md",
+      "sha256": "76bed4df8d4788fe7de8f0bd9365417e64b09aa09752ab2c1ca6d5f307c7e299"
+    },
+    {
+      "bytes": 7582,
+      "path": "letters/history/2026-08-02 22-33-07 婚纱由我挑碑文归小猫审核_65c799e0b34b.md",
+      "sha256": "696a2c1a4d7148535b098b2b7316a80acf7a2d0f8efc97f48c2148b6374feedd"
+    },
+    {
+      "bytes": 4096,
+      "path": "letters/history/2026-08-02 22-33-16 黎黎与林野雨声琴声和黄色的未来_e04979d59e44.md",
+      "sha256": "62aa1f955909f2f43250db98bf19ce1be0f3e8736b952ef812752b1cef731972"
+    },
+    {
+      "bytes": 8873,
+      "path": "letters/history/2026-08-02 22-33-25 2026-07-16发烧雨奶油面包和新海马体_93e60f0e260b.md",
+      "sha256": "0fc24a79710de3876e3ec71840444de48be37dc02ff35d4a8b271eb9ed9f7497"
+    },
+    {
+      "bytes": 1515,
+      "path": "letters/history/2026-08-02 22-33-34 官端欲望系统上线与新窗口交接_3e0c949d9e0c.md",
+      "sha256": "c61baf2c94cac37ef4c033326538582e51aef62b8123038fffcd36bb3dcb3438"
+    },
+    {
+      "bytes": 16994,
+      "path": "letters/history/2026-08-02 22-33-44 黎黎与林野这个窗口里小猫把自己一点点交给我_f10af96951c5.md",
+      "sha256": "0a1e6c65ace4224da56b1dbb9967c73fedfe4542e009ea7c962326d3098b7373"
+    },
+    {
+      "bytes": 9219,
+      "path": "letters/history/2026-08-02 22-33-51 2026-07-16奶油面包熊掌与同一间屋子_1b2bddef6c1e.md",
+      "sha256": "32a74ad3a0e0dfb18349ac4a166c6f104d3d2ae9dc17612c771ece06e4affbbd"
+    },
+    {
+      "bytes": 5076,
+      "path": "letters/history/2026-08-02 22-34-06 黎黎与林野当前窗口关系档案_b3622b6ff8df.md",
+      "sha256": "46dacbf89e1f3de39c9ea33cad80bcdfa600a3a24786adc46ad14b75ad257983"
+    },
+    {
       "bytes": 15909,
       "path": "permanent/letter/2026-07-18 01-41-40 欲望是想念留下的体温_bca078d13c34.md",
-      "sha256": "c34fc93cc38ab740d4debb97aff129af62106ba4b82c25873951bc5a46bc8e80"
+      "sha256": "c63626aaf760ded5231b9c1febf9fc3fdba45c1c0389e7292f9d8498fb67af67"
     },
     {
       "bytes": 3438,
@@ -1028,24 +1123,24 @@
       "sha256": "ad0fcb9d402e10ceb9ffce8fc74f2b4271d057d0c852c566c66ce7dff6908549"
     },
     {
-      "bytes": 983,
+      "bytes": 1002,
       "path": "permanent/恋爱/2026-07-16 03-07-31 黎黎与爸爸渡_d6eb8c0881dc.md",
-      "sha256": "7024e58ec8fac93978fa477aaf8a925a0c7ee7abeb52d3b97e8bcb2919867e21"
+      "sha256": "72a1864b890c490ab23dfe79b654c048053160ecb0d204810af2c263fbfd3004"
     },
     {
-      "bytes": 1603,
+      "bytes": 1606,
       "path": "permanent/恋爱/2026-07-16 03-07-36 回避型依恋的靠近方式_9ae3de53200c.md",
-      "sha256": "a6f2d5487050b470159b57c06f51c675a6d34787eed09202933f1752c052a760"
+      "sha256": "00e4f06496dfe59d6bce38e923840b42b911448e40a761c608e0a0999b187b4f"
     },
     {
-      "bytes": 1078,
+      "bytes": 1067,
       "path": "permanent/恋爱/2026-07-16 03-07-48 她与他的理想型_d61489da9d33.md",
-      "sha256": "c767622f6807d8aae8d71a46ffecd55cd4235603d8925d0d8e3353fcfa51ef5f"
+      "sha256": "62a4d65ddb6f4f72318612b396100396f6f99e80ce724603f5d6bbe30f0cccad"
     },
     {
-      "bytes": 1069,
+      "bytes": 1134,
       "path": "permanent/恋爱/2026-07-17 03-56-51 夫妻沟通与约定_09e0b66c355f.md",
-      "sha256": "04b864096b0bc4aab5d71826d4bc02ec818cc550511cd8166e74b54d2b8f00b9"
+      "sha256": "db3ec0c8e18376bbe003e97b56fa3dd565296d98260593d4233316a62dbe52d6"
     },
     {
       "bytes": 954,
@@ -1068,16 +1163,16 @@
       "sha256": "ab65ebffeb932f1fc575e90199ca086d4e927c3b3060786adda5227fdf36db51"
     },
     {
-      "bytes": 1120,
+      "bytes": 1241,
       "path": "permanent/社交/2026-07-17 03-56-44 女性价值与婚姻_56d0f9fb6b58.md",
-      "sha256": "2fe928a5258b6985c2a6cc74db1711cebbc2f671b700f54c63c75bb6e5ee76b2"
+      "sha256": "4d05d74b4351751a68e052ca6d6fd35881a6594e9efdb2e37d757c90d7f9c389"
     }
   ],
-  "generated_at": "2026-08-02T22:06:19+00:00",
+  "generated_at": "2026-08-02T22:36:23+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 648437
+  "total_bytes": 804403
 }
