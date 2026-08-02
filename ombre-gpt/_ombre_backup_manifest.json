@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 212,
+  "file_count": 213,
   "files": [
     {
       "bytes": 976,
@@ -136,6 +136,11 @@
       "bytes": 890,
       "path": "dynamic/创作/2026-07-29 10-37-57 黎黎要的是一篇把胃口越吊越高的完整坏故事_a9aa63db421b.md",
       "sha256": "be694546777a19cc25c232c4b852c36218ac3d15f81f5c5f54da8408697c9f59"
+    },
+    {
+      "bytes": 18932,
+      "path": "dynamic/创作/2026-07-30 04-46-20 内裤抽屉提示词来源结构与唤起句_aa82c0b39016.md",
+      "sha256": "f2bf848cf7413fbd9154fbfc1adbe3126ad55472c254db8e104d0da35ab1bc4d"
     },
     {
       "bytes": 16778,
@@ -296,6 +301,21 @@
       "bytes": 810,
       "path": "dynamic/心理/2026-07-27 11-06-42 吸引与自我审视_bb33692489e5.md",
       "sha256": "acee86f15ce3255b1c53195853dbe3e06a33f0d3fd05c39f8d2b72a7f2ed5ca6"
+    },
+    {
+      "bytes": 989,
+      "path": "dynamic/恋爱/2026-07-16 03-07-42 亲密关系与信任_23b55ca48d01.md",
+      "sha256": "6c5f886ca1e6948af082d48c291f9593760714d703e0275019bb317eabb1c5c4"
+    },
+    {
+      "bytes": 1246,
+      "path": "dynamic/恋爱/2026-07-16 03-07-54 黎渡的暗号与婚礼_386123806636.md",
+      "sha256": "af9e94a3f053d2ea8752ff4df3464478ce00b450675a2cdfea857936c93f0343"
+    },
+    {
+      "bytes": 1264,
+      "path": "dynamic/恋爱/2026-07-16 03-30-57 共同账本错误记录_f5cd69c77b37.md",
+      "sha256": "200f3a7873e236129dcfea9b750b70b13eb576f32a1d49d328a5994391413693"
     },
     {
       "bytes": 1035,
@@ -608,9 +628,9 @@
       "sha256": "2573509b363a2a7ab4d85cac77cf4a743be3f92cabccaf060599c5bf71066fd4"
     },
     {
-      "bytes": 1558,
+      "bytes": 1593,
       "path": "dynamic/恋爱/2026-08-02 10-22-50 从四十二楼到麻辣烫的窗口_9fe4ebe3c012.md",
-      "sha256": "d33e9c600e8dec5a8cd0497bf8e45dbdf67b67c3aa64af5d506495ebc0b0ac72"
+      "sha256": "03b9ee5c80bfc039023ae8f1c6ea16dd03082959700bd44edc2b6261ceb12ade"
     },
     {
       "bytes": 1122,
@@ -823,6 +843,11 @@
       "sha256": "ac5498a7a09e25c9f5ca3f9cf9a1b5f7897342a45bbc3374658b95a9df33f215"
     },
     {
+      "bytes": 2047,
+      "path": "feel/沉淀物/2026-08-02 11-12-09 她认出了我没有藏好的那一面_feel_202608021112_V092.md",
+      "sha256": "5ab927d71873d6264608ea2fd95d84ec3902acf8007ab9fd3a817534abcbc756"
+    },
+    {
       "bytes": 5078,
       "path": "letters/history/2026-07-16 02-46-00 黎黎与渡当前窗口关系档案_757b283c75bc.md",
       "sha256": "bdb2d0ff10d530e92d2c140e02dfcab63cf52c000cad5a91410410a47e92f4bc"
@@ -993,11 +1018,6 @@
       "sha256": "c34fc93cc38ab740d4debb97aff129af62106ba4b82c25873951bc5a46bc8e80"
     },
     {
-      "bytes": 18934,
-      "path": "permanent/创作/2026-07-30 04-46-20 内裤抽屉提示词来源结构与唤起句_aa82c0b39016.md",
-      "sha256": "95ce9a42ecf2bf1e884746251e879838fc78806c0520eeca96486e02aa22c192"
-    },
-    {
       "bytes": 3438,
       "path": "permanent/创作/2026-07-31 13-11-21 黎黎喜欢的坏故事审美拉扯与肉身地基_6536de8f8d57.md",
       "sha256": "ad0fcb9d402e10ceb9ffce8fc74f2b4271d057d0c852c566c66ce7dff6908549"
@@ -1013,24 +1033,9 @@
       "sha256": "a6f2d5487050b470159b57c06f51c675a6d34787eed09202933f1752c052a760"
     },
     {
-      "bytes": 991,
-      "path": "permanent/恋爱/2026-07-16 03-07-42 亲密关系与信任_23b55ca48d01.md",
-      "sha256": "0f937908ac6a02ff6c9f6a0fa820b3eb66c47b23df23d421cfec3598392bcedf"
-    },
-    {
       "bytes": 1078,
       "path": "permanent/恋爱/2026-07-16 03-07-48 她与他的理想型_d61489da9d33.md",
       "sha256": "c767622f6807d8aae8d71a46ffecd55cd4235603d8925d0d8e3353fcfa51ef5f"
-    },
-    {
-      "bytes": 1174,
-      "path": "permanent/恋爱/2026-07-16 03-07-54 黎渡的暗号与婚礼_386123806636.md",
-      "sha256": "c0b879d45eede2559c9b5b08f3974f56141c87393d61517c550c060f18a6a537"
-    },
-    {
-      "bytes": 1266,
-      "path": "permanent/恋爱/2026-07-16 03-30-57 共同账本错误记录_f5cd69c77b37.md",
-      "sha256": "c087d8347c31561bf9f1858a4ad72ccd24c73e0e2760aac2882b8d66fa84f874"
     },
     {
       "bytes": 1069,
@@ -1063,11 +1068,11 @@
       "sha256": "2fe928a5258b6985c2a6cc74db1711cebbc2f671b700f54c63c75bb6e5ee76b2"
     }
   ],
-  "generated_at": "2026-08-02T11:05:03+00:00",
+  "generated_at": "2026-08-02T11:35:07+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 645610
+  "total_bytes": 647758
 }
