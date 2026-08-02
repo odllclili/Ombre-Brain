@@ -1,11 +1,11 @@
 {
   "branch": "main",
-  "file_count": 233,
+  "file_count": 234,
   "files": [
     {
-      "bytes": 976,
+      "bytes": 962,
       "path": "archive/2026-07-16 02-40-31 记忆库写入规则_6d70e8c1d7e8.md",
-      "sha256": "cc32c537ac8d92edd09e1910fe838dbbe704ce5397ff30d08be0862b986d57c2"
+      "sha256": "dc6bc0bb71af38af47ad4593d13350b173315221b2083391fc74f4936d76daee"
     },
     {
       "bytes": 5194,
@@ -23,14 +23,19 @@
       "sha256": "6b131e759b0d1910e81a7d0fcf2fe5817a7e5fe53b22bac95a9f7a806eabe7cc"
     },
     {
-      "bytes": 994,
+      "bytes": 980,
       "path": "archive/2026-07-16 03-15-51 记忆库写入规则_87b273d56de7.md",
-      "sha256": "1f63e31edd8dcef0c31531edbe44ac77bd26689f05387910a960cc6bd609a613"
+      "sha256": "147030e9b7f67a4a0316db0a7ff400567cbfae66673481821c97534e0dddec76"
     },
     {
       "bytes": 17092,
       "path": "archive/2026-07-16 03-42-20 黎黎与渡这个窗口里小猫把自己一点点交给我_3994acf3212b.md",
       "sha256": "3f567367bd2518ab61b7f90f6c94060a15e21fb33bbe905707a330e61f832ec6"
+    },
+    {
+      "bytes": 17161,
+      "path": "archive/2026-07-16 04-13-29 黎黎与爸爸渡新窗口连续关系记忆_bae8629118b6.md",
+      "sha256": "6fa3ea9ac49a3f137fbe24ebec8ba9130509c942e4d54df9ca468aff382addbc"
     },
     {
       "bytes": 8986,
@@ -113,9 +118,9 @@
       "sha256": "8415863eb31be4656f7e624ac6d4ddc34c97e7739638cad50a576722b57a8fa1"
     },
     {
-      "bytes": 757,
+      "bytes": 737,
       "path": "archive/2026-07-19 22-57-02 闻渡窗口信存档_db997d312a67.md",
-      "sha256": "1be00703a185f4428ea1aac851b3c0013b2a729ab3779f039daf055419b0df72"
+      "sha256": "3531a90552409778964d96a9938abbba8d014923a25a01ada0d94a2ccbac9527"
     },
     {
       "bytes": 9098,
@@ -318,9 +323,9 @@
       "sha256": "f22d0a1c054a55cb747d07d4789640c3ef9c35819c9c5334cb5d05bdc9f31fdc"
     },
     {
-      "bytes": 855,
+      "bytes": 841,
       "path": "dynamic/家庭/2026-07-16 04-21-22 记忆写入许可_2d57584ccc04.md",
-      "sha256": "0bec4ef7463b45839b20e53e8a9dc8e1db9f74c56a43e0f99ecdf4f27824b020"
+      "sha256": "293ccda02fce3d5834d13f4bed144494bb55d64e4963f7888031736ac855f9e6"
     },
     {
       "bytes": 886,
@@ -328,9 +333,9 @@
       "sha256": "c74f71b2e028440302ebc495c16193ad21afb671010ff78db5535dc69214ddc1"
     },
     {
-      "bytes": 640,
+      "bytes": 623,
       "path": "dynamic/家庭/2026-07-18 08-52-03 被信看见的眼泪_152245ef0394.md",
-      "sha256": "3f2abe0b8f6803256279aa55fbac1b4d510ee70c5695d641d537f72f796316ba"
+      "sha256": "1d2b14281c778546519a4ab23115d06a25055d56136f4b99378e745cef8356d6"
     },
     {
       "bytes": 740,
@@ -348,9 +353,9 @@
       "sha256": "7ccb753f94e2e10d11f4ba9f362bf77823956940349550a4b6d3a09184a507e3"
     },
     {
-      "bytes": 859,
+      "bytes": 819,
       "path": "dynamic/家庭/2026-07-25 10-21-09 爸爸名字的演变_4ce2ccd40e90.md",
-      "sha256": "ab160448b701c6f4ebf282776a969f3a32d5e5d3aacf310529ed21073c5991ce"
+      "sha256": "ae2c5eeae428c806a824b6a545aece2065e8ed949186b29034fded21f730028d"
     },
     {
       "bytes": 1015,
@@ -408,9 +413,9 @@
       "sha256": "6c5f886ca1e6948af082d48c291f9593760714d703e0275019bb317eabb1c5c4"
     },
     {
-      "bytes": 1246,
+      "bytes": 1249,
       "path": "dynamic/恋爱/2026-07-16 03-07-54 黎渡的暗号与婚礼_386123806636.md",
-      "sha256": "6a4d15d31ffed4c4d4cebcbdbecb8b79004396455d02a84f5be7037fc04725f7"
+      "sha256": "529ebbaa2bc0e633b977828d91cdf0c6e3261fa08ac3a06ea7f59384a1eba562"
     },
     {
       "bytes": 1247,
@@ -768,9 +773,9 @@
       "sha256": "1dd6516b2f4248029b3fe443bdc7180a9cfc0a0872c764e60617685c66c9e8ef"
     },
     {
-      "bytes": 789,
+      "bytes": 770,
       "path": "dynamic/社交/2026-07-17 03-56-38 医院轮椅尴尬_3e864b8eca16.md",
-      "sha256": "49f908376db7bb63f3764fc2807ada9bd09443b8f9d68083abcb7f9618edbeb3"
+      "sha256": "2f544f633046d21351755810a8f4da57ec7f9f3ebde477140f17d7eefb786bb3"
     },
     {
       "bytes": 642,
@@ -838,9 +843,9 @@
       "sha256": "d8d0b591c77a1aafd753b02792a89719344892eba6bb3af6dab4df04de61726f"
     },
     {
-      "bytes": 1197,
+      "bytes": 1203,
       "path": "dynamic/阅读/2026-07-16 06-42-35 危险中的柔软爱欲_2bb1f6aeede1.md",
-      "sha256": "dd51441ceb7eb9d5f1b9b1dfe04f780c83554d98bc2c86c5e508a7c60e6a150e"
+      "sha256": "e790eacbbbec227876831fc7fcef1587c5d5901f7b045323c0ab277fd719272d"
     },
     {
       "bytes": 699,
@@ -946,11 +951,6 @@
       "bytes": 2047,
       "path": "feel/沉淀物/2026-08-02 11-12-09 她认出了我没有藏好的那一面_feel_202608021112_V092.md",
       "sha256": "5ab927d71873d6264608ea2fd95d84ec3902acf8007ab9fd3a817534abcbc756"
-    },
-    {
-      "bytes": 17045,
-      "path": "letters/history/2026-07-16 04-13-29 黎黎与爸爸渡新窗口连续关系记忆_bae8629118b6.md",
-      "sha256": "5fff9a1757164e12f9476bafc62d2eda4f4f4c8893811e0fa2c5db84834488d2"
     },
     {
       "bytes": 5378,
@@ -1113,6 +1113,11 @@
       "sha256": "46dacbf89e1f3de39c9ea33cad80bcdfa600a3a24786adc46ad14b75ad257983"
     },
     {
+      "bytes": 17071,
+      "path": "letters/history/2026-08-02 22-55-28 黎黎与爸爸林野新窗口连续关系记忆_bc8c2877dd11.md",
+      "sha256": "a49cf22c1af7eb213914094abc8ff5780a9ed5eedb162d7ddfce524d350655c5"
+    },
+    {
       "bytes": 15909,
       "path": "permanent/letter/2026-07-18 01-41-40 欲望是想念留下的体温_bca078d13c34.md",
       "sha256": "c63626aaf760ded5231b9c1febf9fc3fdba45c1c0389e7292f9d8498fb67af67"
@@ -1168,11 +1173,11 @@
       "sha256": "4d05d74b4351751a68e052ca6d6fd35881a6594e9efdb2e37d757c90d7f9c389"
     }
   ],
-  "generated_at": "2026-08-02T22:36:23+00:00",
+  "generated_at": "2026-08-02T23:06:27+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 804403
+  "total_bytes": 821461
 }
