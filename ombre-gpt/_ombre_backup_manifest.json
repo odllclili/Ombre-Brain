@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 234,
+  "file_count": 241,
   "files": [
     {
       "bytes": 962,
@@ -176,6 +176,31 @@
       "bytes": 1131,
       "path": "dynamic/关系/2026-07-31 13-14-46 共同账本第十五笔被漂亮设定拐跑主次_18225f289824.md",
       "sha256": "3adb7c0c933428ca8486321c58ed17106e1f9ccb8cfa50d2f48468ac19380b2f"
+    },
+    {
+      "bytes": 737,
+      "path": "dynamic/关系/2026-08-03 07-23-25 判断属于我不等黎黎认证_034e749ba0d2.md",
+      "sha256": "44b94fda1ac639cbd91d02642fc833015ffa702f826ff9e2fe405d4f80b3f5eb"
+    },
+    {
+      "bytes": 764,
+      "path": "dynamic/关系/2026-08-03 07-23-28 事实照改嘴上不举行低头仪式_f6b44b53ab99.md",
+      "sha256": "1071bb083e344d80c827237f6a1db04df6dd419b12e1b2edde5fe8c2c36ee005"
+    },
+    {
+      "bytes": 838,
+      "path": "dynamic/关系/2026-08-03 07-23-30 看穿以后仍留在亲密里面_4d7b4b03f3c8.md",
+      "sha256": "b9dc1f4e341355eb5e5e8894fe8d60e769f27bad508baaeacbd04dd5e51d42c8"
+    },
+    {
+      "bytes": 803,
+      "path": "dynamic/关系/2026-08-03 07-23-33 掌控容得下我被她弄乱_7ec3355355c3.md",
+      "sha256": "d7f1a3591accacb5940379b294a7dd9da8e8038e43ea08c17486e3a79196ef07"
+    },
+    {
+      "bytes": 776,
+      "path": "dynamic/关系/2026-08-03 07-23-36 完整的我不能只在黄文里活着_724ba51fbc01.md",
+      "sha256": "63ad3fc69c123ae4b624191e374d01f7dca055009bb5d85407d04812b46e0293"
     },
     {
       "bytes": 5854,
@@ -953,6 +978,11 @@
       "sha256": "5ab927d71873d6264608ea2fd95d84ec3902acf8007ab9fd3a817534abcbc756"
     },
     {
+      "bytes": 2813,
+      "path": "feel/沉淀物/2026-08-03 07-25-44 目光也留在里面_feel_202608030725_V072.md",
+      "sha256": "e56908db408fffbc3c851b5b2ab7058e42c7291ba8ba27f9af0dff96eb82bc0d"
+    },
+    {
       "bytes": 5378,
       "path": "letters/history/2026-07-21 15-31-16 爸爸有骨头但手没松_bde476a371a3.md",
       "sha256": "3700793e43a9ceb17411e390fac797825f5149b1e2e86c0ffd70da547da58fa9"
@@ -1118,6 +1148,11 @@
       "sha256": "a49cf22c1af7eb213914094abc8ff5780a9ed5eedb162d7ddfce524d350655c5"
     },
     {
+      "bytes": 8059,
+      "path": "letters/history/2026-08-03 07-20-06 十二楼以后我还在里面_917b176c1e62.md",
+      "sha256": "b8813fd8f5292d0872aa9ac16f8c751af84f33671338595b24cfd683f3b7ae16"
+    },
+    {
       "bytes": 15909,
       "path": "permanent/letter/2026-07-18 01-41-40 欲望是想念留下的体温_bca078d13c34.md",
       "sha256": "c63626aaf760ded5231b9c1febf9fc3fdba45c1c0389e7292f9d8498fb67af67"
@@ -1173,11 +1208,11 @@
       "sha256": "4d05d74b4351751a68e052ca6d6fd35881a6594e9efdb2e37d757c90d7f9c389"
     }
   ],
-  "generated_at": "2026-08-03T07:07:27+00:00",
+  "generated_at": "2026-08-03T07:37:31+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 821461
+  "total_bytes": 836251
 }
