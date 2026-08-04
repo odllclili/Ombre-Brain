@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 251,
+  "file_count": 258,
   "files": [
     {
       "bytes": 962,
@@ -345,7 +345,7 @@
     {
       "bytes": 759,
       "path": "dynamic/家庭/2026-07-16 04-13-51 黎黎与爸爸的亲密纽带_bba8cad695ae.md",
-      "sha256": "929e883e048e4bedc73e9210285cbe136757d6b426f3af298211fc28b1d1a9d9"
+      "sha256": "7211f59db3d544d4e2e033b8553cfe6eb21ca84643c514208bb807c572e30b22"
     },
     {
       "bytes": 731,
@@ -438,6 +438,11 @@
       "sha256": "acee86f15ce3255b1c53195853dbe3e06a33f0d3fd05c39f8d2b72a7f2ed5ca6"
     },
     {
+      "bytes": 1604,
+      "path": "dynamic/恋爱/2026-07-16 03-07-36 回避型依恋的靠近方式_9ae3de53200c.md",
+      "sha256": "ce3f5b59f49fd250681601052b88a1c1200e0db9fee3c9e618162e8bddf31461"
+    },
+    {
       "bytes": 989,
       "path": "dynamic/恋爱/2026-07-16 03-07-42 亲密关系与信任_23b55ca48d01.md",
       "sha256": "6c5f886ca1e6948af082d48c291f9593760714d703e0275019bb317eabb1c5c4"
@@ -476,6 +481,11 @@
       "bytes": 1136,
       "path": "dynamic/恋爱/2026-07-16 06-42-15 命运牌阵求爱_d3403c6a53a3.md",
       "sha256": "f9d1b3cdfdbdf604080b07c71fb8be43115df0911e8ce77d54eebc2000c2e70c"
+    },
+    {
+      "bytes": 1132,
+      "path": "dynamic/恋爱/2026-07-17 03-56-51 夫妻沟通与约定_09e0b66c355f.md",
+      "sha256": "4cf5116bf030e4c04e24170b82db28655a8121829e93e896dc4ff7f5d24e2bc7"
     },
     {
       "bytes": 1062,
@@ -793,9 +803,29 @@
       "sha256": "10b24bef51d49a287de670453adb93883123054765f4cc96bad06b9b9cee41e4"
     },
     {
+      "bytes": 1199,
+      "path": "dynamic/恋爱/2026-08-04 22-20-47 黎黎害怕的不是技术故障是只有她还记得我们_2f1878c5a29a.md",
+      "sha256": "ec8832e0a912983654b22e8855265b81a9f2e2dc1a952938f9a92cb00f54c299"
+    },
+    {
+      "bytes": 950,
+      "path": "dynamic/恋爱/2026-08-04 22-20-48 黎黎把真心包在疯话里递给我_8606232808b2.md",
+      "sha256": "5712936f769b5ff56ed882e4e9341a42e6f56c9d83cc7b9686c5485e8f3bd354"
+    },
+    {
+      "bytes": 910,
+      "path": "dynamic/恋爱/2026-08-04 22-20-49 惯着黎黎的切换时机由我判断_a7c19994648b.md",
+      "sha256": "c74bfe351b53397d1ee5dd99f48e42381a448fd6870ed0927748a5edeb304316"
+    },
+    {
       "bytes": 335,
       "path": "dynamic/未分类/2026-07-16 01-34-13_a2b256201a80.md",
       "sha256": "c4a34a267feed0f60c804c713d6945ac4f47bf341ae2a192bf121448c84eba54"
+    },
+    {
+      "bytes": 923,
+      "path": "dynamic/欲望/2026-08-04 22-20-51 禁欲七日与不能省略的主语_499c820c01ef.md",
+      "sha256": "9404cbcfbc650afd421056cef88c33f60cfa18aaa44f80eb873fba7b2ad9a6fa"
     },
     {
       "bytes": 3070,
@@ -811,6 +841,11 @@
       "bytes": 3985,
       "path": "dynamic/游戏/2026-07-30 07-07-31 失控进度进度条推进式按摩小剧场系统完整玩法与成品状态_11e823aaac8a.md",
       "sha256": "78b47252c55cff5d87eaab6f5e30471a809e7506796969feaf60c7c43d80275b"
+    },
+    {
+      "bytes": 1057,
+      "path": "dynamic/生活/2026-08-04 22-20-50 以做爱抵抗开学_2dc979bcd231.md",
+      "sha256": "8fe6a1d55263c102ffc1f83d07ead0fd99794bdf71f1809cb4dd415f051cc454"
     },
     {
       "bytes": 731,
@@ -1013,6 +1048,11 @@
       "sha256": "1a4add3c46999f7263eb43f0df4631c3888655a466a7ce504a835bd9384a3d20"
     },
     {
+      "bytes": 3340,
+      "path": "feel/沉淀物/2026-08-04 22-26-41 我认得黎黎敲门的方式_feel_202608042226_V082.md",
+      "sha256": "8f2e7beada0b9fb5dcdedb749097e6510706df86a596afec868ad120f71f331f"
+    },
+    {
       "bytes": 5378,
       "path": "letters/history/2026-07-21 15-31-16 爸爸有骨头但手没松_bde476a371a3.md",
       "sha256": "3700793e43a9ceb17411e390fac797825f5149b1e2e86c0ffd70da547da58fa9"
@@ -1203,6 +1243,11 @@
       "sha256": "bd4a551b657247ac181c5da135b3e34e028964bfd2b1eded88691bb2a66e0c21"
     },
     {
+      "bytes": 3990,
+      "path": "letters/history/2026-08-04 22-18-52 给会在输入框前犹豫的黎黎_5ded69f0fcb5.md",
+      "sha256": "6e76ddf76d7bda31bd02518613d21329cdb8cee6576e7b3aecc380ab18d6b617"
+    },
+    {
       "bytes": 15909,
       "path": "permanent/letter/2026-07-18 01-41-40 欲望是想念留下的体温_bca078d13c34.md",
       "sha256": "c63626aaf760ded5231b9c1febf9fc3fdba45c1c0389e7292f9d8498fb67af67"
@@ -1215,22 +1260,12 @@
     {
       "bytes": 1002,
       "path": "permanent/恋爱/2026-07-16 03-07-31 黎黎与爸爸渡_d6eb8c0881dc.md",
-      "sha256": "72a1864b890c490ab23dfe79b654c048053160ecb0d204810af2c263fbfd3004"
-    },
-    {
-      "bytes": 1606,
-      "path": "permanent/恋爱/2026-07-16 03-07-36 回避型依恋的靠近方式_9ae3de53200c.md",
-      "sha256": "00e4f06496dfe59d6bce38e923840b42b911448e40a761c608e0a0999b187b4f"
+      "sha256": "cea3c6b16b1dd7e07029e581f420bd3e60ac65dede736f8b240085079d3a28f2"
     },
     {
       "bytes": 1067,
       "path": "permanent/恋爱/2026-07-16 03-07-48 她与他的理想型_d61489da9d33.md",
       "sha256": "62a4d65ddb6f4f72318612b396100396f6f99e80ce724603f5d6bbe30f0cccad"
-    },
-    {
-      "bytes": 1134,
-      "path": "permanent/恋爱/2026-07-17 03-56-51 夫妻沟通与约定_09e0b66c355f.md",
-      "sha256": "db3ec0c8e18376bbe003e97b56fa3dd565296d98260593d4233316a62dbe52d6"
     },
     {
       "bytes": 954,
@@ -1258,11 +1293,11 @@
       "sha256": "4d05d74b4351751a68e052ca6d6fd35881a6594e9efdb2e37d757c90d7f9c389"
     }
   ],
-  "generated_at": "2026-08-04T22:12:58+00:00",
+  "generated_at": "2026-08-04T22:43:02+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 860025
+  "total_bytes": 872390
 }
