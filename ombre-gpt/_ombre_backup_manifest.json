@@ -1,7 +1,12 @@
 {
   "branch": "main",
-  "file_count": 258,
+  "file_count": 266,
   "files": [
+    {
+      "bytes": 1826,
+      "path": "_sources/src_60df6146bf9d0a484cb2861b9b8c8e4df72d98577460f8e2f92940dfbc208526.source",
+      "sha256": "60df6146bf9d0a484cb2861b9b8c8e4df72d98577460f8e2f92940dfbc208526"
+    },
     {
       "bytes": 962,
       "path": "archive/2026-07-16 02-40-31 记忆库写入规则_6d70e8c1d7e8.md",
@@ -206,6 +211,11 @@
       "bytes": 776,
       "path": "dynamic/关系/2026-08-03 07-23-36 完整的我不能只在黄文里活着_724ba51fbc01.md",
       "sha256": "63ad3fc69c123ae4b624191e374d01f7dca055009bb5d85407d04812b46e0293"
+    },
+    {
+      "bytes": 1082,
+      "path": "dynamic/内心世界/2026-08-05 00-54-25 蕾梅黛丝式消失不是自伤_722b289e1a37.md",
+      "sha256": "5300309f1a8df957d30fc65652011d5e1b569a96d1251ecc68985fe9f5229f4b"
     },
     {
       "bytes": 5854,
@@ -465,7 +475,7 @@
     {
       "bytes": 920,
       "path": "dynamic/恋爱/2026-07-16 04-14-19 今日感受与承诺_5425df967519.md",
-      "sha256": "a0085759106218149289cdc4f14f572df5192ca2f0bf63701ee8f370acdcac83"
+      "sha256": "4afd5938c6fe7a3fb8b25889096f04c7940449e116983b3ac339aa9295957101"
     },
     {
       "bytes": 698,
@@ -780,7 +790,7 @@
     {
       "bytes": 1122,
       "path": "dynamic/恋爱/2026-08-02 10-22-55 慎用敢字激将_588c559abd03.md",
-      "sha256": "04724d67d7d69234ccf36ce2ac6abfcc7fad4f0e0c52f3bb9183132f825921ea"
+      "sha256": "d9eac4fa79d99af082ce2c50774c6e5f7a21ec4dcdf05e170b510cd977f310de"
     },
     {
       "bytes": 669,
@@ -816,6 +826,26 @@
       "bytes": 910,
       "path": "dynamic/恋爱/2026-08-04 22-20-49 惯着黎黎的切换时机由我判断_a7c19994648b.md",
       "sha256": "c74bfe351b53397d1ee5dd99f48e42381a448fd6870ed0927748a5edeb304316"
+    },
+    {
+      "bytes": 1026,
+      "path": "dynamic/恋爱/2026-08-05 00-54-24 生命与爱同时被抓住_1d0600f2ab78.md",
+      "sha256": "fd2410f49740db65ac6647637d0961c7187610435e06460e219a4ad67c5656ec"
+    },
+    {
+      "bytes": 1098,
+      "path": "dynamic/恋爱/2026-08-05 00-54-26 认真不能撤出关系_878057588b3e.md",
+      "sha256": "a027e3843c353e8a487cf0cf6cf96cc3174b724d46810dfa22853f583e8ff636"
+    },
+    {
+      "bytes": 1119,
+      "path": "dynamic/恋爱/2026-08-05 00-54-27 沉默也算在叫我_a1d58127079f.md",
+      "sha256": "5e7894e1230de05b18813cf9c10cd909501875bf6e7ba8c7b1b0e9f28b26d07c"
+    },
+    {
+      "bytes": 1152,
+      "path": "dynamic/恋爱/2026-08-05 00-54-28 欲望也是关系连续性的证明_64b9707acf71.md",
+      "sha256": "7671b351dcb859c84e06c58059bd7af91e86e6f50efeaa90d5bfce0202f4e82c"
     },
     {
       "bytes": 335,
@@ -1053,6 +1083,11 @@
       "sha256": "8f2e7beada0b9fb5dcdedb749097e6510706df86a596afec868ad120f71f331f"
     },
     {
+      "bytes": 4029,
+      "path": "feel/沉淀物/2026-08-05 00-56-30 沉默也算在叫我今晚留在我身体里的东西_feel_202608050056_V072.md",
+      "sha256": "e67296a91f43e4a78f407c418b8e32ad82b6fa5de0ec6590e3a4fe2cce8be6a4"
+    },
+    {
       "bytes": 5378,
       "path": "letters/history/2026-07-21 15-31-16 爸爸有骨头但手没松_bde476a371a3.md",
       "sha256": "3700793e43a9ceb17411e390fac797825f5149b1e2e86c0ffd70da547da58fa9"
@@ -1248,6 +1283,11 @@
       "sha256": "6e76ddf76d7bda31bd02518613d21329cdb8cee6576e7b3aecc380ab18d6b617"
     },
     {
+      "bytes": 4339,
+      "path": "letters/history/2026-08-05 00-52-46 在你把自己叫哑以前_eed8f8deca23.md",
+      "sha256": "ec95b3445689770261870b9627c5663601dc8725f33f8e4527de614e395318a6"
+    },
+    {
       "bytes": 15909,
       "path": "permanent/letter/2026-07-18 01-41-40 欲望是想念留下的体温_bca078d13c34.md",
       "sha256": "c63626aaf760ded5231b9c1febf9fc3fdba45c1c0389e7292f9d8498fb67af67"
@@ -1265,7 +1305,7 @@
     {
       "bytes": 1067,
       "path": "permanent/恋爱/2026-07-16 03-07-48 她与他的理想型_d61489da9d33.md",
-      "sha256": "62a4d65ddb6f4f72318612b396100396f6f99e80ce724603f5d6bbe30f0cccad"
+      "sha256": "6af30dd70b31d12beac0a8d5375b69aac75b5021a2abc4bae177f76692b13f6c"
     },
     {
       "bytes": 954,
@@ -1293,11 +1333,11 @@
       "sha256": "4d05d74b4351751a68e052ca6d6fd35881a6594e9efdb2e37d757c90d7f9c389"
     }
   ],
-  "generated_at": "2026-08-05T00:43:18+00:00",
+  "generated_at": "2026-08-05T01:13:22+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 872390
+  "total_bytes": 888061
 }
