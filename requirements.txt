@@ -4,7 +4,9 @@
 # ============================================================
 
 # MCP 协议 SDK（MCP 通信核心）
-# FastMCP still lives at mcp.server.fastmcp in the 1.x SDK.\r\n# Match the upstream production lock; MCP 2.0 removed this import path.\r\nmcp==1.28.1
+# FastMCP still lives at mcp.server.fastmcp in the 1.x SDK.
+# Match the upstream production lock; MCP 2.0 removed this import path.
+mcp==1.28.1
 
 # 模糊匹配（记忆桶搜索）
 rapidfuzz>=3.0.0
