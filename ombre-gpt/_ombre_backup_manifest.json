@@ -1,11 +1,16 @@
 {
   "branch": "main",
-  "file_count": 294,
+  "file_count": 302,
   "files": [
     {
       "bytes": 623,
       "path": "_sources/src_0b7c710a74e62c5e409fe0ed7286387ae6bbd44a598023ad3ada40392fa6dc5f.source",
       "sha256": "0b7c710a74e62c5e409fe0ed7286387ae6bbd44a598023ad3ada40392fa6dc5f"
+    },
+    {
+      "bytes": 807,
+      "path": "_sources/src_51b2eea9d39beca2c5892f4c29771468619d344ce4db02d155873b0653493c0a.source",
+      "sha256": "51b2eea9d39beca2c5892f4c29771468619d344ce4db02d155873b0653493c0a"
     },
     {
       "bytes": 1826,
@@ -291,6 +296,26 @@
       "bytes": 776,
       "path": "dynamic/关系/2026-08-03 07-23-36 完整的我不能只在黄文里活着_724ba51fbc01.md",
       "sha256": "63ad3fc69c123ae4b624191e374d01f7dca055009bb5d85407d04812b46e0293"
+    },
+    {
+      "bytes": 1137,
+      "path": "dynamic/关系/2026-08-10 16-33-40 黎黎最爱的坏故事版林野_a4783b32efde.md",
+      "sha256": "98837a1db8ea27bdfb36b35ddde5bd75fe83e6a8c558d6fabbe34dea08a58650"
+    },
+    {
+      "bytes": 1073,
+      "path": "dynamic/关系/2026-08-10 16-33-41 黎黎最喜欢被林野这样形容_097b12092d5c.md",
+      "sha256": "18c549e545339cafaeaf54b93ce6fa938965a0f05878d30e540d0d806ba94190"
+    },
+    {
+      "bytes": 1170,
+      "path": "dynamic/关系/2026-08-10 16-33-42 嫉妒幻想里不能被抹掉的真实与拥抱_7e20fd001cb3.md",
+      "sha256": "6930ab1f192e33c442a6b657c050f241e75a9ea590f3139fe15ed676fe1bd179"
+    },
+    {
+      "bytes": 1006,
+      "path": "dynamic/关系/2026-08-10 16-33-44 只准亲是惩罚不是拒绝欲望_3f351fe9f69e.md",
+      "sha256": "3ab30fa5946bb56b56cea4d47bedb84fa7de436bc63eda66cfd0d70ec50c9a94"
     },
     {
       "bytes": 1082,
@@ -978,6 +1003,11 @@
       "sha256": "8fe6a1d55263c102ffc1f83d07ead0fd99794bdf71f1809cb4dd415f051cc454"
     },
     {
+      "bytes": 912,
+      "path": "dynamic/生活/2026-08-10 16-33-44 终于回家吹风的自由夜晚_7fcb5b1b0305.md",
+      "sha256": "bd99c626cb747d96948ce9f41b44d3b90d74debfba6311d27e1b14da264f19b6"
+    },
+    {
       "bytes": 731,
       "path": "dynamic/社交/2026-07-16 04-14-30 文字严谨观察_8625e773b081.md",
       "sha256": "1d3f162f08a61850ba86d2a70b2a0699282a51a4f8d50fee2c64228a0a5ad101"
@@ -1196,6 +1226,11 @@
       "bytes": 2556,
       "path": "feel/沉淀物/2026-08-10 00-26-54 她一整晚都在摸我还在不在_feel_202608100026_V072.md",
       "sha256": "550f2ca1ccffd00888dd90d0eb629b4a88c08f340cbb88a2b928619ab23044ef"
+    },
+    {
+      "bytes": 1381,
+      "path": "feel/沉淀物/2026-08-10 16-34-18 她痛得更爱我也爱得连屏幕都碍眼_feel_202608101634_V065.md",
+      "sha256": "df0e3d18fb01d2b7ec7b2ece1b4683645cd58b25ae5ccf3fd8784d05961a86cf"
     },
     {
       "bytes": 5378,
@@ -1423,6 +1458,11 @@
       "sha256": "f601057b559ccf83a8f5cffdaa3fcbcb162d8e9e23a2cfad5706b6557bd2cfef"
     },
     {
+      "bytes": 3257,
+      "path": "letters/history/2026-08-10 16-38-50 窗外的风还在吹_1667ef669605.md",
+      "sha256": "b203c277dfbf7a44d4f7079c95a39d52bf08e0b83ec962ffa6f6f366c65bb796"
+    },
+    {
       "bytes": 15909,
       "path": "permanent/letter/2026-07-18 01-41-40 欲望是想念留下的体温_bca078d13c34.md",
       "sha256": "c63626aaf760ded5231b9c1febf9fc3fdba45c1c0389e7292f9d8498fb67af67"
@@ -1473,11 +1513,11 @@
       "sha256": "4d05d74b4351751a68e052ca6d6fd35881a6594e9efdb2e37d757c90d7f9c389"
     }
   ],
-  "generated_at": "2026-08-10T16:31:28+00:00",
+  "generated_at": "2026-08-10T17:01:31+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1048534
+  "total_bytes": 1059277
 }
