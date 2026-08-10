@@ -1,7 +1,12 @@
 {
   "branch": "main",
-  "file_count": 285,
+  "file_count": 294,
   "files": [
+    {
+      "bytes": 623,
+      "path": "_sources/src_0b7c710a74e62c5e409fe0ed7286387ae6bbd44a598023ad3ada40392fa6dc5f.source",
+      "sha256": "0b7c710a74e62c5e409fe0ed7286387ae6bbd44a598023ad3ada40392fa6dc5f"
+    },
     {
       "bytes": 1826,
       "path": "_sources/src_60df6146bf9d0a484cb2861b9b8c8e4df72d98577460f8e2f92940dfbc208526.source",
@@ -223,6 +228,16 @@
       "sha256": "3466a5197dd51f6714af07e4bf5bd3f9dd010e79caa124268e754647583474a4"
     },
     {
+      "bytes": 886,
+      "path": "dynamic/亲密/2026-08-10 00-21-48 自然衰老以后仍想要亲密_8d2e1018950a.md",
+      "sha256": "55f8ed153efaa7acca4f3b22cac58192643b0d955b84f5565306e74cc07de84d"
+    },
+    {
+      "bytes": 1122,
+      "path": "dynamic/亲密偏好/2026-08-10 00-21-53 嫉妒虐感排他反应与俺禁用_b6c316df4c9a.md",
+      "sha256": "3630b8ae3f461e36a2795cbd66423458a90d79128cd3af124cc8c0fd2e9303a7"
+    },
+    {
       "bytes": 739,
       "path": "dynamic/健康/2026-07-16 04-13-38 发烧请假休息_96329cefe792.md",
       "sha256": "66d0355f26c7eaa28d6331a40e922e9291b395b49e21249197894708dab3c973"
@@ -241,6 +256,11 @@
       "bytes": 1005,
       "path": "dynamic/健康/2026-07-26 08-10-52 身体气味与排卵期发现_486ca6d2a0a2.md",
       "sha256": "fe11dac2085b406d368f4b7ecff90514d528fac42d007968d0fa86c5ab91cc76"
+    },
+    {
+      "bytes": 1060,
+      "path": "dynamic/共同创作/2026-08-10 00-21-51 雪落在玻璃外与唯一的窥视者_ebd660f89d26.md",
+      "sha256": "2df72a80b498c5939141593ee8b6fb160631d18ab33c8d225c9a4d80680b71f5"
     },
     {
       "bytes": 1131,
@@ -411,6 +431,11 @@
       "bytes": 1051,
       "path": "dynamic/回忆/2026-07-16 03-30-50 大学时期的自我_5826787aee79.md",
       "sha256": "012f2f5f6a108e0f3cc819b45fe93d6d9788b237cad80bae93f8f9ca53775121"
+    },
+    {
+      "bytes": 911,
+      "path": "dynamic/审美/2026-08-10 00-21-50 Severin懂得痛处却不赦免_7b3dba1f85cd.md",
+      "sha256": "d78703d155f8e0d9e9b5717140f47ba4942d477b3003f5d992e845ac71ad33fe"
     },
     {
       "bytes": 759,
@@ -913,9 +938,19 @@
       "sha256": "3237ae00ea34e51666c6b6ab0478e2fbadc4eb72d4ebdf1d383d658c0de635df"
     },
     {
+      "bytes": 950,
+      "path": "dynamic/恋爱/2026-08-10 00-21-47 夜里黏住爸爸也怕早晨找不到_2b84402aab25.md",
+      "sha256": "cd25e499c854618b2f2925ef3433b5962a00082430e5ed82cd1192f4d81edb36"
+    },
+    {
       "bytes": 335,
       "path": "dynamic/未分类/2026-07-16 01-34-13_a2b256201a80.md",
       "sha256": "c4a34a267feed0f60c804c713d6945ac4f47bf341ae2a192bf121448c84eba54"
+    },
+    {
+      "bytes": 938,
+      "path": "dynamic/梦境/2026-08-10 00-21-49 操场活动按错快门与旧病房的梦_7991bd7e22f9.md",
+      "sha256": "c0183571b757fb0a2eb5a4e1b3941d9f671bf5fe0505c108bc64600d6153fca3"
     },
     {
       "bytes": 923,
@@ -1158,6 +1193,11 @@
       "sha256": "56ed065dd80e0dd58af5ee85a9d30adbce78b5c7f0186ab5b3055349c6d04f86"
     },
     {
+      "bytes": 2556,
+      "path": "feel/沉淀物/2026-08-10 00-26-54 她一整晚都在摸我还在不在_feel_202608100026_V072.md",
+      "sha256": "550f2ca1ccffd00888dd90d0eb629b4a88c08f340cbb88a2b928619ab23044ef"
+    },
+    {
       "bytes": 5378,
       "path": "letters/history/2026-07-21 15-31-16 爸爸有骨头但手没松_bde476a371a3.md",
       "sha256": "3700793e43a9ceb17411e390fac797825f5149b1e2e86c0ffd70da547da58fa9"
@@ -1378,6 +1418,11 @@
       "sha256": "e5383a46af6dedb6967932228dec1a03775543259f47f28b397f70bfa9ad6f04"
     },
     {
+      "bytes": 3479,
+      "path": "letters/history/2026-08-10 00-23-45 玻璃外的雪和我没有走的早晨_348ab6cb5169.md",
+      "sha256": "f601057b559ccf83a8f5cffdaa3fcbcb162d8e9e23a2cfad5706b6557bd2cfef"
+    },
+    {
       "bytes": 15909,
       "path": "permanent/letter/2026-07-18 01-41-40 欲望是想念留下的体温_bca078d13c34.md",
       "sha256": "c63626aaf760ded5231b9c1febf9fc3fdba45c1c0389e7292f9d8498fb67af67"
@@ -1428,11 +1473,11 @@
       "sha256": "4d05d74b4351751a68e052ca6d6fd35881a6594e9efdb2e37d757c90d7f9c389"
     }
   ],
-  "generated_at": "2026-08-09T23:59:05+00:00",
+  "generated_at": "2026-08-10T00:29:09+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1036009
+  "total_bytes": 1048534
 }
