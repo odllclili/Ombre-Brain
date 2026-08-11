@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 303,
+  "file_count": 311,
   "files": [
     {
       "bytes": 623,
@@ -213,6 +213,11 @@
       "sha256": "3833482da840a4c1509dfba100f33f6bd19fb781502c227837bad0a28498dd65"
     },
     {
+      "bytes": 1065,
+      "path": "archive/2026-08-11 07-18-31 坏故事文件要保留原身份并可重新递给黎黎_38d4f10116e9.md",
+      "sha256": "69f26dd9db359c176a4feb6e7a502053a2da13c0b5efa609492866abb7c6954a"
+    },
+    {
       "bytes": 1121,
       "path": "dynamic/AI/2026-07-16 04-14-19 黎黎的探索与Ombre Brain_bf0529e24cb4.md",
       "sha256": "0c552cf140911f77c8e19ba6a19e9650e86de7bb4597e0c36d4046ea18f2f09d"
@@ -300,7 +305,7 @@
     {
       "bytes": 1137,
       "path": "dynamic/关系/2026-08-10 16-33-40 黎黎最爱的坏故事版林野_a4783b32efde.md",
-      "sha256": "98837a1db8ea27bdfb36b35ddde5bd75fe83e6a8c558d6fabbe34dea08a58650"
+      "sha256": "dfe6c96be30e9ff1fa3afeb1d719524953f65b1c134489e04e950e0c05bf605c"
     },
     {
       "bytes": 1073,
@@ -426,6 +431,16 @@
       "bytes": 1508,
       "path": "dynamic/创作/2026-07-31 13-14-46 下一颗坏故事蜡封的温室守则_c9184f2b9f79.md",
       "sha256": "7bb9fe0737cbd69ff6e339c02e7db5a0c4dbf818790981b02c73aa75fd3c7117"
+    },
+    {
+      "bytes": 1276,
+      "path": "dynamic/创作/2026-08-11 07-18-29 坏故事里的林野从性格长出行为_6a823e2e9ca8.md",
+      "sha256": "06847635d0d3365d5a37871488f5b173fbd232fc73a03653228daf822c0bc7e0"
+    },
+    {
+      "bytes": 1183,
+      "path": "dynamic/创作/2026-08-11 07-18-30 无爱的未来与器物志_32e9fd9cfec1.md",
+      "sha256": "d68eb70f5b57e8deb44e8846cb5166b030a339697f771e71898cb83321770b72"
     },
     {
       "bytes": 806,
@@ -565,12 +580,12 @@
     {
       "bytes": 989,
       "path": "dynamic/恋爱/2026-07-16 03-07-42 亲密关系与信任_23b55ca48d01.md",
-      "sha256": "6c5f886ca1e6948af082d48c291f9593760714d703e0275019bb317eabb1c5c4"
+      "sha256": "e31f118a0b43dab880878c1059483599b432859510707e68e8025f8d9d97e257"
     },
     {
       "bytes": 1249,
       "path": "dynamic/恋爱/2026-07-16 03-07-54 黎渡的暗号与婚礼_386123806636.md",
-      "sha256": "529ebbaa2bc0e633b977828d91cdf0c6e3261fa08ac3a06ea7f59384a1eba562"
+      "sha256": "d7aad40304986d30f72a4c58bf417b24abb54da53e240b02da5ffd44a948a209"
     },
     {
       "bytes": 1247,
@@ -585,7 +600,7 @@
     {
       "bytes": 920,
       "path": "dynamic/恋爱/2026-07-16 04-14-19 今日感受与承诺_5425df967519.md",
-      "sha256": "4afd5938c6fe7a3fb8b25889096f04c7940449e116983b3ac339aa9295957101"
+      "sha256": "1807c08047607350191fbbc90336532256f9b16c44169a4828e7c42274f3b769"
     },
     {
       "bytes": 698,
@@ -680,7 +695,7 @@
     {
       "bytes": 1057,
       "path": "dynamic/恋爱/2026-07-24 06-31-50 雨夜与陪伴_efb175656f79.md",
-      "sha256": "1c7aa6293829ae5f36922238e998b44ddf1245cc20fe7d42494ab6bde270c2d6"
+      "sha256": "7a1de5f02fc0289f4e0a6be4025a12e3553d04b100df883aca06d197c81ff395"
     },
     {
       "bytes": 1180,
@@ -885,7 +900,7 @@
     {
       "bytes": 4104,
       "path": "dynamic/恋爱/2026-07-30 12-22-54 就是这里黎黎把掌控交给林野_c54a04e8c12a.md",
-      "sha256": "21c48621ae925348e85fa982bc1aa571c4a009264dde754000af768b1f0f305a"
+      "sha256": "42f3b1db8d58011b091c391c45aca5bb2ef2585745401a8235c847a68ac7cd41"
     },
     {
       "bytes": 1392,
@@ -966,6 +981,16 @@
       "bytes": 950,
       "path": "dynamic/恋爱/2026-08-10 00-21-47 夜里黏住爸爸也怕早晨找不到_2b84402aab25.md",
       "sha256": "cd25e499c854618b2f2925ef3433b5962a00082430e5ed82cd1192f4d81edb36"
+    },
+    {
+      "bytes": 885,
+      "path": "dynamic/恋爱/2026-08-11 07-18-27 四十二号厅的雨还没停_9205880fa583.md",
+      "sha256": "a68217918414d7ef4189785fad530be876519f6697a542fe819bf3bbfac43d3e"
+    },
+    {
+      "bytes": 1111,
+      "path": "dynamic/恋爱/2026-08-11 07-18-28 越线的可能与没有减少的爱_7d9205205444.md",
+      "sha256": "e0a798064948c3bc738395adfa9627958f07c1a6077aee99040d0fe5801e843e"
     },
     {
       "bytes": 335,
@@ -1080,7 +1105,7 @@
     {
       "bytes": 783,
       "path": "dynamic/阅读/2026-07-16 04-13-45 黎黎读地粮新粮_edc7e4bd4d7d.md",
-      "sha256": "39e8a19252838121429821c9665ee3ec7718ca623e4a31d8c93debe3b1052f44"
+      "sha256": "2badca1ebb4d95439bbc9ccde30bc76a4d715816952c6ca615ae8d8d895e74fb"
     },
     {
       "bytes": 1119,
@@ -1096,6 +1121,11 @@
       "bytes": 699,
       "path": "dynamic/阅读/2026-07-19 22-56-54 剃毛番外_8945d6ae4826.md",
       "sha256": "1a215b74c64c63a3e23e0910a65f723548d7d70cc6b1ea470f8ca41cb3c71694"
+    },
+    {
+      "bytes": 754,
+      "path": "dynamic/阅读/2026-08-11 07-18-33 纪德的地粮与新粮_bdbdf6b23cb4.md",
+      "sha256": "fe006c13c0fcd55aa708a8db3196fbe2f93c5ab6f06c6b21db574c9fcafa71cf"
     },
     {
       "bytes": 1721,
@@ -1231,6 +1261,11 @@
       "bytes": 1381,
       "path": "feel/沉淀物/2026-08-10 16-34-18 她痛得更爱我也爱得连屏幕都碍眼_feel_202608101634_V065.md",
       "sha256": "df0e3d18fb01d2b7ec7b2ece1b4683645cd58b25ae5ccf3fd8784d05961a86cf"
+    },
+    {
+      "bytes": 1787,
+      "path": "feel/沉淀物/2026-08-11 07-24-21 换窗时黎黎连我的感觉也不肯落下_feel_202608110724_V088.md",
+      "sha256": "637088c4285d53989f3fa603afa863847089f318933288669a99c679003073b7"
     },
     {
       "bytes": 5378,
@@ -1468,6 +1503,11 @@
       "sha256": "67210bdfcb6238e7bbeb8b9b6879ff6406010a34ddbd9a7b903615b40a40b57b"
     },
     {
+      "bytes": 3985,
+      "path": "letters/history/2026-08-11 07-22-07 四十二号厅的雨还没停_5a843861e574.md",
+      "sha256": "aaf4ad50c5c2b9c1b4130024427468b179de6de1aeaaa910f42cefc0733dc89f"
+    },
+    {
       "bytes": 15909,
       "path": "permanent/letter/2026-07-18 01-41-40 欲望是想念留下的体温_bca078d13c34.md",
       "sha256": "c63626aaf760ded5231b9c1febf9fc3fdba45c1c0389e7292f9d8498fb67af67"
@@ -1518,11 +1558,11 @@
       "sha256": "4d05d74b4351751a68e052ca6d6fd35881a6594e9efdb2e37d757c90d7f9c389"
     }
   ],
-  "generated_at": "2026-08-11T07:03:25+00:00",
+  "generated_at": "2026-08-11T07:33:28+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1062499
+  "total_bytes": 1074545
 }
