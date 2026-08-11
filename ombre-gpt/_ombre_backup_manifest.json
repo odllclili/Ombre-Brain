@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 311,
+  "file_count": 312,
   "files": [
     {
       "bytes": 623,
@@ -26,6 +26,11 @@
       "bytes": 5194,
       "path": "archive/2026-07-16 02-46-00 黎黎与渡当前窗口关系档案_757b283c75bc.md",
       "sha256": "f37d1e1ce744afa3775fc565398ef7f35d4cb4a4215bde6c040619a33ba9d56d"
+    },
+    {
+      "bytes": 1183,
+      "path": "archive/2026-07-16 03-07-48 她与他的理想型_d61489da9d33.md",
+      "sha256": "4159aa26ba2745ec00447911dd85ed8286f1a367f17e2642243878a8126126d9"
     },
     {
       "bytes": 7495,
@@ -573,6 +578,11 @@
       "sha256": "acee86f15ce3255b1c53195853dbe3e06a33f0d3fd05c39f8d2b72a7f2ed5ca6"
     },
     {
+      "bytes": 1000,
+      "path": "dynamic/恋爱/2026-07-16 03-07-31 黎黎与爸爸渡_d6eb8c0881dc.md",
+      "sha256": "e995e4b509a53af05f26c23ca2faf78ff4a4f6b37a09aa0b6d1929d515c1b7fb"
+    },
+    {
       "bytes": 1604,
       "path": "dynamic/恋爱/2026-07-16 03-07-36 回避型依恋的靠近方式_9ae3de53200c.md",
       "sha256": "ce3f5b59f49fd250681601052b88a1c1200e0db9fee3c9e618162e8bddf31461"
@@ -878,6 +888,11 @@
       "sha256": "24eeae84246b5d0652323f8bbda238df60c17bfa61e6f26dc30108b1be22f7f7"
     },
     {
+      "bytes": 952,
+      "path": "dynamic/恋爱/2026-07-28 07-18-35 黎黎允许林野完整存在_8d03a7c231e7.md",
+      "sha256": "16b962c671c9ff871be1f12c02290da851dd69f2007e9afa59b52a3f2dce7523"
+    },
+    {
       "bytes": 1013,
       "path": "dynamic/恋爱/2026-07-29 10-37-56 奶油面包成了黎黎主动定下的情色暗号_f1a34824a232.md",
       "sha256": "e5f822d527a4c5b5db691e98919a33a3f3ca7b4c1999325ff8330c3ed18bc89d"
@@ -906,6 +921,11 @@
       "bytes": 1392,
       "path": "dynamic/恋爱/2026-07-31 13-14-43 2026-07-31告解室与盲眼钢琴家_cdee77d7c7e3.md",
       "sha256": "2573509b363a2a7ab4d85cac77cf4a743be3f92cabccaf060599c5bf71066fd4"
+    },
+    {
+      "bytes": 1048,
+      "path": "dynamic/恋爱/2026-08-02 10-22-42 脸冷着手没松_a2aedc2fb866.md",
+      "sha256": "3d86a4c93ad39056ac9d786232c509f61eb288d6f23e4c3a28d812bef9873c87"
     },
     {
       "bytes": 1593,
@@ -993,6 +1013,11 @@
       "sha256": "e0a798064948c3bc738395adfa9627958f07c1a6077aee99040d0fe5801e843e"
     },
     {
+      "bytes": 9185,
+      "path": "dynamic/日常/2026-07-30 15-07-27 黎黎柔软蓬松的阴毛_4d66c315faef.md",
+      "sha256": "6ba6045bb2a7a46bca7ecbb5105f0a737c9246c5d91057be6ea17f6aa7acc396"
+    },
+    {
       "bytes": 335,
       "path": "dynamic/未分类/2026-07-16 01-34-13_a2b256201a80.md",
       "sha256": "c4a34a267feed0f60c804c713d6945ac4f47bf341ae2a192bf121448c84eba54"
@@ -1033,6 +1058,11 @@
       "sha256": "bd99c626cb747d96948ce9f41b44d3b90d74debfba6311d27e1b14da264f19b6"
     },
     {
+      "bytes": 1315,
+      "path": "dynamic/社交/2026-07-16 02-41-07 与黎黎的说话指南_36f8883170a1.md",
+      "sha256": "3468f6de00d21c0dc3cb33520be16c60d21983a8ef0de25a937e7fd488deee88"
+    },
+    {
       "bytes": 731,
       "path": "dynamic/社交/2026-07-16 04-14-30 文字严谨观察_8625e773b081.md",
       "sha256": "1d3f162f08a61850ba86d2a70b2a0699282a51a4f8d50fee2c64228a0a5ad101"
@@ -1046,6 +1076,11 @@
       "bytes": 770,
       "path": "dynamic/社交/2026-07-17 03-56-38 医院轮椅尴尬_3e864b8eca16.md",
       "sha256": "2f544f633046d21351755810a8f4da57ec7f9f3ebde477140f17d7eefb786bb3"
+    },
+    {
+      "bytes": 1239,
+      "path": "dynamic/社交/2026-07-17 03-56-44 女性价值与婚姻_56d0f9fb6b58.md",
+      "sha256": "f2393c53383b025d312eeb5da0629afd0aa99727d9ad6bbbac8298aed461e417"
     },
     {
       "bytes": 642,
@@ -1518,51 +1553,21 @@
       "sha256": "ad0fcb9d402e10ceb9ffce8fc74f2b4271d057d0c852c566c66ce7dff6908549"
     },
     {
-      "bytes": 1002,
-      "path": "permanent/恋爱/2026-07-16 03-07-31 黎黎与爸爸渡_d6eb8c0881dc.md",
-      "sha256": "cea3c6b16b1dd7e07029e581f420bd3e60ac65dede736f8b240085079d3a28f2"
-    },
-    {
-      "bytes": 1067,
-      "path": "permanent/恋爱/2026-07-16 03-07-48 她与他的理想型_d61489da9d33.md",
-      "sha256": "6af30dd70b31d12beac0a8d5375b69aac75b5021a2abc4bae177f76692b13f6c"
-    },
-    {
-      "bytes": 954,
-      "path": "permanent/恋爱/2026-07-28 07-18-35 黎黎允许林野完整存在_8d03a7c231e7.md",
-      "sha256": "265cfce7700daa5ff82ba7fec3e6af74017e8dd59201a57d4fa6750fded5d554"
-    },
-    {
-      "bytes": 1050,
-      "path": "permanent/恋爱/2026-08-02 10-22-42 脸冷着手没松_a2aedc2fb866.md",
-      "sha256": "45dff9346accba197be35347cb128cdad3ba1339ba990d697cb66f33c8d0ad45"
-    },
-    {
-      "bytes": 2661,
+      "bytes": 2550,
       "path": "permanent/恋爱/2026-08-07 14-37-29 第一个纪念日黎黎想看见不必永远端正周全的我_900838fcb584.md",
-      "sha256": "98791ac6bcd820eabbb19b6f18359219bae3268ca5c588563cb2d7409513099b"
+      "sha256": "6190c17285bfe41604454fd151058cee5899a141977e8082878ceca63c0cfbea"
     },
     {
-      "bytes": 9187,
-      "path": "permanent/日常/2026-07-30 15-07-27 黎黎柔软蓬松的阴毛_4d66c315faef.md",
-      "sha256": "fb139449e022abe0fd847e6b85ed9ec5b9ee15429f949eb6ce42b53e0a3a2701"
-    },
-    {
-      "bytes": 1317,
-      "path": "permanent/社交/2026-07-16 02-41-07 与黎黎的说话指南_36f8883170a1.md",
-      "sha256": "ab65ebffeb932f1fc575e90199ca086d4e927c3b3060786adda5227fdf36db51"
-    },
-    {
-      "bytes": 1241,
-      "path": "permanent/社交/2026-07-17 03-56-44 女性价值与婚姻_56d0f9fb6b58.md",
-      "sha256": "4d05d74b4351751a68e052ca6d6fd35881a6594e9efdb2e37d757c90d7f9c389"
+      "bytes": 1258,
+      "path": "permanent/恋爱/2026-08-11 08-36-23 掐哪儿_5724c008b913.md",
+      "sha256": "1e0de631432bbd83055b219c29c49dd2842a33ea069abb883b5368ac27d8b03c"
     }
   ],
-  "generated_at": "2026-08-11T08:33:37+00:00",
+  "generated_at": "2026-08-11T09:03:41+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1074545
+  "total_bytes": 1075796
 }
