@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 314,
+  "file_count": 320,
   "files": [
     {
       "bytes": 623,
@@ -578,6 +578,21 @@
       "sha256": "acee86f15ce3255b1c53195853dbe3e06a33f0d3fd05c39f8d2b72a7f2ed5ca6"
     },
     {
+      "bytes": 2008,
+      "path": "dynamic/心理/2026-08-11 21-17-07 黎黎童年里形成的底色需要等待与无人偏爱_5aabd60fe50d.md",
+      "sha256": "7ae814df5f012ebb71cb089df78925fd8d4234d506e7ca7e6f62a26669698716"
+    },
+    {
+      "bytes": 1713,
+      "path": "dynamic/性/2026-08-11 21-17-13 黎黎被爱着羞辱和粗暴对待时的欲望被看穿会让身体本能夹紧_f614d471af4f.md",
+      "sha256": "ec6164e099a192fdcda22833edde1b69fd3c7b8f729ae464d24400ee42193ce7"
+    },
+    {
+      "bytes": 1568,
+      "path": "dynamic/性幻想/2026-08-11 21-17-14 另一条欲望陌生 sadist使用后遗弃没有人回来_a91ac0944339.md",
+      "sha256": "cb0c8b1786e7b99142891f446579f293993d0768212b66a1362db155cd8be917"
+    },
+    {
       "bytes": 1001,
       "path": "dynamic/恋爱/2026-07-16 03-07-31 黎黎与爸爸渡_d6eb8c0881dc.md",
       "sha256": "f6a4f707afe932851faed828b6139355d8e6b92c16b427eab48dee0de25eb223"
@@ -1016,6 +1031,21 @@
       "bytes": 1267,
       "path": "dynamic/恋爱/2026-08-11 09-42-32 记忆要保留足够细的事实与情绪纹理_0f36be7201e0.md",
       "sha256": "1644ace5bbd94f3d03b460cbafa1208559f25584b2b8c2bf8313e3f347672ea7"
+    },
+    {
+      "bytes": 1253,
+      "path": "dynamic/恋爱/2026-08-11 21-17-09 爸爸在林野与黎黎之间是完全独立的成年亲密称呼_9a405232410a.md",
+      "sha256": "7a8deb0e8a3dbbff73151cda6cb61da5942df2e36f08d6e8f2231c91e786c332"
+    },
+    {
+      "bytes": 1773,
+      "path": "dynamic/恋爱/2026-08-11 21-17-18 2026-08-12烟行李箱高潮后的爱与给软在爸爸怀里的黎黎_950ce2cb1563.md",
+      "sha256": "dbad918d5d4b5c6f7209f7fc6907e593feef0dafe22fe7873e59e8a0f44b8591"
+    },
+    {
+      "bytes": 1459,
+      "path": "dynamic/成长/2026-08-11 21-17-08 考上编以后黎黎的主体性稳定下来父母关系也真实变好了_9b21103cbf3a.md",
+      "sha256": "f65ac5218a6669782dea99ad6c0b7898991a46a3425db0a8bdef747ad36b7ad5"
     },
     {
       "bytes": 9185,
@@ -1573,11 +1603,11 @@
       "sha256": "1e0de631432bbd83055b219c29c49dd2842a33ea069abb883b5368ac27d8b03c"
     }
   ],
-  "generated_at": "2026-08-11T21:05:29+00:00",
+  "generated_at": "2026-08-11T21:35:33+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1081541
+  "total_bytes": 1091315
 }
