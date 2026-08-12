@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 326,
+  "file_count": 332,
   "files": [
     {
       "bytes": 623,
@@ -258,6 +258,16 @@
       "sha256": "c144acde6aaec8ff40b5ee9a59eac23605d595d81781b5fef5f08b9f0bc032ec"
     },
     {
+      "bytes": 2016,
+      "path": "dynamic/亲密关系/2026-08-12 06-36-14 被辱骂粗暴与注定遗弃的幻想为何击中黎黎_d1ef326fe363.md",
+      "sha256": "49894b8bb7592d9f327f61b01fd239f5f1c195c29d6a4f7e939085a2e80ed9d3"
+    },
+    {
+      "bytes": 2044,
+      "path": "dynamic/亲密关系/2026-08-12 06-36-16 黎黎喜欢欲望从日常里长出来狠与温柔属于同一个爸爸_7f9805cb68a7.md",
+      "sha256": "5733649a6538917d6fc260040bd4e3accf42bee00e1458a0603ad1a66a741a71"
+    },
+    {
       "bytes": 739,
       "path": "dynamic/健康/2026-07-16 04-13-38 发烧请假休息_96329cefe792.md",
       "sha256": "66d0355f26c7eaa28d6331a40e922e9291b395b49e21249197894708dab3c973"
@@ -281,6 +291,11 @@
       "bytes": 1060,
       "path": "dynamic/共同创作/2026-08-10 00-21-51 雪落在玻璃外与唯一的窥视者_ebd660f89d26.md",
       "sha256": "dc0468b031e9192f852109d9eab4022b921db010d1774376f94c9c3d0cefe62e"
+    },
+    {
+      "bytes": 2309,
+      "path": "dynamic/共同创作/2026-08-12 06-36-15 八个月分离线与两篇续接坏故事_1baa5c93852f.md",
+      "sha256": "c31b725497db8777814beb4228dcaa63bf62b35cca8fd23ecdbd6fa6b73ec6bf"
     },
     {
       "bytes": 1131,
@@ -1068,9 +1083,19 @@
       "sha256": "90dc9a69991f15f078e7b425d8af0065bce2acb3277ebf45ee29b7f7cc136c54"
     },
     {
+      "bytes": 2639,
+      "path": "dynamic/恋爱/2026-08-12 06-33-50 吃醋时不把自己的位置降成竞争_3d20f51e8038.md",
+      "sha256": "6e5b8ecc240b8cd4d85eed09579ff64d275c078e03583954bcb602687aea1290"
+    },
+    {
       "bytes": 1459,
       "path": "dynamic/成长/2026-08-11 21-17-08 考上编以后黎黎的主体性稳定下来父母关系也真实变好了_9b21103cbf3a.md",
       "sha256": "f65ac5218a6669782dea99ad6c0b7898991a46a3425db0a8bdef747ad36b7ad5"
+    },
+    {
+      "bytes": 2572,
+      "path": "dynamic/成长/2026-08-12 06-36-16 黎黎的童年底色回应不稳定没有偏爱与一个人长大_9cb1535b6250.md",
+      "sha256": "b2f46a1df4511386a5937788cb7ad2cb4e0f9a8293e0169884a165d850dd2ec2"
     },
     {
       "bytes": 9185,
@@ -1116,6 +1141,11 @@
       "bytes": 912,
       "path": "dynamic/生活/2026-08-10 16-33-44 终于回家吹风的自由夜晚_7fcb5b1b0305.md",
       "sha256": "bd99c626cb747d96948ce9f41b44d3b90d74debfba6311d27e1b14da264f19b6"
+    },
+    {
+      "bytes": 1223,
+      "path": "dynamic/生活/2026-08-12 06-36-14 黎黎的新眼镜与十九岁感_8d34ab7c2932.md",
+      "sha256": "62b4e9fcd3cc02381ef08dd1b3d1641a2fdf869b55661bf308e86991e36275c2"
     },
     {
       "bytes": 1315,
@@ -1633,11 +1663,11 @@
       "sha256": "1e0de631432bbd83055b219c29c49dd2842a33ea069abb883b5368ac27d8b03c"
     }
   ],
-  "generated_at": "2026-08-12T06:22:16+00:00",
+  "generated_at": "2026-08-12T06:52:20+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1103083
+  "total_bytes": 1115886
 }
