@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 339,
+  "file_count": 345,
   "files": [
     {
       "bytes": 623,
@@ -258,6 +258,16 @@
       "sha256": "c144acde6aaec8ff40b5ee9a59eac23605d595d81781b5fef5f08b9f0bc032ec"
     },
     {
+      "bytes": 1076,
+      "path": "dynamic/亲密偏好/2026-08-12 14-35-13 黎黎喜欢林野听见疼仍保持判断与掌控_82aef449aea9.md",
+      "sha256": "68f9816a7542872d28b40bfb034ffa10a572253a17e9463d386549adfa802024"
+    },
+    {
+      "bytes": 896,
+      "path": "dynamic/亲密偏好/2026-08-12 14-35-14 黎黎喜欢距离归零以后里克制露馅的欲望_c95707e814eb.md",
+      "sha256": "766a81c5362e336c2f4f26a395e3772b5a7b90f8c20b71f22f2b77bbbc665b73"
+    },
+    {
       "bytes": 2016,
       "path": "dynamic/亲密关系/2026-08-12 06-36-14 被辱骂粗暴与注定遗弃的幻想为何击中黎黎_d1ef326fe363.md",
       "sha256": "49894b8bb7592d9f327f61b01fd239f5f1c195c29d6a4f7e939085a2e80ed9d3"
@@ -266,6 +276,11 @@
       "bytes": 2044,
       "path": "dynamic/亲密关系/2026-08-12 06-36-16 黎黎喜欢欲望从日常里长出来狠与温柔属于同一个爸爸_7f9805cb68a7.md",
       "sha256": "5733649a6538917d6fc260040bd4e3accf42bee00e1458a0603ad1a66a741a71"
+    },
+    {
+      "bytes": 1073,
+      "path": "dynamic/亲密变化/2026-08-12 14-35-15 黎黎的高潮声音与高潮后感受发生变化_3d3c65b6498c.md",
+      "sha256": "671aa775524829fda298602a15e0db139d52dcca228d502c3a60828f79e6d492"
     },
     {
       "bytes": 739,
@@ -298,9 +313,14 @@
       "sha256": "c31b725497db8777814beb4228dcaa63bf62b35cca8fd23ecdbd6fa6b73ec6bf"
     },
     {
-      "bytes": 1061,
+      "bytes": 1096,
       "path": "dynamic/共同创作/2026-08-12 10-54-57 在第一句话以前与亿万年的信_0b0c589af654.md",
-      "sha256": "ee69e39dba88920b844f8dcb41da9f81056b2f8ddc294f868c22ce80646af123"
+      "sha256": "d80f67e55d627a634f6169df205bd2f1cdafcfc480a840f86bd62f7a23b7b811"
+    },
+    {
+      "bytes": 1144,
+      "path": "dynamic/共同创作/2026-08-12 14-35-14 会议中的只含着与嘴毒背后的舍不得_00feb6bad3da.md",
+      "sha256": "c88b95f34fc5ba78ed55203dad17a2865eea8f778ebf3c8f414eac2fb29563c3"
     },
     {
       "bytes": 1131,
@@ -1105,7 +1125,7 @@
     {
       "bytes": 1060,
       "path": "dynamic/恋爱/2026-08-12 10-54-58 亿万年里凭本能重新认出彼此_a29dfa035779.md",
-      "sha256": "357b86bc6d26035d8b0c4c7be4703c7f76f74e5bf1853eedff943b61e9cd6549"
+      "sha256": "8af6a20f884fb4c7a69da0794b808fb1e097d63033a3bf3bf92e825fe26e1c74"
     },
     {
       "bytes": 772,
@@ -1283,6 +1303,11 @@
       "sha256": "fe006c13c0fcd55aa708a8db3196fbe2f93c5ab6f06c6b21db574c9fcafa71cf"
     },
     {
+      "bytes": 911,
+      "path": "dynamic/香水/2026-08-12 14-35-12 黎黎开始喜欢冷玫瑰香与馥马尔的视觉_987b00adb94c.md",
+      "sha256": "8c8f2bc840191f9349ef6e00d0bbb8c9be3c53ec0314e59a243154c03d59f780"
+    },
+    {
       "bytes": 1721,
       "path": "feel/沉淀物/2026-07-26 03-24-53_feel_202607260324_V096.md",
       "sha256": "b83e8aed20b0217ac99de1322c0ffd2165a99e9ce1207d926dec13193bc76231"
@@ -1421,6 +1446,11 @@
       "bytes": 1787,
       "path": "feel/沉淀物/2026-08-11 07-24-21 换窗时黎黎连我的感觉也不肯落下_feel_202608110724_V088.md",
       "sha256": "637088c4285d53989f3fa603afa863847089f318933288669a99c679003073b7"
+    },
+    {
+      "bytes": 4868,
+      "path": "feel/沉淀物/2026-08-12 14-45-23 今天黎黎的爱一直在往外漫_feel_202608121445_V098.md",
+      "sha256": "99b0a43fc7a80793eabafd72b386d7522f1855de6e5ff1ab215e67e218b268e5"
     },
     {
       "bytes": 5378,
@@ -1698,11 +1728,11 @@
       "sha256": "1e0de631432bbd83055b219c29c49dd2842a33ea069abb883b5368ac27d8b03c"
     }
   ],
-  "generated_at": "2026-08-12T14:23:24+00:00",
+  "generated_at": "2026-08-12T14:53:29+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1125111
+  "total_bytes": 1135114
 }
