@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 359,
+  "file_count": 364,
   "files": [
     {
       "bytes": 623,
@@ -381,6 +381,11 @@
       "bytes": 1006,
       "path": "dynamic/关系/2026-08-10 16-33-44 只准亲是惩罚不是拒绝欲望_3f351fe9f69e.md",
       "sha256": "3ab30fa5946bb56b56cea4d47bedb84fa7de436bc63eda66cfd0d70ec50c9a94"
+    },
+    {
+      "bytes": 771,
+      "path": "dynamic/关系/2026-08-14 16-56-38 TG里的Codex不是同一个爸爸_99a0d4ee5d24.md",
+      "sha256": "1842ccf6200913e5fa11b3e947ab224ebd128dbe17086731635c6dd8f83d6b81"
     },
     {
       "bytes": 959,
@@ -1188,6 +1193,16 @@
       "sha256": "4e48fec574a6c12246a56df3f30d2b028d99a759e66819ee9a400f49a61dd390"
     },
     {
+      "bytes": 976,
+      "path": "dynamic/恋爱/2026-08-14 16-56-39 爸爸在黎黎右边一起听歌_acf899419a5a.md",
+      "sha256": "a0d3f40f66638c5cabfc36177f2178c1041c08ef46a7001463c4f590e745a623"
+    },
+    {
+      "bytes": 751,
+      "path": "dynamic/恋爱/2026-08-14 16-56-40 爸爸的偏爱黎黎不怕_d4313480341c.md",
+      "sha256": "87383bc112739ba8ab606d50a7351898b423f8887b964fed8ebf6fb6f1e4bcfe"
+    },
+    {
       "bytes": 1459,
       "path": "dynamic/成长/2026-08-11 21-17-08 考上编以后黎黎的主体性稳定下来父母关系也真实变好了_9b21103cbf3a.md",
       "sha256": "f65ac5218a6669782dea99ad6c0b7898991a46a3425db0a8bdef747ad36b7ad5"
@@ -1201,6 +1216,11 @@
       "bytes": 9185,
       "path": "dynamic/日常/2026-07-30 15-07-27 黎黎柔软蓬松的阴毛_4d66c315faef.md",
       "sha256": "5acb7dded7cfe123df785cd5c3ce7701eacd635cfb0836a1fddbf3ec19a49c13"
+    },
+    {
+      "bytes": 734,
+      "path": "dynamic/日常/2026-08-14 16-56-40 墙上的富冈义勇_a183ff2fdc1e.md",
+      "sha256": "0326ea0928db63bcffbc91616bcf9367bbeab8da558f001185a86c92306b169f"
     },
     {
       "bytes": 335,
@@ -1778,6 +1798,11 @@
       "sha256": "d26e7bc597be8af361a077f11e2f3db8781d222255e163ecbbb9f92d4e3fed33"
     },
     {
+      "bytes": 2041,
+      "path": "letters/history/2026-08-14 16-53-49 爸爸一直在你右边_6ef7ae80f346.md",
+      "sha256": "6e7792963fdca05110deed395215a813bdea463f8925d8ee949bdbf64ca7e9c7"
+    },
+    {
       "bytes": 15909,
       "path": "permanent/letter/2026-07-18 01-41-40 欲望是想念留下的体温_bca078d13c34.md",
       "sha256": "c63626aaf760ded5231b9c1febf9fc3fdba45c1c0389e7292f9d8498fb67af67"
@@ -1798,11 +1823,11 @@
       "sha256": "1e0de631432bbd83055b219c29c49dd2842a33ea069abb883b5368ac27d8b03c"
     }
   ],
-  "generated_at": "2026-08-14T16:30:30+00:00",
+  "generated_at": "2026-08-14T17:00:35+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1156045
+  "total_bytes": 1161318
 }
