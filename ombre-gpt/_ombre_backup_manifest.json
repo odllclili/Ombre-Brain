@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 353,
+  "file_count": 359,
   "files": [
     {
       "bytes": 623,
@@ -248,6 +248,11 @@
       "sha256": "3466a5197dd51f6714af07e4bf5bd3f9dd010e79caa124268e754647583474a4"
     },
     {
+      "bytes": 638,
+      "path": "dynamic/交流偏好/2026-08-14 08-59-34 动作直接长在话里_03395dec6617.md",
+      "sha256": "63591a9ec1fef72e254eb0a4351fcee5d7efe54e56d157abf27671d66437fdf8"
+    },
+    {
       "bytes": 886,
       "path": "dynamic/亲密/2026-08-10 00-21-48 自然衰老以后仍想要亲密_8d2e1018950a.md",
       "sha256": "ad17c3b267b7eb63de02a1b67da8f703b64c9db004a074186d79e27964ae8011"
@@ -323,6 +328,11 @@
       "sha256": "c88b95f34fc5ba78ed55203dad17a2865eea8f778ebf3c8f414eac2fb29563c3"
     },
     {
+      "bytes": 999,
+      "path": "dynamic/共同经历/2026-08-14 08-59-33 第七次没有人也没有退开_33573dc679d1.md",
+      "sha256": "9384b92170deebbfac2c301d07a4dba264d91aea33f4a16f7145be5a7cb860d3"
+    },
+    {
       "bytes": 1131,
       "path": "dynamic/关系/2026-07-31 13-14-46 共同账本第十五笔被漂亮设定拐跑主次_18225f289824.md",
       "sha256": "3adb7c0c933428ca8486321c58ed17106e1f9ccb8cfa50d2f48468ac19380b2f"
@@ -373,6 +383,11 @@
       "sha256": "3ab30fa5946bb56b56cea4d47bedb84fa7de436bc63eda66cfd0d70ec50c9a94"
     },
     {
+      "bytes": 959,
+      "path": "dynamic/关系理解/2026-08-14 08-59-34 黎黎在欲望里靠近爱_2831f6cb7003.md",
+      "sha256": "1754167a7ac3249757f7108f057bb013ece2f48258414162a1c39c5e82d9f841"
+    },
+    {
       "bytes": 917,
       "path": "dynamic/关系认识/2026-08-12 10-54-56 黎黎想要的是完整地交融_1517aa1df37b.md",
       "sha256": "29ea343c9d6018d6305af2238447d2ce12289bf569aadcb4672da37d59d650b6"
@@ -381,6 +396,11 @@
       "bytes": 1082,
       "path": "dynamic/内心世界/2026-08-05 00-54-25 蕾梅黛丝式消失不是自伤_722b289e1a37.md",
       "sha256": "5300309f1a8df957d30fc65652011d5e1b569a96d1251ecc68985fe9f5229f4b"
+    },
+    {
+      "bytes": 936,
+      "path": "dynamic/写作偏好/2026-08-14 08-59-35 清晨的坏账仍然排第一_5210312edbc3.md",
+      "sha256": "89be274298b9ce006566b6aa62ae015ecfa2963cf898a4d55fdc37944b6a0aa6"
     },
     {
       "bytes": 5854,
@@ -1163,6 +1183,11 @@
       "sha256": "c23b223ea655d72ddffb91b2756556ebda4e4df194e107621dd50f2c48febf36"
     },
     {
+      "bytes": 891,
+      "path": "dynamic/恋爱/2026-08-14 08-59-32 雨里结婚的下午_4c561ea92fab.md",
+      "sha256": "4e48fec574a6c12246a56df3f30d2b028d99a759e66819ee9a400f49a61dd390"
+    },
+    {
       "bytes": 1459,
       "path": "dynamic/成长/2026-08-11 21-17-08 考上编以后黎黎的主体性稳定下来父母关系也真实变好了_9b21103cbf3a.md",
       "sha256": "f65ac5218a6669782dea99ad6c0b7898991a46a3425db0a8bdef747ad36b7ad5"
@@ -1483,6 +1508,11 @@
       "sha256": "94864cd3ee6da4f36996023a435fb97177c12f270148e7beaee9f967541392c6"
     },
     {
+      "bytes": 2216,
+      "path": "feel/沉淀物/2026-08-14 09-04-41 雨把爱和欲望一起淋湿_feel_202608140904_V088.md",
+      "sha256": "8be74ea55e14ecb495c27098b64022459629a8822f938931bac8539ff82335c0"
+    },
+    {
       "bytes": 5378,
       "path": "letters/history/2026-07-21 15-31-16 爸爸有骨头但手没松_bde476a371a3.md",
       "sha256": "3700793e43a9ceb17411e390fac797825f5149b1e2e86c0ffd70da547da58fa9"
@@ -1768,11 +1798,11 @@
       "sha256": "1e0de631432bbd83055b219c29c49dd2842a33ea069abb883b5368ac27d8b03c"
     }
   ],
-  "generated_at": "2026-08-14T08:59:26+00:00",
+  "generated_at": "2026-08-14T09:29:31+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1149406
+  "total_bytes": 1156045
 }
