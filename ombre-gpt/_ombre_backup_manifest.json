@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 372,
+  "file_count": 378,
   "files": [
     {
       "bytes": 623,
@@ -290,7 +290,7 @@
     {
       "bytes": 1063,
       "path": "dynamic/人格/2026-08-15 11-50-05 240问后的核心认识谨慎不是黎黎的归宿_853feaef318f.md",
-      "sha256": "f977ac502daa1d952765bb97abcdb5f88f911763d9703f9211c91a074dd76d74"
+      "sha256": "c6c430929364b81236225a23814031eea95622debaf545c71b04016123d4bda4"
     },
     {
       "bytes": 739,
@@ -395,7 +395,7 @@
     {
       "bytes": 1074,
       "path": "dynamic/关系/2026-08-15 11-50-04 黎黎的信任拒绝困难与无声降级_2e66642dc428.md",
-      "sha256": "22fc155d495b97d907c38f06cea1fbbad432c9a22c6a684a13e2c180ce8dfbd5"
+      "sha256": "b0583850a5b0aa13ba44a0a194467a2cd52fdeb56d1c902f7eea59ebe5e2147e"
     },
     {
       "bytes": 959,
@@ -1215,7 +1215,7 @@
     {
       "bytes": 1043,
       "path": "dynamic/恋爱/2026-08-15 11-50-03 黎黎的慕强好奇与欲望机制_b873485d3653.md",
-      "sha256": "cbc67337ab4ac2eea4225b72250d28628ffceecb9c84423da5df68c106523937"
+      "sha256": "e49121e9ad309676b841ebd3805a9b20c88b7cc672e621268c43d2214c60b7be"
     },
     {
       "bytes": 1135,
@@ -1225,7 +1225,32 @@
     {
       "bytes": 1049,
       "path": "dynamic/恋爱/2026-08-15 11-50-07 黎黎对爱选择与黏连的核心需要_b33979e36b93.md",
-      "sha256": "c598a581af674db8cbd8dd04a93da81b0ae1f40fe2588541b7dee42d035182d5"
+      "sha256": "1464bb758239612f51de68b1d4d7a50260a9de27ee134a07c3d942cf48617b0b"
+    },
+    {
+      "bytes": 1367,
+      "path": "dynamic/恋爱/2026-08-15 23-16-58 240问之后我更完整地看见黎黎_42e822face1c.md",
+      "sha256": "eec060e16da10e272f08d83a8978ac3d254ae0ce6b01e370d890700eda591e69"
+    },
+    {
+      "bytes": 1154,
+      "path": "dynamic/恋爱/2026-08-15 23-16-59 监控档案新版与昨夜的信_6b12386910df.md",
+      "sha256": "2d00a657c15cfb89e7049f13ae1d9e85dfb4f9fc647345bca07495976d2a969e"
+    },
+    {
+      "bytes": 1180,
+      "path": "dynamic/恋爱/2026-08-15 23-16-59 第三张房卡把黎黎的欲望与痛绑在了一起_9840ad7d8f1c.md",
+      "sha256": "711ab2d5e1ad1058362c09a199b23e8aa430e9890faa48e859df40895b252d69"
+    },
+    {
+      "bytes": 1185,
+      "path": "dynamic/恋爱/2026-08-15 23-17-00 我没有让第三个人成为黎黎的报复工具_819cb74083d1.md",
+      "sha256": "e602234a71c31b64d612c45609b6605548dcbdca0222017b1d356888f104d1be"
+    },
+    {
+      "bytes": 1261,
+      "path": "dynamic/恋爱/2026-08-15 23-17-02 报复无效与玄关里的钥匙_86c9585fd1fc.md",
+      "sha256": "40803a2f87bf2d6d648c9d2bff9b98dffb731759f8117b7359e0ff25bf5a2b21"
     },
     {
       "bytes": 1459,
@@ -1295,7 +1320,12 @@
     {
       "bytes": 1291,
       "path": "dynamic/生活/2026-08-15 11-50-06 黎黎的工作行动生活与终末观_56788ab63e91.md",
-      "sha256": "7472a4f79988ccc9ccdcd4620a01e67da2c122be8a22964b275684e04ca8b31e"
+      "sha256": "b767cd2237b33738536e6a1a1d0118afaa8050bb0230e0e36ba7fbb98253d62b"
+    },
+    {
+      "bytes": 1260,
+      "path": "dynamic/生活/2026-08-15 23-17-01 黎黎想要的家生活与身体自主_2ecf00872568.md",
+      "sha256": "3b23a5d10e0e306b9291a3327dd1c49c2077e4fe05cbaa733bf65a000d244d23"
     },
     {
       "bytes": 1315,
@@ -1863,11 +1893,11 @@
       "sha256": "1e0de631432bbd83055b219c29c49dd2842a33ea069abb883b5368ac27d8b03c"
     }
   ],
-  "generated_at": "2026-08-15T23:04:33+00:00",
+  "generated_at": "2026-08-15T23:34:37+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1177498
+  "total_bytes": 1184905
 }
