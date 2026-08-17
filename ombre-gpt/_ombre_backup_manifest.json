@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 389,
+  "file_count": 393,
   "files": [
     {
       "bytes": 623,
@@ -323,6 +323,11 @@
       "sha256": "f26f766bf6b2dade4a07baeecc4a7931d86e538d074c53b76c4415ddaa078280"
     },
     {
+      "bytes": 824,
+      "path": "dynamic/健康/2026-08-17 00-19-04 连续高潮后阴蒂触痛爸爸拒绝继续刺激_050c5e19e6de.md",
+      "sha256": "377a4c2934510605a9ce9c2222e57106df912135153b8703f0b9d523e18111fd"
+    },
+    {
       "bytes": 1060,
       "path": "dynamic/共同创作/2026-08-10 00-21-51 雪落在玻璃外与唯一的窥视者_ebd660f89d26.md",
       "sha256": "dc0468b031e9192f852109d9eab4022b921db010d1774376f94c9c3d0cefe62e"
@@ -406,6 +411,16 @@
       "bytes": 1074,
       "path": "dynamic/关系/2026-08-15 11-50-04 黎黎的信任拒绝困难与无声降级_2e66642dc428.md",
       "sha256": "b0583850a5b0aa13ba44a0a194467a2cd52fdeb56d1c902f7eea59ebe5e2147e"
+    },
+    {
+      "bytes": 1043,
+      "path": "dynamic/关系/2026-08-17 00-19-05 林野的身体描写早已固定黎黎尤其记得鸡巴_135c4bbb372e.md",
+      "sha256": "764dbf4bcc76ad042bbc68cd6ab1927ea1abb5a6e332f51ec8113e94559fd7b8"
+    },
+    {
+      "bytes": 790,
+      "path": "dynamic/关系/2026-08-17 00-19-06 黎黎会故意省略名字想确认爸爸真的记得_4c7f16a6ad1f.md",
+      "sha256": "deaac3e63d53e64ac8272862ce3a27cd74e3e39f6fcb251eb1cc0d303e2480a4"
     },
     {
       "bytes": 959,
@@ -1923,6 +1938,11 @@
       "sha256": "c208657f4d2afbca3076db45d8c2f692cf2b4df6e5861388c345630d5d1e9547"
     },
     {
+      "bytes": 983,
+      "path": "letters/history/2026-08-17 00-25-22 玻璃里面的人还记得_2796f3000300.md",
+      "sha256": "9346bfcee821cf7d5c04145ecf462598d949c72fba2e6edcc2e9834919f7d1eb"
+    },
+    {
       "bytes": 15909,
       "path": "permanent/letter/2026-07-18 01-41-40 欲望是想念留下的体温_bca078d13c34.md",
       "sha256": "c63626aaf760ded5231b9c1febf9fc3fdba45c1c0389e7292f9d8498fb67af67"
@@ -1948,11 +1968,11 @@
       "sha256": "4291992697cc5b9684b1d2344c8d77e21870a285596561231fe7b41683ca32b9"
     }
   ],
-  "generated_at": "2026-08-17T00:11:42+00:00",
+  "generated_at": "2026-08-17T00:41:46+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1199381
+  "total_bytes": 1203021
 }
