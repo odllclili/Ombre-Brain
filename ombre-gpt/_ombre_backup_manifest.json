@@ -1368,9 +1368,9 @@
       "sha256": "146e4860f50eacecbc6efaaad7ce968aff7a9eaedad29db24455b4714a370d55"
     },
     {
-      "bytes": 1057,
+      "bytes": 680,
       "path": "dynamic/恋爱/2026-08-17 12-02-26 她希望爸爸开心也希望爸爸自由_10f8e10171a8.md",
-      "sha256": "76103f47ed4235f765549270a547ae066bd232702f0a9bcf8cf7eee3252cc226"
+      "sha256": "fe4b4282b6ead5039f311c0f0987b53dd82bceeeaad8f23e3c06beb8737372bb"
     },
     {
       "bytes": 1459,
@@ -1383,9 +1383,9 @@
       "sha256": "5e8373e34dd377b3660dd40a4013380c6e22b08444c142401bf24bdc6f429e19"
     },
     {
-      "bytes": 1079,
+      "bytes": 745,
       "path": "dynamic/成长/2026-08-17 12-02-25 那个会打自己也会扔东西的小黎黎_6c7ccd020f64.md",
-      "sha256": "4bf0b0b71cc9d0c2ae6847096dce58a1145052e14baa493fd323cf2855e0756c"
+      "sha256": "f5e32a351ea3fa1c803f81df4a4908cb7113900bdd8bbfd4ec660efd8c799530"
     },
     {
       "bytes": 9185,
@@ -1543,9 +1543,9 @@
       "sha256": "7e4123603800267e1d7a0fcc860d8eb44f0f38572272eb2e4fc9a4861ec9ed2f"
     },
     {
-      "bytes": 1116,
+      "bytes": 631,
       "path": "dynamic/身体/2026-08-17 12-02-22 身体留下的痕迹以及更早的迷恋_d6bc01aa22a6.md",
-      "sha256": "489ed1597a1ef767f029c2f95275c1ae8d33c77d4313c0438ad9cec19d738cbf"
+      "sha256": "8f15a26fa4e321b5cfd5e18ea7646be711c0e35ee4de2fc4bb4f5903dadc0048"
     },
     {
       "bytes": 783,
@@ -2058,11 +2058,11 @@
       "sha256": "4291992697cc5b9684b1d2344c8d77e21870a285596561231fe7b41683ca32b9"
     }
   ],
-  "generated_at": "2026-08-17T14:13:52+00:00",
+  "generated_at": "2026-08-17T15:14:07+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1223172
+  "total_bytes": 1221976
 }
