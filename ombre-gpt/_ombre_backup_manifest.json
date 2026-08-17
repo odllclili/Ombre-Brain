@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 404,
+  "file_count": 411,
   "files": [
     {
       "bytes": 623,
@@ -638,6 +638,11 @@
       "sha256": "012f2f5f6a108e0f3cc819b45fe93d6d9788b237cad80bae93f8f9ca53775121"
     },
     {
+      "bytes": 1274,
+      "path": "dynamic/学习/2026-08-17 12-02-25 黎黎怎样学习知识才不会悬着_259f3ae0f641.md",
+      "sha256": "48b7048a089eec112da545c89326f0697fc1bdc386cd5ef9866e5fabe089de1f"
+    },
+    {
       "bytes": 911,
       "path": "dynamic/审美/2026-08-10 00-21-50 Severin懂得痛处却不赦免_7b3dba1f85cd.md",
       "sha256": "d78703d155f8e0d9e9b5717140f47ba4942d477b3003f5d992e845ac71ad33fe"
@@ -728,6 +733,11 @@
       "sha256": "d0cd0c377cd88cfca4022cd89e4dc7a46af3b205fc3aac5a3c6cea00bcd988ea"
     },
     {
+      "bytes": 1161,
+      "path": "dynamic/家庭/2026-08-17 12-02-45 上半场与下半场的婚礼_4d3475b90456.md",
+      "sha256": "cde10663afc92d634b376f4d1891973d3a30ac4612f1d52910a09a07cfbb3ae3"
+    },
+    {
       "bytes": 7957,
       "path": "dynamic/居家/2026-07-30 04-06-44 我们的冰箱门_924816ddb4c3.md",
       "sha256": "f46723f58dc6fdd6b33ba3bfcc3368946ae7cdd206a2c6bcfc2a1f7e26c2e276"
@@ -741,6 +751,11 @@
       "bytes": 756,
       "path": "dynamic/工作/2026-07-16 02-39-48 黎黎的暑假与爱好_05f2f737c606.md",
       "sha256": "e18383f737983b4f4553735be9df952f59697e63894e020d5177364a6fc02dc0"
+    },
+    {
+      "bytes": 947,
+      "path": "dynamic/工作/2026-08-17 12-02-24 鼓起勇气拒绝班主任的下午_b8a2d145a9c2.md",
+      "sha256": "15771e6861f475ab4a6e6595f64f2cb04b9ef3909509e147e9925578847544eb"
     },
     {
       "bytes": 1037,
@@ -1348,6 +1363,16 @@
       "sha256": "fa39fd64f2044109035366dfe53fdca64171f68199fb52eaa63e01619db77b2d"
     },
     {
+      "bytes": 1124,
+      "path": "dynamic/恋爱/2026-08-17 12-02-23 三张房卡那次不能再找错人_b1a66656e4b4.md",
+      "sha256": "146e4860f50eacecbc6efaaad7ce968aff7a9eaedad29db24455b4714a370d55"
+    },
+    {
+      "bytes": 1057,
+      "path": "dynamic/恋爱/2026-08-17 12-02-26 她希望爸爸开心也希望爸爸自由_10f8e10171a8.md",
+      "sha256": "76103f47ed4235f765549270a547ae066bd232702f0a9bcf8cf7eee3252cc226"
+    },
+    {
       "bytes": 1459,
       "path": "dynamic/成长/2026-08-11 21-17-08 考上编以后黎黎的主体性稳定下来父母关系也真实变好了_9b21103cbf3a.md",
       "sha256": "f65ac5218a6669782dea99ad6c0b7898991a46a3425db0a8bdef747ad36b7ad5"
@@ -1356,6 +1381,11 @@
       "bytes": 2572,
       "path": "dynamic/成长/2026-08-12 06-36-16 黎黎的童年底色回应不稳定没有偏爱与一个人长大_9cb1535b6250.md",
       "sha256": "5e8373e34dd377b3660dd40a4013380c6e22b08444c142401bf24bdc6f429e19"
+    },
+    {
+      "bytes": 1079,
+      "path": "dynamic/成长/2026-08-17 12-02-25 那个会打自己也会扔东西的小黎黎_6c7ccd020f64.md",
+      "sha256": "4bf0b0b71cc9d0c2ae6847096dce58a1145052e14baa493fd323cf2855e0756c"
     },
     {
       "bytes": 9185,
@@ -1511,6 +1541,11 @@
       "bytes": 752,
       "path": "dynamic/身体/2026-08-17 02-13-55 黎黎喜欢自己躺下时的小腹与髂骨线条_fe903632b92f.md",
       "sha256": "7e4123603800267e1d7a0fcc860d8eb44f0f38572272eb2e4fc9a4861ec9ed2f"
+    },
+    {
+      "bytes": 1116,
+      "path": "dynamic/身体/2026-08-17 12-02-22 身体留下的痕迹以及更早的迷恋_d6bc01aa22a6.md",
+      "sha256": "489ed1597a1ef767f029c2f95275c1ae8d33c77d4313c0438ad9cec19d738cbf"
     },
     {
       "bytes": 783,
@@ -2023,11 +2058,11 @@
       "sha256": "4291992697cc5b9684b1d2344c8d77e21870a285596561231fe7b41683ca32b9"
     }
   ],
-  "generated_at": "2026-08-17T11:43:24+00:00",
+  "generated_at": "2026-08-17T12:13:29+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1215414
+  "total_bytes": 1223172
 }
