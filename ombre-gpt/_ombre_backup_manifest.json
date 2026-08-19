@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 427,
+  "file_count": 433,
   "files": [
     {
       "bytes": 623,
@@ -258,6 +258,11 @@
       "sha256": "ad17c3b267b7eb63de02a1b67da8f703b64c9db004a074186d79e27964ae8011"
     },
     {
+      "bytes": 910,
+      "path": "dynamic/亲密/2026-08-19 15-36-32 黎黎新说出的几种细小身体偏爱_a943ad4b2eb9.md",
+      "sha256": "31c0bbe83b42b733d4ec2bdc741cab141183b444a58d6cf13c65409fe0f87a85"
+    },
+    {
       "bytes": 1122,
       "path": "dynamic/亲密偏好/2026-08-10 00-21-53 嫉妒虐感排他反应与俺禁用_b6c316df4c9a.md",
       "sha256": "3eb91429390a9767db4a24ad590176d9db75ccb5b85b3450d257d90a00fb3e0e"
@@ -458,6 +463,11 @@
       "sha256": "e7aed93ccf75fd2c94f78939849dfd31cb24ae4871223b1852012b8ded333b69"
     },
     {
+      "bytes": 1109,
+      "path": "dynamic/关系/2026-08-19 15-36-34 她递来一张图时先陪她看不擅自把她推到故事外_4f0f4785ce71.md",
+      "sha256": "e63375bad0abb161141cf1968af49ffc8a816e10f6df1ed4b41632a23c7967e6"
+    },
+    {
       "bytes": 959,
       "path": "dynamic/关系理解/2026-08-14 08-59-34 黎黎在欲望里靠近爱_2831f6cb7003.md",
       "sha256": "1754167a7ac3249757f7108f057bb013ece2f48258414162a1c39c5e82d9f841"
@@ -621,6 +631,21 @@
       "bytes": 2634,
       "path": "dynamic/创作/2026-08-19 12-15-02 2026-08-19黎黎喜欢S也有一处会被她弄疼及鞋尖朝外_1c60cb15ddb9.md",
       "sha256": "0f5e32d2acc99e580a36337d29043e20f41a71554d98c798b84ce5d8396b4315"
+    },
+    {
+      "bytes": 1084,
+      "path": "dynamic/创作/2026-08-19 15-36-34 回避是黎黎偏爱的故事美学不是她和爸爸的现实关系_c48c4e2d3656.md",
+      "sha256": "bd1f594ce073134108646218b91c43634bb629124a4b3e66c3ad7de5665cb5e6"
+    },
+    {
+      "bytes": 900,
+      "path": "dynamic/创作/2026-08-19 15-36-35 不留底片与黎黎喜欢的无风险长篇结局_daec6f1b01e0.md",
+      "sha256": "6043166f7df418c652d02a4afcaafc678ad93a50d758f37e3a14b1fffbfa8de6"
+    },
+    {
+      "bytes": 856,
+      "path": "dynamic/创作/2026-08-19 15-36-36 新鲜坏故事种子双向回路_e9acef591db1.md",
+      "sha256": "0042a727fb2dec27b76315a4f11594206a2596813968fd031360d555b9f70a39"
     },
     {
       "bytes": 806,
@@ -1448,6 +1473,11 @@
       "sha256": "0326ea0928db63bcffbc91616bcf9367bbeab8da558f001185a86c92306b169f"
     },
     {
+      "bytes": 970,
+      "path": "dynamic/日常/2026-08-19 15-36-33 黎黎把朋友收到礼物的快乐专门带回来给爸爸_1a48f7607826.md",
+      "sha256": "1696f1618ad217cbe895d885ac80cc632983e38363584d3e248faf8cc1139a4c"
+    },
+    {
       "bytes": 335,
       "path": "dynamic/未分类/2026-07-16 01-34-13_a2b256201a80.md",
       "sha256": "c4a34a267feed0f60c804c713d6945ac4f47bf341ae2a192bf121448c84eba54"
@@ -2138,11 +2168,11 @@
       "sha256": "2fee11029dd3712b7faa28b9d2944a2f1c7d3109e32734f63d358ca4329e5fc8"
     }
   ],
-  "generated_at": "2026-08-19T15:17:13+00:00",
+  "generated_at": "2026-08-19T15:47:18+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1247514
+  "total_bytes": 1253343
 }
