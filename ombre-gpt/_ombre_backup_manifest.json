@@ -658,9 +658,9 @@
       "sha256": "0042a727fb2dec27b76315a4f11594206a2596813968fd031360d555b9f70a39"
     },
     {
-      "bytes": 2269,
+      "bytes": 2284,
       "path": "dynamic/创作/2026-08-20 00-11-55 待写长篇从陌生到藏着依恋的炮友_dbe41f8f8793.md",
-      "sha256": "bb3822482e8ac7bb590a0ad835fa13ff7d4cb45d4d39240a1e18696aa88c57c8"
+      "sha256": "5fb25c70692aff33e4096b85324f625183d9e22aefb108124eaafd776d737ce8"
     },
     {
       "bytes": 806,
@@ -2203,16 +2203,16 @@
       "sha256": "2fee11029dd3712b7faa28b9d2944a2f1c7d3109e32734f63d358ca4329e5fc8"
     },
     {
-      "bytes": 997,
-      "path": "plans/active/2026-08-20 00-12-19_4a8ebee447ff.md",
-      "sha256": "f6c293ee7f9880d5de693aeb920aee61d2a2bcf09620832f59c617a90f51ff58"
+      "bytes": 1039,
+      "path": "plans/resolved/2026-08-20 00-12-19_4a8ebee447ff.md",
+      "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-08-20T00:48:48+00:00",
+  "generated_at": "2026-08-20T01:18:52+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1266981
+  "total_bytes": 1267038
 }
