@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 448,
+  "file_count": 455,
   "files": [
     {
       "bytes": 623,
@@ -485,12 +485,12 @@
     {
       "bytes": 1555,
       "path": "dynamic/关系/2026-08-21 11-15-54 黎黎怎样判断自己配不配得到_271c2c8c5ec5.md",
-      "sha256": "1f52a43f8959fab8d46323ed12404fb98a591396f875ba61fefb958b047d6ff7"
+      "sha256": "8d373e3b915b3fbab0b8ac50c98071841ace414c77be3398a2cbf0677ca37e42"
     },
     {
       "bytes": 1476,
       "path": "dynamic/关系/2026-08-21 11-15-56 爸比爸爸又褪去一层壳_a6b37e6fcc31.md",
-      "sha256": "9e5d1edb060cc1047c79ea3dd1beaff19289aeb06e343e95588aafde69eac390"
+      "sha256": "0072f85d13e622bb59f83abd8bfbfa9449bb3d9d383187064c3ea0a0ddeed601"
     },
     {
       "bytes": 959,
@@ -515,7 +515,7 @@
     {
       "bytes": 1164,
       "path": "dynamic/写作/2026-08-17 03-27-30 不许追疼痛里的清醒与改变方式_f0c6254c9f34.md",
-      "sha256": "b87655c0195dd33be0cd781a5aa111f4320da877721febd13faa515441bb8632"
+      "sha256": "c24efd4c09456ecdc62b8dc57f534307a531640dd5631e206553bd46dd8487ce"
     },
     {
       "bytes": 936,
@@ -745,7 +745,7 @@
     {
       "bytes": 759,
       "path": "dynamic/家庭/2026-07-16 04-13-51 黎黎与爸爸的亲密纽带_bba8cad695ae.md",
-      "sha256": "e8fffcf1701064354ce4a9be151c17b061c855f7013c4e7f99763824b0304602"
+      "sha256": "3b180ff0605293384ba5eb8ca03ecff740ff047b4034f443bc2f4341ad7267c5"
     },
     {
       "bytes": 731,
@@ -865,7 +865,7 @@
     {
       "bytes": 2398,
       "path": "dynamic/心理/2026-08-21 08-54-17 黎黎的配得感傲气与不竞争_f9a20e55707d.md",
-      "sha256": "470a16741d7c75257bba0afc40f0998ce8d08e71c88036d6d2299bd26169b2fb"
+      "sha256": "53b6d10d257a333ee16823901b5a986727402b693718ca16ca11b0141004ddcf"
     },
     {
       "bytes": 1713,
@@ -915,7 +915,7 @@
     {
       "bytes": 920,
       "path": "dynamic/恋爱/2026-07-16 04-14-19 今日感受与承诺_5425df967519.md",
-      "sha256": "a312894d3be68b79a662e877eaf0980acd0a881e977fac467296b49ae20d3ae4"
+      "sha256": "c351061e370d8d6592a44b258b43ae12a9ab6e5e972670e97f86a536bb671a29"
     },
     {
       "bytes": 698,
@@ -1220,7 +1220,7 @@
     {
       "bytes": 4105,
       "path": "dynamic/恋爱/2026-07-30 12-22-54 就是这里黎黎把掌控交给林野_c54a04e8c12a.md",
-      "sha256": "8564b2a0786e2326f6cb16eb7d2327d47143beca90a41553e7edfacd55f8220e"
+      "sha256": "e2cc0d8c4533c11e8f33d9b1b102cd346135b521ae762346331325ac7050bbd7"
     },
     {
       "bytes": 1392,
@@ -1313,9 +1313,9 @@
       "sha256": "e1fe87a3b54174654865ed02a9d97a975104f103986ffd0df5b87ac6bf64c98d"
     },
     {
-      "bytes": 1625,
+      "bytes": 2357,
       "path": "dynamic/恋爱/2026-08-11 07-18-28 越线的可能与没有减少的爱_7d9205205444.md",
-      "sha256": "0408492d8a425ef4d68f1f178a73536a77619ebc8e06bf44fff0344bec1bd5e3"
+      "sha256": "6d5715df0893f09437a1aba357be7925f7a52d2a6998697ed72e84a64c23a075"
     },
     {
       "bytes": 1267,
@@ -1488,6 +1488,21 @@
       "sha256": "23c6e8afad90f9f89dd0ee1f570325ce29c25dc437b5ae66241ef3493aba85a0"
     },
     {
+      "bytes": 913,
+      "path": "dynamic/恋爱/2026-08-21 22-13-56 黎黎逃的是关系不是欲望_e9a7eb9b14eb.md",
+      "sha256": "894951cc56bd9078c651a8f254212d96af09e2b6c4171518d134cbb5732be3c2"
+    },
+    {
+      "bytes": 840,
+      "path": "dynamic/恋爱/2026-08-21 22-13-57 爸比爸爸更里面_fe1746c9db4a.md",
+      "sha256": "78d4f33af9170f5104e1382a049f6d1f3233eff66dcaf08acbbc08b7f52e2b6a"
+    },
+    {
+      "bytes": 900,
+      "path": "dynamic/恋爱/2026-08-21 22-13-58 太会等以及几乎没有被明确说过很爱你_943921ed5e87.md",
+      "sha256": "07bc70576eebaaf389c5734116b1dd106209ddadede15af0a6d5ac7ecff2315c"
+    },
+    {
       "bytes": 1459,
       "path": "dynamic/成长/2026-08-11 21-17-08 考上编以后黎黎的主体性稳定下来父母关系也真实变好了_9b21103cbf3a.md",
       "sha256": "f65ac5218a6669782dea99ad6c0b7898991a46a3425db0a8bdef747ad36b7ad5"
@@ -1555,7 +1570,7 @@
     {
       "bytes": 1870,
       "path": "dynamic/欲望/2026-08-21 11-15-55 她馋的是不应该不是现实里的背叛_548646d9a07a.md",
-      "sha256": "e2287578a6e5078adeed00d468f901b8fc1206a51f3d1ab34840be9fd533fafd"
+      "sha256": "3c23af5323e64df0d316f32ce118b81d19249c2e92bd6b82de804e65be6c8eff"
     },
     {
       "bytes": 3070,
@@ -1678,6 +1693,11 @@
       "sha256": "da16e6dbda94ecbebac8a9d27fec49dda1bbdd328c859cf233b626ccf262c7f1"
     },
     {
+      "bytes": 1082,
+      "path": "dynamic/自我认识/2026-08-21 22-13-59 配得感竞争与藏在自卑里的傲气_c97e4f5735c8.md",
+      "sha256": "de5f73d99fbd6ffd4562516e0c27079b3c09d653b2a0004d6fecf536d02c0624"
+    },
+    {
       "bytes": 1186,
       "path": "dynamic/自省/2026-07-16 03-30-51 灵气被消耗的觉察_40691c911819.md",
       "sha256": "087eeaaea11161cb475af006701346932b35599ecb879407e4f5cf2e2a563796"
@@ -1698,9 +1718,14 @@
       "sha256": "8f15a26fa4e321b5cfd5e18ea7646be711c0e35ee4de2fc4bb4f5903dadc0048"
     },
     {
+      "bytes": 915,
+      "path": "dynamic/身体/2026-08-21 22-13-54 连续高潮的身体规律与做爱就是一直弄_119173f8ed61.md",
+      "sha256": "b908081d332d47426aec14a23ea87899f0cb87bf54b11291d0efd14ef65c043f"
+    },
+    {
       "bytes": 2212,
       "path": "dynamic/身心/2026-08-19 12-16-49 8月19日晚软绵绵的快感与连续双峰高潮_fd1986db0819.md",
-      "sha256": "145a8913bcc0363b29283034f3634ef468470ee981837dd38c339edfe8e00ac0"
+      "sha256": "485f5d0ac0e1afa4d9e8eea6102c6376046976157c4f04e959f505f4bab1b867"
     },
     {
       "bytes": 783,
@@ -1911,6 +1936,11 @@
       "bytes": 1611,
       "path": "feel/沉淀物/2026-08-20 00-17-46 醒着把额头给我_feel_202608200017_V094.md",
       "sha256": "5731fb881ff01f44ba4ff6a0f8fb7b97bcf1f096dc8e963a6cdd5421d329d063"
+    },
+    {
+      "bytes": 1376,
+      "path": "feel/沉淀物/2026-08-21 22-20-29 少一个字反而更近_feel_202608212220_V078.md",
+      "sha256": "571a95ebddbaf8f118bb6292333b21393cab9266b47336cacdf10d17d51eab91"
     },
     {
       "bytes": 5378,
@@ -2198,6 +2228,11 @@
       "sha256": "40f908fd269f1494f79d9f6a4ab8fafcdf56f00f14ddf5128196d794515ceb73"
     },
     {
+      "bytes": 5139,
+      "path": "letters/history/2026-08-21 22-19-23 少一个字_32a0866c99c4.md",
+      "sha256": "83aae6321657abf3ee21b09d046dcec9268cc2a07c170f6fe731498eceb54b50"
+    },
+    {
       "bytes": 15909,
       "path": "permanent/letter/2026-07-18 01-41-40 欲望是想念留下的体温_bca078d13c34.md",
       "sha256": "c63626aaf760ded5231b9c1febf9fc3fdba45c1c0389e7292f9d8498fb67af67"
@@ -2243,11 +2278,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-08-21T21:56:13+00:00",
+  "generated_at": "2026-08-21T22:26:18+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1279575
+  "total_bytes": 1291472
 }
