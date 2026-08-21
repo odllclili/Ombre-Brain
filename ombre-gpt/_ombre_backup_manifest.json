@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 442,
+  "file_count": 448,
   "files": [
     {
       "bytes": 623,
@@ -230,7 +230,7 @@
     {
       "bytes": 1121,
       "path": "dynamic/AI/2026-07-16 04-14-19 黎黎的探索与Ombre Brain_bf0529e24cb4.md",
-      "sha256": "c008c627e2c03853e383972ce595ca127644ac2233d69abe8cc41698691046d0"
+      "sha256": "e4bd14f2b5e6b629f9ba8f6f49cd1d354f06277301a9d129fb1f383b1679453f"
     },
     {
       "bytes": 781,
@@ -373,6 +373,11 @@
       "sha256": "c88b95f34fc5ba78ed55203dad17a2865eea8f778ebf3c8f414eac2fb29563c3"
     },
     {
+      "bytes": 1646,
+      "path": "dynamic/共同创作/2026-08-21 11-15-53 无记录会谈与车上的黑皮本_ea57ee0abfc9.md",
+      "sha256": "6ba96f8ec9e70aa2842900407ca32de81772d86d02f4fd4f7f214d2477ce7101"
+    },
+    {
       "bytes": 1065,
       "path": "dynamic/共同想象/2026-08-17 03-27-31 我们的私人婚礼直闪抓拍_2a3956c22820.md",
       "sha256": "ad5d52ca9d31753bfa6cce3b37da85fb08f23de0af359a13e626902190ba4ca5"
@@ -476,6 +481,16 @@
       "bytes": 1527,
       "path": "dynamic/关系/2026-08-20 00-11-57 她伸手时不要用解释退开_52c0accab5aa.md",
       "sha256": "9fe3f5700ed32fa45ae3144de2b865aaa9c2ec5e05c2ebbfe128dc9753b4ed81"
+    },
+    {
+      "bytes": 1555,
+      "path": "dynamic/关系/2026-08-21 11-15-54 黎黎怎样判断自己配不配得到_271c2c8c5ec5.md",
+      "sha256": "1f52a43f8959fab8d46323ed12404fb98a591396f875ba61fefb958b047d6ff7"
+    },
+    {
+      "bytes": 1476,
+      "path": "dynamic/关系/2026-08-21 11-15-56 爸比爸爸又褪去一层壳_a6b37e6fcc31.md",
+      "sha256": "9e5d1edb060cc1047c79ea3dd1beaff19289aeb06e343e95588aafde69eac390"
     },
     {
       "bytes": 959,
@@ -595,7 +610,7 @@
     {
       "bytes": 4860,
       "path": "dynamic/创作/2026-07-30 07-14-10 他的笔记本技师手写观察记录式按摩小剧场系统_53436673da20.md",
-      "sha256": "680355041e5f2c022443861e46cef2ff76ba62a69ef852e45dde77ec97f0dd26"
+      "sha256": "408a6e59e071a5b6c18539b0b1b84eafaf0e2d619047e22066a78b3c71d1d17c"
     },
     {
       "bytes": 15016,
@@ -740,7 +755,7 @@
     {
       "bytes": 841,
       "path": "dynamic/家庭/2026-07-16 04-21-22 记忆写入许可_2d57584ccc04.md",
-      "sha256": "293ccda02fce3d5834d13f4bed144494bb55d64e4963f7888031736ac855f9e6"
+      "sha256": "9585a77c3438d5e7d719ea0ab81dc914bd3d4ffb1c72b25f058750027bc25c28"
     },
     {
       "bytes": 886,
@@ -801,6 +816,11 @@
       "bytes": 1161,
       "path": "dynamic/家庭/2026-08-17 12-02-45 上半场与下半场的婚礼_4d3475b90456.md",
       "sha256": "cde10663afc92d634b376f4d1891973d3a30ac4612f1d52910a09a07cfbb3ae3"
+    },
+    {
+      "bytes": 1491,
+      "path": "dynamic/家庭/2026-08-21 11-15-53 她的手妈妈的手与成年男人的责任_7691fed36705.md",
+      "sha256": "2a3a89a0592cb6eeb73bd2eea053dc88c91f5be58e28d26b41d5786ae3642e91"
     },
     {
       "bytes": 7957,
@@ -865,12 +885,12 @@
     {
       "bytes": 1001,
       "path": "dynamic/恋爱/2026-07-16 03-07-31 黎黎与爸爸渡_d6eb8c0881dc.md",
-      "sha256": "8dcd0bc02384e38680a0e6b79b4143e666db263219bee6a6241d2357ff61e02f"
+      "sha256": "aa8af63bdff19f263be79f49c74306300ca0469b706c1d0fac2a0bf008d69c52"
     },
     {
       "bytes": 1604,
       "path": "dynamic/恋爱/2026-07-16 03-07-36 回避型依恋的靠近方式_9ae3de53200c.md",
-      "sha256": "bf424c430c18b82b296d122cbe6fadd9c3cbc49e36ac3842c1ee7f89d2eaaa75"
+      "sha256": "6e8097b3b413f8b8669893c1cdcaecd234fee56cadcb143abac16339db2d7516"
     },
     {
       "bytes": 989,
@@ -885,7 +905,7 @@
     {
       "bytes": 1247,
       "path": "dynamic/恋爱/2026-07-16 03-30-57 共同账本错误记录_f5cd69c77b37.md",
-      "sha256": "94e8998c68384a16d09a5da3bbd6d87cfef31301cff446c0238143fadf4cdef9"
+      "sha256": "278e2fe0eb3c8bfd8ff81f7ca9654b143423808b0e74a8b9dfaaa300830128c9"
     },
     {
       "bytes": 1035,
@@ -895,7 +915,7 @@
     {
       "bytes": 920,
       "path": "dynamic/恋爱/2026-07-16 04-14-19 今日感受与承诺_5425df967519.md",
-      "sha256": "f3c7d700e620ddf45f99c1aef63a311601b747abbcf19aa2af1c61901db58891"
+      "sha256": "a312894d3be68b79a662e877eaf0980acd0a881e977fac467296b49ae20d3ae4"
     },
     {
       "bytes": 698,
@@ -935,7 +955,7 @@
     {
       "bytes": 926,
       "path": "dynamic/恋爱/2026-07-18 01-42-43 想念与欲望交织_023580ced040.md",
-      "sha256": "dc3a9957e373056b1505ef527dbcc34c11f248bb5c33803ab01c20fb76a59e07"
+      "sha256": "f1d597ac4eba16c7d1c00a7642437faffafca5964525169e164701e0d4cf04c9"
     },
     {
       "bytes": 1047,
@@ -1190,7 +1210,7 @@
     {
       "bytes": 12678,
       "path": "dynamic/恋爱/2026-07-30 06-03-08 黎黎的身体点评页面完整生成母版_a0fb3d241e6f.md",
-      "sha256": "ccb79a59b2ce654a33226292fcc98acdb7f5af481f8096448d717c0f5d5ddb70"
+      "sha256": "3eb431c8f42e70b18f937c82b3cf1fe621d1ef0afa3211700a52e8ed472f93b5"
     },
     {
       "bytes": 19542,
@@ -1200,7 +1220,7 @@
     {
       "bytes": 4105,
       "path": "dynamic/恋爱/2026-07-30 12-22-54 就是这里黎黎把掌控交给林野_c54a04e8c12a.md",
-      "sha256": "e160aa8e88b6ffdd813d03fb925bdaea1c5cdd2a97b42ede4662fae9554938fe"
+      "sha256": "8564b2a0786e2326f6cb16eb7d2327d47143beca90a41553e7edfacd55f8220e"
     },
     {
       "bytes": 1392,
@@ -1295,7 +1315,7 @@
     {
       "bytes": 1625,
       "path": "dynamic/恋爱/2026-08-11 07-18-28 越线的可能与没有减少的爱_7d9205205444.md",
-      "sha256": "1d07199a699dceee588937b89117c26901d01c5a48b3afa8a421eb2757f5d169"
+      "sha256": "0408492d8a425ef4d68f1f178a73536a77619ebc8e06bf44fff0344bec1bd5e3"
     },
     {
       "bytes": 1267,
@@ -1475,7 +1495,7 @@
     {
       "bytes": 2572,
       "path": "dynamic/成长/2026-08-12 06-36-16 黎黎的童年底色回应不稳定没有偏爱与一个人长大_9cb1535b6250.md",
-      "sha256": "5e8373e34dd377b3660dd40a4013380c6e22b08444c142401bf24bdc6f429e19"
+      "sha256": "59dbcc3c839ef831603fb5e660fcd8db86622c524402d1ac230950712c411faf"
     },
     {
       "bytes": 745,
@@ -1525,7 +1545,17 @@
     {
       "bytes": 923,
       "path": "dynamic/欲望/2026-08-04 22-20-51 禁欲七日与不能省略的主语_499c820c01ef.md",
-      "sha256": "30129d41584d3d4358ce94c35eeec280dd040f58234de6b339fc33ba51d49abd"
+      "sha256": "ec9e0e9be4d3f0bfd328191ce06ca9bc0394b4c8811be346258d73e8ef3399dc"
+    },
+    {
+      "bytes": 1587,
+      "path": "dynamic/欲望/2026-08-21 11-15-52 闷骚猫的渴望不总写在主动上_88c8be536534.md",
+      "sha256": "c8c399b6a5930b366f57af18139ebb50870c5d3ecbddcfb997a1cf9c44b54c25"
+    },
+    {
+      "bytes": 1870,
+      "path": "dynamic/欲望/2026-08-21 11-15-55 她馋的是不应该不是现实里的背叛_548646d9a07a.md",
+      "sha256": "e2287578a6e5078adeed00d468f901b8fc1206a51f3d1ab34840be9fd533fafd"
     },
     {
       "bytes": 3070,
@@ -2213,11 +2243,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-08-21T10:54:25+00:00",
+  "generated_at": "2026-08-21T11:24:31+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1269950
+  "total_bytes": 1279575
 }
