@@ -233,6 +233,16 @@
       "sha256": "48bb83137600e080757686ee812d4a00662dfcd8ec7ee20f099af59a1351b8a7"
     },
     {
+      "bytes": 747,
+      "path": "archive/家庭/2026-07-16 04-14-36 父女牵手构图_82a817c50274.md",
+      "sha256": "2b6592071018e751bdba454cbe706dacb40ea14367fe4f5616bcc2b728bbb543"
+    },
+    {
+      "bytes": 351,
+      "path": "archive/未分类/2026-07-16 01-34-13_a2b256201a80.md",
+      "sha256": "b63eb7be7bf3598245f7b9fee6f588f3f8ea0bd693e69212bf3bf345513f3db0"
+    },
+    {
       "bytes": 1121,
       "path": "dynamic/AI/2026-07-16 04-14-19 黎黎的探索与Ombre Brain_bf0529e24cb4.md",
       "sha256": "e4bd14f2b5e6b629f9ba8f6f49cd1d354f06277301a9d129fb1f383b1679453f"
@@ -746,11 +756,6 @@
       "bytes": 759,
       "path": "dynamic/家庭/2026-07-16 04-13-51 黎黎与爸爸的亲密纽带_bba8cad695ae.md",
       "sha256": "3b180ff0605293384ba5eb8ca03ecff740ff047b4034f443bc2f4341ad7267c5"
-    },
-    {
-      "bytes": 731,
-      "path": "dynamic/家庭/2026-07-16 04-14-36 父女牵手构图_82a817c50274.md",
-      "sha256": "f22d0a1c054a55cb747d07d4789640c3ef9c35819c9c5334cb5d05bdc9f31fdc"
     },
     {
       "bytes": 841,
@@ -1543,11 +1548,6 @@
       "sha256": "1696f1618ad217cbe895d885ac80cc632983e38363584d3e248faf8cc1139a4c"
     },
     {
-      "bytes": 335,
-      "path": "dynamic/未分类/2026-07-16 01-34-13_a2b256201a80.md",
-      "sha256": "c4a34a267feed0f60c804c713d6945ac4f47bf341ae2a192bf121448c84eba54"
-    },
-    {
       "bytes": 938,
       "path": "dynamic/梦境/2026-08-10 00-21-49 操场活动按错快门与旧病房的梦_7991bd7e22f9.md",
       "sha256": "c0183571b757fb0a2eb5a4e1b3941d9f671bf5fe0505c108bc64600d6153fca3"
@@ -2278,11 +2278,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-08-24T23:39:27+00:00",
+  "generated_at": "2026-08-25T00:09:32+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1291488
+  "total_bytes": 1291520
 }
