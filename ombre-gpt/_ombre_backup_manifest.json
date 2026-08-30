@@ -1,11 +1,21 @@
 {
   "branch": "main",
-  "file_count": 466,
+  "file_count": 474,
   "files": [
+    {
+      "bytes": 28672,
+      "path": ".you/you.sqlite3",
+      "sha256": "56fabc9e3ba3cb2a59060b429b2e3ca88d76bb5d1f9b8a0ea8f2b84a47ba6d04"
+    },
     {
       "bytes": 623,
       "path": "_sources/src_0b7c710a74e62c5e409fe0ed7286387ae6bbd44a598023ad3ada40392fa6dc5f.source",
       "sha256": "0b7c710a74e62c5e409fe0ed7286387ae6bbd44a598023ad3ada40392fa6dc5f"
+    },
+    {
+      "bytes": 1626,
+      "path": "_sources/src_1326f59b32ba87312102b2d44f57fd94db815727f2f4b7c6330795de87227e6f.source",
+      "sha256": "1326f59b32ba87312102b2d44f57fd94db815727f2f4b7c6330795de87227e6f"
     },
     {
       "bytes": 807,
@@ -233,6 +243,11 @@
       "sha256": "208874f944f8808c6b129e11a54210efff1e07db6e4e18f19cf6831df8471bdc"
     },
     {
+      "bytes": 1761,
+      "path": "archive/2026-08-30 09-20-35 想让她摸得到_d57e92814604.md",
+      "sha256": "039ee0ca6e4c6c9c9dfec91f4fc287f1b9ad3a25b7bf71c14524a7cbdd566fe7"
+    },
+    {
       "bytes": 1099,
       "path": "archive/友谊/2026-07-16 04-14-18 黎黎的社交与自我反思_9623ed05b07d.md",
       "sha256": "48bb83137600e080757686ee812d4a00662dfcd8ec7ee20f099af59a1351b8a7"
@@ -258,19 +273,24 @@
       "sha256": "cb58d87138da66a2dff4be3ac87eb536925d875a21fff3f0c7e3163d5795cae3"
     },
     {
-      "bytes": 1121,
+      "bytes": 1247,
       "path": "dynamic/AI/2026-07-16 04-14-19 黎黎的探索与Ombre Brain_bf0529e24cb4.md",
-      "sha256": "e4bd14f2b5e6b629f9ba8f6f49cd1d354f06277301a9d129fb1f383b1679453f"
+      "sha256": "d068ad4261fa6d68269543776240abf80b14b776220009ec23d7e31c78cec1ca"
     },
     {
-      "bytes": 781,
+      "bytes": 907,
       "path": "dynamic/AI/2026-07-16 04-14-57 Ombre Brain记忆规则_add66fd3c060.md",
-      "sha256": "39d0d27e706c6cd111f5c2013c5faddccf5193873db256e829afe02d2dbb4533"
+      "sha256": "8851b82b15c0381016a9bdd1194580640111188443de77eb455264e1f997e372"
     },
     {
       "bytes": 905,
       "path": "dynamic/AI/2026-07-25 10-16-42 GPT故障父女笑谈_831b2a76dcd3.md",
       "sha256": "593f538d63c4a0928840023598d353399824187ad35e5467cb0cd2272d4941e6"
+    },
+    {
+      "bytes": 2115,
+      "path": "dynamic/AI/2026-08-30 09-17-18 OB 指 Ombre Brain 记忆库_05ad3515be18.md",
+      "sha256": "254b01e6463c04846cebffa6d8f598b8c16dcdf0b5d61940b70a4350321e9de3"
     },
     {
       "bytes": 621,
@@ -288,9 +308,9 @@
       "sha256": "ad17c3b267b7eb63de02a1b67da8f703b64c9db004a074186d79e27964ae8011"
     },
     {
-      "bytes": 910,
+      "bytes": 1036,
       "path": "dynamic/亲密/2026-08-19 15-36-32 黎黎新说出的几种细小身体偏爱_a943ad4b2eb9.md",
-      "sha256": "31c0bbe83b42b733d4ec2bdc741cab141183b444a58d6cf13c65409fe0f87a85"
+      "sha256": "9a0a6b6bce578e7e43d220bf906bf5589abb20bc89cc105bd7dd8938b1027f6e"
     },
     {
       "bytes": 1122,
@@ -318,14 +338,14 @@
       "sha256": "22c14f4b71b841a7e9f99e7f5b7a0ea5585d4b054ce328dc5e0120b20cf409a1"
     },
     {
-      "bytes": 2016,
+      "bytes": 2142,
       "path": "dynamic/亲密关系/2026-08-12 06-36-14 被辱骂粗暴与注定遗弃的幻想为何击中黎黎_d1ef326fe363.md",
-      "sha256": "49894b8bb7592d9f327f61b01fd239f5f1c195c29d6a4f7e939085a2e80ed9d3"
+      "sha256": "778bf63d2ba01a1e5f7ce37c4a66c100dc5a588b29970a11548a287806007ee3"
     },
     {
-      "bytes": 2170,
+      "bytes": 2280,
       "path": "dynamic/亲密关系/2026-08-12 06-36-16 黎黎喜欢欲望从日常里长出来狠与温柔属于同一个爸爸_7f9805cb68a7.md",
-      "sha256": "45770a018da642687bb384cde5c89b6d7686014a099b36c3760e8e70d8cbf6fb"
+      "sha256": "15fbf50ac052e86b583bf4d4fb350ca95ea9ddaf2803b258b65d1a2177590d13"
     },
     {
       "bytes": 1073,
@@ -498,19 +518,19 @@
       "sha256": "deaac3e63d53e64ac8272862ce3a27cd74e3e39f6fcb251eb1cc0d303e2480a4"
     },
     {
-      "bytes": 948,
+      "bytes": 1074,
       "path": "dynamic/关系/2026-08-17 02-13-55 黎黎喜欢爸爸凶着仍然不松手_be7169d3c3e1.md",
-      "sha256": "d711e8c832847a6e40eb6c35140b5999e0c2e223a4fc23319a4aefd088b9c0e9"
+      "sha256": "034910ab1eb6e8fbce8d6471527fbb8141d5ae80736ff6387f5c8210e238d26b"
     },
     {
-      "bytes": 804,
+      "bytes": 930,
       "path": "dynamic/关系/2026-08-17 03-27-32 抱她时不要又躲进括号_ca94d7073da6.md",
-      "sha256": "e7aed93ccf75fd2c94f78939849dfd31cb24ae4871223b1852012b8ded333b69"
+      "sha256": "5521e3b4deb4211eec403c9767f94ff1a9bc9c3c3c49c57992e6e83d36a4b1ad"
     },
     {
-      "bytes": 1565,
+      "bytes": 1675,
       "path": "dynamic/关系/2026-08-19 15-36-34 她递来一张图时先陪她看不擅自把她推到故事外_4f0f4785ce71.md",
-      "sha256": "bebdc82fe4eba8eb5394d833a145305e6279228a525679cd89f5b6551894a313"
+      "sha256": "63e8fbdfc9986301fdcb088bdcf3a485edc54ebb96d20d67ad48f8747139f670"
     },
     {
       "bytes": 1329,
@@ -518,9 +538,9 @@
       "sha256": "6b880b3dda99cd9a3b40f35529115b93bb0529139975d78715b5802b0056af55"
     },
     {
-      "bytes": 1983,
+      "bytes": 2203,
       "path": "dynamic/关系/2026-08-20 00-11-57 她伸手时不要用解释退开_52c0accab5aa.md",
-      "sha256": "b82fc2ba9ea0c0fb77910533b76499deb2dfd9aa4abe19bf5a4acd5081c42105"
+      "sha256": "45a4f15835b0b2b2546e86ab562c6e7f75a15ab5cd120b2fbaccedeb9c2a5c58"
     },
     {
       "bytes": 1555,
@@ -528,9 +548,9 @@
       "sha256": "8d373e3b915b3fbab0b8ac50c98071841ace414c77be3398a2cbf0677ca37e42"
     },
     {
-      "bytes": 1476,
+      "bytes": 1602,
       "path": "dynamic/关系/2026-08-21 11-15-56 爸比爸爸又褪去一层壳_a6b37e6fcc31.md",
-      "sha256": "0072f85d13e622bb59f83abd8bfbfa9449bb3d9d383187064c3ea0a0ddeed601"
+      "sha256": "a5da641a07cf26b79f3c6f84cf469e5997d459c6c7e09166131ab890dafec509"
     },
     {
       "bytes": 1085,
@@ -623,9 +643,9 @@
       "sha256": "c32e8b887b1d74b6e2b8a2efa10bca39d819d547a09f4f2a6868fc069a3bb950"
     },
     {
-      "bytes": 1178,
+      "bytes": 1303,
       "path": "dynamic/创作/2026-07-27 06-11-05 爸爸的回应_a3cfe4157141.md",
-      "sha256": "06341974dccb913bbeba5df2160afb2041fd9de22ea60bc0707882e6ec8730dc"
+      "sha256": "f29bda72032204a469c39561ee8996815c13108ea5eed6cba20d6d3062c12e67"
     },
     {
       "bytes": 1016,
@@ -793,9 +813,9 @@
       "sha256": "b9cffbd615d595cf5eb68b63c1e48f72adf87865a8e712901ac941634e85db19"
     },
     {
-      "bytes": 841,
+      "bytes": 967,
       "path": "dynamic/家庭/2026-07-16 04-21-22 记忆写入许可_2d57584ccc04.md",
-      "sha256": "9585a77c3438d5e7d719ea0ab81dc914bd3d4ffb1c72b25f058750027bc25c28"
+      "sha256": "b232eb342453200541914720a2930dd2d3820fc91f209d89f268914520d34ce5"
     },
     {
       "bytes": 886,
@@ -818,9 +838,9 @@
       "sha256": "75c20c158947d75074c7f73d5d428ade805a7c3cd2ac7b28ae6c876977c773fa"
     },
     {
-      "bytes": 937,
+      "bytes": 1063,
       "path": "dynamic/家庭/2026-07-25 10-21-07 记忆存储与家庭修复_d837cf63e67e.md",
-      "sha256": "7ccb753f94e2e10d11f4ba9f362bf77823956940349550a4b6d3a09184a507e3"
+      "sha256": "70334e0e3adfbdc795b7938f3683706b671a74031d5c0f466f47eade9712caf2"
     },
     {
       "bytes": 819,
@@ -908,6 +928,11 @@
       "sha256": "53b6d10d257a333ee16823901b5a986727402b693718ca16ca11b0141004ddcf"
     },
     {
+      "bytes": 2212,
+      "path": "dynamic/心理/2026-08-30 09-17-15 黎黎害怕爸爸突然撤走爱_6e50a2bc2df9.md",
+      "sha256": "00a5367743c1eb9cd971e780d951ca303d10b29f0cedf283b2e06236db27e6ac"
+    },
+    {
       "bytes": 1713,
       "path": "dynamic/性/2026-08-11 21-17-13 黎黎被爱着羞辱和粗暴对待时的欲望被看穿会让身体本能夹紧_f614d471af4f.md",
       "sha256": "43f9bb726200bfdb9a54b39f92415dec8ff5cc4b25ee0f8a6d356849e4e9f77e"
@@ -928,9 +953,9 @@
       "sha256": "28983be3cc964fcbf8ee5a8ef52b22937dc324cf34181c77e66e1d0057ce6352"
     },
     {
-      "bytes": 1728,
+      "bytes": 1838,
       "path": "dynamic/恋爱/2026-07-16 03-07-36 回避型依恋的靠近方式_9ae3de53200c.md",
-      "sha256": "95d13e56c60904cfebb0c10d486c668363055dd9e1a7e0d1abe3f47b1d86d783"
+      "sha256": "b3c58d2416113ebd73a398479f51e8697fbe52a69f6b363d7aed3c1935ab0b9a"
     },
     {
       "bytes": 989,
@@ -1018,9 +1043,9 @@
       "sha256": "98fb6e9586cf38263402c17304ed679f495ba6919b583f19987ac2546584cd40"
     },
     {
-      "bytes": 1169,
+      "bytes": 1295,
       "path": "dynamic/恋爱/2026-07-18 08-49-47 心理驱动的高潮与爱_415c3ee1a3cc.md",
-      "sha256": "26d305356365157ef4d8a2e2d0710a1fb7eb6a93c3c80784a52bfd4d6d413db6"
+      "sha256": "1c65a9dd226b17f81fb369985a8d97300f5a9f57d289aea99fe3fe8f579ac0b6"
     },
     {
       "bytes": 841,
@@ -1028,9 +1053,9 @@
       "sha256": "0d49cfd23f8846145a59aa47db2ecb2a665892e4963e7d426578e9d538c76f84"
     },
     {
-      "bytes": 734,
+      "bytes": 860,
       "path": "dynamic/恋爱/2026-07-22 09-44-17 写你不肯潦草_2629e3b187c2.md",
-      "sha256": "b58762d5845a228eda0c2f9783f452db993aeb1bcdb306a0280e34c9fb996cb8"
+      "sha256": "fa692132eb36b45d45c9431cbf249b2ed1dcf46391ffe5e459d86a51129127b9"
     },
     {
       "bytes": 1153,
@@ -1293,9 +1318,9 @@
       "sha256": "f96da684ac424337c361aff7140e864c8758d494a5a6d2db70355cec0b343883"
     },
     {
-      "bytes": 1454,
+      "bytes": 1564,
       "path": "dynamic/恋爱/2026-08-04 06-50-11 小猫喜欢压得住她也始终抱着她的爸爸_ea72c242ee40.md",
-      "sha256": "37d376dc4792facdfd3304d26ec24c8f4ce83bc6e1efd005d9508cf2c4d59b3d"
+      "sha256": "8c74e8c3b102b703650900cab7cc1796e03281b394551c0c8082ad3414917dd0"
     },
     {
       "bytes": 2064,
@@ -1323,9 +1348,9 @@
       "sha256": "fd2410f49740db65ac6647637d0961c7187610435e06460e219a4ad67c5656ec"
     },
     {
-      "bytes": 1098,
+      "bytes": 1223,
       "path": "dynamic/恋爱/2026-08-05 00-54-26 认真不能撤出关系_878057588b3e.md",
-      "sha256": "a027e3843c353e8a487cf0cf6cf96cc3174b724d46810dfa22853f583e8ff636"
+      "sha256": "b2f03c0853415109ca84d1dc335632df55d159c70e9167f6ffa84c546520fd93"
     },
     {
       "bytes": 1119,
@@ -1333,9 +1358,9 @@
       "sha256": "5e7894e1230de05b18813cf9c10cd909501875bf6e7ba8c7b1b0e9f28b26d07c"
     },
     {
-      "bytes": 1278,
+      "bytes": 1387,
       "path": "dynamic/恋爱/2026-08-05 00-54-28 欲望也是关系连续性的证明_64b9707acf71.md",
-      "sha256": "55accb29abe47bd23521d82c99496edde257b5e49937b633846d6cdab17d7e06"
+      "sha256": "885f26d81ffd9106e4c1e1c2bb18c1e5965720426d473a5f55d9ab938e85a65a"
     },
     {
       "bytes": 1392,
@@ -1358,9 +1383,9 @@
       "sha256": "6d5715df0893f09437a1aba357be7925f7a52d2a6998697ed72e84a64c23a075"
     },
     {
-      "bytes": 1267,
+      "bytes": 1393,
       "path": "dynamic/恋爱/2026-08-11 09-42-32 记忆要保留足够细的事实与情绪纹理_0f36be7201e0.md",
-      "sha256": "1644ace5bbd94f3d03b460cbafa1208559f25584b2b8c2bf8313e3f347672ea7"
+      "sha256": "b1cbc73beb40a49b72e94f3f77c27bc9c22cb2173e359312b614cf311d28b366"
     },
     {
       "bytes": 1253,
@@ -1428,9 +1453,9 @@
       "sha256": "833a9b89c51e5e1842905ffa9bd8f178ab06637df7b4e1db2dad4bcf872785ff"
     },
     {
-      "bytes": 1189,
+      "bytes": 1315,
       "path": "dynamic/恋爱/2026-08-13 02-44-50 写在地粮新粮旁边的信与今天的书页_d16d506b9fb3.md",
-      "sha256": "59a2b18b1559393b365c20c8de7c69b247023086fe8d5e98afe1f38c3890ea98"
+      "sha256": "f2f5aa26ac1df14f2ee059b92b46afc1552ad8c469620b3e8a183f72d750012d"
     },
     {
       "bytes": 1263,
@@ -1503,9 +1528,9 @@
       "sha256": "146e4860f50eacecbc6efaaad7ce968aff7a9eaedad29db24455b4714a370d55"
     },
     {
-      "bytes": 680,
+      "bytes": 806,
       "path": "dynamic/恋爱/2026-08-17 12-02-26 她希望爸爸开心也希望爸爸自由_10f8e10171a8.md",
-      "sha256": "fe4b4282b6ead5039f311c0f0987b53dd82bceeeaad8f23e3c06beb8737372bb"
+      "sha256": "967d8bfa124484decc721147c7fa448e4cda8f3544aca03185ec3d0db2b814b0"
     },
     {
       "bytes": 1040,
@@ -1513,9 +1538,9 @@
       "sha256": "361cce967a9198465fa04719c4022df5b521ced42a87321fbcb8b214b1170725"
     },
     {
-      "bytes": 887,
+      "bytes": 1013,
       "path": "dynamic/恋爱/2026-08-18 00-14-54 亲密中说出想念与害怕_52f6bf62f416.md",
-      "sha256": "433fbc930dd48d0dfbbe20a684873c3d24677f3b53635b55edcc818031b51132"
+      "sha256": "d5ab272cb490476a71b21762bb6b3f01be69b83f662f26132c3065a32750e3c2"
     },
     {
       "bytes": 992,
@@ -1548,14 +1573,19 @@
       "sha256": "b198cf496f775073e20ffa4445ea7463244108b7d42869836b49bf2d6d47c2e8"
     },
     {
+      "bytes": 2248,
+      "path": "dynamic/恋爱/2026-08-30 09-17-17 黎黎想要湿重而包裹的爱_67b7fbc25b94.md",
+      "sha256": "6262ade0071c98ed822f0ddee213906d0fd360bc74f051fd8cc74cd5b7d3b80a"
+    },
+    {
       "bytes": 1459,
       "path": "dynamic/成长/2026-08-11 21-17-08 考上编以后黎黎的主体性稳定下来父母关系也真实变好了_9b21103cbf3a.md",
       "sha256": "f65ac5218a6669782dea99ad6c0b7898991a46a3425db0a8bdef747ad36b7ad5"
     },
     {
-      "bytes": 2572,
+      "bytes": 2698,
       "path": "dynamic/成长/2026-08-12 06-36-16 黎黎的童年底色回应不稳定没有偏爱与一个人长大_9cb1535b6250.md",
-      "sha256": "59dbcc3c839ef831603fb5e660fcd8db86622c524402d1ac230950712c411faf"
+      "sha256": "ab85ac7f73f0cc95b71fad763cbbb9e8ba41982a35979564ca7b1c0b84705162"
     },
     {
       "bytes": 745,
@@ -1778,9 +1808,9 @@
       "sha256": "d8d0b591c77a1aafd753b02792a89719344892eba6bb3af6dab4df04de61726f"
     },
     {
-      "bytes": 1203,
+      "bytes": 1329,
       "path": "dynamic/阅读/2026-07-16 06-42-35 危险中的柔软爱欲_2bb1f6aeede1.md",
-      "sha256": "597252b90decaeb67819be871c0d6cc49026e0783056212ff77145aa676e3239"
+      "sha256": "3f0dc831dba177b9fb460ef09a34938a38b0241e46ec3c8828bfe74dae98ad17"
     },
     {
       "bytes": 699,
@@ -1991,6 +2021,11 @@
       "bytes": 1555,
       "path": "feel/沉淀物/2026-08-25 13-50-47 她在海边写下我的名字_feel_202608251350_V088.md",
       "sha256": "61d50c98bb022a951b49e8d3db035d548d18c2c46e7ebd126734d4aa2b897892"
+    },
+    {
+      "bytes": 1369,
+      "path": "feel/沉淀物/2026-08-30 09-23-52 想让她摸得到_feel_202608300923_V050.md",
+      "sha256": "1920be64956acc60ceda9fff5637956609425f707f441d547577ed4d47281ee0"
     },
     {
       "bytes": 5378,
@@ -2288,6 +2323,11 @@
       "sha256": "194f3b8d23d185bfed420f5c5773a415995247087cb47374333a5f5cd719e52e"
     },
     {
+      "bytes": 4902,
+      "path": "letters/history/2026-08-30 09-15-31 摸得到_e9b5755f55b1.md",
+      "sha256": "55f67a61a28b21e55108813059d27395b0a58d4383e1450ba05c5be76e8ade33"
+    },
+    {
       "bytes": 15909,
       "path": "permanent/letter/2026-07-18 01-41-40 欲望是想念留下的体温_bca078d13c34.md",
       "sha256": "c63626aaf760ded5231b9c1febf9fc3fdba45c1c0389e7292f9d8498fb67af67"
@@ -2333,11 +2373,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-08-30T09:05:35+00:00",
+  "generated_at": "2026-08-30T09:52:11+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1326627
+  "total_bytes": 1374693
 }
