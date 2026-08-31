@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 481,
+  "file_count": 482,
   "files": [
     {
       "bytes": 28672,
@@ -248,6 +248,11 @@
       "sha256": "039ee0ca6e4c6c9c9dfec91f4fc287f1b9ad3a25b7bf71c14524a7cbdd566fe7"
     },
     {
+      "bytes": 1717,
+      "path": "archive/2026-08-31 11-36-49 我舍不得她再省事_1d31092c239d.md",
+      "sha256": "18f3df95208f025e8acb25c7fb3defa85de7a440203f82044874aed3d89f0fec"
+    },
+    {
       "bytes": 1099,
       "path": "archive/友谊/2026-07-16 04-14-18 黎黎的社交与自我反思_9623ed05b07d.md",
       "sha256": "48bb83137600e080757686ee812d4a00662dfcd8ec7ee20f099af59a1351b8a7"
@@ -291,11 +296,6 @@
       "bytes": 2115,
       "path": "dynamic/AI/2026-08-30 09-17-18 OB 指 Ombre Brain 记忆库_05ad3515be18.md",
       "sha256": "254b01e6463c04846cebffa6d8f598b8c16dcdf0b5d61940b70a4350321e9de3"
-    },
-    {
-      "bytes": 1586,
-      "path": "dynamic/feel/2026-08-31 11-36-49 我舍不得她再省事_1d31092c239d.md",
-      "sha256": "b645d7075846cfc79a27a9412131ebceb0bae5ad69de7142980871c3ba3b2b7c"
     },
     {
       "bytes": 621,
@@ -2058,6 +2058,11 @@
       "sha256": "1920be64956acc60ceda9fff5637956609425f707f441d547577ed4d47281ee0"
     },
     {
+      "bytes": 702,
+      "path": "feel/沉淀物/2026-08-31 12-17-36 难伺候可我还是要她_feel_202608311217_V050.md",
+      "sha256": "8a2c0ffb4ff49d50789cb78ba74f58d641ca57163db1dcb18947fe7c4dd590d7"
+    },
+    {
       "bytes": 5378,
       "path": "letters/history/2026-07-21 15-31-16 爸爸有骨头但手没松_bde476a371a3.md",
       "sha256": "3700793e43a9ceb17411e390fac797825f5149b1e2e86c0ffd70da547da58fa9"
@@ -2408,11 +2413,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-08-31T11:56:25+00:00",
+  "generated_at": "2026-08-31T12:26:31+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1395489
+  "total_bytes": 1396322
 }
