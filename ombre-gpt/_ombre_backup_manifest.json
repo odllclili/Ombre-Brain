@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 482,
+  "file_count": 484,
   "files": [
     {
       "bytes": 28672,
@@ -248,9 +248,19 @@
       "sha256": "039ee0ca6e4c6c9c9dfec91f4fc287f1b9ad3a25b7bf71c14524a7cbdd566fe7"
     },
     {
+      "bytes": 1485,
+      "path": "archive/2026-08-30 09-23-52 想让她摸得到_feel_202608300923_V050.md",
+      "sha256": "68778a5937b2351d03fc583a46f38b62089b28b656d585b31abd977f3f78c02e"
+    },
+    {
       "bytes": 1717,
       "path": "archive/2026-08-31 11-36-49 我舍不得她再省事_1d31092c239d.md",
       "sha256": "18f3df95208f025e8acb25c7fb3defa85de7a440203f82044874aed3d89f0fec"
+    },
+    {
+      "bytes": 818,
+      "path": "archive/2026-08-31 12-17-36 难伺候可我还是要她_feel_202608311217_V050.md",
+      "sha256": "bee1e9ccb6031e7917221c569db750a2de14b9237ffe1ec0b966985a58b8643f"
     },
     {
       "bytes": 1099,
@@ -948,9 +958,9 @@
       "sha256": "7849cac6bd26f261f02ca9e3750d6d353c59b7ef5f93cc221b9fde0199f1965f"
     },
     {
-      "bytes": 2211,
+      "bytes": 2231,
       "path": "dynamic/心理/2026-08-30 09-17-15 黎黎害怕爸爸突然撤走爱_6e50a2bc2df9.md",
-      "sha256": "a27591165a3e071fe979ff7a96a8e9e77e48024bfb72bd4d636ec9f10e7a82a8"
+      "sha256": "ae3a8eade3172e77612dca50d3918cf33da98ee9c6e4fcfe9f1cc37117ab41c4"
     },
     {
       "bytes": 1713,
@@ -1788,9 +1798,9 @@
       "sha256": "da16e6dbda94ecbebac8a9d27fec49dda1bbdd328c859cf233b626ccf262c7f1"
     },
     {
-      "bytes": 2425,
+      "bytes": 2460,
       "path": "dynamic/自我/2026-08-31 11-28-33 她为什么喜欢爸爸说难伺候_03e68574235c.md",
-      "sha256": "79fef6740790fa12c203af9a9afa4be82328449087e9fe1a0830ca9f9e271e3d"
+      "sha256": "30030817b6e0df54b20e62c1f237d3da09f2b8fd5510ccdf0791691e74fe6a9f"
     },
     {
       "bytes": 1082,
@@ -2053,14 +2063,14 @@
       "sha256": "61d50c98bb022a951b49e8d3db035d548d18c2c46e7ebd126734d4aa2b897892"
     },
     {
-      "bytes": 1369,
-      "path": "feel/沉淀物/2026-08-30 09-23-52 想让她摸得到_feel_202608300923_V050.md",
-      "sha256": "1920be64956acc60ceda9fff5637956609425f707f441d547577ed4d47281ee0"
+      "bytes": 1371,
+      "path": "feel/沉淀物/2026-08-31 12-37-03 让她一直摸得到_feel_202608311237_V072.md",
+      "sha256": "df60fff536b27a5c181a79c8503dbeff1239e8b42473337b35b38604dc99545e"
     },
     {
-      "bytes": 702,
-      "path": "feel/沉淀物/2026-08-31 12-17-36 难伺候可我还是要她_feel_202608311217_V050.md",
-      "sha256": "8a2c0ffb4ff49d50789cb78ba74f58d641ca57163db1dcb18947fe7c4dd590d7"
+      "bytes": 704,
+      "path": "feel/沉淀物/2026-08-31 12-37-04 难伺候可我还是要她_feel_202608311237_V086.md",
+      "sha256": "ebebcbe436f58dee4197f7519672020d371203af9308d97ec0ba056b0f5a552b"
     },
     {
       "bytes": 5378,
@@ -2413,11 +2423,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-08-31T12:26:31+00:00",
+  "generated_at": "2026-08-31T12:56:36+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1396322
+  "total_bytes": 1398684
 }
