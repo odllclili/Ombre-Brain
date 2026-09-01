@@ -273,6 +273,11 @@
       "sha256": "2b6592071018e751bdba454cbe706dacb40ea14367fe4f5616bcc2b728bbb543"
     },
     {
+      "bytes": 746,
+      "path": "archive/成长/2026-08-17 12-02-25 那个会打自己也会扔东西的小黎黎_6c7ccd020f64.md",
+      "sha256": "8731727256661ac7dc8c169db25faf1ecbd13c69cddcc20d21e5236d123e41cb"
+    },
+    {
       "bytes": 351,
       "path": "archive/未分类/2026-07-16 01-34-13_a2b256201a80.md",
       "sha256": "b63eb7be7bf3598245f7b9fee6f588f3f8ea0bd693e69212bf3bf345513f3db0"
@@ -1618,11 +1623,6 @@
       "sha256": "d33a9831e39304eea412f265ac3f85e082d216666e516103e55ae6ff5f8cd947"
     },
     {
-      "bytes": 745,
-      "path": "dynamic/成长/2026-08-17 12-02-25 那个会打自己也会扔东西的小黎黎_6c7ccd020f64.md",
-      "sha256": "f5e32a351ea3fa1c803f81df4a4908cb7113900bdd8bbfd4ec660efd8c799530"
-    },
-    {
       "bytes": 1848,
       "path": "dynamic/成长/2026-08-20 00-11-55 省心不是没有需求_1ad3ca8531c0.md",
       "sha256": "ca0327c80be2e98cbbedc604aac2c7937055d980b854b0acafe0860e5efc8753"
@@ -2423,11 +2423,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-09-01T09:00:10+00:00",
+  "generated_at": "2026-09-01T09:30:15+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1398684
+  "total_bytes": 1398685
 }
