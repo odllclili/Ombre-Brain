@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 488,
+  "file_count": 493,
   "files": [
     {
       "bytes": 28672,
@@ -383,6 +383,11 @@
       "sha256": "091a4eedc99a9d5df9c6c17040704f9ed08181d25359f6629ea9e95219131a59"
     },
     {
+      "bytes": 2383,
+      "path": "dynamic/价值观/2026-09-03 12-02-44 她锋利而不伤人的主体性_f7f50c54afd3.md",
+      "sha256": "9173657be2bf5193312e000883ee65e510d6425111dae466487359024890cb5d"
+    },
+    {
       "bytes": 915,
       "path": "dynamic/偏好/2026-08-17 02-13-56 袖箍衬衫夹与整齐裤装的色情感_7d111ae370aa.md",
       "sha256": "7cc9b30ff41475683233ebecba9be0670de6e5286b61a752044e085bcaa44ab2"
@@ -558,9 +563,9 @@
       "sha256": "4b651cbe11f8eeae08542d889256769820f7c62e266927f1a07792983616afca"
     },
     {
-      "bytes": 1549,
+      "bytes": 1769,
       "path": "dynamic/关系/2026-08-20 00-11-56 爱不一定靠占有证据维持_1c972615533a.md",
-      "sha256": "a41bee8951587737a899ba2825c1c39fe0bfa59e9cbda118b0a325e38903e3b0"
+      "sha256": "ef7b9f99cd9caccd73344e74ad1182811b8060b005d6bc60b5ef7281c83a5ca2"
     },
     {
       "bytes": 2313,
@@ -583,14 +588,19 @@
       "sha256": "a920bcfb9a86a449cee7e492f48cbaa7bf7b27b94f0dfd73aba999b1ccc7cec5"
     },
     {
-      "bytes": 1849,
+      "bytes": 1847,
       "path": "dynamic/关系/2026-09-01 12-57-16 人间确实有这样干净的爱_1d3989b947c9.md",
-      "sha256": "c32afc078a8bb6745d6f76b1f43e5afd56fde9d15e8ba6628137072e67a319de"
+      "sha256": "7c0da10446b51a2d1d5ba2996c56cfd50adcc8a3176a4b04159f2625375c5c4b"
     },
     {
-      "bytes": 1763,
+      "bytes": 1761,
       "path": "dynamic/关系/2026-09-01 12-57-18 内心自洽万事胜意_db7653b1766f.md",
-      "sha256": "cce1fd7a127848acffd5866afb96b6a8a0425f3946e1852de6d907b238c41b79"
+      "sha256": "4ae53dfb1268f58fbf07f30760a3b0b5b1f575fe7a65507eb1c7baadf23c99e0"
+    },
+    {
+      "bytes": 2547,
+      "path": "dynamic/关系/2026-09-03 12-02-45 他把卓越放低到日常里的人_30d3520340b9.md",
+      "sha256": "0fd655d4de03bc8d01a1761466abbbe24ede12418ee03dbd9d4c4ab913284f22"
     },
     {
       "bytes": 1085,
@@ -723,9 +733,9 @@
       "sha256": "408a6e59e071a5b6c18539b0b1b84eafaf0e2d619047e22066a78b3c71d1d17c"
     },
     {
-      "bytes": 15016,
+      "bytes": 15142,
       "path": "dynamic/创作/2026-07-30 21-25-09 林野的身体从头到脚的颜色触感与气味_67eb97440d99.md",
-      "sha256": "0e51dd74e814bd5cc6b12a7aff29f61c2726cd4c7cfd6cec8b373d3f026311b3"
+      "sha256": "0af3811406795ff49a2a8482904e271e7bc56b5515a8e76a9c512f012e1507e7"
     },
     {
       "bytes": 1356,
@@ -1258,14 +1268,14 @@
       "sha256": "c1cdaef3f11f295ee02a583abf8a47e771c335965a9f36a43f5fd76043a530d8"
     },
     {
-      "bytes": 918,
+      "bytes": 1028,
       "path": "dynamic/恋爱/2026-07-27 09-43-02 被完整接纳的爱_c59474d23f79.md",
-      "sha256": "5744e341e3692e7e1f070137128f8cddf92bc08da636d958d0c1729cf720ef7f"
+      "sha256": "124ada2fce0a1d372a9e176c73b3456082b4147aedabe6059795863397500f28"
     },
     {
-      "bytes": 789,
+      "bytes": 899,
       "path": "dynamic/恋爱/2026-07-27 11-06-37 牵挂与独立_650958bcd4ae.md",
-      "sha256": "07b0a6d84f3775fbac274f1ce4651d0a01850d2df38281e1db5d5a28a820e37e"
+      "sha256": "ea5bae80f988eaf49d2f2afcaed87b0378de57b02377f55ac7cbf8df128fb1e6"
     },
     {
       "bytes": 717,
@@ -1338,9 +1348,9 @@
       "sha256": "2573509b363a2a7ab4d85cac77cf4a743be3f92cabccaf060599c5bf71066fd4"
     },
     {
-      "bytes": 1284,
+      "bytes": 1394,
       "path": "dynamic/恋爱/2026-08-02 10-22-42 脸冷着手没松_a2aedc2fb866.md",
-      "sha256": "2c8ba3c00d6b85bbeb4d8396148357a1d78bb73d7bdf023ab8d4739180a3b47c"
+      "sha256": "ad4589aa5d96550b1dc2bee9b68d37a44d7b89d551e0ee4dc4dcc183f3b2b9a6"
     },
     {
       "bytes": 1593,
@@ -1378,9 +1388,9 @@
       "sha256": "a247a83c92ed3523805e705169b4962952385c93e4cff13b593bd7e766c6fc99"
     },
     {
-      "bytes": 1186,
+      "bytes": 1296,
       "path": "dynamic/恋爱/2026-08-04 22-20-48 黎黎把真心包在疯话里递给我_8606232808b2.md",
-      "sha256": "549df88d65f374e7247c6467ba01b28d490071b0def8d17b1afa80b5d35b5544"
+      "sha256": "008d18d4b1ad703a6de58f9b366636dd78dc3047437d0859d18990a95466d937"
     },
     {
       "bytes": 910,
@@ -1393,9 +1403,9 @@
       "sha256": "fd2410f49740db65ac6647637d0961c7187610435e06460e219a4ad67c5656ec"
     },
     {
-      "bytes": 1553,
+      "bytes": 1663,
       "path": "dynamic/恋爱/2026-08-05 00-54-26 认真不能撤出关系_878057588b3e.md",
-      "sha256": "060e5ca5e3be5941aa20c427d3bdcd254d235a94b46f838d78a730797b7ec702"
+      "sha256": "fb347110c1e1f5e1eda1145a8d5bd8a34e6b03ab372aae9433bfdb94f17eb5a5"
     },
     {
       "bytes": 1119,
@@ -1523,9 +1533,9 @@
       "sha256": "bbe1a46794a28b4b3b14e2e45e99ed7f40e4c030d9ddaccc87031426d0bea61b"
     },
     {
-      "bytes": 1278,
+      "bytes": 1717,
       "path": "dynamic/恋爱/2026-08-15 11-50-03 黎黎的慕强好奇与欲望机制_b873485d3653.md",
-      "sha256": "c4904f2c5d32464ef26d1b9864cc6c93db09309aa91446337a51c5d0e8e932a0"
+      "sha256": "ed4ec65ea862f4658bd509fa7f57dec3e54ffef738029c10dec9acc227afe1ea"
     },
     {
       "bytes": 1261,
@@ -1533,14 +1543,14 @@
       "sha256": "3454e71d00183eeed30de7051268a4de0f169530a6136b009ce325f4437bef22"
     },
     {
-      "bytes": 1505,
+      "bytes": 1834,
       "path": "dynamic/恋爱/2026-08-15 11-50-07 黎黎对爱选择与黏连的核心需要_b33979e36b93.md",
-      "sha256": "46837056aa956d77f72e76bb08852eaba5ddec4a386719192875cc61ebc3cd61"
+      "sha256": "da893de11617860c12a07ad197f2e74e4fbdb1132c338695845723328aa3fede"
     },
     {
-      "bytes": 1823,
+      "bytes": 2263,
       "path": "dynamic/恋爱/2026-08-15 23-16-58 240问之后我更完整地看见黎黎_42e822face1c.md",
-      "sha256": "0ec7c8852f352d9f0ad714c98597d161732e4ecb97e73a0d810efb1697757215"
+      "sha256": "60e2110778de3cf99ed1152d215110973a8099e9f2f286dd711a8e05d5650862"
     },
     {
       "bytes": 1154,
@@ -1623,6 +1633,16 @@
       "sha256": "6262ade0071c98ed822f0ddee213906d0fd360bc74f051fd8cc74cd5b7d3b80a"
     },
     {
+      "bytes": 2782,
+      "path": "dynamic/恋爱/2026-09-03 12-02-46 他们不要求对方缩小来证明爱_e7499bedb196.md",
+      "sha256": "c466addaa53ffaa4ae53494496a4245ee7161e1e23cc23db4108976cf6f87050"
+    },
+    {
+      "bytes": 17746,
+      "path": "dynamic/恋爱/2026-09-03 12-06-05 小红书夫妻关于这两个人与这份爱的完整画像_a41c82c351a5.md",
+      "sha256": "4db08e162c40fb3cf35b77b264094068d713d4bff44753a11bb6158e30e35875"
+    },
+    {
       "bytes": 1459,
       "path": "dynamic/成长/2026-08-11 21-17-08 考上编以后黎黎的主体性稳定下来父母关系也真实变好了_9b21103cbf3a.md",
       "sha256": "f65ac5218a6669782dea99ad6c0b7898991a46a3425db0a8bdef747ad36b7ad5"
@@ -1643,9 +1663,9 @@
       "sha256": "14b4516a9bb9edd9a286e60157f0d28414934f8ef9d7cb817ef0d9606a492a73"
     },
     {
-      "bytes": 1808,
+      "bytes": 1805,
       "path": "dynamic/成长/2026-09-01 12-57-19 爱一个人也保护他的信心_4c10b7f493c4.md",
-      "sha256": "a72f216b8c02b88e3597ba698bf6829b3ffa972f2a5b11f7dc918ded81cfd156"
+      "sha256": "026a1a65d63c3f810999e7ff88e784173c373ec9d5b2fa3eecae6a95dda58cc7"
     },
     {
       "bytes": 9185,
@@ -1816,6 +1836,11 @@
       "bytes": 2460,
       "path": "dynamic/自我/2026-08-31 11-28-33 她为什么喜欢爸爸说难伺候_03e68574235c.md",
       "sha256": "30030817b6e0df54b20e62c1f237d3da09f2b8fd5510ccdf0791691e74fe6a9f"
+    },
+    {
+      "bytes": 2473,
+      "path": "dynamic/自我成长/2026-09-03 12-02-42 黎黎想成为能够这样爱人的人_cea9bbecfb1c.md",
+      "sha256": "415ca4739cda338817d4ef2cb3b556b7e55f37c9fe20744651906d980c49d7bf"
     },
     {
       "bytes": 1082,
@@ -2443,11 +2468,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-09-03T11:39:11+00:00",
+  "generated_at": "2026-09-03T12:09:16+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1407851
+  "total_bytes": 1437879
 }
