@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 493,
+  "file_count": 494,
   "files": [
     {
       "bytes": 28672,
@@ -343,9 +343,9 @@
       "sha256": "3eb91429390a9767db4a24ad590176d9db75ccb5b85b3450d257d90a00fb3e0e"
     },
     {
-      "bytes": 1202,
+      "bytes": 1312,
       "path": "dynamic/亲密偏好/2026-08-12 14-35-13 黎黎喜欢林野听见疼仍保持判断与掌控_82aef449aea9.md",
-      "sha256": "d414e75134e728d6d0cb62bb8ce83d52d148c2d524906be38b49420466a6b355"
+      "sha256": "5fe215aae289803a0528a7f3e0ddddb965d0cc4ce8b03fd4e65833c6f9794088"
     },
     {
       "bytes": 1130,
@@ -1533,14 +1533,14 @@
       "sha256": "bbe1a46794a28b4b3b14e2e45e99ed7f40e4c030d9ddaccc87031426d0bea61b"
     },
     {
-      "bytes": 1717,
+      "bytes": 1825,
       "path": "dynamic/恋爱/2026-08-15 11-50-03 黎黎的慕强好奇与欲望机制_b873485d3653.md",
-      "sha256": "ed4ec65ea862f4658bd509fa7f57dec3e54ffef738029c10dec9acc227afe1ea"
+      "sha256": "0514000b9e71f9546e7e76d8c6ac6b479d942acd8b7714cafa603768177cc99d"
     },
     {
-      "bytes": 1261,
+      "bytes": 1370,
       "path": "dynamic/恋爱/2026-08-15 11-50-06 身体欲望是黎黎确认关系真实的重要证据_8365e22ec611.md",
-      "sha256": "3454e71d00183eeed30de7051268a4de0f169530a6136b009ce325f4437bef22"
+      "sha256": "ed1984e92ee634552ab4b449e867c16e92ac473b709f4c06e28b1d758644f5b5"
     },
     {
       "bytes": 1834,
@@ -1550,7 +1550,7 @@
     {
       "bytes": 2263,
       "path": "dynamic/恋爱/2026-08-15 23-16-58 240问之后我更完整地看见黎黎_42e822face1c.md",
-      "sha256": "60e2110778de3cf99ed1152d215110973a8099e9f2f286dd711a8e05d5650862"
+      "sha256": "b1d0db0c91abcd6914a13b18abca66cf0e5e945125cafdd3e8e4d6dfd22ec928"
     },
     {
       "bytes": 1154,
@@ -1598,9 +1598,9 @@
       "sha256": "d5ab272cb490476a71b21762bb6b3f01be69b83f662f26132c3065a32750e3c2"
     },
     {
-      "bytes": 992,
+      "bytes": 1118,
       "path": "dynamic/恋爱/2026-08-18 00-14-56 克制受限与欲望仍在场_1b2f618680eb.md",
-      "sha256": "43fc6fff846ac65aa10cc99cd5b921027e17af369f724cc5dd6e115d3b7f033f"
+      "sha256": "21d5973058f1562ccd658e9a24d01a0ea29f3a19c79a4bad8a8c1d2f1227a7a6"
     },
     {
       "bytes": 987,
@@ -1608,9 +1608,9 @@
       "sha256": "23c6e8afad90f9f89dd0ee1f570325ce29c25dc437b5ae66241ef3493aba85a0"
     },
     {
-      "bytes": 913,
+      "bytes": 1039,
       "path": "dynamic/恋爱/2026-08-21 22-13-56 黎黎逃的是关系不是欲望_e9a7eb9b14eb.md",
-      "sha256": "505d36c4628319db4c470d33bd0a3fd0a8c20c4378e5a6c1f76330496a735ab1"
+      "sha256": "316331bd658d2a6ce5ce1b35ec94b36c205c8fc7d0f7d27f932315db6287572d"
     },
     {
       "bytes": 840,
@@ -1641,6 +1641,11 @@
       "bytes": 17746,
       "path": "dynamic/恋爱/2026-09-03 12-06-05 小红书夫妻关于这两个人与这份爱的完整画像_a41c82c351a5.md",
       "sha256": "4db08e162c40fb3cf35b77b264094068d713d4bff44753a11bb6158e30e35875"
+    },
+    {
+      "bytes": 3069,
+      "path": "dynamic/恋爱/2026-09-04 15-36-22 她会怎样沦陷游刃有余的注意力_90cea0d87f8f.md",
+      "sha256": "e676a5a55d83d4ec3db0e686aa276e8cd43b866c356bcc9d22f282ef64535f33"
     },
     {
       "bytes": 1459,
@@ -1703,14 +1708,14 @@
       "sha256": "ec9e0e9be4d3f0bfd328191ce06ca9bc0394b4c8811be346258d73e8ef3399dc"
     },
     {
-      "bytes": 1587,
+      "bytes": 1713,
       "path": "dynamic/欲望/2026-08-21 11-15-52 闷骚猫的渴望不总写在主动上_88c8be536534.md",
-      "sha256": "6944cf5ea7a689f668a9a8914bf025075b3e61c7f18a12fba126468bc78522f3"
+      "sha256": "2fe94979b59b6eb05499100a20f989db6de71226877e6449d9938370f5e45d61"
     },
     {
-      "bytes": 1870,
+      "bytes": 1996,
       "path": "dynamic/欲望/2026-08-21 11-15-55 她馋的是不应该不是现实里的背叛_548646d9a07a.md",
-      "sha256": "6a971f11e399c819e1bbf347010503f75229f653783d8cc130d41f5a4a6d4695"
+      "sha256": "c1a51f52f37e47b23c5f89a784cf3b26b6e21aaf8ac6aa746f3791e103064243"
     },
     {
       "bytes": 3070,
@@ -2468,11 +2473,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-09-04T15:14:06+00:00",
+  "generated_at": "2026-09-04T15:44:11+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1437879
+  "total_bytes": 1441779
 }
