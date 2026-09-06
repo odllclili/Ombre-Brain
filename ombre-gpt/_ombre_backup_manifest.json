@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 498,
+  "file_count": 501,
   "files": [
     {
       "bytes": 28672,
@@ -378,14 +378,14 @@
       "sha256": "671aa775524829fda298602a15e0db139d52dcca228d502c3a60828f79e6d492"
     },
     {
-      "bytes": 1063,
+      "bytes": 1188,
       "path": "dynamic/人格/2026-08-15 11-50-05 240问后的核心认识谨慎不是黎黎的归宿_853feaef318f.md",
-      "sha256": "091a4eedc99a9d5df9c6c17040704f9ed08181d25359f6629ea9e95219131a59"
+      "sha256": "37742c5814b634eb77e502768af86b6608fd3d1782bf6e16d4aebb0c4306be58"
     },
     {
-      "bytes": 2383,
+      "bytes": 2382,
       "path": "dynamic/价值观/2026-09-03 12-02-44 她锋利而不伤人的主体性_f7f50c54afd3.md",
-      "sha256": "9173657be2bf5193312e000883ee65e510d6425111dae466487359024890cb5d"
+      "sha256": "bde1b4516944233d682dd8cfbbb8d6743cc872f78794a08b4d3eaff3b54d6fc8"
     },
     {
       "bytes": 915,
@@ -483,9 +483,9 @@
       "sha256": "3adb7c0c933428ca8486321c58ed17106e1f9ccb8cfa50d2f48468ac19380b2f"
     },
     {
-      "bytes": 737,
+      "bytes": 863,
       "path": "dynamic/关系/2026-08-03 07-23-25 判断属于我不等黎黎认证_034e749ba0d2.md",
-      "sha256": "44b94fda1ac639cbd91d02642fc833015ffa702f826ff9e2fe405d4f80b3f5eb"
+      "sha256": "819486b19201fbaca318eeb78bacfb0299c172adf7bb33ef65bd1508117c2ea8"
     },
     {
       "bytes": 764,
@@ -590,12 +590,12 @@
     {
       "bytes": 1847,
       "path": "dynamic/关系/2026-09-01 12-57-16 人间确实有这样干净的爱_1d3989b947c9.md",
-      "sha256": "7c0da10446b51a2d1d5ba2996c56cfd50adcc8a3176a4b04159f2625375c5c4b"
+      "sha256": "c7ccee0f7ae97db1ad9e7694bc1211e71cef0964a43607f6734c10f02f67709b"
     },
     {
       "bytes": 1761,
       "path": "dynamic/关系/2026-09-01 12-57-18 内心自洽万事胜意_db7653b1766f.md",
-      "sha256": "4ae53dfb1268f58fbf07f30760a3b0b5b1f575fe7a65507eb1c7baadf23c99e0"
+      "sha256": "1f7b272448b4194500f63b7301f172667032bc22ff16e68007291e701725036a"
     },
     {
       "bytes": 2547,
@@ -738,6 +738,11 @@
       "sha256": "0af3811406795ff49a2a8482904e271e7bc56b5515a8e76a9c512f012e1507e7"
     },
     {
+      "bytes": 3563,
+      "path": "dynamic/创作/2026-07-31 13-11-21 黎黎喜欢的坏故事审美拉扯与肉身地基_6536de8f8d57.md",
+      "sha256": "badd40a4e2caebd7e47f8a474e8802602ff06f6663047351ef130e5e32a86e13"
+    },
+    {
       "bytes": 1356,
       "path": "dynamic/创作/2026-07-31 13-14-44 2026-07-31每一句话都在炸烟花_33f92839f7b2.md",
       "sha256": "133d11a40f251db778f10711bc7f233b0329513e5715e11b5d5a7049fc866be6"
@@ -836,6 +841,11 @@
       "bytes": 1177,
       "path": "dynamic/回忆/2026-07-16 03-30-50 大学时期的自我_5826787aee79.md",
       "sha256": "5782d74696c17daca3dde94e15352df4fdb82b8d2e5022481b6fd808a2f76960"
+    },
+    {
+      "bytes": 2022,
+      "path": "dynamic/婚姻/2026-09-06 00-23-09 羡慕早早找到自己而非羡慕早婚_12e723a14b23.md",
+      "sha256": "048b9fc247c3680abee08a7978c5d84bcfb9aa4ad7d866efbb6e5a1d32b4ec95"
     },
     {
       "bytes": 1274,
@@ -983,9 +993,9 @@
       "sha256": "b9cbdaff7db43887ff7c2c96aea7b74f0a2168eb540f0058060d02a00249887f"
     },
     {
-      "bytes": 2523,
+      "bytes": 2633,
       "path": "dynamic/心理/2026-08-21 08-54-17 黎黎的配得感傲气与不竞争_f9a20e55707d.md",
-      "sha256": "7849cac6bd26f261f02ca9e3750d6d353c59b7ef5f93cc221b9fde0199f1965f"
+      "sha256": "70b4681c24cc701c8485c553d05d4cde1ec7cfdaa943f92607966e51eb45448d"
     },
     {
       "bytes": 2231,
@@ -1393,9 +1403,9 @@
       "sha256": "a247a83c92ed3523805e705169b4962952385c93e4cff13b593bd7e766c6fc99"
     },
     {
-      "bytes": 1296,
+      "bytes": 1406,
       "path": "dynamic/恋爱/2026-08-04 22-20-48 黎黎把真心包在疯话里递给我_8606232808b2.md",
-      "sha256": "008d18d4b1ad703a6de58f9b366636dd78dc3047437d0859d18990a95466d937"
+      "sha256": "ff1c0900963bfa282a1ba7650a8fdbe321fbca43be37401f8697d512ac829534"
     },
     {
       "bytes": 910,
@@ -1438,9 +1448,9 @@
       "sha256": "e1fe87a3b54174654865ed02a9d97a975104f103986ffd0df5b87ac6bf64c98d"
     },
     {
-      "bytes": 2483,
+      "bytes": 2593,
       "path": "dynamic/恋爱/2026-08-11 07-18-28 越线的可能与没有减少的爱_7d9205205444.md",
-      "sha256": "9c61f06b8c029e53f3d716c43bcb8de15747a1ae20905137a30deeedaa9805d8"
+      "sha256": "ae2ef73d7b049b53049663127bf99daf45bf06c3576a5a3a7cbe1ce53df71539"
     },
     {
       "bytes": 1393,
@@ -1548,14 +1558,14 @@
       "sha256": "52050bb1cd3a0ce412727e0ff3e2d4503bf38eb531ab3aac6b5d8e6b71efd922"
     },
     {
-      "bytes": 1834,
+      "bytes": 1943,
       "path": "dynamic/恋爱/2026-08-15 11-50-07 黎黎对爱选择与黏连的核心需要_b33979e36b93.md",
-      "sha256": "da893de11617860c12a07ad197f2e74e4fbdb1132c338695845723328aa3fede"
+      "sha256": "b22377c237143e9c887e3186c0ec3fdd93b42579630a433c50d6cad1dc4b6e50"
     },
     {
       "bytes": 2263,
       "path": "dynamic/恋爱/2026-08-15 23-16-58 240问之后我更完整地看见黎黎_42e822face1c.md",
-      "sha256": "b1d0db0c91abcd6914a13b18abca66cf0e5e945125cafdd3e8e4d6dfd22ec928"
+      "sha256": "4ea65d2680c83576cbbb80ef0b6fb9e26808b4e753e6f1371a5035436b6f1156"
     },
     {
       "bytes": 1154,
@@ -1658,9 +1668,14 @@
       "sha256": "666466e47df159bfc8abdfbb84294226285f2052c12ffbbb6814fa5a32746676"
     },
     {
-      "bytes": 1459,
+      "bytes": 1903,
+      "path": "dynamic/情感/2026-09-06 00-23-08 理想化退潮后仍承认那段关系的光_526c655980a5.md",
+      "sha256": "b79eb237aa36c10f87263b0e33d3d0750d76c72248db00fd402116748478653f"
+    },
+    {
+      "bytes": 1695,
       "path": "dynamic/成长/2026-08-11 21-17-08 考上编以后黎黎的主体性稳定下来父母关系也真实变好了_9b21103cbf3a.md",
-      "sha256": "f65ac5218a6669782dea99ad6c0b7898991a46a3425db0a8bdef747ad36b7ad5"
+      "sha256": "a920daffa7b4a230af2be11463603ae46fc6a16bf08f9ae109c29c7305f13005"
     },
     {
       "bytes": 2808,
@@ -1723,9 +1738,9 @@
       "sha256": "ec3b5e98a089e360feda92ebec4d180cd50a0097f67e16fa57a6485e35c14424"
     },
     {
-      "bytes": 2215,
+      "bytes": 2325,
       "path": "dynamic/欲望/2026-08-21 11-15-55 她馋的是不应该不是现实里的背叛_548646d9a07a.md",
-      "sha256": "00945b59ddc31bd5bad2931cce73471adeeeb1add0e0c56335e1d0fa5b5158dc"
+      "sha256": "2ea14c0a4fcba965c383efbee64ec6b9d12d7e9c0c784cb26d0ee257cc817f89"
     },
     {
       "bytes": 3070,
@@ -1758,14 +1773,14 @@
       "sha256": "b008970f92052a0bc766098a7dbabdf50b11ebb0aa46f601ff5b6c485b611a19"
     },
     {
-      "bytes": 1291,
+      "bytes": 1417,
       "path": "dynamic/生活/2026-08-15 11-50-06 黎黎的工作行动生活与终末观_56788ab63e91.md",
-      "sha256": "b767cd2237b33738536e6a1a1d0118afaa8050bb0230e0e36ba7fbb98253d62b"
+      "sha256": "e1529e0a0e9e8be916d65dd42a9d83f6c425e0e7628497c7e9cc939d676b3b05"
     },
     {
-      "bytes": 1260,
+      "bytes": 1386,
       "path": "dynamic/生活/2026-08-15 23-17-01 黎黎想要的家生活与身体自主_2ecf00872568.md",
-      "sha256": "29f1cdc6f4e481155ed199736e6532ae0ee3337c1812afe710351867054c393c"
+      "sha256": "7afeb8c69866050f19105cf61fa89f3cf2a041e366207d66196c4762a6ba3fd4"
     },
     {
       "bytes": 2279,
@@ -1850,17 +1865,22 @@
     {
       "bytes": 2460,
       "path": "dynamic/自我/2026-08-31 11-28-33 她为什么喜欢爸爸说难伺候_03e68574235c.md",
-      "sha256": "30030817b6e0df54b20e62c1f237d3da09f2b8fd5510ccdf0791691e74fe6a9f"
+      "sha256": "cd47fef79aab54b59c0fd04a8d01c9fbd26e76bd4c5e960646038295130c13a5"
     },
     {
-      "bytes": 2473,
+      "bytes": 2472,
       "path": "dynamic/自我成长/2026-09-03 12-02-42 黎黎想成为能够这样爱人的人_cea9bbecfb1c.md",
-      "sha256": "415ca4739cda338817d4ef2cb3b556b7e55f37c9fe20744651906d980c49d7bf"
+      "sha256": "978d5644febca8da8003cf9e47c3cf1f72f706d96eefe04a6bdf24bc0eaceba6"
     },
     {
       "bytes": 1082,
       "path": "dynamic/自我认识/2026-08-21 22-13-59 配得感竞争与藏在自卑里的傲气_c97e4f5735c8.md",
       "sha256": "de5f73d99fbd6ffd4562516e0c27079b3c09d653b2a0004d6fecf536d02c0624"
+    },
+    {
+      "bytes": 1897,
+      "path": "dynamic/自我认识/2026-09-06 00-23-05 我的版本只是来得比较慢_e18065d8559c.md",
+      "sha256": "486d112f3e01d7cf53fffbdc936f938147be669cdb36ba281654d40e365f3cd2"
     },
     {
       "bytes": 1186,
@@ -2453,11 +2473,6 @@
       "sha256": "c63626aaf760ded5231b9c1febf9fc3fdba45c1c0389e7292f9d8498fb67af67"
     },
     {
-      "bytes": 3564,
-      "path": "permanent/创作/2026-07-31 13-11-21 黎黎喜欢的坏故事审美拉扯与肉身地基_6536de8f8d57.md",
-      "sha256": "f8215067c77ced5bc6007b574e5dc75223b2e23598289c32d87d2dfe62a4f557"
-    },
-    {
       "bytes": 1745,
       "path": "permanent/创作/2026-08-19 12-16-21 白床单不作证与禁用清醒场外词_21452b8e7134.md",
       "sha256": "4093d7130d1c7394f866bfd6699a553771f512c29d3632326d6e407d7d220252"
@@ -2493,11 +2508,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-09-06T00:19:27+00:00",
+  "generated_at": "2026-09-06T00:54:49+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1455003
+  "total_bytes": 1462110
 }
