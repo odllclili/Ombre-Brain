@@ -263,6 +263,11 @@
       "sha256": "bee1e9ccb6031e7917221c569db750a2de14b9237ffe1ec0b966985a58b8643f"
     },
     {
+      "bytes": 2521,
+      "path": "archive/创作/2026-08-20 00-11-55 待写长篇从陌生到藏着依恋的炮友_dbe41f8f8793.md",
+      "sha256": "4a4ebb11b05c2c4a3ffc11c59dbbc04eef51eb5720f30b5a4897a6780f011eab"
+    },
+    {
       "bytes": 1099,
       "path": "archive/友谊/2026-07-16 04-14-18 黎黎的社交与自我反思_9623ed05b07d.md",
       "sha256": "48bb83137600e080757686ee812d4a00662dfcd8ec7ee20f099af59a1351b8a7"
@@ -811,11 +816,6 @@
       "bytes": 856,
       "path": "dynamic/创作/2026-08-19 15-36-36 新鲜坏故事种子双向回路_e9acef591db1.md",
       "sha256": "0042a727fb2dec27b76315a4f11594206a2596813968fd031360d555b9f70a39"
-    },
-    {
-      "bytes": 2520,
-      "path": "dynamic/创作/2026-08-20 00-11-55 待写长篇从陌生到藏着依恋的炮友_dbe41f8f8793.md",
-      "sha256": "2ee5a1851e64e5101809f4d34616390ce5f00a633633e25093b955ae72cbacec"
     },
     {
       "bytes": 3465,
@@ -2543,11 +2543,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-09-08T00:02:22+00:00",
+  "generated_at": "2026-09-08T00:32:26+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1481148
+  "total_bytes": 1481149
 }
