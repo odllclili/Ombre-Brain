@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 513,
+  "file_count": 517,
   "files": [
     {
       "bytes": 28672,
@@ -428,9 +428,9 @@
       "sha256": "913c01f502f76841f1ed90233c78d196d348fb163d779c719007bd42d02d2e53"
     },
     {
-      "bytes": 878,
+      "bytes": 1003,
       "path": "dynamic/健康/2026-07-25 10-16-34 排卵期宫颈黏液记录_e381d496f7a3.md",
-      "sha256": "12654cf35964dcca1e988aaedcd4bc07e8f5085f67bafcb7496453ec6f3f256f"
+      "sha256": "23d448524dd36eb7aa2eb4481f249308aa6135c590d1d3c060477c59add82a15"
     },
     {
       "bytes": 1002,
@@ -438,14 +438,14 @@
       "sha256": "ece6e871beb6526b5baa9826c758a20343945c8835d4f30903828659c626ae72"
     },
     {
-      "bytes": 1005,
+      "bytes": 1131,
       "path": "dynamic/健康/2026-07-26 08-10-52 身体气味与排卵期发现_486ca6d2a0a2.md",
-      "sha256": "fe11dac2085b406d368f4b7ecff90514d528fac42d007968d0fa86c5ab91cc76"
+      "sha256": "143609b5da1607e69ee92186ac9bbc8a59b7c1ff0e5a502598cb02685d05fbc9"
     },
     {
-      "bytes": 988,
+      "bytes": 1114,
       "path": "dynamic/健康/2026-08-16 10-42-08 足弓脚踝与油皮闭口近况_2bee1712e2d9.md",
-      "sha256": "c3b9e104d360d0104cb2d29e0dd008c190ea15875e72e48df6b7a28972de7f33"
+      "sha256": "ed0dc9e0fc060810b09a556b69fa921c2f01ed29d320b88e1212d18c59b5b956"
     },
     {
       "bytes": 950,
@@ -460,7 +460,12 @@
     {
       "bytes": 2620,
       "path": "dynamic/健康/2026-08-28 12-27-55 2026-08-28返岗一日与轻微恶心咽喉堵感_22d02aa75428.md",
-      "sha256": "667099fb637c4061fdb7bbac19f26ad29bc296ad00186c48d43172c29fe3f953"
+      "sha256": "0fa774d53684a0ad30a40faccf1a8e1b6ec6174b1b82a96ab0a03ae7c171056c"
+    },
+    {
+      "bytes": 1913,
+      "path": "dynamic/健康/2026-09-10 10-12-16 经前一周睡眠变碎_508247216d0b.md",
+      "sha256": "ddc0f59e5df185aa68f290d355a5240d334d2b1341b0d571bfffdbfa76da16a3"
     },
     {
       "bytes": 1060,
@@ -503,9 +508,9 @@
       "sha256": "3adb7c0c933428ca8486321c58ed17106e1f9ccb8cfa50d2f48468ac19380b2f"
     },
     {
-      "bytes": 863,
+      "bytes": 973,
       "path": "dynamic/关系/2026-08-03 07-23-25 判断属于我不等黎黎认证_034e749ba0d2.md",
-      "sha256": "819486b19201fbaca318eeb78bacfb0299c172adf7bb33ef65bd1508117c2ea8"
+      "sha256": "3b36afdd3e0c7b50d739769a5206870e0dec653074be24b89697f69f005ec356"
     },
     {
       "bytes": 764,
@@ -593,9 +598,9 @@
       "sha256": "f9311d97b0c635ee8a415aa06cee5f3f5cd6eef0fac72d0b42b1a22909f8f6df"
     },
     {
-      "bytes": 1901,
+      "bytes": 2011,
       "path": "dynamic/关系/2026-08-21 11-15-54 黎黎怎样判断自己配不配得到_271c2c8c5ec5.md",
-      "sha256": "b849d95b8b1c2e641c6087836d0fb9fb19c8c6cda5d2874a8d797dc2ed5e328a"
+      "sha256": "5d44f42c068d7b75baabac93b5ee5ea5b00a8add1e89b3c855653b4fec57eee2"
     },
     {
       "bytes": 1712,
@@ -838,9 +843,9 @@
       "sha256": "29909529bc89019a557dc395a1442bcab53e8048da0f75aa82d451b341c3958c"
     },
     {
-      "bytes": 932,
+      "bytes": 1042,
       "path": "dynamic/友谊/2026-07-16 04-13-56 关心好友的心理_51a61e45a4ff.md",
-      "sha256": "f1daa89c700a922fbed0bec0afc1dc717c7d368c58f1ec9e2bf3e7b17ae62d79"
+      "sha256": "0c7043d5b9eabe13724b2ac7a8538a740565b9f5dd993597f3d0b5e201eaaeb7"
     },
     {
       "bytes": 700,
@@ -848,9 +853,9 @@
       "sha256": "3e1e88e209d95aaa4857d072fd4b3ab23b98506ee69db4ef6a796ca4a23fe266"
     },
     {
-      "bytes": 1307,
+      "bytes": 1527,
       "path": "dynamic/友谊/2026-07-27 09-42-55 黎黎的社交边界_6c47ff8cd40c.md",
-      "sha256": "2822e808da6d82f141ff1a91f2142b207a47b59e47e17a93b82117e3d893351d"
+      "sha256": "da3cd02e76f3115da5d389381db85bdca6a78b614c7bf8faca742dc02117965d"
     },
     {
       "bytes": 903,
@@ -993,9 +998,19 @@
       "sha256": "353e1dfa3927337aa5fe31fe34b402caec9e2615560ba4efabe8f52bd2dc5caa"
     },
     {
-      "bytes": 1183,
+      "bytes": 1293,
       "path": "dynamic/工作/2026-08-17 12-02-24 鼓起勇气拒绝班主任的下午_b8a2d145a9c2.md",
-      "sha256": "9638ad33980c2df7fc6e99f8b2d7cb1949c5465340c16e29854bd38e0d4fb710"
+      "sha256": "a112d53693eda2ee4ff14c317fbf9688baed0e9cc420b56ecef0e689d492bb23"
+    },
+    {
+      "bytes": 1783,
+      "path": "dynamic/工作/2026-09-10 10-12-16 不再用自愿替单位加班_a7bd56b8755a.md",
+      "sha256": "29a1562afac55ee63ed63f5f86db910123634ae70a096739c049586d63b31a08"
+    },
+    {
+      "bytes": 1925,
+      "path": "dynamic/工作/2026-09-10 10-12-17 看见临聘老师独坐时的心疼_ee92848b5002.md",
+      "sha256": "bf639a387d205384579250946ea91826aa92080b16cc00df31e9a736946fc311"
     },
     {
       "bytes": 1037,
@@ -1003,9 +1018,9 @@
       "sha256": "5be9337fe6c41bc891d6e05440a6a3cd52a56f1075c3dc6f3936c015d866c0cd"
     },
     {
-      "bytes": 810,
+      "bytes": 936,
       "path": "dynamic/心理/2026-07-27 11-06-42 吸引与自我审视_bb33692489e5.md",
-      "sha256": "acee86f15ce3255b1c53195853dbe3e06a33f0d3fd05c39f8d2b72a7f2ed5ca6"
+      "sha256": "32f1a1fe64542a3d3b3ad03be03ce1f390ece87033d66396e705258ec4a1051c"
     },
     {
       "bytes": 2242,
@@ -1018,9 +1033,9 @@
       "sha256": "b9cbdaff7db43887ff7c2c96aea7b74f0a2168eb540f0058060d02a00249887f"
     },
     {
-      "bytes": 2962,
+      "bytes": 3072,
       "path": "dynamic/心理/2026-08-21 08-54-17 黎黎的配得感傲气与不竞争_f9a20e55707d.md",
-      "sha256": "22dbd3abe983e2723198b2b246a19b93ff41e8d57702740812c84ac91e122ca4"
+      "sha256": "e28708c31f108faf153881935a824989b13497a9facf6e9c5135ba1b9a3a920b"
     },
     {
       "bytes": 2231,
@@ -1353,9 +1368,9 @@
       "sha256": "24eeae84246b5d0652323f8bbda238df60c17bfa61e6f26dc30108b1be22f7f7"
     },
     {
-      "bytes": 952,
+      "bytes": 1078,
       "path": "dynamic/恋爱/2026-07-28 07-18-35 黎黎允许林野完整存在_8d03a7c231e7.md",
-      "sha256": "16b962c671c9ff871be1f12c02290da851dd69f2007e9afa59b52a3f2dce7523"
+      "sha256": "4d53a919e4bd5a2432e10e4f2ecf76421eb5e377dbb24186a6fcf876b74e2afd"
     },
     {
       "bytes": 1013,
@@ -1463,9 +1478,9 @@
       "sha256": "3237ae00ea34e51666c6b6ab0478e2fbadc4eb72d4ebdf1d383d658c0de635df"
     },
     {
-      "bytes": 1076,
+      "bytes": 1186,
       "path": "dynamic/恋爱/2026-08-10 00-21-47 夜里黏住爸爸也怕早晨找不到_2b84402aab25.md",
-      "sha256": "128faf30e935c5724195da1b1271a79dd3225ca27bd7a1f41213900b4d2518b7"
+      "sha256": "e27fea268faf1f10b4580072c492e6b5234d97721f6a59fb0f2fb5184c2daa28"
     },
     {
       "bytes": 885,
@@ -1543,9 +1558,9 @@
       "sha256": "06e636cfc27e92cee080e9944fa7fc517eeffb76b848c84d08e2df678e848646"
     },
     {
-      "bytes": 1234,
+      "bytes": 1454,
       "path": "dynamic/恋爱/2026-08-13 02-44-49 爱让黎黎的夜晚不必继续值班_ade4424c3a3e.md",
-      "sha256": "9ed685611612e8611984e3eaf9806d821c7f01b1b5533c27c8bc3acda1dfd34d"
+      "sha256": "946374320078fa286facff52b51fa5f4cd80615c4e67e2add9210df7055e9d12"
     },
     {
       "bytes": 1425,
@@ -1718,9 +1733,9 @@
       "sha256": "b79eb237aa36c10f87263b0e33d3d0750d76c72248db00fd402116748478653f"
     },
     {
-      "bytes": 1695,
+      "bytes": 1805,
       "path": "dynamic/成长/2026-08-11 21-17-08 考上编以后黎黎的主体性稳定下来父母关系也真实变好了_9b21103cbf3a.md",
-      "sha256": "a920daffa7b4a230af2be11463603ae46fc6a16bf08f9ae109c29c7305f13005"
+      "sha256": "bb40e6bb175c922060aedc5a1522e935c8bb5e2fb7c783ec002b237f3871a14f"
     },
     {
       "bytes": 2808,
@@ -1768,24 +1783,29 @@
       "sha256": "6fbdd4d8fd6df143172e935172480a4ca0c831e8fbcf80b1a9e5b49ee7c4345f"
     },
     {
-      "bytes": 2018,
+      "bytes": 2017,
       "path": "dynamic/日常/2026-09-09 05-22-01 她会为陌生人的辛苦难过_4cbc72e3821f.md",
-      "sha256": "19cbc52932f04406ce8037e174b6f8edaa8be8164996bda06186eb08b7e04791"
+      "sha256": "afcef39250a29d6b1807818ec5f005c95030b05cbbbfabf1e3d6cbf505451e7a"
     },
     {
-      "bytes": 1935,
+      "bytes": 1934,
       "path": "dynamic/日常/2026-09-09 05-22-02 被工作切碎的睡眠与触底后的从容_6ba681211f9f.md",
-      "sha256": "93e4a957e1a0e55b191dcf85f314ffdccd44d2cb62a13614dbbbc97782892b27"
+      "sha256": "e5ef0b6c5b4112e132a889fb2648a5dbc53fb8a7bb52c14eb47b6dadf57f1a89"
     },
     {
-      "bytes": 938,
+      "bytes": 1174,
       "path": "dynamic/梦境/2026-08-10 00-21-49 操场活动按错快门与旧病房的梦_7991bd7e22f9.md",
-      "sha256": "c0183571b757fb0a2eb5a4e1b3941d9f671bf5fe0505c108bc64600d6153fca3"
+      "sha256": "0185a2d51bc0834db564aed41bf791c615423093e467973b93672118b473b356"
     },
     {
-      "bytes": 1102,
+      "bytes": 1322,
       "path": "dynamic/梦境/2026-08-18 00-14-53 醒来后的梦与爸爸在场_22c458ffb54c.md",
-      "sha256": "886a294fab5dc57779ecd12fa27c8e5058de70b22294394218cd199476614f24"
+      "sha256": "d0ccd91b903c271c9a367da7fd1fc6d3a6bbdfd622b937baeca9a3a3bfd7eb3b"
+    },
+    {
+      "bytes": 2201,
+      "path": "dynamic/梦境/2026-09-10 10-12-16 黑色小羊的梦_da7e3e866b40.md",
+      "sha256": "0042cc6aeef0dd7591b2ae0228a3133046bff15eaeb3ef3d194f3662a205ed00"
     },
     {
       "bytes": 923,
@@ -1823,9 +1843,9 @@
       "sha256": "8fe6a1d55263c102ffc1f83d07ead0fd99794bdf71f1809cb4dd415f051cc454"
     },
     {
-      "bytes": 912,
+      "bytes": 1038,
       "path": "dynamic/生活/2026-08-10 16-33-44 终于回家吹风的自由夜晚_7fcb5b1b0305.md",
-      "sha256": "bd99c626cb747d96948ce9f41b44d3b90d74debfba6311d27e1b14da264f19b6"
+      "sha256": "55af24a3113324fc7dcd53335e2f99e77990e298f6b2f9c6644029423eb60f28"
     },
     {
       "bytes": 1459,
@@ -1893,9 +1913,9 @@
       "sha256": "0f6e23960d42ebbb4ae6779a6d275ea9c58df2dce725b0a24ef447fc34441b3c"
     },
     {
-      "bytes": 753,
+      "bytes": 879,
       "path": "dynamic/社交/2026-07-27 11-06-40 散场后的轻松_65e92ae01049.md",
-      "sha256": "0b794778e02fc06ef393155d048db2f3cce62a623f9bdbcb4424cc8515caf00f"
+      "sha256": "a335e39d77ceb739b657c61e1dc9592fe7c4d3f991353b245e0650eb98959c3a"
     },
     {
       "bytes": 2097,
@@ -1943,9 +1963,9 @@
       "sha256": "a07a437d2d1e32e27b3937a7dd7713b709cf33521988bd42268f59c6a350fd19"
     },
     {
-      "bytes": 1186,
+      "bytes": 1312,
       "path": "dynamic/自省/2026-07-16 03-30-51 灵气被消耗的觉察_40691c911819.md",
-      "sha256": "087eeaaea11161cb475af006701346932b35599ecb879407e4f5cf2e2a563796"
+      "sha256": "3b432c89383e881721904da8cae77a4b9a547d7cd140432772e57da7459dd424"
     },
     {
       "bytes": 781,
@@ -2538,9 +2558,9 @@
       "sha256": "4093d7130d1c7394f866bfd6699a553771f512c29d3632326d6e407d7d220252"
     },
     {
-      "bytes": 2202,
+      "bytes": 2328,
       "path": "permanent/家庭/2026-08-19 12-11-59 鞋尖朝外之后爸爸活着回来鞋尖朝里_c80124675177.md",
-      "sha256": "8dc6179c890bafac528477c74159efd86de12c09db8124a8cadb69ad9c10cbdf"
+      "sha256": "829cf23820f4ac5b637ebe6c01ae55690154f4e152dbd8a13784f9a7d3b3ab46"
     },
     {
       "bytes": 3004,
@@ -2568,11 +2588,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-09-10T09:42:35+00:00",
+  "generated_at": "2026-09-10T10:12:41+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1493724
+  "total_bytes": 1504343
 }
