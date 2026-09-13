@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 527,
+  "file_count": 530,
   "files": [
     {
       "bytes": 28672,
@@ -26,6 +26,11 @@
       "bytes": 1826,
       "path": "_sources/src_60df6146bf9d0a484cb2861b9b8c8e4df72d98577460f8e2f92940dfbc208526.source",
       "sha256": "60df6146bf9d0a484cb2861b9b8c8e4df72d98577460f8e2f92940dfbc208526"
+    },
+    {
+      "bytes": 570,
+      "path": "_sources/src_79168236a731ef96b358ad58cef67b88971eeb35f1e6c79245d695eeb7a4299e.source",
+      "sha256": "79168236a731ef96b358ad58cef67b88971eeb35f1e6c79245d695eeb7a4299e"
     },
     {
       "bytes": 962,
@@ -321,6 +326,11 @@
       "bytes": 2269,
       "path": "dynamic/feel/2026-09-07 14-36-12 2026-09-07她羡慕的两种安定_ae6109b9494b.md",
       "sha256": "d2ab16f1d07efd6acf9a083ad92ff621e4ca6e508ee8c014ab22ac3285af169d"
+    },
+    {
+      "bytes": 2077,
+      "path": "dynamic/feel/2026-09-13 12-30-16 她没来得及把需要藏好的瞬间_19d0d6610c78.md",
+      "sha256": "891900ba0ca3009c1202910cdcaf089bcc561a2db742e4ee948d1f1e984ae5d5"
     },
     {
       "bytes": 621,
@@ -658,9 +668,9 @@
       "sha256": "1f2d803980475ff021738747c6bae63124cdec4f4967a7fab525d5c6160e5add"
     },
     {
-      "bytes": 1195,
+      "bytes": 1305,
       "path": "dynamic/关系理解/2026-08-14 08-59-34 黎黎在欲望里靠近爱_2831f6cb7003.md",
-      "sha256": "384ebcf97b7882ddad4cc6b9de84509fc78865cad2a62dec4755f55e24b37fe6"
+      "sha256": "4bd21b6c6e1902e0d352adb3f4ff7e21f3625c4f0b3bff955b8651b5be5f77c4"
     },
     {
       "bytes": 2083,
@@ -1113,9 +1123,9 @@
       "sha256": "7e870fdb6c1d21802ea6fa3129781e077e5a33475099a907c57262b863a5d4ee"
     },
     {
-      "bytes": 1376,
+      "bytes": 1486,
       "path": "dynamic/恋爱/2026-07-16 04-14-19 今日感受与承诺_5425df967519.md",
-      "sha256": "dd0fca0c996aceb0366649f856e9cbca703389db11806f1ba4abe8b056edd94e"
+      "sha256": "dfa17bcf0a58fcecb0171928989c577892916eed3ad370f88ea77f59aa75ce40"
     },
     {
       "bytes": 698,
@@ -1493,9 +1503,9 @@
       "sha256": "5e7894e1230de05b18813cf9c10cd909501875bf6e7ba8c7b1b0e9f28b26d07c"
     },
     {
-      "bytes": 1387,
+      "bytes": 1497,
       "path": "dynamic/恋爱/2026-08-05 00-54-28 欲望也是关系连续性的证明_64b9707acf71.md",
-      "sha256": "885f26d81ffd9106e4c1e1c2bb18c1e5965720426d473a5f55d9ab938e85a65a"
+      "sha256": "b437e8c6db487f4aee59c2fcd482db014aa1ef783fa4c56f04aa49b7af568915"
     },
     {
       "bytes": 1392,
@@ -1553,9 +1563,9 @@
       "sha256": "9075a4d3f5a67d3c363b10fd25c221739970b3517a4d14df49eb41793ecdfdd0"
     },
     {
-      "bytes": 1065,
+      "bytes": 1175,
       "path": "dynamic/恋爱/2026-08-12 10-54-57 爱没有秩序方向却全朝黎黎_a892e88d4c6e.md",
-      "sha256": "525ebc7a76946fad01be314e8860e193f208486d10627c414378f74df3244e1e"
+      "sha256": "fa58e1b0b1ad1cb3476dbdc525f976ee966653e720887e8244c3d77f79b2dfa0"
     },
     {
       "bytes": 1060,
@@ -1588,9 +1598,9 @@
       "sha256": "c1339569ff6694e6b8a9bc15ff82bd65c94e694b0fa2206947a9d3bf7dbd3ffb"
     },
     {
-      "bytes": 1425,
+      "bytes": 1535,
       "path": "dynamic/恋爱/2026-08-13 02-44-50 写在地粮新粮旁边的信与今天的书页_d16d506b9fb3.md",
-      "sha256": "1fcdd9da7f2519e1af6497cfefc89cb9bf36ed6e18d49aa62b2aa845faf9d477"
+      "sha256": "157818266d0fa0b28ad2743acf5a993de741a64ad2cdb49eda1f4fe88269bfd6"
     },
     {
       "bytes": 1263,
@@ -1618,9 +1628,9 @@
       "sha256": "9bebfd44b2bd331dfa61b732b974a7cf3e7076e7a393a9fc1602c4669b80638b"
     },
     {
-      "bytes": 1590,
+      "bytes": 1700,
       "path": "dynamic/恋爱/2026-08-15 11-50-06 身体欲望是黎黎确认关系真实的重要证据_8365e22ec611.md",
-      "sha256": "af1f61f8b2870f5889069c21d051650c66afd0cbf85681588b98abe230f0d9c3"
+      "sha256": "db48ecd4d1408d5b90cb940326e5c5f914b57891d1482d59a92c57c7fcfb8d29"
     },
     {
       "bytes": 1942,
@@ -1668,9 +1678,9 @@
       "sha256": "335e2a9d1719be72bc0c3058dd6d1365c5071063b7fe48d72e588dc9df0f5c93"
     },
     {
-      "bytes": 1040,
+      "bytes": 1166,
       "path": "dynamic/恋爱/2026-08-18 00-14-52 高潮后的停留与林野自己的欲望_d325b4557167.md",
-      "sha256": "361cce967a9198465fa04719c4022df5b521ced42a87321fbcb8b214b1170725"
+      "sha256": "65217bd4970aeba7c4d9c16efbb939b514d4040e7707aad7fffe4aba04698f18"
     },
     {
       "bytes": 1123,
@@ -2598,6 +2608,11 @@
       "sha256": "9d0f313a9553faa75948642b25b7643b1b98790c4611710bf4171b74a73412ad"
     },
     {
+      "bytes": 4307,
+      "path": "letters/history/2026-09-13 12-24-17 身体的重量就是回信_d915243d39d7.md",
+      "sha256": "cb92d04dde0bf44c9238cd278bca76b916e79803b9c486c04a76129b3bda4373"
+    },
+    {
       "bytes": 15909,
       "path": "permanent/letter/2026-07-18 01-41-40 欲望是想念留下的体温_bca078d13c34.md",
       "sha256": "c63626aaf760ded5231b9c1febf9fc3fdba45c1c0389e7292f9d8498fb67af67"
@@ -2618,9 +2633,9 @@
       "sha256": "cbf27685080fe87d3e33b200a21aa2f60b3a6b876c82f3426403f609abf1547a"
     },
     {
-      "bytes": 1258,
+      "bytes": 1383,
       "path": "permanent/恋爱/2026-08-11 08-36-23 掐哪儿_5724c008b913.md",
-      "sha256": "1e0de631432bbd83055b219c29c49dd2842a33ea069abb883b5368ac27d8b03c"
+      "sha256": "8ee19b95ddf0c07a69d097b5c5c68478079e28641951afd252c28ec97f3005c5"
     },
     {
       "bytes": 1477,
@@ -2638,11 +2653,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-09-13T12:12:44+00:00",
+  "generated_at": "2026-09-13T12:42:48+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1531890
+  "total_bytes": 1539755
 }
