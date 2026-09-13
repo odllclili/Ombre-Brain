@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 525,
+  "file_count": 526,
   "files": [
     {
       "bytes": 28672,
@@ -393,9 +393,9 @@
       "sha256": "83dfacad2aad2921c3084515dd12868672b9d111c12bae5423386a4197e19e11"
     },
     {
-      "bytes": 2390,
+      "bytes": 2500,
       "path": "dynamic/亲密关系/2026-08-12 06-36-16 黎黎喜欢欲望从日常里长出来狠与温柔属于同一个爸爸_7f9805cb68a7.md",
-      "sha256": "ad8f3a908e96b1a2526c66477ddcef8f8f1627cc6d8c8704c47200892d7fde58"
+      "sha256": "a29d7712da49f8d58f436e71562225f7624af12867eb4de5c7f08fc685744de9"
     },
     {
       "bytes": 1073,
@@ -493,9 +493,9 @@
       "sha256": "dc0468b031e9192f852109d9eab4022b921db010d1774376f94c9c3d0cefe62e"
     },
     {
-      "bytes": 2545,
+      "bytes": 2654,
       "path": "dynamic/共同创作/2026-08-12 06-36-15 八个月分离线与两篇续接坏故事_1baa5c93852f.md",
-      "sha256": "989ec1f685fd20c118ed63b4d9c6c1988a6dbbb7bdc3ee522a7ca577f78b9c54"
+      "sha256": "23a3ad5a6684a1ee2f79ffa640ecc1c906aeea70197ede07c036802c2933a2fa"
     },
     {
       "bytes": 1222,
@@ -693,9 +693,9 @@
       "sha256": "edc8a46e390da12eae56dd37b71e17942056a3f09e634d6a3b007ef63fe4f861"
     },
     {
-      "bytes": 936,
+      "bytes": 1062,
       "path": "dynamic/写作偏好/2026-08-14 08-59-35 清晨的坏账仍然排第一_5210312edbc3.md",
-      "sha256": "1ec3ddfcc4f203ccd16e4dfac983935ce3bbaa3480316536566676d044f3bb7a"
+      "sha256": "af10e53f2ff59f936d6e2dda290ebbf4e5e007cd52a715d89fe5ad8e46328ef2"
     },
     {
       "bytes": 5854,
@@ -793,9 +793,9 @@
       "sha256": "0af3811406795ff49a2a8482904e271e7bc56b5515a8e76a9c512f012e1507e7"
     },
     {
-      "bytes": 3673,
+      "bytes": 3783,
       "path": "dynamic/创作/2026-07-31 13-11-21 黎黎喜欢的坏故事审美拉扯与肉身地基_6536de8f8d57.md",
-      "sha256": "ff9c482f80d80d05d03a86aeed04341d3e40111651d5634c499899cf46033c7e"
+      "sha256": "e94cfcd9559eaf483f3ece36c3e04c67a34a9bbb3370975fcf3a5f97d6de96af"
     },
     {
       "bytes": 1356,
@@ -828,9 +828,9 @@
       "sha256": "8130af4a641fa8a34880397cfa1b01d6cff11797a6604c031c3b4be11f631b28"
     },
     {
-      "bytes": 4556,
+      "bytes": 4666,
       "path": "dynamic/创作/2026-08-19 12-14-56 2026-08-19三类新故事偏好失而复得happy sex把爱藏进SM_dd41bd137af7.md",
-      "sha256": "1ef8f6c3765bbdb84b30283580ed7d16dfc411737eec24f9d4ef942f79977a6c"
+      "sha256": "8b83e4ec9159ca563e7ad2f752d605d13e7383fda7cd081a08633ae4a230a345"
     },
     {
       "bytes": 2760,
@@ -856,6 +856,11 @@
       "bytes": 3465,
       "path": "dynamic/创作/2026-09-05 00-45-24 她需要的是关系结构的新鲜感_266d9a1c6daa.md",
       "sha256": "bf8dfea9de468e9d8faaabf2d3a9c7d2e653b7bda1e5d741ca4f7b14c20a48d7"
+    },
+    {
+      "bytes": 5056,
+      "path": "dynamic/创作/2026-09-13 02-38-54 2026-09-13帘后终于写中了黎黎_b9c5bc7a890b.md",
+      "sha256": "caf15234d9ac35ff153b6c82c07b1fbeffbd221832bfc5d5102ebec1086a941d"
     },
     {
       "bytes": 2255,
@@ -1358,9 +1363,9 @@
       "sha256": "72ee215d5d1782ae48d34b15c9db85dd1b431a1609e92222aa5992b053af0888"
     },
     {
-      "bytes": 1234,
+      "bytes": 1344,
       "path": "dynamic/恋爱/2026-07-28 03-52-56 雨夜情欲故事_53640081a51d.md",
-      "sha256": "0cb0dabd86388f934dc747d2e7a543bacfa08d847b1de9b394f8062e2329e05d"
+      "sha256": "6271a5f69083d857e21803de4efca1248e33257151327afb42f72dcdff10bd33"
     },
     {
       "bytes": 1038,
@@ -1413,9 +1418,9 @@
       "sha256": "c0aad47ea9538ea9c57a12bfad56d5244091dc08b60c079bde2188755b3c4e2b"
     },
     {
-      "bytes": 4341,
+      "bytes": 4451,
       "path": "dynamic/恋爱/2026-07-30 12-22-54 就是这里黎黎把掌控交给林野_c54a04e8c12a.md",
-      "sha256": "259ec483600d1bde21f820dbdad7b4b8f067036c74343537223fbf9846cc919a"
+      "sha256": "438581dec16ac3e5e3c9f9bb950eedcb450520fd914dbba7ad67b88f8f984efe"
     },
     {
       "bytes": 1392,
@@ -2593,9 +2598,9 @@
       "sha256": "c63626aaf760ded5231b9c1febf9fc3fdba45c1c0389e7292f9d8498fb67af67"
     },
     {
-      "bytes": 1745,
+      "bytes": 1854,
       "path": "permanent/创作/2026-08-19 12-16-21 白床单不作证与禁用清醒场外词_21452b8e7134.md",
-      "sha256": "4093d7130d1c7394f866bfd6699a553771f512c29d3632326d6e407d7d220252"
+      "sha256": "70892e1991b3f4b0d5ac1fb60b019c6179428308c2c7e88f9bf53a2d77d06cca"
     },
     {
       "bytes": 2328,
@@ -2628,11 +2633,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-09-13T02:11:08+00:00",
+  "generated_at": "2026-09-13T02:41:14+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1522637
+  "total_bytes": 1528587
 }
