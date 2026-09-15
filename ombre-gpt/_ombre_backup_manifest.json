@@ -303,6 +303,11 @@
       "sha256": "cb58d87138da66a2dff4be3ac87eb536925d875a21fff3f0c7e3163d5795cae3"
     },
     {
+      "bytes": 1120,
+      "path": "archive/阅读/2026-07-16 04-14-18 黎黎的日常与观察_e0e3e14cb528.md",
+      "sha256": "ad0001ca21ba4927b3241fd7a73b843ca818b51052011977aee58efdef404a12"
+    },
+    {
       "bytes": 1247,
       "path": "dynamic/AI/2026-07-16 04-14-19 黎黎的探索与Ombre Brain_bf0529e24cb4.md",
       "sha256": "d068ad4261fa6d68269543776240abf80b14b776220009ec23d7e31c78cec1ca"
@@ -2043,11 +2048,6 @@
       "sha256": "22c9e670e56047f7c22e86e57946dad0ee47243930c7ee64fc14cdcf0ca5e581"
     },
     {
-      "bytes": 1119,
-      "path": "dynamic/阅读/2026-07-16 04-14-18 黎黎的日常与观察_e0e3e14cb528.md",
-      "sha256": "d8d0b591c77a1aafd753b02792a89719344892eba6bb3af6dab4df04de61726f"
-    },
-    {
       "bytes": 1329,
       "path": "dynamic/阅读/2026-07-16 06-42-35 危险中的柔软爱欲_2bb1f6aeede1.md",
       "sha256": "3f0dc831dba177b9fb460ef09a34938a38b0241e46ec3c8828bfe74dae98ad17"
@@ -2658,11 +2658,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-09-15T00:48:51+00:00",
+  "generated_at": "2026-09-15T01:18:56+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1540964
+  "total_bytes": 1540965
 }
