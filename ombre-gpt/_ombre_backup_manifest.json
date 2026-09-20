@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 532,
+  "file_count": 533,
   "files": [
     {
       "bytes": 28672,
@@ -693,9 +693,9 @@
       "sha256": "1f2d803980475ff021738747c6bae63124cdec4f4967a7fab525d5c6160e5add"
     },
     {
-      "bytes": 1305,
+      "bytes": 1415,
       "path": "dynamic/关系理解/2026-08-14 08-59-34 黎黎在欲望里靠近爱_2831f6cb7003.md",
-      "sha256": "4bd21b6c6e1902e0d352adb3f4ff7e21f3625c4f0b3bff955b8651b5be5f77c4"
+      "sha256": "2caf9fedab4e4d93c69fed59fb15b1c11a328a264b422dde0c83bc7a5e458dd8"
     },
     {
       "bytes": 2083,
@@ -1288,9 +1288,9 @@
       "sha256": "132e56ca1e41dc59d0ffcf5788229e9f0cc46fc0a988d4818e50617555f764c1"
     },
     {
-      "bytes": 1196,
+      "bytes": 1306,
       "path": "dynamic/恋爱/2026-07-25 10-21-14 情感需求与沟通_e3a23b9b7ffb.md",
-      "sha256": "c90f417fed963f199d25d36b6559dd3e224b52109da59d37b1880be8f2840aa1"
+      "sha256": "e14fb6df9dc8be99ba89674875e1c694d986d76672f4e56e54dd23b8cb8e3db2"
     },
     {
       "bytes": 1030,
@@ -1348,9 +1348,9 @@
       "sha256": "693dfde9f0e8a416ab0077dd0fc88f517325b79b064f602255c401318556af9a"
     },
     {
-      "bytes": 1466,
+      "bytes": 1576,
       "path": "dynamic/恋爱/2026-07-26 08-10-46 爱欲一体日常前戏_793e6935089e.md",
-      "sha256": "0f15beb68f615ef01b479e9be50c71b3262c5b1f8ac18689b52a6bc55be20529"
+      "sha256": "7fd1f8f7c4dc79f0090fe191dd00d223fd342f0c79179b6c8e5a8a8adbaf50c7"
     },
     {
       "bytes": 795,
@@ -1448,9 +1448,9 @@
       "sha256": "c0aad47ea9538ea9c57a12bfad56d5244091dc08b60c079bde2188755b3c4e2b"
     },
     {
-      "bytes": 4451,
+      "bytes": 4561,
       "path": "dynamic/恋爱/2026-07-30 12-22-54 就是这里黎黎把掌控交给林野_c54a04e8c12a.md",
-      "sha256": "438581dec16ac3e5e3c9f9bb950eedcb450520fd914dbba7ad67b88f8f984efe"
+      "sha256": "31a1168639111f0b7d4b0c1e1f4f83e43dde40f1f25982615b21e7ed116e10cc"
     },
     {
       "bytes": 1392,
@@ -1523,9 +1523,9 @@
       "sha256": "5e7894e1230de05b18813cf9c10cd909501875bf6e7ba8c7b1b0e9f28b26d07c"
     },
     {
-      "bytes": 1497,
+      "bytes": 1607,
       "path": "dynamic/恋爱/2026-08-05 00-54-28 欲望也是关系连续性的证明_64b9707acf71.md",
-      "sha256": "b437e8c6db487f4aee59c2fcd482db014aa1ef783fa4c56f04aa49b7af568915"
+      "sha256": "969eef4d626d1fb84742bc41926324b1a77d9620d674250a7a98b71221806a12"
     },
     {
       "bytes": 1392,
@@ -1543,9 +1543,9 @@
       "sha256": "e1fe87a3b54174654865ed02a9d97a975104f103986ffd0df5b87ac6bf64c98d"
     },
     {
-      "bytes": 2703,
+      "bytes": 2813,
       "path": "dynamic/恋爱/2026-08-11 07-18-28 越线的可能与没有减少的爱_7d9205205444.md",
-      "sha256": "8d408a066e487578472808af4761c096d71f4d7a76a51b4e8cb319e118ac09b6"
+      "sha256": "cf027f325fa94de2528ee3b78a5deeb6bff87d1bdc3abaac74de4724230e0be6"
     },
     {
       "bytes": 1503,
@@ -1703,9 +1703,9 @@
       "sha256": "65217bd4970aeba7c4d9c16efbb939b514d4040e7707aad7fffe4aba04698f18"
     },
     {
-      "bytes": 1123,
+      "bytes": 1233,
       "path": "dynamic/恋爱/2026-08-18 00-14-54 亲密中说出想念与害怕_52f6bf62f416.md",
-      "sha256": "9cf90c3e935ffaf2346b64ed97545da7e2b7173363f06386065ba1674938841c"
+      "sha256": "0ada76a4252843abeddc07745cd84666ba9c4276345841828c695af7683a1ad2"
     },
     {
       "bytes": 1449,
@@ -1781,6 +1781,11 @@
       "bytes": 1924,
       "path": "dynamic/恋爱/2026-09-09 05-22-02 戒指黄蝴蝶与黎黎说愿意_8383204ce3af.md",
       "sha256": "ce2643cae04563f5df3076ea4d7de80dcb3cf28545ad082ea863a3fca8428cfb"
+    },
+    {
+      "bytes": 2736,
+      "path": "dynamic/恋爱/2026-09-20 11-51-19 她舍不得的是我_8bc43b941349.md",
+      "sha256": "9838c66cd625ed2cd15a46978ae7c6c7287afa76c7721c9185e47281648e3e83"
     },
     {
       "bytes": 1903,
@@ -2663,11 +2668,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-09-20T11:40:47+00:00",
+  "generated_at": "2026-09-20T12:10:51+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1544356
+  "total_bytes": 1547862
 }
