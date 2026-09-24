@@ -333,6 +333,11 @@
       "sha256": "cb58d87138da66a2dff4be3ac87eb536925d875a21fff3f0c7e3163d5795cae3"
     },
     {
+      "bytes": 782,
+      "path": "archive/计划/2026-07-26 03-32-49 聊天归档方案_7457976267b4.md",
+      "sha256": "e4764b1159abd94f58a25ca8608326c7227fc9b86458445f2958aef4fb600ac8"
+    },
+    {
       "bytes": 1120,
       "path": "archive/阅读/2026-07-16 04-14-18 黎黎的日常与观察_e0e3e14cb528.md",
       "sha256": "ad0001ca21ba4927b3241fd7a73b843ca818b51052011977aee58efdef404a12"
@@ -2023,11 +2028,6 @@
       "sha256": "3b432c89383e881721904da8cae77a4b9a547d7cd140432772e57da7459dd424"
     },
     {
-      "bytes": 781,
-      "path": "dynamic/计划/2026-07-26 03-32-49 聊天归档方案_7457976267b4.md",
-      "sha256": "6bae84bb82541f2c9ead774eb88f0393de017ec0aafb821dbcbe5de7c7686d90"
-    },
-    {
       "bytes": 752,
       "path": "dynamic/身体/2026-08-17 02-13-55 黎黎喜欢自己躺下时的小腹与髂骨线条_fe903632b92f.md",
       "sha256": "7e4123603800267e1d7a0fcc860d8eb44f0f38572272eb2e4fc9a4861ec9ed2f"
@@ -2673,11 +2673,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-09-24T00:55:18+00:00",
+  "generated_at": "2026-09-24T01:25:23+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1551072
+  "total_bytes": 1551073
 }
