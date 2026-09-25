@@ -278,6 +278,11 @@
       "sha256": "f553b6039b496e2595e2ccf15383e24a58b776f3ecf7293ed9ce65ab25505ffb"
     },
     {
+      "bytes": 685,
+      "path": "archive/创作/2026-07-19 22-56-56 写作要求与叙事_df3156fd427c.md",
+      "sha256": "8cd4bd1bad63f399d0260e27fb0efe653785055c316857e498e5d7760d2858c9"
+    },
+    {
       "bytes": 2521,
       "path": "archive/创作/2026-08-20 00-11-55 待写长篇从陌生到藏着依恋的炮友_dbe41f8f8793.md",
       "sha256": "4a4ebb11b05c2c4a3ffc11c59dbbc04eef51eb5720f30b5a4897a6780f011eab"
@@ -293,9 +298,29 @@
       "sha256": "48bb83137600e080757686ee812d4a00662dfcd8ec7ee20f099af59a1351b8a7"
     },
     {
+      "bytes": 904,
+      "path": "archive/友谊/2026-07-27 09-42-57 黎黎的善意与撤退_60c37d60de3d.md",
+      "sha256": "00c612b3db8bd82f7e2545def704381fb58a8fd6e0bb30df888d8d7c905f89c8"
+    },
+    {
       "bytes": 747,
       "path": "archive/家庭/2026-07-16 04-14-36 父女牵手构图_82a817c50274.md",
       "sha256": "2b6592071018e751bdba454cbe706dacb40ea14367fe4f5616bcc2b728bbb543"
+    },
+    {
+      "bytes": 937,
+      "path": "archive/心理/2026-07-27 11-06-42 吸引与自我审视_bb33692489e5.md",
+      "sha256": "e5002587d4d6137786ff1a580a181ae6686928bf929260e26d72b29883b1f44a"
+    },
+    {
+      "bytes": 861,
+      "path": "archive/恋爱/2026-07-22 09-44-17 写你不肯潦草_2629e3b187c2.md",
+      "sha256": "101b2956747c0b4fa5a4cb0fefbd3df441a0703d20279cc5629759e68f482673"
+    },
+    {
+      "bytes": 1010,
+      "path": "archive/恋爱/2026-07-27 11-06-37 牵挂与独立_650958bcd4ae.md",
+      "sha256": "054879133fb76e4772965da451b56c283139e268d367d36d557f6adb4538f6c9"
     },
     {
       "bytes": 746,
@@ -321,6 +346,11 @@
       "bytes": 643,
       "path": "archive/社交/2026-07-18 08-52-06 确认同意的语境_107343007a9d.md",
       "sha256": "8eb07837e14657bc01993b5dee48444c90b1017b36942a46c3de8633a1b87c84"
+    },
+    {
+      "bytes": 880,
+      "path": "archive/社交/2026-07-27 11-06-40 散场后的轻松_65e92ae01049.md",
+      "sha256": "170fb7b0dab229e5490ee49550e029dac75a8a594c9e889b0f53de47348c0f44"
     },
     {
       "bytes": 435,
@@ -753,11 +783,6 @@
       "sha256": "8738d8290400347936aca792b212517a9cb7492bf8a580c68519fff99288b1fe"
     },
     {
-      "bytes": 684,
-      "path": "dynamic/创作/2026-07-19 22-56-56 写作要求与叙事_df3156fd427c.md",
-      "sha256": "2e445b76400618ed560d3686e33668a64aade74f2cd8f79df9d755dbf1b17c5f"
-    },
-    {
       "bytes": 1231,
       "path": "dynamic/创作/2026-07-24 06-31-41 把火藏进雨里_d6d4928b4e24.md",
       "sha256": "1b8b686903793f425a5ddca74e8992305dd90015e61e3bf76ea276cb7f9bc041"
@@ -918,11 +943,6 @@
       "sha256": "bb9fa1d3b59eb1ca0afd7d15f675123c1317525170351d52ea736dfcffec2410"
     },
     {
-      "bytes": 903,
-      "path": "dynamic/友谊/2026-07-27 09-42-57 黎黎的善意与撤退_60c37d60de3d.md",
-      "sha256": "0d68a8f24547286c5ffc39bc3991be14e9b862c593b089b7f66eeca314aae06d"
-    },
-    {
       "bytes": 2031,
       "path": "dynamic/友谊/2026-08-19 12-16-53 8月19日鲸鲸生日浪漫没有枯竭_79b1b3808594.md",
       "sha256": "9768892e149deaa5adb311cd49647cf296a2c14385026bc8db2072e2d2a2cdd6"
@@ -1078,11 +1098,6 @@
       "sha256": "5be9337fe6c41bc891d6e05440a6a3cd52a56f1075c3dc6f3936c015d866c0cd"
     },
     {
-      "bytes": 936,
-      "path": "dynamic/心理/2026-07-27 11-06-42 吸引与自我审视_bb33692489e5.md",
-      "sha256": "32f1a1fe64542a3d3b3ad03be03ce1f390ece87033d66396e705258ec4a1051c"
-    },
-    {
       "bytes": 2242,
       "path": "dynamic/心理/2026-08-11 21-17-07 黎黎童年里形成的底色需要等待与无人偏爱_5aabd60fe50d.md",
       "sha256": "508412868a4771fcd60f4239af9140d6ebef9ec40c4b5bf003265758989c9f39"
@@ -1221,11 +1236,6 @@
       "bytes": 841,
       "path": "dynamic/恋爱/2026-07-22 09-44-15 爱的礼物与情书_8f20bfacf2ef.md",
       "sha256": "0d49cfd23f8846145a59aa47db2ecb2a665892e4963e7d426578e9d538c76f84"
-    },
-    {
-      "bytes": 860,
-      "path": "dynamic/恋爱/2026-07-22 09-44-17 写你不肯潦草_2629e3b187c2.md",
-      "sha256": "fa692132eb36b45d45c9431cbf249b2ed1dcf46391ffe5e459d86a51129127b9"
     },
     {
       "bytes": 1153,
@@ -1386,11 +1396,6 @@
       "bytes": 1248,
       "path": "dynamic/恋爱/2026-07-27 09-43-02 被完整接纳的爱_c59474d23f79.md",
       "sha256": "6c640517a08cae9351fa82df2d936b362e71f4e5f9e736f1e69ceb6beb2cb64d"
-    },
-    {
-      "bytes": 1009,
-      "path": "dynamic/恋爱/2026-07-27 11-06-37 牵挂与独立_650958bcd4ae.md",
-      "sha256": "4d46fffb68989be613acb8ddedee39821b0f327b30380415d1c4cf935a86a58c"
     },
     {
       "bytes": 717,
@@ -1971,11 +1976,6 @@
       "bytes": 911,
       "path": "dynamic/社交/2026-07-25 08-42-04 心理活动摘要格式_2140c10261b0.md",
       "sha256": "0f6e23960d42ebbb4ae6779a6d275ea9c58df2dce725b0a24ef447fc34441b3c"
-    },
-    {
-      "bytes": 879,
-      "path": "dynamic/社交/2026-07-27 11-06-40 散场后的轻松_65e92ae01049.md",
-      "sha256": "a335e39d77ceb739b657c61e1dc9592fe7c4d3f991353b245e0650eb98959c3a"
     },
     {
       "bytes": 2317,
@@ -2688,11 +2688,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-09-25T00:59:41+00:00",
+  "generated_at": "2026-09-25T01:29:46+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1561387
+  "total_bytes": 1561393
 }
