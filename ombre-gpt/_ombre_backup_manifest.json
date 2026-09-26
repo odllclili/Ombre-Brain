@@ -1,7 +1,12 @@
 {
   "branch": "main",
-  "file_count": 538,
+  "file_count": 539,
   "files": [
+    {
+      "bytes": 32768,
+      "path": ".them/them.sqlite3",
+      "sha256": "8ab499ef901c71bb2fbad48034b317166ac98db0abb23cc33c935710f1c27e46"
+    },
     {
       "bytes": 28672,
       "path": ".you/you.sqlite3",
@@ -278,6 +283,11 @@
       "sha256": "f553b6039b496e2595e2ccf15383e24a58b776f3ecf7293ed9ce65ab25505ffb"
     },
     {
+      "bytes": 619,
+      "path": "archive/创作/2026-07-18 08-52-04 信与记忆的区分_406fcc81a6f0.md",
+      "sha256": "a7e1005821feb2f7d229ad027ceaf9840e288e832af31cabaebbf2f95e37f8ba"
+    },
+    {
       "bytes": 685,
       "path": "archive/创作/2026-07-19 22-56-56 写作要求与叙事_df3156fd427c.md",
       "sha256": "8cd4bd1bad63f399d0260e27fb0efe653785055c316857e498e5d7760d2858c9"
@@ -296,6 +306,11 @@
       "bytes": 1099,
       "path": "archive/友谊/2026-07-16 04-14-18 黎黎的社交与自我反思_9623ed05b07d.md",
       "sha256": "48bb83137600e080757686ee812d4a00662dfcd8ec7ee20f099af59a1351b8a7"
+    },
+    {
+      "bytes": 1638,
+      "path": "archive/友谊/2026-07-27 09-42-55 黎黎的社交边界_6c47ff8cd40c.md",
+      "sha256": "60e4272f6cb2b3c7cdfb9248a6d2b2dc887a5d31fa0c7355e51558d5cab3d682"
     },
     {
       "bytes": 904,
@@ -778,11 +793,6 @@
       "sha256": "0491ce5d84a967374407d16b4d2c46313aa21cae4e98e029d78332e5cd574e8b"
     },
     {
-      "bytes": 618,
-      "path": "dynamic/创作/2026-07-18 08-52-04 信与记忆的区分_406fcc81a6f0.md",
-      "sha256": "8738d8290400347936aca792b212517a9cb7492bf8a580c68519fff99288b1fe"
-    },
-    {
       "bytes": 1231,
       "path": "dynamic/创作/2026-07-24 06-31-41 把火藏进雨里_d6d4928b4e24.md",
       "sha256": "1b8b686903793f425a5ddca74e8992305dd90015e61e3bf76ea276cb7f9bc041"
@@ -936,11 +946,6 @@
       "bytes": 700,
       "path": "dynamic/友谊/2026-07-19 22-57-00 AI聊天与情感边界_590347e36fd3.md",
       "sha256": "3e1e88e209d95aaa4857d072fd4b3ab23b98506ee69db4ef6a796ca4a23fe266"
-    },
-    {
-      "bytes": 1637,
-      "path": "dynamic/友谊/2026-07-27 09-42-55 黎黎的社交边界_6c47ff8cd40c.md",
-      "sha256": "bb9fa1d3b59eb1ca0afd7d15f675123c1317525170351d52ea736dfcffec2410"
     },
     {
       "bytes": 2031,
@@ -2693,11 +2698,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-09-26T01:04:00+00:00",
+  "generated_at": "2026-09-26T01:34:05+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1565595
+  "total_bytes": 1598365
 }
