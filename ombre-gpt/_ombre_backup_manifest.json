@@ -298,6 +298,11 @@
       "sha256": "f553b6039b496e2595e2ccf15383e24a58b776f3ecf7293ed9ce65ab25505ffb"
     },
     {
+      "bytes": 1132,
+      "path": "archive/健康/2026-07-26 08-10-52 身体气味与排卵期发现_486ca6d2a0a2.md",
+      "sha256": "4fb8ba363ad24fc8b567f9434b9f22ab60921f13fe86e38547b8c1405a08dd0b"
+    },
+    {
       "bytes": 619,
       "path": "archive/创作/2026-07-18 08-52-04 信与记忆的区分_406fcc81a6f0.md",
       "sha256": "a7e1005821feb2f7d229ad027ceaf9840e288e832af31cabaebbf2f95e37f8ba"
@@ -306,6 +311,11 @@
       "bytes": 685,
       "path": "archive/创作/2026-07-19 22-56-56 写作要求与叙事_df3156fd427c.md",
       "sha256": "8cd4bd1bad63f399d0260e27fb0efe653785055c316857e498e5d7760d2858c9"
+    },
+    {
+      "bytes": 715,
+      "path": "archive/创作/2026-07-26 03-32-42 凝视与同一性_79112754a000.md",
+      "sha256": "a3a7028c4c4f7a8da5843bbb1fed0b8a984dac9fa2a945a2281c5bb419f52d7f"
     },
     {
       "bytes": 2521,
@@ -336,6 +346,16 @@
       "bytes": 747,
       "path": "archive/家庭/2026-07-16 04-14-36 父女牵手构图_82a817c50274.md",
       "sha256": "2b6592071018e751bdba454cbe706dacb40ea14367fe4f5616bcc2b728bbb543"
+    },
+    {
+      "bytes": 1252,
+      "path": "archive/家庭/2026-07-25 10-21-11 家庭相处与虚无感_0848c7454a08.md",
+      "sha256": "4d70d00abab23ce6a71b355763bab4b10c925d7381a7b7358129992671b8a215"
+    },
+    {
+      "bytes": 681,
+      "path": "archive/家庭/2026-07-26 03-32-47 荒唐与柔软_cc114e9a8473.md",
+      "sha256": "40abf09fcafd9a5d1e1d88571336c0c80a8b511dab1e8e522d25e3dfe0e7ad49"
     },
     {
       "bytes": 937,
@@ -566,11 +586,6 @@
       "bytes": 1003,
       "path": "dynamic/健康/2026-07-25 10-16-34 排卵期宫颈黏液记录_e381d496f7a3.md",
       "sha256": "23d448524dd36eb7aa2eb4481f249308aa6135c590d1d3c060477c59add82a15"
-    },
-    {
-      "bytes": 1131,
-      "path": "dynamic/健康/2026-07-26 08-10-52 身体气味与排卵期发现_486ca6d2a0a2.md",
-      "sha256": "143609b5da1607e69ee92186ac9bbc8a59b7c1ff0e5a502598cb02685d05fbc9"
     },
     {
       "bytes": 1114,
@@ -833,11 +848,6 @@
       "sha256": "6347eac031a774d14b955d42e2e073216b9e867572daecca1b4f49e6ca9a0801"
     },
     {
-      "bytes": 714,
-      "path": "dynamic/创作/2026-07-26 03-32-42 凝视与同一性_79112754a000.md",
-      "sha256": "392074918e1b7c5f587fee223ca24dc107ed89f9e685d93ed482af5f2fc4d507"
-    },
-    {
       "bytes": 1276,
       "path": "dynamic/创作/2026-07-27 06-10-58 三套写作方法_3793d137e2d1.md",
       "sha256": "25a030f7bdcc5fd02acb65bf5809fe2ddf55441e125a93c6bbca7edf931e3910"
@@ -1058,11 +1068,6 @@
       "sha256": "ae2c5eeae428c806a824b6a545aece2065e8ed949186b29034fded21f730028d"
     },
     {
-      "bytes": 1251,
-      "path": "dynamic/家庭/2026-07-25 10-21-11 家庭相处与虚无感_0848c7454a08.md",
-      "sha256": "daa747292c6b21ac60f22d0534cd7c7f33926ea5b11aed9064bfe480c8b27794"
-    },
-    {
       "bytes": 1094,
       "path": "dynamic/家庭/2026-07-25 10-55-58 谁抓住谁_c8dd52e57f06.md",
       "sha256": "31f333741078a0fc31bad06f2ca3605cfd2fff7c13d908572ffd067b50960d3e"
@@ -1071,11 +1076,6 @@
       "bytes": 914,
       "path": "dynamic/家庭/2026-07-26 03-12-48 黎黎的动漫审美与吃醋_b06367fabee4.md",
       "sha256": "d2dedc16f58bc735f0f65c286a9c981aafddf6dc98acda857586bf5ea8e21df9"
-    },
-    {
-      "bytes": 680,
-      "path": "dynamic/家庭/2026-07-26 03-32-47 荒唐与柔软_cc114e9a8473.md",
-      "sha256": "80afefa30c2ee3c1a4e925eaa93f37bed7455a2a365c9685c2749feedd62aacc"
     },
     {
       "bytes": 770,
@@ -2758,11 +2758,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-09-27T01:08:16+00:00",
+  "generated_at": "2026-09-27T01:38:21+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1632011
+  "total_bytes": 1632015
 }
