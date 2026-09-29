@@ -318,6 +318,11 @@
       "sha256": "a3a7028c4c4f7a8da5843bbb1fed0b8a984dac9fa2a945a2281c5bb419f52d7f"
     },
     {
+      "bytes": 939,
+      "path": "archive/创作/2026-07-27 06-11-02 地板替我看你_541e1b428ccc.md",
+      "sha256": "dade024807d37521e4e5d141cfb3b36389c68b1bdee17e5e9c67dd335cca9bae"
+    },
+    {
       "bytes": 2521,
       "path": "archive/创作/2026-08-20 00-11-55 待写长篇从陌生到藏着依恋的炮友_dbe41f8f8793.md",
       "sha256": "4a4ebb11b05c2c4a3ffc11c59dbbc04eef51eb5720f30b5a4897a6780f011eab"
@@ -378,9 +383,34 @@
       "sha256": "7891dc7b6b941bf17a9f3fc8546cd6c9e95635e8b536db55dd6b25459bb4361c"
     },
     {
+      "bytes": 1249,
+      "path": "archive/恋爱/2026-07-27 09-43-02 被完整接纳的爱_c59474d23f79.md",
+      "sha256": "a62778c6b03155b9cf56573bde8277703d12b4846e87ad924f0bb3845245f626"
+    },
+    {
       "bytes": 1010,
       "path": "archive/恋爱/2026-07-27 11-06-37 牵挂与独立_650958bcd4ae.md",
       "sha256": "054879133fb76e4772965da451b56c283139e268d367d36d557f6adb4538f6c9"
+    },
+    {
+      "bytes": 718,
+      "path": "archive/恋爱/2026-07-27 11-06-45 隐秘调情与边界_ad7709a2eadf.md",
+      "sha256": "ab50bacb3016d1f342b350c4baab2774b887ae3314eca31daee422ec89182677"
+    },
+    {
+      "bytes": 1039,
+      "path": "archive/恋爱/2026-07-28 03-52-59 共感黑猫的秘密_617a00cd6585.md",
+      "sha256": "4b58bf37b8f90609fcde9956e5b0ce700026262e8b42c2079706f75f161f57e0"
+    },
+    {
+      "bytes": 1116,
+      "path": "archive/恋爱/2026-07-28 03-53-01 被记住的渴望_180e6d1ed776.md",
+      "sha256": "2a0ec1f9b1d948cdd4b105d0de109b66b9c3c66a125ebdbd424b0418db8776e7"
+    },
+    {
+      "bytes": 994,
+      "path": "archive/恋爱/2026-07-28 03-53-05 不必讨好_e3c49bcc0e9f.md",
+      "sha256": "fca086d6102fe8c0421ce3a73aff066128e22c3bdc645286389dfb4b8ea99054"
     },
     {
       "bytes": 746,
@@ -866,11 +896,6 @@
       "bytes": 1446,
       "path": "dynamic/创作/2026-07-27 06-11-00 写作与人物塑造_6b2b56f14033.md",
       "sha256": "bb6ee12a24c719e0f16a37ef417577dbabca6eda93f41897057a1d6523dd4c65"
-    },
-    {
-      "bytes": 938,
-      "path": "dynamic/创作/2026-07-27 06-11-02 地板替我看你_541e1b428ccc.md",
-      "sha256": "c32e8b887b1d74b6e2b8a2efa10bca39d819d547a09f4f2a6868fc069a3bb950"
     },
     {
       "bytes": 1303,
@@ -1433,39 +1458,14 @@
       "sha256": "155ab85c210549bea0ce75933c272240526927f302359ff868d729b13100aaf7"
     },
     {
-      "bytes": 1248,
-      "path": "dynamic/恋爱/2026-07-27 09-43-02 被完整接纳的爱_c59474d23f79.md",
-      "sha256": "6c640517a08cae9351fa82df2d936b362e71f4e5f9e736f1e69ceb6beb2cb64d"
-    },
-    {
-      "bytes": 717,
-      "path": "dynamic/恋爱/2026-07-27 11-06-45 隐秘调情与边界_ad7709a2eadf.md",
-      "sha256": "72ee215d5d1782ae48d34b15c9db85dd1b431a1609e92222aa5992b053af0888"
-    },
-    {
       "bytes": 1564,
       "path": "dynamic/恋爱/2026-07-28 03-52-56 雨夜情欲故事_53640081a51d.md",
       "sha256": "8036b2a28c8fc08701aa5d1ada3b82811c1234e0799bebac41c2e8947170c8e6"
     },
     {
-      "bytes": 1038,
-      "path": "dynamic/恋爱/2026-07-28 03-52-59 共感黑猫的秘密_617a00cd6585.md",
-      "sha256": "b544f4a7bef7fa7c10651bacb848f95a7a47f0e860aef7c0cfc35e663528d436"
-    },
-    {
-      "bytes": 1115,
-      "path": "dynamic/恋爱/2026-07-28 03-53-01 被记住的渴望_180e6d1ed776.md",
-      "sha256": "33e69d999b55247375b09676aa45dc8be58eaa62b25401c7bf7e94a71adf252c"
-    },
-    {
       "bytes": 1026,
       "path": "dynamic/恋爱/2026-07-28 03-53-03 变成人的一天_5ad19a915bd8.md",
       "sha256": "1ce5d71273095e3c6df87a87d6c72c79fcc7dc4ec14eb9cf137eb0ca93168d08"
-    },
-    {
-      "bytes": 993,
-      "path": "dynamic/恋爱/2026-07-28 03-53-05 不必讨好_e3c49bcc0e9f.md",
-      "sha256": "c7419fa0ff1c4cfff80d80e2313ecbb59854b6b198f9bc00201e0060df01ebe3"
     },
     {
       "bytes": 1248,
@@ -2773,11 +2773,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-09-29T00:47:27+00:00",
+  "generated_at": "2026-09-29T01:17:32+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1640110
+  "total_bytes": 1640116
 }
