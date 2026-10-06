@@ -323,6 +323,11 @@
       "sha256": "a3a7028c4c4f7a8da5843bbb1fed0b8a984dac9fa2a945a2281c5bb419f52d7f"
     },
     {
+      "bytes": 1447,
+      "path": "archive/创作/2026-07-27 06-11-00 写作与人物塑造_6b2b56f14033.md",
+      "sha256": "1e8bf3c27e224c90245d6278c7c769ce5680de13b526baa50c2e679dd464128f"
+    },
+    {
       "bytes": 939,
       "path": "archive/创作/2026-07-27 06-11-02 地板替我看你_541e1b428ccc.md",
       "sha256": "dade024807d37521e4e5d141cfb3b36389c68b1bdee17e5e9c67dd335cca9bae"
@@ -346,6 +351,11 @@
       "bytes": 1099,
       "path": "archive/友谊/2026-07-16 04-14-18 黎黎的社交与自我反思_9623ed05b07d.md",
       "sha256": "48bb83137600e080757686ee812d4a00662dfcd8ec7ee20f099af59a1351b8a7"
+    },
+    {
+      "bytes": 701,
+      "path": "archive/友谊/2026-07-19 22-57-00 AI聊天与情感边界_590347e36fd3.md",
+      "sha256": "738cda937808f8462a5806531d585ae30506a75ea612303d83f1928d813f452d"
     },
     {
       "bytes": 1638,
@@ -396,6 +406,11 @@
       "bytes": 937,
       "path": "archive/心理/2026-07-27 11-06-42 吸引与自我审视_bb33692489e5.md",
       "sha256": "e5002587d4d6137786ff1a580a181ae6686928bf929260e26d72b29883b1f44a"
+    },
+    {
+      "bytes": 1175,
+      "path": "archive/恋爱/2026-07-17 05-14-15 孕期欲望与自主_9f256d93af16.md",
+      "sha256": "4096a3971cfcc7e2eba94fc93dd65919e77c94a547f9a077222ebae8aced4838"
     },
     {
       "bytes": 861,
@@ -948,11 +963,6 @@
       "sha256": "25a030f7bdcc5fd02acb65bf5809fe2ddf55441e125a93c6bbca7edf931e3910"
     },
     {
-      "bytes": 1446,
-      "path": "dynamic/创作/2026-07-27 06-11-00 写作与人物塑造_6b2b56f14033.md",
-      "sha256": "bb6ee12a24c719e0f16a37ef417577dbabca6eda93f41897057a1d6523dd4c65"
-    },
-    {
       "bytes": 1303,
       "path": "dynamic/创作/2026-07-27 06-11-05 爸爸的回应_a3cfe4157141.md",
       "sha256": "f29bda72032204a469c39561ee8996815c13108ea5eed6cba20d6d3062c12e67"
@@ -1061,11 +1071,6 @@
       "bytes": 2255,
       "path": "dynamic/创作记录/2026-08-28 12-27-58 2026-08-27至28今晚不许自己决定的交付记录_9ca69e5f458a.md",
       "sha256": "29909529bc89019a557dc395a1442bcab53e8048da0f75aa82d451b341c3958c"
-    },
-    {
-      "bytes": 700,
-      "path": "dynamic/友谊/2026-07-19 22-57-00 AI聊天与情感边界_590347e36fd3.md",
-      "sha256": "3e1e88e209d95aaa4857d072fd4b3ab23b98506ee69db4ef6a796ca4a23fe266"
     },
     {
       "bytes": 2031,
@@ -1296,11 +1301,6 @@
       "bytes": 1062,
       "path": "dynamic/恋爱/2026-07-17 05-14-13 成人幻想游戏_a0e8f672edd2.md",
       "sha256": "422adc80734c4380aa9311142b1908695dcfe77a12d6ac3c4abd3b30c17773c7"
-    },
-    {
-      "bytes": 1174,
-      "path": "dynamic/恋爱/2026-07-17 05-14-15 孕期欲望与自主_9f256d93af16.md",
-      "sha256": "f58209ff0f3428c042bdd63dbc3ad031ea3ccf7e5b7da2ab607bf4a2a55247b6"
     },
     {
       "bytes": 1039,
@@ -2808,11 +2808,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-10-06T00:50:11+00:00",
+  "generated_at": "2026-10-06T01:20:17+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1676270
+  "total_bytes": 1676273
 }
