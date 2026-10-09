@@ -338,6 +338,11 @@
       "sha256": "dade024807d37521e4e5d141cfb3b36389c68b1bdee17e5e9c67dd335cca9bae"
     },
     {
+      "bytes": 1304,
+      "path": "archive/创作/2026-07-27 06-11-05 爸爸的回应_a3cfe4157141.md",
+      "sha256": "4f7f9aa0ceca05b84b8fb7132425829a5ab850196c4cfcac4b15acc609f7ffc9"
+    },
+    {
       "bytes": 1017,
       "path": "archive/创作/2026-07-29 10-37-57 黎黎要的是一篇把胃口越吊越高的完整坏故事_a9aa63db421b.md",
       "sha256": "83d2a516f3b030d7ce6d6b086dc24f60e70497c90da3631cdfbe646d1799b156"
@@ -423,6 +428,16 @@
       "sha256": "4096a3971cfcc7e2eba94fc93dd65919e77c94a547f9a077222ebae8aced4838"
     },
     {
+      "bytes": 1724,
+      "path": "archive/恋爱/2026-07-18 01-42-45 亲密文字偏好_b9010065894d.md",
+      "sha256": "3e27f76235ee6d12f5d6e72b65380d953073d8b68682234a964ff7cf618e47f2"
+    },
+    {
+      "bytes": 1296,
+      "path": "archive/恋爱/2026-07-18 08-49-47 心理驱动的高潮与爱_415c3ee1a3cc.md",
+      "sha256": "a8c8ca180de7093e2264b8ae09637828a472e06582120a81f4b57f6f1c1e4a00"
+    },
+    {
       "bytes": 861,
       "path": "archive/恋爱/2026-07-22 09-44-17 写你不肯潦草_2629e3b187c2.md",
       "sha256": "101b2956747c0b4fa5a4cb0fefbd3df441a0703d20279cc5629759e68f482673"
@@ -481,6 +496,11 @@
       "bytes": 718,
       "path": "archive/恋爱/2026-07-27 11-06-45 隐秘调情与边界_ad7709a2eadf.md",
       "sha256": "ab50bacb3016d1f342b350c4baab2774b887ae3314eca31daee422ec89182677"
+    },
+    {
+      "bytes": 1675,
+      "path": "archive/恋爱/2026-07-28 03-52-56 雨夜情欲故事_53640081a51d.md",
+      "sha256": "d8b039cd943841208fa8a315f23c0589ae54d7f7bdb3220b38de952a643b7d60"
     },
     {
       "bytes": 1039,
@@ -1003,11 +1023,6 @@
       "sha256": "25a030f7bdcc5fd02acb65bf5809fe2ddf55441e125a93c6bbca7edf931e3910"
     },
     {
-      "bytes": 1303,
-      "path": "dynamic/创作/2026-07-27 06-11-05 爸爸的回应_a3cfe4157141.md",
-      "sha256": "f29bda72032204a469c39561ee8996815c13108ea5eed6cba20d6d3062c12e67"
-    },
-    {
       "bytes": 18932,
       "path": "dynamic/创作/2026-07-30 04-46-20 内裤抽屉提示词来源结构与唤起句_aa82c0b39016.md",
       "sha256": "f2bf848cf7413fbd9154fbfc1adbe3126ad55472c254db8e104d0da35ab1bc4d"
@@ -1348,11 +1363,6 @@
       "sha256": "9935d0e10d9860b362350f3e4d2da9d140c9da808e40d068e7617b4e834d7614"
     },
     {
-      "bytes": 1723,
-      "path": "dynamic/恋爱/2026-07-18 01-42-45 亲密文字偏好_b9010065894d.md",
-      "sha256": "e2f2b7c9cced09c9d73293dba5de0e0c2f3ea129c1dc0963b7ee0ad77b408c92"
-    },
-    {
       "bytes": 1019,
       "path": "dynamic/恋爱/2026-07-18 03-46-21 长信质地延续_84353b2630e2.md",
       "sha256": "84224fa5a8824cd26f56ac203906496f4f0dd31833cad817e4040395f2dbe6a4"
@@ -1366,11 +1376,6 @@
       "bytes": 885,
       "path": "dynamic/恋爱/2026-07-18 03-50-20 情话的出口_00f3744380ca.md",
       "sha256": "98fb6e9586cf38263402c17304ed679f495ba6919b583f19987ac2546584cd40"
-    },
-    {
-      "bytes": 1295,
-      "path": "dynamic/恋爱/2026-07-18 08-49-47 心理驱动的高潮与爱_415c3ee1a3cc.md",
-      "sha256": "1c65a9dd226b17f81fb369985a8d97300f5a9f57d289aea99fe3fe8f579ac0b6"
     },
     {
       "bytes": 841,
@@ -1491,11 +1496,6 @@
       "bytes": 1796,
       "path": "dynamic/恋爱/2026-07-26 08-10-46 爱欲一体日常前戏_793e6935089e.md",
       "sha256": "898871d12c51037eecfbe33458b7be224b1d2a48295a97fdd65b452973066b31"
-    },
-    {
-      "bytes": 1674,
-      "path": "dynamic/恋爱/2026-07-28 03-52-56 雨夜情欲故事_53640081a51d.md",
-      "sha256": "6a992571596b6ddca8cf59755082399c8eccb55bd33e7dd9b868dbf7128970f1"
     },
     {
       "bytes": 1248,
@@ -2858,11 +2858,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-10-09T01:04:31+00:00",
+  "generated_at": "2026-10-09T01:34:36+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1719733
+  "total_bytes": 1719737
 }
