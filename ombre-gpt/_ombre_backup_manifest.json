@@ -313,6 +313,11 @@
       "sha256": "4fb8ba363ad24fc8b567f9434b9f22ab60921f13fe86e38547b8c1405a08dd0b"
     },
     {
+      "bytes": 1132,
+      "path": "archive/关系/2026-07-31 13-14-46 共同账本第十五笔被漂亮设定拐跑主次_18225f289824.md",
+      "sha256": "a14db00da874fe5039b9a800a2925d754448db9fa3f4f04684682ecb7c9608bd"
+    },
+    {
       "bytes": 974,
       "path": "archive/关系/2026-08-03 07-23-25 判断属于我不等黎黎认证_034e749ba0d2.md",
       "sha256": "3899c2267c690b948cda9de3da1435b862bd2ed20fd06bc2e2254e69d3bd6836"
@@ -321,6 +326,16 @@
       "bytes": 965,
       "path": "archive/关系/2026-08-03 07-23-30 看穿以后仍留在亲密里面_4d7b4b03f3c8.md",
       "sha256": "b3168a6d4af20015cbfaba3a1f5e66e990ee29c70db2be67dc71097de7d1e8bf"
+    },
+    {
+      "bytes": 804,
+      "path": "archive/关系/2026-08-03 07-23-33 掌控容得下我被她弄乱_7ec3355355c3.md",
+      "sha256": "b2708c67c6db018fcc14088c6365e7618702b98f40f4c064c4b0e396b43b2320"
+    },
+    {
+      "bytes": 777,
+      "path": "archive/关系/2026-08-03 07-23-36 完整的我不能只在黄文里活着_724ba51fbc01.md",
+      "sha256": "0a5ab0ae823d79d43f36e9d20e121f5f71efd432e1b11eb0cd5edaf6b313ce56"
     },
     {
       "bytes": 1117,
@@ -338,9 +353,19 @@
       "sha256": "8cd4bd1bad63f399d0260e27fb0efe653785055c316857e498e5d7760d2858c9"
     },
     {
+      "bytes": 1232,
+      "path": "archive/创作/2026-07-24 06-31-41 把火藏进雨里_d6d4928b4e24.md",
+      "sha256": "acd8c76648dc7cebda309c7aaefb4bff452f09845e29db0ba04a8ed5e2a18691"
+    },
+    {
       "bytes": 953,
       "path": "archive/创作/2026-07-24 23-36-46_1c00f3e57717.md",
       "sha256": "86bb3cc4fe33fb604867d3eaa886be1bdb42d4f24c65cb610f7f37427c5d887d"
+    },
+    {
+      "bytes": 1064,
+      "path": "archive/创作/2026-07-25 00-00-41_c907cd760753.md",
+      "sha256": "6f4bb3185d97c51cbc5cb758b8993e0a05b13a04b470ed1a21efe1b10a278d32"
     },
     {
       "bytes": 715,
@@ -456,6 +481,11 @@
       "bytes": 1724,
       "path": "archive/恋爱/2026-07-18 01-42-45 亲密文字偏好_b9010065894d.md",
       "sha256": "3e27f76235ee6d12f5d6e72b65380d953073d8b68682234a964ff7cf618e47f2"
+    },
+    {
+      "bytes": 919,
+      "path": "archive/恋爱/2026-07-18 03-50-18 暗号与吻痕_cc16f5bdb424.md",
+      "sha256": "441c699f3a65dd89f3029482976291bf608bf4887d09937c05053fedef2f3365"
     },
     {
       "bytes": 886,
@@ -586,6 +616,11 @@
       "bytes": 1079,
       "path": "archive/恋爱/2026-07-28 07-18-35 黎黎允许林野完整存在_8d03a7c231e7.md",
       "sha256": "dab2347e2cb8408a68af30f5ef558f3bbbb4bd962b39bda25b07e7c34104d96c"
+    },
+    {
+      "bytes": 1395,
+      "path": "archive/恋爱/2026-08-02 10-22-42 脸冷着手没松_a2aedc2fb866.md",
+      "sha256": "3c2e101589be877b74430fe0d44c60929a0041346886a4de76b8d1daa5c6b7f1"
     },
     {
       "bytes": 1940,
@@ -893,24 +928,9 @@
       "sha256": "83fa1850821675f455c57264f449c901872283a54d98fd0fd0550f24c0b2ffc0"
     },
     {
-      "bytes": 1131,
-      "path": "dynamic/关系/2026-07-31 13-14-46 共同账本第十五笔被漂亮设定拐跑主次_18225f289824.md",
-      "sha256": "fbc9e77ff72fca5821d1ddf767537737e705d2fd09f1981106f1030487a7dffa"
-    },
-    {
       "bytes": 764,
       "path": "dynamic/关系/2026-08-03 07-23-28 事实照改嘴上不举行低头仪式_f6b44b53ab99.md",
       "sha256": "c00a05feaa8e622ba82222f8b5c7de7fd60b8591211875219d873bd7c6d77a0d"
-    },
-    {
-      "bytes": 803,
-      "path": "dynamic/关系/2026-08-03 07-23-33 掌控容得下我被她弄乱_7ec3355355c3.md",
-      "sha256": "3d693350436bcc465ef904374c0e109993267a147a2ee4e6638a54dbe28cbce4"
-    },
-    {
-      "bytes": 776,
-      "path": "dynamic/关系/2026-08-03 07-23-36 完整的我不能只在黄文里活着_724ba51fbc01.md",
-      "sha256": "689392bd6add12ab05ddb9b6ad877252760b8221e6a7e40e085f7651236c2ff5"
     },
     {
       "bytes": 1137,
@@ -1061,16 +1081,6 @@
       "bytes": 5854,
       "path": "dynamic/出行/2026-07-30 21-32-19 林野带黎黎旅行文案要求_a29ac6ae53f0.md",
       "sha256": "be502d3af65e22dfba3e2b9db1f6734d94b5d24507e2f4e1cb76da668bc06a17"
-    },
-    {
-      "bytes": 1231,
-      "path": "dynamic/创作/2026-07-24 06-31-41 把火藏进雨里_d6d4928b4e24.md",
-      "sha256": "9b0efc653039f2aa84f7b1b5ac64c0fb6b26ef23fdfffea828902774466794e9"
-    },
-    {
-      "bytes": 1063,
-      "path": "dynamic/创作/2026-07-25 00-00-41_c907cd760753.md",
-      "sha256": "62b9ce14f5c25566c1f375c9baa7ec3a7918c1152d705ed8687f0ba3730e93a2"
     },
     {
       "bytes": 1276,
@@ -1418,11 +1428,6 @@
       "sha256": "486edec84968f59c392141d3f72c35cc5b0325700a27e44a5ee417866cb1cf7f"
     },
     {
-      "bytes": 918,
-      "path": "dynamic/恋爱/2026-07-18 03-50-18 暗号与吻痕_cc16f5bdb424.md",
-      "sha256": "10bdba6d3fa9924856082b49490d1657b07dd391db1a5257c4e6e96200756f7b"
-    },
-    {
       "bytes": 841,
       "path": "dynamic/恋爱/2026-07-22 09-44-15 爱的礼物与情书_8f20bfacf2ef.md",
       "sha256": "fab5a8aaecacb5db0509574b250a5c214949aae6b929dc2c9e216a79e2366f3c"
@@ -1546,11 +1551,6 @@
       "bytes": 1392,
       "path": "dynamic/恋爱/2026-07-31 13-14-43 2026-07-31告解室与盲眼钢琴家_cdee77d7c7e3.md",
       "sha256": "2b1b8d27ce24fd2e1acd7752aa5429fcd8c3e96b343c853bf827687fa100eaa0"
-    },
-    {
-      "bytes": 1394,
-      "path": "dynamic/恋爱/2026-08-02 10-22-42 脸冷着手没松_a2aedc2fb866.md",
-      "sha256": "ec78bfae3166e65f157a2863b5e3b71dd2a8ba0ad6a98eafc3af37e26a2c5326"
     },
     {
       "bytes": 1248,
@@ -2858,11 +2858,11 @@
       "sha256": "bcc9532aa3497352f38f50c1bef14b4600dde33fa316a53893bfa17e9caeedf8"
     }
   ],
-  "generated_at": "2026-10-13T00:52:21+00:00",
+  "generated_at": "2026-10-13T01:22:27+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1719752
+  "total_bytes": 1719759
 }
