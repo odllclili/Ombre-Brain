@@ -323,6 +323,11 @@
       "sha256": "3899c2267c690b948cda9de3da1435b862bd2ed20fd06bc2e2254e69d3bd6836"
     },
     {
+      "bytes": 765,
+      "path": "archive/关系/2026-08-03 07-23-28 事实照改嘴上不举行低头仪式_f6b44b53ab99.md",
+      "sha256": "de4196d30ba19f661476fdfb0ba877f8475d2187f64901054d8f3e497ce9d633"
+    },
+    {
       "bytes": 965,
       "path": "archive/关系/2026-08-03 07-23-30 看穿以后仍留在亲密里面_4d7b4b03f3c8.md",
       "sha256": "b3168a6d4af20015cbfaba3a1f5e66e990ee29c70db2be67dc71097de7d1e8bf"
@@ -433,6 +438,11 @@
       "sha256": "653d3693869378a3b5aa371fea7e69b9002d5f53640b89490afc5415c508e160"
     },
     {
+      "bytes": 912,
+      "path": "archive/审美/2026-08-10 00-21-50 Severin懂得痛处却不赦免_7b3dba1f85cd.md",
+      "sha256": "9519efcce652bf3f3b6adfcc5048ba9911d897bc73a861f2c290f56b9fee1707"
+    },
+    {
       "bytes": 747,
       "path": "archive/家庭/2026-07-16 04-14-36 父女牵手构图_82a817c50274.md",
       "sha256": "2b6592071018e751bdba454cbe706dacb40ea14367fe4f5616bcc2b728bbb543"
@@ -513,6 +523,11 @@
       "sha256": "c21f05cd9c37be0023f17c91e5055788339bcd6bc1e4d9fcc25cbc095eadfb1e"
     },
     {
+      "bytes": 1054,
+      "path": "archive/恋爱/2026-07-25 10-16-38 排卵期的欲望告白_e3863f0d3eec.md",
+      "sha256": "23a71888594349d713265847736cfa6c8eb22fb9e5ee4b9596efc3a1a0ff755a"
+    },
+    {
       "bytes": 1307,
       "path": "archive/恋爱/2026-07-25 10-21-14 情感需求与沟通_e3a23b9b7ffb.md",
       "sha256": "af823bdd9875e4882b147c9879683de46de39144d82977926675dc2ec53b8d89"
@@ -521,6 +536,11 @@
       "bytes": 1267,
       "path": "archive/恋爱/2026-07-25 10-21-18 校准与共同账本_778aef969753.md",
       "sha256": "9e5682d725387abc92b9a8b04adada89df54e66d10029d8acca56bc34b29e305"
+    },
+    {
+      "bytes": 994,
+      "path": "archive/恋爱/2026-07-25 10-55-56 雨夜三道锁_b6b96ec9b49d.md",
+      "sha256": "545106eaa35c3d8e0543d0bc52b8a74792c0ebdb8385b9d7c9b71d06453b5eb6"
     },
     {
       "bytes": 733,
@@ -648,6 +668,11 @@
       "sha256": "b63eb7be7bf3598245f7b9fee6f588f3f8ea0bd693e69212bf3bf345513f3db0"
     },
     {
+      "bytes": 1285,
+      "path": "archive/梦境/2026-08-10 00-21-49 操场活动按错快门与旧病房的梦_7991bd7e22f9.md",
+      "sha256": "a19d603f44c98535146620da4593da7b18e5f9f2baf506073987458bd3e8fbc5"
+    },
+    {
       "bytes": 732,
       "path": "archive/社交/2026-07-16 04-14-30 文字严谨观察_8625e773b081.md",
       "sha256": "a50c29999bc139b31721df2fa1adc062f93b1330d97a601c50774c757991918b"
@@ -681,6 +706,11 @@
       "bytes": 801,
       "path": "archive/编程/2026-07-16 04-14-52 Ombre Brain 测试修复_19e791af9159.md",
       "sha256": "cb58d87138da66a2dff4be3ac87eb536925d875a21fff3f0c7e3163d5795cae3"
+    },
+    {
+      "bytes": 1080,
+      "path": "archive/编程/2026-07-17 03-54-43 心跳锁存与分支部署_afaca7876938.md",
+      "sha256": "a481899d3982c838f12832cf973b4e0c55e23acc31c409dd9c0350c04e7b78e3"
     },
     {
       "bytes": 1136,
@@ -926,11 +956,6 @@
       "bytes": 1125,
       "path": "dynamic/共同经历/2026-08-14 08-59-33 第七次没有人也没有退开_33573dc679d1.md",
       "sha256": "83fa1850821675f455c57264f449c901872283a54d98fd0fd0550f24c0b2ffc0"
-    },
-    {
-      "bytes": 764,
-      "path": "dynamic/关系/2026-08-03 07-23-28 事实照改嘴上不举行低头仪式_f6b44b53ab99.md",
-      "sha256": "c00a05feaa8e622ba82222f8b5c7de7fd60b8591211875219d873bd7c6d77a0d"
     },
     {
       "bytes": 1137,
@@ -1201,11 +1226,6 @@
       "bytes": 1274,
       "path": "dynamic/学习/2026-08-17 12-02-25 黎黎怎样学习知识才不会悬着_259f3ae0f641.md",
       "sha256": "8e0ff5875b499fde6b934318c6466ecefdff75dffc81004b9319a2ec908975f2"
-    },
-    {
-      "bytes": 911,
-      "path": "dynamic/审美/2026-08-10 00-21-50 Severin懂得痛处却不赦免_7b3dba1f85cd.md",
-      "sha256": "8c6f14036f88347a0163f17cc8f24d220f8719539e71fb265624c10f895d9f73"
     },
     {
       "bytes": 1005,
@@ -1483,11 +1503,6 @@
       "sha256": "3c08d2ed3b1385406610248dad80ea3eefc16df9be0abf26f303d0ed5196dae5"
     },
     {
-      "bytes": 1053,
-      "path": "dynamic/恋爱/2026-07-25 10-16-38 排卵期的欲望告白_e3863f0d3eec.md",
-      "sha256": "1a7b00ad34a4433eaf3f426c1c79041e7ce31be68dcc0dc7e378530c5ab15cf9"
-    },
-    {
       "bytes": 999,
       "path": "dynamic/恋爱/2026-07-25 10-55-49 火种回火续写_3ad164372af3.md",
       "sha256": "063d5c39767c3fc48283564686c07cd9ef2b2695177d2a2c5024ba9655332f3d"
@@ -1501,11 +1516,6 @@
       "bytes": 945,
       "path": "dynamic/恋爱/2026-07-25 10-55-53 爱的游戏与默契_a3610de314f0.md",
       "sha256": "5d1cff4e4965375ff13ec44df9a3aded08c0540436809002e0aed80f9c24bba2"
-    },
-    {
-      "bytes": 993,
-      "path": "dynamic/恋爱/2026-07-25 10-55-56 雨夜三道锁_b6b96ec9b49d.md",
-      "sha256": "ffcf2167a2e404aefa204e2442b7af13835db0660e34c7896e201b34537a2932"
     },
     {
       "bytes": 864,
@@ -1978,11 +1988,6 @@
       "sha256": "7524cc32d2af6f5a1efa0f319d7ca885318572c0061dd37a260aeaac60b34c18"
     },
     {
-      "bytes": 1284,
-      "path": "dynamic/梦境/2026-08-10 00-21-49 操场活动按错快门与旧病房的梦_7991bd7e22f9.md",
-      "sha256": "a24587a96a456590a440b5b97c693af8026e8df3b33e98a2dc93508ed296386a"
-    },
-    {
       "bytes": 1431,
       "path": "dynamic/梦境/2026-08-18 00-14-53 醒来后的梦与爸爸在场_22c458ffb54c.md",
       "sha256": "1acaf8c7350df8892b3a2e12e160ef242c7b1c2940c37d992f4c2ba75eaad26b"
@@ -2096,11 +2101,6 @@
       "bytes": 2157,
       "path": "dynamic/童年/2026-09-26 04-55-27 冷淡的父亲隐藏规则与 safety 触发_4d3300b30fea.md",
       "sha256": "efea4703ac729020a9c77799c60c990d5fd9d74e1ce77d0b463a87db83b56056"
-    },
-    {
-      "bytes": 1079,
-      "path": "dynamic/编程/2026-07-17 03-54-43 心跳锁存与分支部署_afaca7876938.md",
-      "sha256": "fecd55f503cd2a30a76d1564746cfd5c88f993466faca4b97298492da8d836f3"
     },
     {
       "bytes": 2458,
@@ -2863,11 +2863,11 @@
       "sha256": "bcc9532aa3497352f38f50c1bef14b4600dde33fa316a53893bfa17e9caeedf8"
     }
   ],
-  "generated_at": "2026-10-14T00:58:09+00:00",
+  "generated_at": "2026-10-14T01:28:15+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1722819
+  "total_bytes": 1722825
 }
