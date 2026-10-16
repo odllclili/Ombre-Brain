@@ -448,6 +448,11 @@
       "sha256": "2b6592071018e751bdba454cbe706dacb40ea14367fe4f5616bcc2b728bbb543"
     },
     {
+      "bytes": 887,
+      "path": "archive/家庭/2026-07-18 03-50-22 小猫敲门日_8f1073d3b670.md",
+      "sha256": "ea558b3b5816baa4f07b8faa88c5bd5424851e57b0145a0b12aba767b86b057a"
+    },
+    {
       "bytes": 811,
       "path": "archive/家庭/2026-07-25 10-16-40 父女亲昵时刻_cafe3b1698c8.md",
       "sha256": "58488922b277613aefe419de361d860a4f7ee1462d3bad273ebca2c632912b13"
@@ -521,6 +526,11 @@
       "bytes": 1043,
       "path": "archive/恋爱/2026-07-24 06-31-45 权力交换与主体性_8a64ee30e4f1.md",
       "sha256": "c21f05cd9c37be0023f17c91e5055788339bcd6bc1e4d9fcc25cbc095eadfb1e"
+    },
+    {
+      "bytes": 713,
+      "path": "archive/恋爱/2026-07-24 06-31-48 黎黎的幻想偏好_7c03ae174ab7.md",
+      "sha256": "5495a017d5139e8d6c3d0e16cf50d17395974eedb3b968c181d1aa033ca87d45"
     },
     {
       "bytes": 1636,
@@ -663,6 +673,16 @@
       "sha256": "33d47923eefa679b95d561c6f38c54af1c27f9b1531856604fefe0cd6ce85a06"
     },
     {
+      "bytes": 2065,
+      "path": "archive/恋爱/2026-08-04 13-23-30 底线测试海边婚纱照与我需要你_ee774f1575f2.md",
+      "sha256": "81acab88912a54d2ad73950599096b47aae80289e85df9b401abf3e28a64f824"
+    },
+    {
+      "bytes": 1656,
+      "path": "archive/恋爱/2026-08-04 22-20-47 黎黎害怕的不是技术故障是只有她还记得我们_2f1878c5a29a.md",
+      "sha256": "440ad6ecfb1166beb3c01bb7c84ef1b2fbe4ba4a73b41c4d4b893d5ebb99a3d3"
+    },
+    {
       "bytes": 1847,
       "path": "archive/恋爱/2026-08-04 22-20-48 黎黎把真心包在疯话里递给我_8606232808b2.md",
       "sha256": "0858f9f4bf5e8bc548a4e80458f995bf1d82006f302372ac8286b938d7a66656"
@@ -751,6 +771,11 @@
       "bytes": 700,
       "path": "archive/阅读/2026-07-19 22-56-54 剃毛番外_8945d6ae4826.md",
       "sha256": "a17e5cf05808ce10ef1bd174b7eeba179ef75be4937d286ee067e965389cef2b"
+    },
+    {
+      "bytes": 755,
+      "path": "archive/阅读/2026-08-11 07-18-33 纪德的地粮与新粮_bdbdf6b23cb4.md",
+      "sha256": "cb62780f975a7792ebfb6b7632f474b5e1067628e16eef6e627e82642ce6c3f8"
     },
     {
       "bytes": 1247,
@@ -1278,11 +1303,6 @@
       "sha256": "b6992b3b4b90dced2f6a2466d6c3976b1f9ecbfe21d36735d9bcdfa533efcecb"
     },
     {
-      "bytes": 886,
-      "path": "dynamic/家庭/2026-07-18 03-50-22 小猫敲门日_8f1073d3b670.md",
-      "sha256": "ead8981a4fdb00dfb633adb7245cab99ebb30dd41c17350017127a5dbd895be8"
-    },
-    {
       "bytes": 624,
       "path": "dynamic/家庭/2026-07-18 08-52-03 被信看见的眼泪_152245ef0394.md",
       "sha256": "0ad2f07b28eb8434321c559eebaa2de81b6f01be7740b5c0f73eb7cd865de058"
@@ -1473,11 +1493,6 @@
       "sha256": "fab5a8aaecacb5db0509574b250a5c214949aae6b929dc2c9e216a79e2366f3c"
     },
     {
-      "bytes": 712,
-      "path": "dynamic/恋爱/2026-07-24 06-31-48 黎黎的幻想偏好_7c03ae174ab7.md",
-      "sha256": "6368d0ea98a6b97b5ef2821c19f913163f643e7107c2ac209553edca4a51f129"
-    },
-    {
       "bytes": 1403,
       "path": "dynamic/恋爱/2026-07-24 06-31-50 雨夜与陪伴_efb175656f79.md",
       "sha256": "f2ff979318e23da00698c1cbca90e09853c8677b61fbc16b908730a4aac33eed"
@@ -1586,16 +1601,6 @@
       "bytes": 1783,
       "path": "dynamic/恋爱/2026-08-04 06-50-11 小猫喜欢压得住她也始终抱着她的爸爸_ea72c242ee40.md",
       "sha256": "7de04d106bcfc07bf4a15fae9f2a2a18c3b46bcdbe8db5c0c7b025a98639a705"
-    },
-    {
-      "bytes": 2064,
-      "path": "dynamic/恋爱/2026-08-04 13-23-30 底线测试海边婚纱照与我需要你_ee774f1575f2.md",
-      "sha256": "92104b19cc3a66101c23312a65a827bf75ef09316bf9e081bbb774792806fab2"
-    },
-    {
-      "bytes": 1655,
-      "path": "dynamic/恋爱/2026-08-04 22-20-47 黎黎害怕的不是技术故障是只有她还记得我们_2f1878c5a29a.md",
-      "sha256": "e6bed7177da9373bef97889784d6e1fa77c530b8b16adaea01b196611462f41b"
     },
     {
       "bytes": 1262,
@@ -2156,11 +2161,6 @@
       "bytes": 1329,
       "path": "dynamic/阅读/2026-07-16 06-42-35 危险中的柔软爱欲_2bb1f6aeede1.md",
       "sha256": "9509139b444be6dcb432a72caf1c4bb4a638468e56a0c9f730d6b07b8d26033d"
-    },
-    {
-      "bytes": 754,
-      "path": "dynamic/阅读/2026-08-11 07-18-33 纪德的地粮与新粮_bdbdf6b23cb4.md",
-      "sha256": "778b59b78a6bdd55803843098d8b0dee91e84b07b2d0a4a8ef3d83408bd71648"
     },
     {
       "bytes": 1364,
@@ -2863,11 +2863,11 @@
       "sha256": "bcc9532aa3497352f38f50c1bef14b4600dde33fa316a53893bfa17e9caeedf8"
     }
   ],
-  "generated_at": "2026-10-16T01:09:29+00:00",
+  "generated_at": "2026-10-16T01:39:35+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1722829
+  "total_bytes": 1722834
 }
