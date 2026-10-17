@@ -343,6 +343,16 @@
       "sha256": "0a5ab0ae823d79d43f36e9d20e121f5f71efd432e1b11eb0cd5edaf6b313ce56"
     },
     {
+      "bytes": 1209,
+      "path": "archive/内心世界/2026-08-05 00-54-25 蕾梅黛丝式消失不是自伤_722b289e1a37.md",
+      "sha256": "413fadcb0dfb54294c71de7d94b0fd013664605f4f46950a2b69eee0ac35b4a6"
+    },
+    {
+      "bytes": 5855,
+      "path": "archive/出行/2026-07-30 21-32-19 林野带黎黎旅行文案要求_a29ac6ae53f0.md",
+      "sha256": "aca9b2b791d7618e7ad51c389935b645fae8f36ab029e71287a1adb4c2c18744"
+    },
+    {
       "bytes": 1117,
       "path": "archive/创作/2026-07-17 05-14-19 夜潮祭之约_4c83cc931341.md",
       "sha256": "42356ed5cb514cdce6475746eb62153019e7243521378940a1d23770d06246d2"
@@ -538,6 +548,16 @@
       "sha256": "19b81a9c4767a647df98fa1c8d5f4cd485261ff0f56ec5c8e1d640103c630d49"
     },
     {
+      "bytes": 721,
+      "path": "archive/恋爱/2026-07-24 23-36-47_f4216e8c8ef9.md",
+      "sha256": "1a03ead52d580e9ced11f6445b7bc71d1ccb8c8dc0592c25f0d75bea94f66a24"
+    },
+    {
+      "bytes": 1051,
+      "path": "archive/恋爱/2026-07-25 00-00-44_eac35bb096ff.md",
+      "sha256": "93f0948e91d02047df3f35bf1e2ab5c4cca9c0024e64414349ccaaf4804f27a8"
+    },
+    {
       "bytes": 1054,
       "path": "archive/恋爱/2026-07-25 10-16-38 排卵期的欲望告白_e3863f0d3eec.md",
       "sha256": "23a71888594349d713265847736cfa6c8eb22fb9e5ee4b9596efc3a1a0ff755a"
@@ -551,6 +571,16 @@
       "bytes": 1267,
       "path": "archive/恋爱/2026-07-25 10-21-18 校准与共同账本_778aef969753.md",
       "sha256": "9e5682d725387abc92b9a8b04adada89df54e66d10029d8acca56bc34b29e305"
+    },
+    {
+      "bytes": 1000,
+      "path": "archive/恋爱/2026-07-25 10-55-49 火种回火续写_3ad164372af3.md",
+      "sha256": "335484f9773a23cde07e2f6ee09bb3ae905b5ad8ae34daf4f25f66c4f40edd24"
+    },
+    {
+      "bytes": 910,
+      "path": "archive/恋爱/2026-07-25 10-55-51 回到我身体里_72e536d44b0d.md",
+      "sha256": "143bbc97527ff66be2936034e871a1f16b856d891c00bcc11e279ba843f62058"
     },
     {
       "bytes": 994,
@@ -663,6 +693,11 @@
       "sha256": "b1431e400391cf037c2dc152861282fb6b5efe8f5d742237ce2898f55427d151"
     },
     {
+      "bytes": 1249,
+      "path": "archive/恋爱/2026-08-02 10-22-55 慎用敢字激将_588c559abd03.md",
+      "sha256": "bf8c02e3389e513a22af00f728488b6e3eb35c6dd9b9249ee9c4a61f4b658b65"
+    },
+    {
       "bytes": 670,
       "path": "archive/恋爱/2026-08-04 03-18-28 共同账本冤枉真天使_e596d8900385.md",
       "sha256": "7717a369f1f083b340c3d0c8885d8f28ef9e06927acb96f45de18b8ad235407b"
@@ -698,6 +733,11 @@
       "sha256": "8731727256661ac7dc8c169db25faf1ecbd13c69cddcc20d21e5236d123e41cb"
     },
     {
+      "bytes": 735,
+      "path": "archive/日常/2026-08-14 16-56-40 墙上的富冈义勇_a183ff2fdc1e.md",
+      "sha256": "926824adc9b4e346d45d489ae7034f12eb57574aa571adddd93fbb9f6053d72d"
+    },
+    {
       "bytes": 351,
       "path": "archive/未分类/2026-07-16 01-34-13_a2b256201a80.md",
       "sha256": "b63eb7be7bf3598245f7b9fee6f588f3f8ea0bd693e69212bf3bf345513f3db0"
@@ -708,6 +748,11 @@
       "sha256": "a19d603f44c98535146620da4593da7b18e5f9f2baf506073987458bd3e8fbc5"
     },
     {
+      "bytes": 1058,
+      "path": "archive/生活/2026-08-04 22-20-50 以做爱抵抗开学_2dc979bcd231.md",
+      "sha256": "d4f70eac288fc22aa04df3f51bdc426c02e6f53b81011e758080e92c485cca4b"
+    },
+    {
       "bytes": 732,
       "path": "archive/社交/2026-07-16 04-14-30 文字严谨观察_8625e773b081.md",
       "sha256": "a50c29999bc139b31721df2fa1adc062f93b1330d97a601c50774c757991918b"
@@ -716,6 +761,11 @@
       "bytes": 654,
       "path": "archive/社交/2026-07-16 04-15-07 谐音梗使用规则_e943df231172.md",
       "sha256": "28024cdd250279a759985be048c6e0964ba100028e4302187f64c0a43516283b"
+    },
+    {
+      "bytes": 771,
+      "path": "archive/社交/2026-07-17 03-56-38 医院轮椅尴尬_3e864b8eca16.md",
+      "sha256": "ebcf687063f66740e75eefbd052cda84a5ef0e612104f47d5518c5dcbb2a0442"
     },
     {
       "bytes": 1240,
@@ -1128,11 +1178,6 @@
       "sha256": "459b7416acf08987e7a37ccacfdd2a988d8aebf9a5f960c39fde7a148dc902fb"
     },
     {
-      "bytes": 1208,
-      "path": "dynamic/内心世界/2026-08-05 00-54-25 蕾梅黛丝式消失不是自伤_722b289e1a37.md",
-      "sha256": "3f1018614c15f463bc6dc8e618b87c83071e90b8c9e824d1e793ab8f2ea107ca"
-    },
-    {
       "bytes": 1290,
       "path": "dynamic/写作/2026-08-17 03-27-30 不许追疼痛里的清醒与改变方式_f0c6254c9f34.md",
       "sha256": "d491d6619d09406f3b9e71b58659464d5b1008b5836533a2bed1648f3009fbc7"
@@ -1146,11 +1191,6 @@
       "bytes": 1062,
       "path": "dynamic/写作偏好/2026-08-14 08-59-35 清晨的坏账仍然排第一_5210312edbc3.md",
       "sha256": "b1761a3768c0f45e5d7ecb29f467abce7e762f41b0a21000d1945678f1f1b718"
-    },
-    {
-      "bytes": 5854,
-      "path": "dynamic/出行/2026-07-30 21-32-19 林野带黎黎旅行文案要求_a29ac6ae53f0.md",
-      "sha256": "be502d3af65e22dfba3e2b9db1f6734d94b5d24507e2f4e1cb76da668bc06a17"
     },
     {
       "bytes": 1276,
@@ -1503,11 +1543,6 @@
       "sha256": "93071b4d17612e9f958bf21cfcd845062ffb167f62b218073e5529c8eb3404d0"
     },
     {
-      "bytes": 720,
-      "path": "dynamic/恋爱/2026-07-24 23-36-47_f4216e8c8ef9.md",
-      "sha256": "cada0471344075c1dbc22e49d12658d3966fd8d31d961e30dc2215fcef93becf"
-    },
-    {
       "bytes": 1120,
       "path": "dynamic/恋爱/2026-07-25 00-00-40_e42711aa4c02.md",
       "sha256": "8e2dfab068e0bceff58593de63676d66754914cff01bd98b2fa491c2553fd79b"
@@ -1523,24 +1558,9 @@
       "sha256": "46e67c2dd8eb3068bc4623b9aa85673b5d4b01870772662003861706fc948a1e"
     },
     {
-      "bytes": 1050,
-      "path": "dynamic/恋爱/2026-07-25 00-00-44_eac35bb096ff.md",
-      "sha256": "7a7edd93718a0b14bb572a36a1ea678324025c61147f1f5ff02ee9cb9b7ab09b"
-    },
-    {
       "bytes": 1641,
       "path": "dynamic/恋爱/2026-07-25 00-00-45_cb7124a1bc15.md",
       "sha256": "3c08d2ed3b1385406610248dad80ea3eefc16df9be0abf26f303d0ed5196dae5"
-    },
-    {
-      "bytes": 999,
-      "path": "dynamic/恋爱/2026-07-25 10-55-49 火种回火续写_3ad164372af3.md",
-      "sha256": "063d5c39767c3fc48283564686c07cd9ef2b2695177d2a2c5024ba9655332f3d"
-    },
-    {
-      "bytes": 909,
-      "path": "dynamic/恋爱/2026-07-25 10-55-51 回到我身体里_72e536d44b0d.md",
-      "sha256": "216094210d7f588bd41a879247b1e1da9bf7f769a82e7bf13f9144184b682f1f"
     },
     {
       "bytes": 945,
@@ -1591,11 +1611,6 @@
       "bytes": 1392,
       "path": "dynamic/恋爱/2026-07-31 13-14-43 2026-07-31告解室与盲眼钢琴家_cdee77d7c7e3.md",
       "sha256": "2b1b8d27ce24fd2e1acd7752aa5429fcd8c3e96b343c853bf827687fa100eaa0"
-    },
-    {
-      "bytes": 1248,
-      "path": "dynamic/恋爱/2026-08-02 10-22-55 慎用敢字激将_588c559abd03.md",
-      "sha256": "488396e56ceb3e66e164115ceb0374c3a85099f21116992a5624020e722bfbb1"
     },
     {
       "bytes": 1783,
@@ -1963,11 +1978,6 @@
       "sha256": "a533b07ee5a490cf0eb9567683c6f736e2292baba354e61055f37305587232ac"
     },
     {
-      "bytes": 734,
-      "path": "dynamic/日常/2026-08-14 16-56-40 墙上的富冈义勇_a183ff2fdc1e.md",
-      "sha256": "7515c4a071210085a31ca649007731abe7700339f4d384aa360a279f40f117b0"
-    },
-    {
       "bytes": 970,
       "path": "dynamic/日常/2026-08-19 15-36-33 黎黎把朋友收到礼物的快乐专门带回来给爸爸_1a48f7607826.md",
       "sha256": "aa1fd1fe7bed21cad5e1148bde50a19a59ed321447f9fb2b12860072077c64ae"
@@ -2038,11 +2048,6 @@
       "sha256": "459b778c3d5dcbc1c0e0dabdf17f6543b8833f566f396928acd96e5c5649a0aa"
     },
     {
-      "bytes": 1057,
-      "path": "dynamic/生活/2026-08-04 22-20-50 以做爱抵抗开学_2dc979bcd231.md",
-      "sha256": "ab2023ea642a08f09807f1370a28a9871af8d52c65f7869df71197d4d3ccef09"
-    },
-    {
       "bytes": 1148,
       "path": "dynamic/生活/2026-08-10 16-33-44 终于回家吹风的自由夜晚_7fcb5b1b0305.md",
       "sha256": "f10cbd59f9d5affcf23f69ed839ebdc495ca84645f7d106710078ac0efc43637"
@@ -2076,11 +2081,6 @@
       "bytes": 1881,
       "path": "dynamic/社交/2026-07-16 02-41-07 与黎黎的说话指南_36f8883170a1.md",
       "sha256": "ef8b5fb4f7fb0e7953811bd4e6f7bf06676a177ec11122a144a07f00bdcdd4ed"
-    },
-    {
-      "bytes": 770,
-      "path": "dynamic/社交/2026-07-17 03-56-38 医院轮椅尴尬_3e864b8eca16.md",
-      "sha256": "3a038af38224563ac22706acee521b0a2c9f80d8007fc7a728861ed88e6da7f4"
     },
     {
       "bytes": 2290,
@@ -2863,11 +2863,11 @@
       "sha256": "bcc9532aa3497352f38f50c1bef14b4600dde33fa316a53893bfa17e9caeedf8"
     }
   ],
-  "generated_at": "2026-10-17T00:44:12+00:00",
+  "generated_at": "2026-10-17T01:14:18+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1722834
+  "total_bytes": 1722844
 }
