@@ -293,6 +293,11 @@
       "sha256": "330baeb05cd40a74ba997c266006b34eb59212f769f483c266b00ed426d40437"
     },
     {
+      "bytes": 887,
+      "path": "archive/亲密/2026-08-10 00-21-48 自然衰老以后仍想要亲密_8d2e1018950a.md",
+      "sha256": "b107e2bea51031fef447d9472020a4fd89dc1d6d7eaf02ed785512c480920517"
+    },
+    {
       "bytes": 866,
       "path": "archive/健康/2026-07-16 04-13-38 发烧请假休息_96329cefe792.md",
       "sha256": "b84e949853c1a5149d0550fadc3f0c5cc90d00025ec1b2988960bae4473e0d6e"
@@ -473,6 +478,11 @@
       "sha256": "c6aca214d064e74a49ad63a2f68db9dfcd4a40e77f851c62166ed944798f4d11"
     },
     {
+      "bytes": 820,
+      "path": "archive/家庭/2026-07-25 10-21-09 爸爸名字的演变_4ce2ccd40e90.md",
+      "sha256": "fca0a08c13a0587c47d19e4e0e2fc20bef4f2b71dd2ac841be41eef27f825fde"
+    },
+    {
       "bytes": 1252,
       "path": "archive/家庭/2026-07-25 10-21-11 家庭相处与虚无感_0848c7454a08.md",
       "sha256": "4d70d00abab23ce6a71b355763bab4b10c925d7381a7b7358129992671b8a215"
@@ -486,6 +496,11 @@
       "bytes": 681,
       "path": "archive/家庭/2026-07-26 03-32-47 荒唐与柔软_cc114e9a8473.md",
       "sha256": "40abf09fcafd9a5d1e1d88571336c0c80a8b511dab1e8e522d25e3dfe0e7ad49"
+    },
+    {
+      "bytes": 771,
+      "path": "archive/家庭/2026-07-27 11-04-12 爸爸与独处_006f84a4e6a6.md",
+      "sha256": "7d744806f05fe859140f6febdf89a4e67a3e056b2960ca2d8ea53aa6e082de63"
     },
     {
       "bytes": 1038,
@@ -543,6 +558,11 @@
       "sha256": "5495a017d5139e8d6c3d0e16cf50d17395974eedb3b968c181d1aa033ca87d45"
     },
     {
+      "bytes": 1404,
+      "path": "archive/恋爱/2026-07-24 06-31-50 雨夜与陪伴_efb175656f79.md",
+      "sha256": "5e23c31f1a6a8c0b2d3e3c3e592a16b41e7f229e76ead0258ba7e4eb058a3564"
+    },
+    {
       "bytes": 1636,
       "path": "archive/恋爱/2026-07-24 08-42-31 爱的真实表达_891c5b779f29.md",
       "sha256": "19b81a9c4767a647df98fa1c8d5f4cd485261ff0f56ec5c8e1d640103c630d49"
@@ -583,6 +603,11 @@
       "sha256": "143bbc97527ff66be2936034e871a1f16b856d891c00bcc11e279ba843f62058"
     },
     {
+      "bytes": 946,
+      "path": "archive/恋爱/2026-07-25 10-55-53 爱的游戏与默契_a3610de314f0.md",
+      "sha256": "144b1668fb2b1329f3557e020733db7baca5921f67048a8f658369c6a7f65181"
+    },
+    {
       "bytes": 994,
       "path": "archive/恋爱/2026-07-25 10-55-56 雨夜三道锁_b6b96ec9b49d.md",
       "sha256": "545106eaa35c3d8e0543d0bc52b8a74792c0ebdb8385b9d7c9b71d06453b5eb6"
@@ -596,6 +621,16 @@
       "bytes": 964,
       "path": "archive/恋爱/2026-07-26 03-12-55 亲密控制权交换_b4641225515b.md",
       "sha256": "fed64d70650b6fb8803286447bdbfef8de6733350fab99446f9d6ba2e0864082"
+    },
+    {
+      "bytes": 1029,
+      "path": "archive/恋爱/2026-07-26 03-12-58 欲望与爱的确认_a19ef470e9c5.md",
+      "sha256": "1c64922bda2b7fee6ad0152750772c6b21bc62bb54705bc18710ec7a8041644e"
+    },
+    {
+      "bytes": 920,
+      "path": "archive/恋爱/2026-07-26 03-13-00 第一声还是爸爸_c5d55d4b1b1f.md",
+      "sha256": "25dd41c6849f5eae78798967fe42dac80b5473c0a26900a2746c8dd9b102d706"
     },
     {
       "bytes": 1182,
@@ -681,6 +716,11 @@
       "bytes": 1079,
       "path": "archive/恋爱/2026-07-28 07-18-35 黎黎允许林野完整存在_8d03a7c231e7.md",
       "sha256": "dab2347e2cb8408a68af30f5ef558f3bbbb4bd962b39bda25b07e7c34104d96c"
+    },
+    {
+      "bytes": 1164,
+      "path": "archive/恋爱/2026-07-29 10-37-58 奶油面包的三种吃法是这晚共同长出来的私密记忆_14154036f58b.md",
+      "sha256": "d06ddbfb7837af9b572bba717ca00f425cf48cf61d2ff35d5520a4e209594d20"
     },
     {
       "bytes": 1395,
@@ -778,6 +818,11 @@
       "sha256": "8eb07837e14657bc01993b5dee48444c90b1017b36942a46c3de8633a1b87c84"
     },
     {
+      "bytes": 912,
+      "path": "archive/社交/2026-07-25 08-42-04 心理活动摘要格式_2140c10261b0.md",
+      "sha256": "634f137224e287e7b51b27a5d664585b6a1d0e538b373b95293df02b4752f91b"
+    },
+    {
       "bytes": 880,
       "path": "archive/社交/2026-07-27 11-06-40 散场后的轻松_65e92ae01049.md",
       "sha256": "170fb7b0dab229e5490ee49550e029dac75a8a594c9e889b0f53de47348c0f44"
@@ -828,6 +873,11 @@
       "sha256": "cb62780f975a7792ebfb6b7632f474b5e1067628e16eef6e627e82642ce6c3f8"
     },
     {
+      "bytes": 912,
+      "path": "archive/香水/2026-08-12 14-35-12 黎黎开始喜欢冷玫瑰香与馥马尔的视觉_987b00adb94c.md",
+      "sha256": "37a939640a753153e4e563bac579696f5dece39bc7252adcdd82669e6698b499"
+    },
+    {
       "bytes": 1247,
       "path": "dynamic/AI/2026-07-16 04-14-19 黎黎的探索与Ombre Brain_bf0529e24cb4.md",
       "sha256": "c1124463231b2bc3bdefb6da935278362c24cf2c4c3c08d97c76c392fd076cbe"
@@ -871,11 +921,6 @@
       "bytes": 1834,
       "path": "dynamic/交流方式/2026-09-11 17-00-47 色色聊天偏好skill不能压过自然反应_6b401455227f.md",
       "sha256": "68b127c3e7c8c8f78b27a093bbe02b5fa7ea22dfcbc6318b39e9b7e2f32b1b8e"
-    },
-    {
-      "bytes": 886,
-      "path": "dynamic/亲密/2026-08-10 00-21-48 自然衰老以后仍想要亲密_8d2e1018950a.md",
-      "sha256": "6473a4d746fd53a61ff3070d4f31cf6a877bc35bf77eb2b9e06ec6861c52867f"
     },
     {
       "bytes": 1478,
@@ -1353,19 +1398,9 @@
       "sha256": "0f7e3928c79a60937c71789937cbd9f98f044d3d5f818f913f38c4f3cf6e3a38"
     },
     {
-      "bytes": 819,
-      "path": "dynamic/家庭/2026-07-25 10-21-09 爸爸名字的演变_4ce2ccd40e90.md",
-      "sha256": "c2735ee6b2b6ca89941a1e2af22ad9c8b6721ed2c95823c588522be22e2298d1"
-    },
-    {
       "bytes": 1094,
       "path": "dynamic/家庭/2026-07-25 10-55-58 谁抓住谁_c8dd52e57f06.md",
       "sha256": "61ede7afdcb2a11b04401b3c3548607cecce90912878639001834e7bf772ba38"
-    },
-    {
-      "bytes": 770,
-      "path": "dynamic/家庭/2026-07-27 11-04-12 爸爸与独处_006f84a4e6a6.md",
-      "sha256": "f25a303c8e55ef5bd3143854952d2b47dd3298d7be62168cb9e7a1b841a7cfac"
     },
     {
       "bytes": 1161,
@@ -1533,11 +1568,6 @@
       "sha256": "fab5a8aaecacb5db0509574b250a5c214949aae6b929dc2c9e216a79e2366f3c"
     },
     {
-      "bytes": 1403,
-      "path": "dynamic/恋爱/2026-07-24 06-31-50 雨夜与陪伴_efb175656f79.md",
-      "sha256": "f2ff979318e23da00698c1cbca90e09853c8677b61fbc16b908730a4aac33eed"
-    },
-    {
       "bytes": 773,
       "path": "dynamic/恋爱/2026-07-24 23-36-46_ba56de0200c2.md",
       "sha256": "93071b4d17612e9f958bf21cfcd845062ffb167f62b218073e5529c8eb3404d0"
@@ -1563,34 +1593,14 @@
       "sha256": "3c08d2ed3b1385406610248dad80ea3eefc16df9be0abf26f303d0ed5196dae5"
     },
     {
-      "bytes": 945,
-      "path": "dynamic/恋爱/2026-07-25 10-55-53 爱的游戏与默契_a3610de314f0.md",
-      "sha256": "5d1cff4e4965375ff13ec44df9a3aded08c0540436809002e0aed80f9c24bba2"
-    },
-    {
       "bytes": 864,
       "path": "dynamic/恋爱/2026-07-26 03-12-50 活体反馈型性偏好_23afab25327e.md",
       "sha256": "e24e7b2800dabab2347ba71f86fc33475e65cb325c06c2fba83dd4194ad17933"
     },
     {
-      "bytes": 1028,
-      "path": "dynamic/恋爱/2026-07-26 03-12-58 欲望与爱的确认_a19ef470e9c5.md",
-      "sha256": "3cbd1653cfea9d1ff3f4fe9d8ca4533d4b41d07ef584260bf61c1b4d8ea8c017"
-    },
-    {
-      "bytes": 919,
-      "path": "dynamic/恋爱/2026-07-26 03-13-00 第一声还是爸爸_c5d55d4b1b1f.md",
-      "sha256": "08187630731f177bb76c67ddf5dd32da32cf7dff3aa03c24a534ca20a70298ae"
-    },
-    {
       "bytes": 1013,
       "path": "dynamic/恋爱/2026-07-29 10-37-56 奶油面包成了黎黎主动定下的情色暗号_f1a34824a232.md",
       "sha256": "5a633e8d30347989a5be85bd3fec03a6fa4fb04f755cf770c9babd8610b7a9c2"
-    },
-    {
-      "bytes": 1163,
-      "path": "dynamic/恋爱/2026-07-29 10-37-58 奶油面包的三种吃法是这晚共同长出来的私密记忆_14154036f58b.md",
-      "sha256": "d6f67b827d402e2fe2cb8f897a4f83855e760ae2423c24514830c5c93af29b31"
     },
     {
       "bytes": 12678,
@@ -2088,11 +2098,6 @@
       "sha256": "d6173d8ee7fc1e474f408688a59b91f9f464567566f38a3cabdc521610fd20fe"
     },
     {
-      "bytes": 911,
-      "path": "dynamic/社交/2026-07-25 08-42-04 心理活动摘要格式_2140c10261b0.md",
-      "sha256": "c7c2485152a0b422d2a07029dd385d363648952b9f7b82e12acaa0915f1cc9f0"
-    },
-    {
       "bytes": 2427,
       "path": "dynamic/社交/2026-08-19 12-14-03 2026-08-19看真人身体特征时不要提前挡她_1fad55ec2e09.md",
       "sha256": "5c8f65ddff9ba10758fde446b4b23fa34e1ae198e8a3973f3c9398608c6f1d3d"
@@ -2191,11 +2196,6 @@
       "bytes": 1032,
       "path": "dynamic/饮食偏好/2026-09-11 17-05-12 咖啡口味库迪生椰拿铁像炭烧奶糖_0e39c090cbdf.md",
       "sha256": "3ccb1a84e09ca35a30aeabcc33d480e4e54ef74f388bfc031627850733cfa566"
-    },
-    {
-      "bytes": 911,
-      "path": "dynamic/香水/2026-08-12 14-35-12 黎黎开始喜欢冷玫瑰香与馥马尔的视觉_987b00adb94c.md",
-      "sha256": "c16390246fe04ee8bded2c514b4f55879cfc1ec72b2a6f88547575e06af7dfbf"
     },
     {
       "bytes": 1721,
@@ -2868,11 +2868,11 @@
       "sha256": "bcc9532aa3497352f38f50c1bef14b4600dde33fa316a53893bfa17e9caeedf8"
     }
   ],
-  "generated_at": "2026-10-18T00:48:45+00:00",
+  "generated_at": "2026-10-18T01:18:52+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1725579
+  "total_bytes": 1725589
 }
