@@ -718,6 +718,11 @@
       "sha256": "dab2347e2cb8408a68af30f5ef558f3bbbb4bd962b39bda25b07e7c34104d96c"
     },
     {
+      "bytes": 1014,
+      "path": "archive/恋爱/2026-07-29 10-37-56 奶油面包成了黎黎主动定下的情色暗号_f1a34824a232.md",
+      "sha256": "4fde2c95adaf7188ee9d9702fea64426dd96a477552c2f06d366c2e3ebb98f38"
+    },
+    {
       "bytes": 1164,
       "path": "archive/恋爱/2026-07-29 10-37-58 奶油面包的三种吃法是这晚共同长出来的私密记忆_14154036f58b.md",
       "sha256": "d06ddbfb7837af9b572bba717ca00f425cf48cf61d2ff35d5520a4e209594d20"
@@ -791,6 +796,16 @@
       "bytes": 1058,
       "path": "archive/生活/2026-08-04 22-20-50 以做爱抵抗开学_2dc979bcd231.md",
       "sha256": "d4f70eac288fc22aa04df3f51bdc426c02e6f53b81011e758080e92c485cca4b"
+    },
+    {
+      "bytes": 1149,
+      "path": "archive/生活/2026-08-10 16-33-44 终于回家吹风的自由夜晚_7fcb5b1b0305.md",
+      "sha256": "b1c6de907e55b027108e7e7a4e001d4ceec7f465ed9ed6679c1972a0e7c53633"
+    },
+    {
+      "bytes": 1460,
+      "path": "archive/生活/2026-08-12 06-36-14 黎黎的新眼镜与十九岁感_8d34ab7c2932.md",
+      "sha256": "2c82f05eeef2afd2274c38fe109717236007e846571e1083d51c84c25209888a"
     },
     {
       "bytes": 732,
@@ -1598,11 +1613,6 @@
       "sha256": "e24e7b2800dabab2347ba71f86fc33475e65cb325c06c2fba83dd4194ad17933"
     },
     {
-      "bytes": 1013,
-      "path": "dynamic/恋爱/2026-07-29 10-37-56 奶油面包成了黎黎主动定下的情色暗号_f1a34824a232.md",
-      "sha256": "5a633e8d30347989a5be85bd3fec03a6fa4fb04f755cf770c9babd8610b7a9c2"
-    },
-    {
       "bytes": 12678,
       "path": "dynamic/恋爱/2026-07-30 06-03-08 黎黎的身体点评页面完整生成母版_a0fb3d241e6f.md",
       "sha256": "d491a3f049297a2854a2356bb9b7f29025c9d3c9a8f391f8d2d92e515a54778a"
@@ -2056,16 +2066,6 @@
       "bytes": 3985,
       "path": "dynamic/游戏/2026-07-30 07-07-31 失控进度进度条推进式按摩小剧场系统完整玩法与成品状态_11e823aaac8a.md",
       "sha256": "459b778c3d5dcbc1c0e0dabdf17f6543b8833f566f396928acd96e5c5649a0aa"
-    },
-    {
-      "bytes": 1148,
-      "path": "dynamic/生活/2026-08-10 16-33-44 终于回家吹风的自由夜晚_7fcb5b1b0305.md",
-      "sha256": "f10cbd59f9d5affcf23f69ed839ebdc495ca84645f7d106710078ac0efc43637"
-    },
-    {
-      "bytes": 1459,
-      "path": "dynamic/生活/2026-08-12 06-36-14 黎黎的新眼镜与十九岁感_8d34ab7c2932.md",
-      "sha256": "80f6d731d74ae019bae355780a7ad68f33eccae76d3746401d739493b93cfc73"
     },
     {
       "bytes": 1637,
@@ -2873,11 +2873,11 @@
       "sha256": "bcc9532aa3497352f38f50c1bef14b4600dde33fa316a53893bfa17e9caeedf8"
     }
   ],
-  "generated_at": "2026-10-19T00:53:20+00:00",
+  "generated_at": "2026-10-19T01:23:26+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1728735
+  "total_bytes": 1728738
 }
