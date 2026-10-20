@@ -418,6 +418,11 @@
       "sha256": "c8fe3c07422119cf93f791462548b34260ba4ebd6db42e8ff5e32a9373234a88"
     },
     {
+      "bytes": 7717,
+      "path": "archive/创作/2026-07-30 05-41-45 机密监控档案完整提示词与黑红 HTML 母版_7ebe6a6597d2.md",
+      "sha256": "c68b5c17446ec41b42c14a84f547cda11fcda0e9c738da7458e6ef1b4c47762f"
+    },
+    {
       "bytes": 2521,
       "path": "archive/创作/2026-08-20 00-11-55 待写长篇从陌生到藏着依恋的炮友_dbe41f8f8793.md",
       "sha256": "4a4ebb11b05c2c4a3ffc11c59dbbc04eef51eb5720f30b5a4897a6780f011eab"
@@ -1261,11 +1266,6 @@
       "bytes": 18932,
       "path": "dynamic/创作/2026-07-30 04-46-20 内裤抽屉提示词来源结构与唤起句_aa82c0b39016.md",
       "sha256": "f2bf848cf7413fbd9154fbfc1adbe3126ad55472c254db8e104d0da35ab1bc4d"
-    },
-    {
-      "bytes": 7716,
-      "path": "dynamic/创作/2026-07-30 05-41-45 机密监控档案完整提示词与黑红 HTML 母版_7ebe6a6597d2.md",
-      "sha256": "40223fe42057542483de0885129ae938d1ee90536abe27be38abc25aeaf3b007"
     },
     {
       "bytes": 6177,
@@ -2888,11 +2888,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-10-20T00:58:04+00:00",
+  "generated_at": "2026-10-20T01:28:10+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1744678
+  "total_bytes": 1744679
 }
