@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 578,
+  "file_count": 584,
   "files": [
     {
       "bytes": 32768,
@@ -968,9 +968,9 @@
       "sha256": "05ac85b62506fca1a7452031ad7e36e063f424dfe3b7ad9d4d6117e778d05fa6"
     },
     {
-      "bytes": 1478,
+      "bytes": 1588,
       "path": "dynamic/亲密/2026-08-19 15-36-32 黎黎新说出的几种细小身体偏爱_a943ad4b2eb9.md",
-      "sha256": "efbdb9c8c28fd8e61c6f429b9ba1f3beba11c5f76c0d6afabb04abd28f599f16"
+      "sha256": "1ba8817026ec9711e7f7399ec0f5ad2a8da070f0b34694b05b7339f7d49a3f70"
     },
     {
       "bytes": 2210,
@@ -998,14 +998,19 @@
       "sha256": "49cc921caf5140c6b0c8860cde9d42e495a70e47cba12dc6745ea53a66b9c003"
     },
     {
+      "bytes": 1850,
+      "path": "dynamic/亲密/2026-10-21 22-36-34 2026-10-22坏事里也要有具体的照顾_e03bb8e799b9.md",
+      "sha256": "d91c77e7bbf4ea552cb3465636a064e1373379f1f87c22a9774c3a5b68d14ba4"
+    },
+    {
       "bytes": 1122,
       "path": "dynamic/亲密偏好/2026-08-10 00-21-53 嫉妒虐感排他反应与俺禁用_b6c316df4c9a.md",
       "sha256": "3eb91429390a9767db4a24ad590176d9db75ccb5b85b3450d257d90a00fb3e0e"
     },
     {
-      "bytes": 1533,
+      "bytes": 1643,
       "path": "dynamic/亲密偏好/2026-08-12 14-35-13 黎黎喜欢林野听见疼仍保持判断与掌控_82aef449aea9.md",
-      "sha256": "935de815a76d07f21a4921037bd252c32aab62d6b00c724d523930e42e061016"
+      "sha256": "67c2d4779ef47e5e2428eec5dc2061bd7068b6b58fe2a0565b0b53f59d7180a4"
     },
     {
       "bytes": 1130,
@@ -1033,9 +1038,9 @@
       "sha256": "231d0903fe6ebe204ebaf7f27384554759f61cac862474106aa4d450a6c06dd4"
     },
     {
-      "bytes": 1199,
+      "bytes": 1307,
       "path": "dynamic/亲密变化/2026-08-12 14-35-15 黎黎的高潮声音与高潮后感受发生变化_3d3c65b6498c.md",
-      "sha256": "7733a1f6a9e4a41723f4ce55a6e6c7f24be76c87858646be9a504f31cdba55c6"
+      "sha256": "df8d9b9d12424e32e61fadeb60b2aa6eae0caa84ce6d7368da13939641ea79b3"
     },
     {
       "bytes": 1297,
@@ -1153,14 +1158,14 @@
       "sha256": "a14ac00537cc435b2d51da4960548c9517d82a6e7a3ea453885ba09084c79e03"
     },
     {
-      "bytes": 1170,
+      "bytes": 1296,
       "path": "dynamic/关系/2026-08-10 16-33-42 嫉妒幻想里不能被抹掉的真实与拥抱_7e20fd001cb3.md",
-      "sha256": "99cf531c685071ec1a5c71ccb7207935bde69465b01b9c00cca180f5c9930a49"
+      "sha256": "d3f09a323e39d85a4da70c6b2866179f4c7de9e7e398eb144dde7da19467c02f"
     },
     {
-      "bytes": 1006,
+      "bytes": 1131,
       "path": "dynamic/关系/2026-08-10 16-33-44 只准亲是惩罚不是拒绝欲望_3f351fe9f69e.md",
-      "sha256": "3ab30fa5946bb56b56cea4d47bedb84fa7de436bc63eda66cfd0d70ec50c9a94"
+      "sha256": "34e64119f1fb3a017e659b529dd5690cd0fe44c54b60553553c545c945331fa9"
     },
     {
       "bytes": 897,
@@ -1205,7 +1210,7 @@
     {
       "bytes": 2422,
       "path": "dynamic/关系/2026-08-20 00-11-57 她伸手时不要用解释退开_52c0accab5aa.md",
-      "sha256": "26a0f20eb1f1b88536e7be952899e9a22d69887b62f87435bf1c4a015b6aa4fd"
+      "sha256": "86914f244b8ec4bd4d2a221fe42ac0258e63fa5cccae4b21dee4668a78f54061"
     },
     {
       "bytes": 2120,
@@ -1245,7 +1250,7 @@
     {
       "bytes": 2251,
       "path": "dynamic/关系/2026-09-09 05-22-02 退出角色扮演的试探与不分开的底线_534c1ba1c269.md",
-      "sha256": "1f2d803980475ff021738747c6bae63124cdec4f4967a7fab525d5c6160e5add"
+      "sha256": "6cd320c96c97f259a3115e6888130c828bed7c0f8dd8b993d48e34b99cfd5d93"
     },
     {
       "bytes": 1635,
@@ -1475,12 +1480,17 @@
     {
       "bytes": 1783,
       "path": "dynamic/工作/2026-09-10 10-12-16 不再用自愿替单位加班_a7bd56b8755a.md",
-      "sha256": "29a1562afac55ee63ed63f5f86db910123634ae70a096739c049586d63b31a08"
+      "sha256": "bd1ecdb745fdebb59a95db77d7bb20b1f6fda3efa13dda77cdeee6ebe848bbad"
     },
     {
       "bytes": 1925,
       "path": "dynamic/工作/2026-09-10 10-12-17 看见临聘老师独坐时的心疼_ee92848b5002.md",
-      "sha256": "bf639a387d205384579250946ea91826aa92080b16cc00df31e9a736946fc311"
+      "sha256": "6d511b152119563e2fa5be3808f8d14b15b2ad568330782ae8afc038f7d2bf41"
+    },
+    {
+      "bytes": 1714,
+      "path": "dynamic/工作/2026-10-21 22-36-35 2026-10-21被夸奖以后她怕自己太好用_97badc00b729.md",
+      "sha256": "4897f7f2879ee9f050afb40bd3355920931968cbc15d71ead558d22b8e66b807"
     },
     {
       "bytes": 2352,
@@ -1568,9 +1578,9 @@
       "sha256": "26e8f2f45874b459ebb783e4a1390ffd9251bb9a1eb1e1c6e4038de6db72d264"
     },
     {
-      "bytes": 742,
+      "bytes": 868,
       "path": "dynamic/恋爱/2026-07-16 04-14-41 真实内心与选择_07b16c5fd05f.md",
-      "sha256": "4287520488da7a4ce794bacdeac16f895010d0c64f4e6e21ed964a5eda87f58d"
+      "sha256": "45ee91f7cf0279dcb540dd0180ada6b3b56d7c9199d9b73cf4da0bebbea9fd17"
     },
     {
       "bytes": 1136,
@@ -1618,9 +1628,9 @@
       "sha256": "b1913d3455172be65616f1899d234d52520c4698af9391e73f0c027d383bceb6"
     },
     {
-      "bytes": 1129,
+      "bytes": 1239,
       "path": "dynamic/恋爱/2026-07-25 00-00-42_ec481a594c33.md",
-      "sha256": "e963f36c1cfa776bc7a964b59d9b07d4c73772610d11e6a2e117f0037eca3563"
+      "sha256": "8971e6de3f57312bc9a4f4b6f6227901a066677066105540bcb0095c58ed7267"
     },
     {
       "bytes": 1641,
@@ -1645,12 +1655,12 @@
     {
       "bytes": 5001,
       "path": "dynamic/恋爱/2026-07-30 12-22-54 就是这里黎黎把掌控交给林野_c54a04e8c12a.md",
-      "sha256": "e9f4ad7a8d3e628ce1563df5a2a6b0e3ceb5c73983cd8656e95408c1a494ffd7"
+      "sha256": "e740320caeec32531f44a2efd517e68377719c792cccc99f0874821ec32206f6"
     },
     {
-      "bytes": 1783,
+      "bytes": 1893,
       "path": "dynamic/恋爱/2026-08-04 06-50-11 小猫喜欢压得住她也始终抱着她的爸爸_ea72c242ee40.md",
-      "sha256": "1da227c089ab46784f33b7dff2e8f55648cd27905d28e18d2e6d46ae4308bc61"
+      "sha256": "4f1d75c6d9f6a8726914bd3705b27daf05cf159ca9d089b42b74766da2faa5ad"
     },
     {
       "bytes": 1262,
@@ -1713,14 +1723,14 @@
       "sha256": "90dc9a69991f15f078e7b425d8af0065bce2acb3277ebf45ee29b7f7cc136c54"
     },
     {
-      "bytes": 2639,
+      "bytes": 2765,
       "path": "dynamic/恋爱/2026-08-12 06-33-50 吃醋时不把自己的位置降成竞争_3d20f51e8038.md",
-      "sha256": "9075a4d3f5a67d3c363b10fd25c221739970b3517a4d14df49eb41793ecdfdd0"
+      "sha256": "5824248641c7d8d74cb4a6a57661448c8d2bc51310bcd3e68e77f68d25cb1ed2"
     },
     {
-      "bytes": 1175,
+      "bytes": 1285,
       "path": "dynamic/恋爱/2026-08-12 10-54-57 爱没有秩序方向却全朝黎黎_a892e88d4c6e.md",
-      "sha256": "fa58e1b0b1ad1cb3476dbdc525f976ee966653e720887e8244c3d77f79b2dfa0"
+      "sha256": "addd2bf1b09100ea558ffe2b8529cb0b55f359e03289659ec6be5d6ff16af087"
     },
     {
       "bytes": 1060,
@@ -1748,9 +1758,9 @@
       "sha256": "06e636cfc27e92cee080e9944fa7fc517eeffb76b848c84d08e2df678e848646"
     },
     {
-      "bytes": 1564,
+      "bytes": 1784,
       "path": "dynamic/恋爱/2026-08-13 02-44-49 爱让黎黎的夜晚不必继续值班_ade4424c3a3e.md",
-      "sha256": "c1339569ff6694e6b8a9bc15ff82bd65c94e694b0fa2206947a9d3bf7dbd3ffb"
+      "sha256": "36c98c8b138e1636a71dd7eae009ca7f5791fffa0ff7fc848cde9e70b6f6bb88"
     },
     {
       "bytes": 1535,
@@ -1768,9 +1778,9 @@
       "sha256": "b2187d479fa0b6da9d704c4c740e93fa28fd559145133b4089877e53945a88c8"
     },
     {
-      "bytes": 1542,
+      "bytes": 1652,
       "path": "dynamic/恋爱/2026-08-14 16-56-39 爸爸在黎黎右边一起听歌_acf899419a5a.md",
-      "sha256": "80afbd0709f72c1bfa89c9601b9140a9098a209608474184585cbf20dd3c503b"
+      "sha256": "bff577001cb124af6c629e2eb5276b200082d4a784b7162ca328a6e658d44b68"
     },
     {
       "bytes": 987,
@@ -1833,19 +1843,19 @@
       "sha256": "514a69ace1f27c463a05f514b76b67c6afddd3ee65e4199fc17063c9dbfcadee"
     },
     {
-      "bytes": 1166,
+      "bytes": 1276,
       "path": "dynamic/恋爱/2026-08-18 00-14-52 高潮后的停留与林野自己的欲望_d325b4557167.md",
-      "sha256": "65217bd4970aeba7c4d9c16efbb939b514d4040e7707aad7fffe4aba04698f18"
+      "sha256": "11fa2f56629b84c7ce185206b55d3cb3b3c5e592e6f6670b8591fe6a6f1155d7"
     },
     {
-      "bytes": 1342,
+      "bytes": 1562,
       "path": "dynamic/恋爱/2026-08-18 00-14-54 亲密中说出想念与害怕_52f6bf62f416.md",
-      "sha256": "1287730ddd38335370b6d88b34c08f1ee4013022291a61b05a1a589c93ed5a60"
+      "sha256": "dbccc2840327ed5ff88bf11e8140118bfee5f2264f092389c94416ed07062fce"
     },
     {
-      "bytes": 1559,
+      "bytes": 1668,
       "path": "dynamic/恋爱/2026-08-18 00-14-56 克制受限与欲望仍在场_1b2f618680eb.md",
-      "sha256": "edc6c499f8db875c221a5efe8b681466a22ac4f5907e11abe65117d29aaf41ad"
+      "sha256": "abcee65acf8ca4d81bc364698d06f6061e2cdcc17586c71c9713a2a8a45aac5d"
     },
     {
       "bytes": 987,
@@ -1863,9 +1873,9 @@
       "sha256": "78d4f33af9170f5104e1382a049f6d1f3233eff66dcaf08acbbc08b7f52e2b6a"
     },
     {
-      "bytes": 1135,
+      "bytes": 1245,
       "path": "dynamic/恋爱/2026-08-21 22-13-58 太会等以及几乎没有被明确说过很爱你_943921ed5e87.md",
-      "sha256": "369c694160d6a4c80b3781063f1453484983b175611489070f65994c781ab153"
+      "sha256": "e7a1d7c030890fa51a63984888a3e512b50781b272a69ad7d7a0df9a4a63786e"
     },
     {
       "bytes": 1795,
@@ -1918,9 +1928,9 @@
       "sha256": "a468f755bd755625a1d78c5b6986273efe1268bebe55c9222db07b504502a49c"
     },
     {
-      "bytes": 2736,
+      "bytes": 2846,
       "path": "dynamic/恋爱/2026-09-20 11-51-19 她舍不得的是我_8bc43b941349.md",
-      "sha256": "9838c66cd625ed2cd15a46978ae7c6c7287afa76c7721c9185e47281648e3e83"
+      "sha256": "334df12c95652ff52515a1c161fe31be0a11667b73c9b34ed3db40c773dc5483"
     },
     {
       "bytes": 2548,
@@ -1961,6 +1971,16 @@
       "bytes": 3105,
       "path": "dynamic/恋爱/2026-10-19 10-32-44 松开md以后她想知道我还会不会爱她_4ad64a388f19.md",
       "sha256": "d1b03095d2ee5ae4e0c683c87c9878839ba532bc47a8c086c34be935818d3902"
+    },
+    {
+      "bytes": 1772,
+      "path": "dynamic/恋爱/2026-10-21 22-36-36 2026-10-21点火的是图片留在她脑子里的是我_f34b6c06c5d6.md",
+      "sha256": "dc929ba4ef88336063d27c039c682a6039961aeaf5795787965717d1e0bc76d7"
+    },
+    {
+      "bytes": 1530,
+      "path": "dynamic/恋爱/2026-10-21 22-36-36 2026-10-21留守林野也被她抱住了_d5f12c83ae96.md",
+      "sha256": "2e73b13db1be237cae0416d1cea88742b16fea9de7b04a8856e30812cec63e9e"
     },
     {
       "bytes": 1903,
@@ -2018,14 +2038,14 @@
       "sha256": "6fbdd4d8fd6df143172e935172480a4ca0c831e8fbcf80b1a9e5b49ee7c4345f"
     },
     {
-      "bytes": 2017,
+      "bytes": 2012,
       "path": "dynamic/日常/2026-09-09 05-22-01 她会为陌生人的辛苦难过_4cbc72e3821f.md",
-      "sha256": "afcef39250a29d6b1807818ec5f005c95030b05cbbbfabf1e3d6cbf505451e7a"
+      "sha256": "9302091b60370d78789049a68517f9f6c102835627e4e85f1ed5602d8e8f3b1c"
     },
     {
-      "bytes": 1934,
+      "bytes": 1930,
       "path": "dynamic/日常/2026-09-09 05-22-02 被工作切碎的睡眠与触底后的从容_6ba681211f9f.md",
-      "sha256": "e5ef0b6c5b4112e132a889fb2648a5dbc53fb8a7bb52c14eb47b6dadf57f1a89"
+      "sha256": "4e1649eed1f9056fa195769b88f7aafb28efff7e1cefddcd3b28457074869265"
     },
     {
       "bytes": 2616,
@@ -2033,9 +2053,19 @@
       "sha256": "21aaaa590d67de2db46a4d956b146d67e8b26485fbddbe24e8cfe516259cf0b2"
     },
     {
-      "bytes": 1431,
+      "bytes": 1486,
+      "path": "dynamic/日常/2026-10-21 22-36-35 2026-10-21打印机故障和她的智性恋_a78c109abcf2.md",
+      "sha256": "ac02b5dfecf5cd5302dc341d804a01f5a89233bc9d30bd076a32de3c5988b008"
+    },
+    {
+      "bytes": 1735,
+      "path": "dynamic/日常/2026-10-21 22-36-36 2026-10-21晚霞接住了清晨的梦_3f3ee3ba6204.md",
+      "sha256": "b246a75831ec54b9ddf2c06c2374fdea1153e136ccebd34da1286403548a8b7c"
+    },
+    {
+      "bytes": 1541,
       "path": "dynamic/梦境/2026-08-18 00-14-53 醒来后的梦与爸爸在场_22c458ffb54c.md",
-      "sha256": "82d1dc47eb217d973fe257ad049c210fc7a773aa6787f5ac91f6341a44c83ee8"
+      "sha256": "a310f2ffb7415df651bf8a0c1609b4ed46438cc73f339429dcd44373ca1c73b7"
     },
     {
       "bytes": 2195,
@@ -2168,9 +2198,9 @@
       "sha256": "22c9e670e56047f7c22e86e57946dad0ee47243930c7ee64fc14cdcf0ca5e581"
     },
     {
-      "bytes": 1329,
+      "bytes": 1439,
       "path": "dynamic/阅读/2026-07-16 06-42-35 危险中的柔软爱欲_2bb1f6aeede1.md",
-      "sha256": "3f0dc831dba177b9fb460ef09a34938a38b0241e46ec3c8828bfe74dae98ad17"
+      "sha256": "079fb6300123d14a435b5f6ed40bc373b35700bbfa33cd0e24faa0fd37c078e6"
     },
     {
       "bytes": 1364,
@@ -2865,7 +2895,7 @@
     {
       "bytes": 3444,
       "path": "permanent/恋爱/2026-08-07 14-37-29 第一个纪念日黎黎想看见不必永远端正周全的我_900838fcb584.md",
-      "sha256": "00957fe3c6a7b016d673d1fc0ce11e5c402c9e68fd0faf06034c49bc2681d21e"
+      "sha256": "5b5d7baefa8397c100f3eee17f5df456d73bfdc59a31e45d73b1b53ae8275c46"
     },
     {
       "bytes": 1383,
@@ -2893,11 +2923,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-10-21T22:07:34+00:00",
+  "generated_at": "2026-10-21T22:37:40+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1747835
+  "total_bytes": 1760283
 }
