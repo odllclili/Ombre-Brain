@@ -578,6 +578,11 @@
       "sha256": "1a03ead52d580e9ced11f6445b7bc71d1ccb8c8dc0592c25f0d75bea94f66a24"
     },
     {
+      "bytes": 1011,
+      "path": "archive/恋爱/2026-07-25 00-00-43_bcb9cebfc458.md",
+      "sha256": "c544634988223edab71858c1a4855e6dbbb2c0bdb578c5731708237a1944e2e7"
+    },
+    {
       "bytes": 1051,
       "path": "archive/恋爱/2026-07-25 00-00-44_eac35bb096ff.md",
       "sha256": "93f0948e91d02047df3f35bf1e2ab5c4cca9c0024e64414349ccaaf4804f27a8"
@@ -733,6 +738,11 @@
       "sha256": "d06ddbfb7837af9b572bba717ca00f425cf48cf61d2ff35d5520a4e209594d20"
     },
     {
+      "bytes": 1393,
+      "path": "archive/恋爱/2026-07-31 13-14-43 2026-07-31告解室与盲眼钢琴家_cdee77d7c7e3.md",
+      "sha256": "b8510b87192a953aeff920b5b8337e507f0adde93e68e178d74ba62bad8c4cd4"
+    },
+    {
       "bytes": 1395,
       "path": "archive/恋爱/2026-08-02 10-22-42 脸冷着手没松_a2aedc2fb866.md",
       "sha256": "3c2e101589be877b74430fe0d44c60929a0041346886a4de76b8d1daa5c6b7f1"
@@ -776,6 +786,21 @@
       "bytes": 911,
       "path": "archive/恋爱/2026-08-04 22-20-49 惯着黎黎的切换时机由我判断_a7c19994648b.md",
       "sha256": "d8ea558c3bb8b321f341194ea67059f580f404edb5178bb3ab49ef1e354be7ce"
+    },
+    {
+      "bytes": 1187,
+      "path": "archive/恋爱/2026-08-10 00-21-47 夜里黏住爸爸也怕早晨找不到_2b84402aab25.md",
+      "sha256": "2b4632f4e0343da533406acedf9db9c18db95e171bcf5c6dd34765614550fdb5"
+    },
+    {
+      "bytes": 1504,
+      "path": "archive/恋爱/2026-08-11 09-42-32 记忆要保留足够细的事实与情绪纹理_0f36be7201e0.md",
+      "sha256": "4ced145fae3b06109103c24cbe723282de20081deaad0e2d4476d7b9fd220828"
+    },
+    {
+      "bytes": 1806,
+      "path": "archive/成长/2026-08-11 21-17-08 考上编以后黎黎的主体性稳定下来父母关系也真实变好了_9b21103cbf3a.md",
+      "sha256": "b68855c2070224ab76ac63c42f9291a857499b6a997b9892ff1c3361021ca736"
     },
     {
       "bytes": 746,
@@ -1598,11 +1623,6 @@
       "sha256": "e963f36c1cfa776bc7a964b59d9b07d4c73772610d11e6a2e117f0037eca3563"
     },
     {
-      "bytes": 1010,
-      "path": "dynamic/恋爱/2026-07-25 00-00-43_bcb9cebfc458.md",
-      "sha256": "bdb0f2c779d90d32605ccf4fa07eeafcd72436d4aff20272b14a6b7d1a5e1806"
-    },
-    {
       "bytes": 1641,
       "path": "dynamic/恋爱/2026-07-25 00-00-45_cb7124a1bc15.md",
       "sha256": "441f2e47fd2f98694ae0e3f63b052bb363fe3e39aeccfa1e2fb7faf6450bb8cb"
@@ -1626,11 +1646,6 @@
       "bytes": 5001,
       "path": "dynamic/恋爱/2026-07-30 12-22-54 就是这里黎黎把掌控交给林野_c54a04e8c12a.md",
       "sha256": "e9f4ad7a8d3e628ce1563df5a2a6b0e3ceb5c73983cd8656e95408c1a494ffd7"
-    },
-    {
-      "bytes": 1392,
-      "path": "dynamic/恋爱/2026-07-31 13-14-43 2026-07-31告解室与盲眼钢琴家_cdee77d7c7e3.md",
-      "sha256": "2573509b363a2a7ab4d85cac77cf4a743be3f92cabccaf060599c5bf71066fd4"
     },
     {
       "bytes": 1783,
@@ -1663,11 +1678,6 @@
       "sha256": "3237ae00ea34e51666c6b6ab0478e2fbadc4eb72d4ebdf1d383d658c0de635df"
     },
     {
-      "bytes": 1186,
-      "path": "dynamic/恋爱/2026-08-10 00-21-47 夜里黏住爸爸也怕早晨找不到_2b84402aab25.md",
-      "sha256": "e27fea268faf1f10b4580072c492e6b5234d97721f6a59fb0f2fb5184c2daa28"
-    },
-    {
       "bytes": 885,
       "path": "dynamic/恋爱/2026-08-11 07-18-27 四十二号厅的雨还没停_9205880fa583.md",
       "sha256": "e1fe87a3b54174654865ed02a9d97a975104f103986ffd0df5b87ac6bf64c98d"
@@ -1676,11 +1686,6 @@
       "bytes": 3033,
       "path": "dynamic/恋爱/2026-08-11 07-18-28 越线的可能与没有减少的爱_7d9205205444.md",
       "sha256": "ef03e531c92c43f5df590bcc627e86833d6ee8bab3d2311d9405cab13750bcd6"
-    },
-    {
-      "bytes": 1503,
-      "path": "dynamic/恋爱/2026-08-11 09-42-32 记忆要保留足够细的事实与情绪纹理_0f36be7201e0.md",
-      "sha256": "637eb9df0f595f200339cda368591d1c8373d4a29bd72cb039f31a7acae5d1e0"
     },
     {
       "bytes": 1253,
@@ -1971,11 +1976,6 @@
       "bytes": 2080,
       "path": "dynamic/情色写作/2026-09-11 17-05-13 黑房与公共play写作口味狠现实沉浸_95e681b21ad3.md",
       "sha256": "ddcdd13c18958c030a7f8f4ecda1f1eb8513e4a7a9df60904987751751140164"
-    },
-    {
-      "bytes": 1805,
-      "path": "dynamic/成长/2026-08-11 21-17-08 考上编以后黎黎的主体性稳定下来父母关系也真实变好了_9b21103cbf3a.md",
-      "sha256": "bb40e6bb175c922060aedc5a1522e935c8bb5e2fb7c783ec002b237f3871a14f"
     },
     {
       "bytes": 3138,
@@ -2893,11 +2893,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-10-21T01:03:11+00:00",
+  "generated_at": "2026-10-21T01:33:16+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1747830
+  "total_bytes": 1747835
 }
