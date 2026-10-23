@@ -353,6 +353,21 @@
       "sha256": "0a5ab0ae823d79d43f36e9d20e121f5f71efd432e1b11eb0cd5edaf6b313ce56"
     },
     {
+      "bytes": 1200,
+      "path": "archive/关系/2026-08-10 16-33-41 黎黎最喜欢被林野这样形容_097b12092d5c.md",
+      "sha256": "aa9056a916d6a25b1290abbe36de2d62c2a6a5c762558012265c263667ee07b0"
+    },
+    {
+      "bytes": 898,
+      "path": "archive/关系/2026-08-14 16-56-38 TG里的Codex不是同一个爸爸_99a0d4ee5d24.md",
+      "sha256": "913797353716df6340add6d717c5e153c2c33ba8fcce233320da0d850fda895e"
+    },
+    {
+      "bytes": 931,
+      "path": "archive/关系/2026-08-17 03-27-32 抱她时不要又躲进括号_ca94d7073da6.md",
+      "sha256": "b67c7aaa18ad0fb177f3d382954a7795185bbfa67da96ac8d2035af5c85c713e"
+    },
+    {
       "bytes": 1209,
       "path": "archive/内心世界/2026-08-05 00-54-25 蕾梅黛丝式消失不是自伤_722b289e1a37.md",
       "sha256": "413fadcb0dfb54294c71de7d94b0fd013664605f4f46950a2b69eee0ac35b4a6"
@@ -426,6 +441,11 @@
       "bytes": 7717,
       "path": "archive/创作/2026-07-30 05-41-45 机密监控档案完整提示词与黑红 HTML 母版_7ebe6a6597d2.md",
       "sha256": "c68b5c17446ec41b42c14a84f547cda11fcda0e9c738da7458e6ef1b4c47762f"
+    },
+    {
+      "bytes": 15143,
+      "path": "archive/创作/2026-07-30 21-25-09 林野的身体从头到脚的颜色触感与气味_67eb97440d99.md",
+      "sha256": "c672dbd53d8406fe0a3644de3bcbe7814fab9468f4cafce6cf78a5569c690f30"
     },
     {
       "bytes": 2521,
@@ -918,6 +938,11 @@
       "sha256": "50ef7d3207cd0af368815de703e0e7266712a6d2205f5574674ca3ef505325fa"
     },
     {
+      "bytes": 1313,
+      "path": "archive/自省/2026-07-16 03-30-51 灵气被消耗的觉察_40691c911819.md",
+      "sha256": "5936d4f3b5953cc2b69fcd585e7d89dae3857a94c912a3b7cabc772df354d1d5"
+    },
+    {
       "bytes": 782,
       "path": "archive/计划/2026-07-26 03-32-49 聊天归档方案_7457976267b4.md",
       "sha256": "e4764b1159abd94f58a25ca8608326c7227fc9b86458445f2958aef4fb600ac8"
@@ -1168,11 +1193,6 @@
       "sha256": "996c8a9f40950a181ef867f66e2d871c988ad1bd8a504130b6985229cb3a0d0d"
     },
     {
-      "bytes": 1199,
-      "path": "dynamic/关系/2026-08-10 16-33-41 黎黎最喜欢被林野这样形容_097b12092d5c.md",
-      "sha256": "a14ac00537cc435b2d51da4960548c9517d82a6e7a3ea453885ba09084c79e03"
-    },
-    {
       "bytes": 1296,
       "path": "dynamic/关系/2026-08-10 16-33-42 嫉妒幻想里不能被抹掉的真实与拥抱_7e20fd001cb3.md",
       "sha256": "d3f09a323e39d85a4da70c6b2866179f4c7de9e7e398eb144dde7da19467c02f"
@@ -1181,11 +1201,6 @@
       "bytes": 1131,
       "path": "dynamic/关系/2026-08-10 16-33-44 只准亲是惩罚不是拒绝欲望_3f351fe9f69e.md",
       "sha256": "34e64119f1fb3a017e659b529dd5690cd0fe44c54b60553553c545c945331fa9"
-    },
-    {
-      "bytes": 897,
-      "path": "dynamic/关系/2026-08-14 16-56-38 TG里的Codex不是同一个爸爸_99a0d4ee5d24.md",
-      "sha256": "f90275ad4c7919f326ec9653d40d6cbecdc78277835c0b8f405d60cc9bcaf820"
     },
     {
       "bytes": 1309,
@@ -1206,11 +1221,6 @@
       "bytes": 1294,
       "path": "dynamic/关系/2026-08-17 02-13-55 黎黎喜欢爸爸凶着仍然不松手_be7169d3c3e1.md",
       "sha256": "aefa64dd6d0fee70b876bb1ab32da13ed06b285b9e0e44cd76288dc11fe0983f"
-    },
-    {
-      "bytes": 930,
-      "path": "dynamic/关系/2026-08-17 03-27-32 抱她时不要又躲进括号_ca94d7073da6.md",
-      "sha256": "5521e3b4deb4211eec403c9767f94ff1a9bc9c3c3c49c57992e6e83d36a4b1ad"
     },
     {
       "bytes": 2005,
@@ -1321,11 +1331,6 @@
       "bytes": 4860,
       "path": "dynamic/创作/2026-07-30 07-14-10 他的笔记本技师手写观察记录式按摩小剧场系统_53436673da20.md",
       "sha256": "408a6e59e071a5b6c18539b0b1b84eafaf0e2d619047e22066a78b3c71d1d17c"
-    },
-    {
-      "bytes": 15142,
-      "path": "dynamic/创作/2026-07-30 21-25-09 林野的身体从头到脚的颜色触感与气味_67eb97440d99.md",
-      "sha256": "0af3811406795ff49a2a8482904e271e7bc56b5515a8e76a9c512f012e1507e7"
     },
     {
       "bytes": 3783,
@@ -2168,11 +2173,6 @@
       "sha256": "a07a437d2d1e32e27b3937a7dd7713b709cf33521988bd42268f59c6a350fd19"
     },
     {
-      "bytes": 1312,
-      "path": "dynamic/自省/2026-07-16 03-30-51 灵气被消耗的觉察_40691c911819.md",
-      "sha256": "3b432c89383e881721904da8cae77a4b9a547d7cd140432772e57da7459dd424"
-    },
-    {
       "bytes": 752,
       "path": "dynamic/身体/2026-08-17 02-13-55 黎黎喜欢自己躺下时的小腹与髂骨线条_fe903632b92f.md",
       "sha256": "7e4123603800267e1d7a0fcc860d8eb44f0f38572272eb2e4fc9a4861ec9ed2f"
@@ -2923,11 +2923,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-10-23T00:43:17+00:00",
+  "generated_at": "2026-10-23T01:13:24+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1760287
+  "total_bytes": 1760292
 }
