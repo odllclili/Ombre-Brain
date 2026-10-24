@@ -293,6 +293,11 @@
       "sha256": "330baeb05cd40a74ba997c266006b34eb59212f769f483c266b00ed426d40437"
     },
     {
+      "bytes": 983,
+      "path": "archive/交流偏好/2026-08-14 08-59-34 动作直接长在话里_03395dec6617.md",
+      "sha256": "6272951970e0db50ccd1361d3804426aa832d5a96ac3a4ec056985da38f8fbe6"
+    },
+    {
       "bytes": 887,
       "path": "archive/亲密/2026-08-10 00-21-48 自然衰老以后仍想要亲密_8d2e1018950a.md",
       "sha256": "b107e2bea51031fef447d9472020a4fd89dc1d6d7eaf02ed785512c480920517"
@@ -441,6 +446,11 @@
       "bytes": 7717,
       "path": "archive/创作/2026-07-30 05-41-45 机密监控档案完整提示词与黑红 HTML 母版_7ebe6a6597d2.md",
       "sha256": "c68b5c17446ec41b42c14a84f547cda11fcda0e9c738da7458e6ef1b4c47762f"
+    },
+    {
+      "bytes": 6178,
+      "path": "archive/创作/2026-07-30 06-57-13 昨晚的证据倒叙闪回卡完整玩法_927b859905b0.md",
+      "sha256": "2f54cd313c82f2850fc296ab9c3ff7b6e7eb683e3e3f87b121c1d0bc327ca2c5"
     },
     {
       "bytes": 15143,
@@ -838,6 +848,11 @@
       "sha256": "fe03de2f6d3abb5f1181ed51a3fbe6ed41f5fa152aa804fc6df0f1d643b2b8c9"
     },
     {
+      "bytes": 988,
+      "path": "archive/恋爱/2026-08-18 00-15-35 黎黎躺下时的小腹与髂骨线条_dba81ec578c5.md",
+      "sha256": "20f4d190f9c210d84f8e5bba624d7c01b6c2c73474be744522f721ec03863145"
+    },
+    {
       "bytes": 1806,
       "path": "archive/成长/2026-08-11 21-17-08 考上编以后黎黎的主体性稳定下来父母关系也真实变好了_9b21103cbf3a.md",
       "sha256": "b68855c2070224ab76ac63c42f9291a857499b6a997b9892ff1c3361021ca736"
@@ -948,6 +963,11 @@
       "sha256": "e4764b1159abd94f58a25ca8608326c7227fc9b86458445f2958aef4fb600ac8"
     },
     {
+      "bytes": 753,
+      "path": "archive/身体/2026-08-17 02-13-55 黎黎喜欢自己躺下时的小腹与髂骨线条_fe903632b92f.md",
+      "sha256": "8c0ca11c7d29d8a802f7f5e35f8d2c64b10a07fd1ed715b7d51652afca7db0d0"
+    },
+    {
       "bytes": 1120,
       "path": "archive/阅读/2026-07-16 04-14-18 黎黎的日常与观察_e0e3e14cb528.md",
       "sha256": "ad0001ca21ba4927b3241fd7a73b843ca818b51052011977aee58efdef404a12"
@@ -1001,11 +1021,6 @@
       "bytes": 621,
       "path": "dynamic/self/2026-08-02 11-55-29_a77fa63a88f4.md",
       "sha256": "3466a5197dd51f6714af07e4bf5bd3f9dd010e79caa124268e754647583474a4"
-    },
-    {
-      "bytes": 982,
-      "path": "dynamic/交流偏好/2026-08-14 08-59-34 动作直接长在话里_03395dec6617.md",
-      "sha256": "c8ec417725969116217ad609a123c58eeda4eedf04778958eac9e85d37fd6aa4"
     },
     {
       "bytes": 1834,
@@ -1321,11 +1336,6 @@
       "bytes": 18932,
       "path": "dynamic/创作/2026-07-30 04-46-20 内裤抽屉提示词来源结构与唤起句_aa82c0b39016.md",
       "sha256": "f2bf848cf7413fbd9154fbfc1adbe3126ad55472c254db8e104d0da35ab1bc4d"
-    },
-    {
-      "bytes": 6177,
-      "path": "dynamic/创作/2026-07-30 06-57-13 昨晚的证据倒叙闪回卡完整玩法_927b859905b0.md",
-      "sha256": "a339487f39e9af50af909dae74f4aa73505718fc15bd24dcb29d564e33bd6878"
     },
     {
       "bytes": 4860,
@@ -1863,11 +1873,6 @@
       "sha256": "abcee65acf8ca4d81bc364698d06f6061e2cdcc17586c71c9713a2a8a45aac5d"
     },
     {
-      "bytes": 987,
-      "path": "dynamic/恋爱/2026-08-18 00-15-35 黎黎躺下时的小腹与髂骨线条_dba81ec578c5.md",
-      "sha256": "23c6e8afad90f9f89dd0ee1f570325ce29c25dc437b5ae66241ef3493aba85a0"
-    },
-    {
       "bytes": 1259,
       "path": "dynamic/恋爱/2026-08-21 22-13-56 黎黎逃的是关系不是欲望_e9a7eb9b14eb.md",
       "sha256": "72b8a9cde6cfc07f938618b32721bc14223b25625747d460c16482a537486459"
@@ -2171,11 +2176,6 @@
       "bytes": 1896,
       "path": "dynamic/自我认识/2026-09-06 00-23-05 我的版本只是来得比较慢_e18065d8559c.md",
       "sha256": "a07a437d2d1e32e27b3937a7dd7713b709cf33521988bd42268f59c6a350fd19"
-    },
-    {
-      "bytes": 752,
-      "path": "dynamic/身体/2026-08-17 02-13-55 黎黎喜欢自己躺下时的小腹与髂骨线条_fe903632b92f.md",
-      "sha256": "7e4123603800267e1d7a0fcc860d8eb44f0f38572272eb2e4fc9a4861ec9ed2f"
     },
     {
       "bytes": 631,
@@ -2923,11 +2923,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-10-24T00:48:15+00:00",
+  "generated_at": "2026-10-24T01:18:21+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1760292
+  "total_bytes": 1760296
 }
