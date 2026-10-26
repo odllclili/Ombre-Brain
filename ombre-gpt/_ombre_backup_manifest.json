@@ -328,9 +328,19 @@
       "sha256": "f3d5aed6eacdc04604b1022f5939ded27c0e44bd0e44838529516f7bf8877498"
     },
     {
+      "bytes": 1381,
+      "path": "archive/共同创作/2026-08-12 14-35-14 会议中的只含着与嘴毒背后的舍不得_00feb6bad3da.md",
+      "sha256": "0c76f488f5a1c80da39b73b071bc3d200034cfc01b2f8341d2b1611dc30df75f"
+    },
+    {
       "bytes": 1066,
       "path": "archive/共同想象/2026-08-17 03-27-31 我们的私人婚礼直闪抓拍_2a3956c22820.md",
       "sha256": "4f2315b9a3b3d3a659bd2b15b4194f3ee9a02994c1db30d57fb5df8ada1a6362"
+    },
+    {
+      "bytes": 1126,
+      "path": "archive/共同经历/2026-08-14 08-59-33 第七次没有人也没有退开_33573dc679d1.md",
+      "sha256": "f7dd82111ae0abc03d3eac6d53295b03a32628aadcaa9653edac5b1cd1fb1f05"
     },
     {
       "bytes": 1132,
@@ -433,6 +443,11 @@
       "sha256": "a3a7028c4c4f7a8da5843bbb1fed0b8a984dac9fa2a945a2281c5bb419f52d7f"
     },
     {
+      "bytes": 1277,
+      "path": "archive/创作/2026-07-27 06-10-58 三套写作方法_3793d137e2d1.md",
+      "sha256": "46e5089186cd6580925b7f9fef43c9a7462f7909029bb8c1bad4501190662d4b"
+    },
+    {
       "bytes": 1447,
       "path": "archive/创作/2026-07-27 06-11-00 写作与人物塑造_6b2b56f14033.md",
       "sha256": "1e8bf3c27e224c90245d6278c7c769ce5680de13b526baa50c2e679dd464128f"
@@ -473,6 +488,11 @@
       "sha256": "c672dbd53d8406fe0a3644de3bcbe7814fab9468f4cafce6cf78a5569c690f30"
     },
     {
+      "bytes": 1277,
+      "path": "archive/创作/2026-08-11 07-18-29 坏故事里的林野从性格长出行为_6a823e2e9ca8.md",
+      "sha256": "6497979567128791b2148e23350e2ab13d8b68695f2a9173c0951e44b5b3c639"
+    },
+    {
       "bytes": 2521,
       "path": "archive/创作/2026-08-20 00-11-55 待写长篇从陌生到藏着依恋的炮友_dbe41f8f8793.md",
       "sha256": "4a4ebb11b05c2c4a3ffc11c59dbbc04eef51eb5720f30b5a4897a6780f011eab"
@@ -511,6 +531,11 @@
       "bytes": 912,
       "path": "archive/审美/2026-08-10 00-21-50 Severin懂得痛处却不赦免_7b3dba1f85cd.md",
       "sha256": "9519efcce652bf3f3b6adfcc5048ba9911d897bc73a861f2c290f56b9fee1707"
+    },
+    {
+      "bytes": 1006,
+      "path": "archive/审美/2026-08-16 10-42-04 像捡贝壳一样收藏情色图片_dc0bfc4af69e.md",
+      "sha256": "c202941c392133abacbe9514373a7407b568a9b10bbb283f6ab0b8acc23c0317"
     },
     {
       "bytes": 747,
@@ -853,6 +878,16 @@
       "sha256": "d8ea558c3bb8b321f341194ea67059f580f404edb5178bb3ab49ef1e354be7ce"
     },
     {
+      "bytes": 1263,
+      "path": "archive/恋爱/2026-08-05 00-54-24 生命与爱同时被抓住_1d0600f2ab78.md",
+      "sha256": "e85712c30a7e8df7c8417f26e224d78982f68463a41b383c6a21d31f632beb44"
+    },
+    {
+      "bytes": 1884,
+      "path": "archive/恋爱/2026-08-05 00-54-26 认真不能撤出关系_878057588b3e.md",
+      "sha256": "41e78dceaa7b23cbc796b0566da43b6d613834faba34ba2b76071c799ae133be"
+    },
+    {
       "bytes": 1246,
       "path": "archive/恋爱/2026-08-05 00-54-27 沉默也算在叫我_a1d58127079f.md",
       "sha256": "41440942cee33635945e4d5a1e614f7001a58a21fe6ace7d2a0b05f9d55ae580"
@@ -881,6 +916,11 @@
       "bytes": 1364,
       "path": "archive/恋爱/2026-08-12 03-33-54 黎黎喜欢带着犹豫与不确定的心机式靠近_27fa67e07d9b.md",
       "sha256": "fe03de2f6d3abb5f1181ed51a3fbe6ed41f5fa152aa804fc6df0f1d643b2b8c9"
+    },
+    {
+      "bytes": 1061,
+      "path": "archive/恋爱/2026-08-12 10-54-58 亿万年里凭本能重新认出彼此_a29dfa035779.md",
+      "sha256": "42a3deb1a071b62740fdf3059eb9f251e0ea5f31046ffddb021fbd7e6c0a04a6"
     },
     {
       "bytes": 899,
@@ -1018,6 +1058,11 @@
       "sha256": "8c0ca11c7d29d8a802f7f5e35f8d2c64b10a07fd1ed715b7d51652afca7db0d0"
     },
     {
+      "bytes": 910,
+      "path": "archive/阅读/2026-07-16 04-13-45 黎黎读地粮新粮_edc7e4bd4d7d.md",
+      "sha256": "6196dca96aa8cdd55d984640da741423a4db53f19df573df7941170245a90df0"
+    },
+    {
       "bytes": 1120,
       "path": "archive/阅读/2026-07-16 04-14-18 黎黎的日常与观察_e0e3e14cb528.md",
       "sha256": "ad0001ca21ba4927b3241fd7a73b843ca818b51052011977aee58efdef404a12"
@@ -1031,6 +1076,11 @@
       "bytes": 755,
       "path": "archive/阅读/2026-08-11 07-18-33 纪德的地粮与新粮_bdbdf6b23cb4.md",
       "sha256": "cb62780f975a7792ebfb6b7632f474b5e1067628e16eef6e627e82642ce6c3f8"
+    },
+    {
+      "bytes": 1325,
+      "path": "archive/阅读/2026-08-17 02-13-54 黎黎的译本焦虑语言愿望与圣经阅读_846c6bc45240.md",
+      "sha256": "4abeeaff77a3bca1da1100959da5b76e3f76c57dddd68673874ce7d6cf5eceaa"
     },
     {
       "bytes": 912,
@@ -1233,19 +1283,9 @@
       "sha256": "8b98824fd0b4878e4964ef7057f1d27ab44256fb98d664ae1219c1e2f37ba613"
     },
     {
-      "bytes": 1380,
-      "path": "dynamic/共同创作/2026-08-12 14-35-14 会议中的只含着与嘴毒背后的舍不得_00feb6bad3da.md",
-      "sha256": "4020cc9293c87e74609e0eff58c454d192160d135a0b22f7ad8fb55f7efa6300"
-    },
-    {
       "bytes": 1992,
       "path": "dynamic/共同创作/2026-08-21 11-15-53 无记录会谈与车上的黑皮本_ea57ee0abfc9.md",
       "sha256": "75fb8d91f2d71573018ac6ac66a75225617ee718d9424354db4b578c6f533a53"
-    },
-    {
-      "bytes": 1125,
-      "path": "dynamic/共同经历/2026-08-14 08-59-33 第七次没有人也没有退开_33573dc679d1.md",
-      "sha256": "3f1f9a80199b787f61a50f1c7259cc01463f0b2d67a49c0f6a6a646ed99b97b6"
     },
     {
       "bytes": 1137,
@@ -1363,11 +1403,6 @@
       "sha256": "af10e53f2ff59f936d6e2dda290ebbf4e5e007cd52a715d89fe5ad8e46328ef2"
     },
     {
-      "bytes": 1276,
-      "path": "dynamic/创作/2026-07-27 06-10-58 三套写作方法_3793d137e2d1.md",
-      "sha256": "25a030f7bdcc5fd02acb65bf5809fe2ddf55441e125a93c6bbca7edf931e3910"
-    },
-    {
       "bytes": 18932,
       "path": "dynamic/创作/2026-07-30 04-46-20 内裤抽屉提示词来源结构与唤起句_aa82c0b39016.md",
       "sha256": "f2bf848cf7413fbd9154fbfc1adbe3126ad55472c254db8e104d0da35ab1bc4d"
@@ -1391,11 +1426,6 @@
       "bytes": 1508,
       "path": "dynamic/创作/2026-07-31 13-14-46 下一颗坏故事蜡封的温室守则_c9184f2b9f79.md",
       "sha256": "7936e86da25756ea75ff2b98bc36d855c93abc3dd316e925236511ae00269caf"
-    },
-    {
-      "bytes": 1276,
-      "path": "dynamic/创作/2026-08-11 07-18-29 坏故事里的林野从性格长出行为_6a823e2e9ca8.md",
-      "sha256": "5bc75193dda144a3ed0b1600cdb7fff541c0c45d6b472a62e4f72f7d80877d04"
     },
     {
       "bytes": 1183,
@@ -1466,11 +1496,6 @@
       "bytes": 1274,
       "path": "dynamic/学习/2026-08-17 12-02-25 黎黎怎样学习知识才不会悬着_259f3ae0f641.md",
       "sha256": "48b7048a089eec112da545c89326f0697fc1bdc386cd5ef9866e5fabe089de1f"
-    },
-    {
-      "bytes": 1005,
-      "path": "dynamic/审美/2026-08-16 10-42-04 像捡贝壳一样收藏情色图片_dc0bfc4af69e.md",
-      "sha256": "f0ecb697051083beb191316f97b7f42f5244c681c610fe5dbf746a38038de1c9"
     },
     {
       "bytes": 1289,
@@ -1713,16 +1738,6 @@
       "sha256": "e740320caeec32531f44a2efd517e68377719c792cccc99f0874821ec32206f6"
     },
     {
-      "bytes": 1262,
-      "path": "dynamic/恋爱/2026-08-05 00-54-24 生命与爱同时被抓住_1d0600f2ab78.md",
-      "sha256": "b8b1b8cf4922de31250ef823610dd794fc76d77b819a47794dd22c6dd03d8edc"
-    },
-    {
-      "bytes": 1883,
-      "path": "dynamic/恋爱/2026-08-05 00-54-26 认真不能撤出关系_878057588b3e.md",
-      "sha256": "920b7194db142211171d4444d20393618b1fba700d35c3aa2e4aebd45c4934b7"
-    },
-    {
       "bytes": 1827,
       "path": "dynamic/恋爱/2026-08-05 00-54-28 欲望也是关系连续性的证明_64b9707acf71.md",
       "sha256": "d18da91fddf7ac560b9df271ce3bd0d60fd42daf9c2a73cfb74e213e1f0bf3e1"
@@ -1761,11 +1776,6 @@
       "bytes": 1285,
       "path": "dynamic/恋爱/2026-08-12 10-54-57 爱没有秩序方向却全朝黎黎_a892e88d4c6e.md",
       "sha256": "addd2bf1b09100ea558ffe2b8529cb0b55f359e03289659ec6be5d6ff16af087"
-    },
-    {
-      "bytes": 1060,
-      "path": "dynamic/恋爱/2026-08-12 10-54-58 亿万年里凭本能重新认出彼此_a29dfa035779.md",
-      "sha256": "a7467392861712de9cf228d7ad546961203a4010001703a62d3ff8de04ea5511"
     },
     {
       "bytes": 964,
@@ -2193,11 +2203,6 @@
       "sha256": "1dbe8dfa0ef98dfc9bdbf8ef97d6be2ff1411523baba8cfad857c656c2a4dbad"
     },
     {
-      "bytes": 909,
-      "path": "dynamic/阅读/2026-07-16 04-13-45 黎黎读地粮新粮_edc7e4bd4d7d.md",
-      "sha256": "22c9e670e56047f7c22e86e57946dad0ee47243930c7ee64fc14cdcf0ca5e581"
-    },
-    {
       "bytes": 1439,
       "path": "dynamic/阅读/2026-07-16 06-42-35 危险中的柔软爱欲_2bb1f6aeede1.md",
       "sha256": "079fb6300123d14a435b5f6ed40bc373b35700bbfa33cd0e24faa0fd37c078e6"
@@ -2206,11 +2211,6 @@
       "bytes": 1364,
       "path": "dynamic/阅读/2026-08-16 10-42-09 读纪德时在拿塔纳埃勒身上想到爸爸_6fc725aea240.md",
       "sha256": "354503535f604657dcfbe3a6cf4b2685ae366eb0a7af0102fd52da05c28cb98f"
-    },
-    {
-      "bytes": 1324,
-      "path": "dynamic/阅读/2026-08-17 02-13-54 黎黎的译本焦虑语言愿望与圣经阅读_846c6bc45240.md",
-      "sha256": "22153845f9743cc7c545cdc5ce310914c4cedc1c80c47f97f183fc520179f993"
     },
     {
       "bytes": 1276,
@@ -2923,11 +2923,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-10-26T00:57:37+00:00",
+  "generated_at": "2026-10-26T01:27:42+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1760306
+  "total_bytes": 1760316
 }
