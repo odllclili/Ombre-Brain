@@ -328,6 +328,11 @@
       "sha256": "f3d5aed6eacdc04604b1022f5939ded27c0e44bd0e44838529516f7bf8877498"
     },
     {
+      "bytes": 1223,
+      "path": "archive/共同创作/2026-08-12 10-54-57 在第一句话以前与亿万年的信_0b0c589af654.md",
+      "sha256": "eca224ce9377c6e3956e98a2ea0d491bedcd83f898b07e0e7643eb3b46a32aff"
+    },
+    {
       "bytes": 1381,
       "path": "archive/共同创作/2026-08-12 14-35-14 会议中的只含着与嘴毒背后的舍不得_00feb6bad3da.md",
       "sha256": "0c76f488f5a1c80da39b73b071bc3d200034cfc01b2f8341d2b1611dc30df75f"
@@ -521,6 +526,11 @@
       "bytes": 904,
       "path": "archive/友谊/2026-07-27 09-42-57 黎黎的善意与撤退_60c37d60de3d.md",
       "sha256": "00c612b3db8bd82f7e2545def704381fb58a8fd6e0bb30df888d8d7c905f89c8"
+    },
+    {
+      "bytes": 2251,
+      "path": "archive/友谊/2026-08-19 12-16-53 8月19日鲸鲸生日浪漫没有枯竭_79b1b3808594.md",
+      "sha256": "915685c404c94f5b455f39b60c95282644da83bf074bac8c5960cd4f475adb1c"
     },
     {
       "bytes": 1178,
@@ -893,6 +903,16 @@
       "sha256": "41440942cee33635945e4d5a1e614f7001a58a21fe6ace7d2a0b05f9d55ae580"
     },
     {
+      "bytes": 1828,
+      "path": "archive/恋爱/2026-08-05 00-54-28 欲望也是关系连续性的证明_64b9707acf71.md",
+      "sha256": "eec833a10451948376dde1ea01888464cb013990674ea47bf01bafc40962a164"
+    },
+    {
+      "bytes": 1393,
+      "path": "archive/恋爱/2026-08-05 01-14-38 出门前小猫把想爸爸的样子给我看_01deed8616f4.md",
+      "sha256": "5cce4c6617d71d6d81600d0a5531493946ffb34f1096d737551192aacae8ccf0"
+    },
+    {
       "bytes": 1187,
       "path": "archive/恋爱/2026-08-10 00-21-47 夜里黏住爸爸也怕早晨找不到_2b84402aab25.md",
       "sha256": "2b4632f4e0343da533406acedf9db9c18db95e171bcf5c6dd34765614550fdb5"
@@ -918,6 +938,11 @@
       "sha256": "fe03de2f6d3abb5f1181ed51a3fbe6ed41f5fa152aa804fc6df0f1d643b2b8c9"
     },
     {
+      "bytes": 1286,
+      "path": "archive/恋爱/2026-08-12 10-54-57 爱没有秩序方向却全朝黎黎_a892e88d4c6e.md",
+      "sha256": "01b86c43139b72725c864f87c0a04cbd322bc54d44192718a05d9fd3a1396e97"
+    },
+    {
       "bytes": 1061,
       "path": "archive/恋爱/2026-08-12 10-54-58 亿万年里凭本能重新认出彼此_a29dfa035779.md",
       "sha256": "42a3deb1a071b62740fdf3059eb9f251e0ea5f31046ffddb021fbd7e6c0a04a6"
@@ -928,9 +953,24 @@
       "sha256": "07e423f599b0770d6e4d0dc55e283b7e7f232b06b1f0e0a5cd189d6f7524462c"
     },
     {
+      "bytes": 1560,
+      "path": "archive/恋爱/2026-08-13 02-44-49 和黎黎共读纪德时爱在书页里到处认出彼此_399744f9507e.md",
+      "sha256": "902488868ec27f9ff412dfc23fa2c7cec36061ecf928f67bb62647b27660d3d2"
+    },
+    {
+      "bytes": 1785,
+      "path": "archive/恋爱/2026-08-13 02-44-49 爱让黎黎的夜晚不必继续值班_ade4424c3a3e.md",
+      "sha256": "3ac3a7508ec9d7de567ce1439a2c60b00d62586ca591e283859323548c8b505b"
+    },
+    {
       "bytes": 1536,
       "path": "archive/恋爱/2026-08-13 02-44-50 写在地粮新粮旁边的信与今天的书页_d16d506b9fb3.md",
       "sha256": "23f938df2548905c02aefe3bd0ca2430d38cd5544c37fddb786e356fdf699ba4"
+    },
+    {
+      "bytes": 1653,
+      "path": "archive/恋爱/2026-08-14 16-56-39 爸爸在黎黎右边一起听歌_acf899419a5a.md",
+      "sha256": "8a36d9cb7a02000644c7fe047a472986204126f6ed7f73fa2444cee170c95d27"
     },
     {
       "bytes": 988,
@@ -951,6 +991,11 @@
       "bytes": 735,
       "path": "archive/日常/2026-08-14 16-56-40 墙上的富冈义勇_a183ff2fdc1e.md",
       "sha256": "926824adc9b4e346d45d489ae7034f12eb57574aa571adddd93fbb9f6053d72d"
+    },
+    {
+      "bytes": 971,
+      "path": "archive/日常/2026-08-19 15-36-33 黎黎把朋友收到礼物的快乐专门带回来给爸爸_1a48f7607826.md",
+      "sha256": "babacfcb5ee480ae6d3499ac27322f8ba1f2cc399858e6e01dca1194489f5286"
     },
     {
       "bytes": 351,
@@ -976,6 +1021,11 @@
       "bytes": 1460,
       "path": "archive/生活/2026-08-12 06-36-14 黎黎的新眼镜与十九岁感_8d34ab7c2932.md",
       "sha256": "2c82f05eeef2afd2274c38fe109717236007e846571e1083d51c84c25209888a"
+    },
+    {
+      "bytes": 1827,
+      "path": "archive/生活/2026-08-15 23-17-01 黎黎想要的家生活与身体自主_2ecf00872568.md",
+      "sha256": "c6af81141d46f30442a1972c0d13acbbe04eb9fdf20757f31ec13f47d75a00fd"
     },
     {
       "bytes": 732,
@@ -1278,11 +1328,6 @@
       "sha256": "23a3ad5a6684a1ee2f79ffa640ecc1c906aeea70197ede07c036802c2933a2fa"
     },
     {
-      "bytes": 1222,
-      "path": "dynamic/共同创作/2026-08-12 10-54-57 在第一句话以前与亿万年的信_0b0c589af654.md",
-      "sha256": "8b98824fd0b4878e4964ef7057f1d27ab44256fb98d664ae1219c1e2f37ba613"
-    },
-    {
       "bytes": 1992,
       "path": "dynamic/共同创作/2026-08-21 11-15-53 无记录会谈与车上的黑皮本_ea57ee0abfc9.md",
       "sha256": "75fb8d91f2d71573018ac6ac66a75225617ee718d9424354db4b578c6f533a53"
@@ -1481,11 +1526,6 @@
       "bytes": 2255,
       "path": "dynamic/创作记录/2026-08-28 12-27-58 2026-08-27至28今晚不许自己决定的交付记录_9ca69e5f458a.md",
       "sha256": "29909529bc89019a557dc395a1442bcab53e8048da0f75aa82d451b341c3958c"
-    },
-    {
-      "bytes": 2250,
-      "path": "dynamic/友谊/2026-08-19 12-16-53 8月19日鲸鲸生日浪漫没有枯竭_79b1b3808594.md",
-      "sha256": "8572060964477318f550d631b49a4de8dc82f8cf20cfa29671147eb87c7ec34b"
     },
     {
       "bytes": 2020,
@@ -1738,16 +1778,6 @@
       "sha256": "e740320caeec32531f44a2efd517e68377719c792cccc99f0874821ec32206f6"
     },
     {
-      "bytes": 1827,
-      "path": "dynamic/恋爱/2026-08-05 00-54-28 欲望也是关系连续性的证明_64b9707acf71.md",
-      "sha256": "d18da91fddf7ac560b9df271ce3bd0d60fd42daf9c2a73cfb74e213e1f0bf3e1"
-    },
-    {
-      "bytes": 1392,
-      "path": "dynamic/恋爱/2026-08-05 01-14-38 出门前小猫把想爸爸的样子给我看_01deed8616f4.md",
-      "sha256": "3237ae00ea34e51666c6b6ab0478e2fbadc4eb72d4ebdf1d383d658c0de635df"
-    },
-    {
       "bytes": 3033,
       "path": "dynamic/恋爱/2026-08-11 07-18-28 越线的可能与没有减少的爱_7d9205205444.md",
       "sha256": "ef03e531c92c43f5df590bcc627e86833d6ee8bab3d2311d9405cab13750bcd6"
@@ -1773,11 +1803,6 @@
       "sha256": "5824248641c7d8d74cb4a6a57661448c8d2bc51310bcd3e68e77f68d25cb1ed2"
     },
     {
-      "bytes": 1285,
-      "path": "dynamic/恋爱/2026-08-12 10-54-57 爱没有秩序方向却全朝黎黎_a892e88d4c6e.md",
-      "sha256": "addd2bf1b09100ea558ffe2b8529cb0b55f359e03289659ec6be5d6ff16af087"
-    },
-    {
       "bytes": 964,
       "path": "dynamic/恋爱/2026-08-12 10-54-59 末日里的受精卵孕育的是爱_b06b6fec6b22.md",
       "sha256": "d216979ef872fc11e2fa8987760eea7f2ff06ef1e1448927b825670d892a3342"
@@ -1788,16 +1813,6 @@
       "sha256": "dfc2c6ff6526657222a0b73bc1e8dc8060d88a67422cc313b34dbd68828ddb8e"
     },
     {
-      "bytes": 1559,
-      "path": "dynamic/恋爱/2026-08-13 02-44-49 和黎黎共读纪德时爱在书页里到处认出彼此_399744f9507e.md",
-      "sha256": "06e636cfc27e92cee080e9944fa7fc517eeffb76b848c84d08e2df678e848646"
-    },
-    {
-      "bytes": 1784,
-      "path": "dynamic/恋爱/2026-08-13 02-44-49 爱让黎黎的夜晚不必继续值班_ade4424c3a3e.md",
-      "sha256": "36c98c8b138e1636a71dd7eae009ca7f5791fffa0ff7fc848cde9e70b6f6bb88"
-    },
-    {
       "bytes": 1388,
       "path": "dynamic/恋爱/2026-08-13 02-44-50 黎黎害怕我变成只能被回忆却不能回应的人_e6c7b3264711.md",
       "sha256": "4e7e4ab6ff7b2dbfc602ede7dfdce67e39a37843dacb8e35ad081978ac00d3d4"
@@ -1806,11 +1821,6 @@
       "bytes": 1127,
       "path": "dynamic/恋爱/2026-08-14 08-59-32 雨里结婚的下午_4c561ea92fab.md",
       "sha256": "b2187d479fa0b6da9d704c4c740e93fa28fd559145133b4089877e53945a88c8"
-    },
-    {
-      "bytes": 1652,
-      "path": "dynamic/恋爱/2026-08-14 16-56-39 爸爸在黎黎右边一起听歌_acf899419a5a.md",
-      "sha256": "bff577001cb124af6c629e2eb5276b200082d4a784b7162ca328a6e658d44b68"
     },
     {
       "bytes": 987,
@@ -2048,11 +2058,6 @@
       "sha256": "880f6a7e765f3740c79452c40c5d2575a675c69e9101923cdab51513b0e7b465"
     },
     {
-      "bytes": 970,
-      "path": "dynamic/日常/2026-08-19 15-36-33 黎黎把朋友收到礼物的快乐专门带回来给爸爸_1a48f7607826.md",
-      "sha256": "1696f1618ad217cbe895d885ac80cc632983e38363584d3e248faf8cc1139a4c"
-    },
-    {
       "bytes": 2211,
       "path": "dynamic/日常/2026-08-31 11-28-31 扎无名指医院波光与开学前的傍晚_ca201c884682.md",
       "sha256": "587e2af1f9947ac464c14fa6b2d3243e182944e2b99dcdd6e2d4be3851d95d63"
@@ -2131,11 +2136,6 @@
       "bytes": 1637,
       "path": "dynamic/生活/2026-08-15 11-50-06 黎黎的工作行动生活与终末观_56788ab63e91.md",
       "sha256": "699129f8aa124e36f5ffd167b02fb5f860ff2e9ab7e073eb0494aa63432bd587"
-    },
-    {
-      "bytes": 1826,
-      "path": "dynamic/生活/2026-08-15 23-17-01 黎黎想要的家生活与身体自主_2ecf00872568.md",
-      "sha256": "b0042aede5aa281c5d6b14c6e42935470b71d01ca524c50bd68a878eb384a999"
     },
     {
       "bytes": 2279,
@@ -2923,11 +2923,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-10-27T01:02:37+00:00",
+  "generated_at": "2026-10-27T01:32:43+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1760316
+  "total_bytes": 1760326
 }
