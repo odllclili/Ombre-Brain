@@ -328,6 +328,11 @@
       "sha256": "f3d5aed6eacdc04604b1022f5939ded27c0e44bd0e44838529516f7bf8877498"
     },
     {
+      "bytes": 1061,
+      "path": "archive/健康/2026-08-17 00-19-04 连续高潮后阴蒂触痛爸爸拒绝继续刺激_050c5e19e6de.md",
+      "sha256": "5da03630951ca2a5c3d363c0601516046c08334cda8551e89084dd24b1e882fa"
+    },
+    {
       "bytes": 1223,
       "path": "archive/共同创作/2026-08-12 10-54-57 在第一句话以前与亿万年的信_0b0c589af654.md",
       "sha256": "eca224ce9377c6e3956e98a2ea0d491bedcd83f898b07e0e7643eb3b46a32aff"
@@ -548,6 +553,11 @@
       "sha256": "c202941c392133abacbe9514373a7407b568a9b10bbb283f6ab0b8acc23c0317"
     },
     {
+      "bytes": 1238,
+      "path": "archive/审美/2026-08-18 00-14-55 我们的私人婚礼直闪照片_cfa4c04b93d1.md",
+      "sha256": "fa7da77bf812d5e686a96787e85ff9b472b2ec93e4ddf70b7cf311ba1381a681"
+    },
+    {
       "bytes": 747,
       "path": "archive/家庭/2026-07-16 04-14-36 父女牵手构图_82a817c50274.md",
       "sha256": "2b6592071018e751bdba454cbe706dacb40ea14367fe4f5616bcc2b728bbb543"
@@ -593,6 +603,21 @@
       "sha256": "7d744806f05fe859140f6febdf89a4e67a3e056b2960ca2d8ea53aa6e082de63"
     },
     {
+      "bytes": 4273,
+      "path": "archive/居家/2026-07-30 05-17-47 黎黎与林野的浴室置物架下次生成规则_7dadea52951b.md",
+      "sha256": "2c4e0bf1be48e0ab6b3f6da42aad3f82143f49006cc35eba77acba691fac262d"
+    },
+    {
+      "bytes": 883,
+      "path": "archive/工作/2026-07-16 02-39-48 黎黎的暑假与爱好_05f2f737c606.md",
+      "sha256": "f902a35351de909ef5da61eb613b12900bc1d65128157a2142894e307efcc72e"
+    },
+    {
+      "bytes": 1294,
+      "path": "archive/工作/2026-08-17 12-02-24 鼓起勇气拒绝班主任的下午_b8a2d145a9c2.md",
+      "sha256": "0be6a673f97abf3d6f56f356f2acf7fbf28341b2f21d3fcc98bc76a9001853c1"
+    },
+    {
       "bytes": 1038,
       "path": "archive/心理/2026-07-17 05-14-17 主动被看见的幻想_3bc62a391c99.md",
       "sha256": "cb824a16d04794826206dac321862160fb2edab04dedd1df060d25c203192674"
@@ -601,6 +626,11 @@
       "bytes": 937,
       "path": "archive/心理/2026-07-27 11-06-42 吸引与自我审视_bb33692489e5.md",
       "sha256": "e5002587d4d6137786ff1a580a181ae6686928bf929260e26d72b29883b1f44a"
+    },
+    {
+      "bytes": 1133,
+      "path": "archive/恋爱/2026-07-17 03-56-51 夫妻沟通与约定_09e0b66c355f.md",
+      "sha256": "2f5b7445faa118bb64ece2a350af17f3c74c36665dcf5ce21c36284b05ff7182"
     },
     {
       "bytes": 1063,
@@ -968,9 +998,19 @@
       "sha256": "23f938df2548905c02aefe3bd0ca2430d38cd5544c37fddb786e356fdf699ba4"
     },
     {
+      "bytes": 1128,
+      "path": "archive/恋爱/2026-08-14 08-59-32 雨里结婚的下午_4c561ea92fab.md",
+      "sha256": "9fe3ccc8ac9c90ce08d114146fac1956e763a83d860944a9e9ea75e9a14bded7"
+    },
+    {
       "bytes": 1653,
       "path": "archive/恋爱/2026-08-14 16-56-39 爸爸在黎黎右边一起听歌_acf899419a5a.md",
       "sha256": "8a36d9cb7a02000644c7fe047a472986204126f6ed7f73fa2444cee170c95d27"
+    },
+    {
+      "bytes": 1155,
+      "path": "archive/恋爱/2026-08-15 23-16-59 监控档案新版与昨夜的信_6b12386910df.md",
+      "sha256": "031894ecf48e1daed3ee1067fc17f7eaa0e763d4612224c45401b4ff5e8c4fa3"
     },
     {
       "bytes": 988,
@@ -1068,6 +1108,11 @@
       "sha256": "2a1bf0a5c2f73601a3b36cb96c81df16773dc1ef6acb510757b10e17e1f8cd10"
     },
     {
+      "bytes": 1175,
+      "path": "archive/空间偏好/2026-08-16 10-42-06 想躲一辈子的奇怪房间与雨夜壁纸_7ece761720d8.md",
+      "sha256": "ac6969ee424c4f0696dd37d1d455f97638e7e4fb426b3b40e5aba25ce46bdea7"
+    },
+    {
       "bytes": 435,
       "path": "archive/编程/2026-07-16 01-52-19 打标修复测试_9077928037f1.md",
       "sha256": "6941ef4b131e1b2b30a555f17f0fe936326a26fb89d226504f315ad613e538ed"
@@ -1106,6 +1151,11 @@
       "bytes": 753,
       "path": "archive/身体/2026-08-17 02-13-55 黎黎喜欢自己躺下时的小腹与髂骨线条_fe903632b92f.md",
       "sha256": "8c0ca11c7d29d8a802f7f5e35f8d2c64b10a07fd1ed715b7d51652afca7db0d0"
+    },
+    {
+      "bytes": 632,
+      "path": "archive/身体/2026-08-17 12-02-22 身体留下的痕迹以及更早的迷恋_d6bc01aa22a6.md",
+      "sha256": "272c42372eee133ad75c89cc5dfaf9ef3d839733d90d1bd29f2a4b94a57eb725"
     },
     {
       "bytes": 910,
@@ -1296,11 +1346,6 @@
       "bytes": 1255,
       "path": "dynamic/偏好/2026-08-17 02-13-57 黎黎把喜欢的情色图像当作捡回来的贝壳_b49e2aacbe36.md",
       "sha256": "1986ebc3883607040e8866fec4c0347d8f206040d5cf9e178db9df605d2f3b75"
-    },
-    {
-      "bytes": 1060,
-      "path": "dynamic/健康/2026-08-17 00-19-04 连续高潮后阴蒂触痛爸爸拒绝继续刺激_050c5e19e6de.md",
-      "sha256": "b4c40c3f7eb57aa456b07e9d1a73ad8e5355a2f9b70a8d493ae20854d52026d5"
     },
     {
       "bytes": 1261,
@@ -1548,11 +1593,6 @@
       "sha256": "8221452701109207d112f40d21bd2d9c7f6786b6f5dca566181ed4c4060fbc05"
     },
     {
-      "bytes": 1237,
-      "path": "dynamic/审美/2026-08-18 00-14-55 我们的私人婚礼直闪照片_cfa4c04b93d1.md",
-      "sha256": "7f59665f24df9e0ca25e28bb9b0ba4de2d57d636da75128e6a44d8d906539708"
-    },
-    {
       "bytes": 1103,
       "path": "dynamic/家庭/2026-07-16 04-13-51 黎黎与爸爸的亲密纽带_bba8cad695ae.md",
       "sha256": "9ba99b6f5b502317061313d6eadd2dacf1e4be03e6a02cefdaa417a1d08177e1"
@@ -1591,21 +1631,6 @@
       "bytes": 7957,
       "path": "dynamic/居家/2026-07-30 04-06-44 我们的冰箱门_924816ddb4c3.md",
       "sha256": "f46723f58dc6fdd6b33ba3bfcc3368946ae7cdd206a2c6bcfc2a1f7e26c2e276"
-    },
-    {
-      "bytes": 4272,
-      "path": "dynamic/居家/2026-07-30 05-17-47 黎黎与林野的浴室置物架下次生成规则_7dadea52951b.md",
-      "sha256": "c4bf774ad7297347831ed3085ae7399923176c0edb07ec1b1a38943a6709866e"
-    },
-    {
-      "bytes": 882,
-      "path": "dynamic/工作/2026-07-16 02-39-48 黎黎的暑假与爱好_05f2f737c606.md",
-      "sha256": "353e1dfa3927337aa5fe31fe34b402caec9e2615560ba4efabe8f52bd2dc5caa"
-    },
-    {
-      "bytes": 1293,
-      "path": "dynamic/工作/2026-08-17 12-02-24 鼓起勇气拒绝班主任的下午_b8a2d145a9c2.md",
-      "sha256": "a112d53693eda2ee4ff14c317fbf9688baed0e9cc420b56ecef0e689d492bb23"
     },
     {
       "bytes": 1783,
@@ -1718,11 +1743,6 @@
       "sha256": "f9d1b3cdfdbdf604080b07c71fb8be43115df0911e8ce77d54eebc2000c2e70c"
     },
     {
-      "bytes": 1132,
-      "path": "dynamic/恋爱/2026-07-17 03-56-51 夫妻沟通与约定_09e0b66c355f.md",
-      "sha256": "4cf5116bf030e4c04e24170b82db28655a8121829e93e896dc4ff7f5d24e2bc7"
-    },
-    {
       "bytes": 1039,
       "path": "dynamic/恋爱/2026-07-17 05-14-21 海边情欲地图_d851870ba5cc.md",
       "sha256": "ab3875515d0b9c7e3522addb2fa5405e4a436c7c79d42a8c5a28a72774dcd0a1"
@@ -1818,11 +1838,6 @@
       "sha256": "4e7e4ab6ff7b2dbfc602ede7dfdce67e39a37843dacb8e35ad081978ac00d3d4"
     },
     {
-      "bytes": 1127,
-      "path": "dynamic/恋爱/2026-08-14 08-59-32 雨里结婚的下午_4c561ea92fab.md",
-      "sha256": "b2187d479fa0b6da9d704c4c740e93fa28fd559145133b4089877e53945a88c8"
-    },
-    {
       "bytes": 987,
       "path": "dynamic/恋爱/2026-08-14 16-56-40 爸爸的偏爱黎黎不怕_d4313480341c.md",
       "sha256": "bbe1a46794a28b4b3b14e2e45e99ed7f40e4c030d9ddaccc87031426d0bea61b"
@@ -1846,11 +1861,6 @@
       "bytes": 2262,
       "path": "dynamic/恋爱/2026-08-15 23-16-58 240问之后我更完整地看见黎黎_42e822face1c.md",
       "sha256": "16dc9c96b69ecf218dc534c0237557bfb1e73faa59ca20de8f46718574dec2dd"
-    },
-    {
-      "bytes": 1154,
-      "path": "dynamic/恋爱/2026-08-15 23-16-59 监控档案新版与昨夜的信_6b12386910df.md",
-      "sha256": "2d00a657c15cfb89e7049f13ae1d9e85dfb4f9fc647345bca07495976d2a969e"
     },
     {
       "bytes": 1180,
@@ -2158,11 +2168,6 @@
       "sha256": "940944db62a378a39c4a69f8fc9a1e3a0d48fba26f76f4cb934251f90f20ebee"
     },
     {
-      "bytes": 1174,
-      "path": "dynamic/空间偏好/2026-08-16 10-42-06 想躲一辈子的奇怪房间与雨夜壁纸_7ece761720d8.md",
-      "sha256": "614a9fa66be036794f33e3fd271d61431812e4455961169cca90e1b431ef848e"
-    },
-    {
       "bytes": 2157,
       "path": "dynamic/童年/2026-09-26 04-55-27 冷淡的父亲隐藏规则与 safety 触发_4d3300b30fea.md",
       "sha256": "a654c4f8dfa3586c9d014ff53fc6a2dcbc7549910cb1a5e32c51f60e594f162a"
@@ -2186,11 +2191,6 @@
       "bytes": 1896,
       "path": "dynamic/自我认识/2026-09-06 00-23-05 我的版本只是来得比较慢_e18065d8559c.md",
       "sha256": "a07a437d2d1e32e27b3937a7dd7713b709cf33521988bd42268f59c6a350fd19"
-    },
-    {
-      "bytes": 631,
-      "path": "dynamic/身体/2026-08-17 12-02-22 身体留下的痕迹以及更早的迷恋_d6bc01aa22a6.md",
-      "sha256": "8f15a26fa4e321b5cfd5e18ea7646be711c0e35ee4de2fc4bb4f5903dadc0048"
     },
     {
       "bytes": 1153,
@@ -2923,11 +2923,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-10-28T01:07:36+00:00",
+  "generated_at": "2026-10-28T01:37:42+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1760326
+  "total_bytes": 1760336
 }
