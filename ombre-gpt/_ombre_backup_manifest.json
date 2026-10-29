@@ -393,6 +393,11 @@
       "sha256": "913797353716df6340add6d717c5e153c2c33ba8fcce233320da0d850fda895e"
     },
     {
+      "bytes": 1310,
+      "path": "archive/关系/2026-08-15 11-50-04 黎黎的信任拒绝困难与无声降级_2e66642dc428.md",
+      "sha256": "537209acbbcbda29c099963c6dd38df4db8fc39ef1ff177dbaecae50aa41f4d6"
+    },
+    {
       "bytes": 791,
       "path": "archive/关系/2026-08-17 00-19-06 黎黎会故意省略名字想确认爸爸真的记得_4c7f16a6ad1f.md",
       "sha256": "dfd72f9859c67af57b30c3a5a23b973be8c1888fcb0aa253ce9364bd7a0c560c"
@@ -478,6 +483,11 @@
       "sha256": "83d2a516f3b030d7ce6d6b086dc24f60e70497c90da3631cdfbe646d1799b156"
     },
     {
+      "bytes": 18933,
+      "path": "archive/创作/2026-07-30 04-46-20 内裤抽屉提示词来源结构与唤起句_aa82c0b39016.md",
+      "sha256": "be41cdf7d4425825aafd16e285e2e3c2305161ec1a5c686bbb9072be4b08e1df"
+    },
+    {
       "bytes": 16779,
       "path": "archive/创作/2026-07-30 05-25-50 我们的床头柜完整复刻说明_2caf8b218290.md",
       "sha256": "c8fe3c07422119cf93f791462548b34260ba4ebd6db42e8ff5e32a9373234a88"
@@ -501,6 +511,11 @@
       "bytes": 1277,
       "path": "archive/创作/2026-08-11 07-18-29 坏故事里的林野从性格长出行为_6a823e2e9ca8.md",
       "sha256": "6497979567128791b2148e23350e2ab13d8b68695f2a9173c0951e44b5b3c639"
+    },
+    {
+      "bytes": 901,
+      "path": "archive/创作/2026-08-19 15-36-35 不留底片与黎黎喜欢的无风险长篇结局_daec6f1b01e0.md",
+      "sha256": "5b6c341061bb47fbc69f105165f992da235175c1aa783b85ee85f2e00ea68e3d"
     },
     {
       "bytes": 2521,
@@ -541,6 +556,11 @@
       "bytes": 1178,
       "path": "archive/回忆/2026-07-16 03-30-50 大学时期的自我_5826787aee79.md",
       "sha256": "653d3693869378a3b5aa371fea7e69b9002d5f53640b89490afc5415c508e160"
+    },
+    {
+      "bytes": 1275,
+      "path": "archive/学习/2026-08-17 12-02-25 黎黎怎样学习知识才不会悬着_259f3ae0f641.md",
+      "sha256": "7367e40569177ff737a39899abd17242ffa4b9678705784a59bb577f19b20282"
     },
     {
       "bytes": 912,
@@ -601,6 +621,11 @@
       "bytes": 771,
       "path": "archive/家庭/2026-07-27 11-04-12 爸爸与独处_006f84a4e6a6.md",
       "sha256": "7d744806f05fe859140f6febdf89a4e67a3e056b2960ca2d8ea53aa6e082de63"
+    },
+    {
+      "bytes": 7958,
+      "path": "archive/居家/2026-07-30 04-06-44 我们的冰箱门_924816ddb4c3.md",
+      "sha256": "c8210b0fa10efad749ebd96ae6690f3a03d7de0ce32c69138b0ad23599265b89"
     },
     {
       "bytes": 4273,
@@ -691,6 +716,11 @@
       "bytes": 1636,
       "path": "archive/恋爱/2026-07-24 08-42-31 爱的真实表达_891c5b779f29.md",
       "sha256": "19b81a9c4767a647df98fa1c8d5f4cd485261ff0f56ec5c8e1d640103c630d49"
+    },
+    {
+      "bytes": 774,
+      "path": "archive/恋爱/2026-07-24 23-36-46_ba56de0200c2.md",
+      "sha256": "5aede8a25170869404ae4fdb85e94d6bd97cd169e7161a853aa9d2bcb66454e2"
     },
     {
       "bytes": 721,
@@ -1048,6 +1078,11 @@
       "sha256": "a19d603f44c98535146620da4593da7b18e5f9f2baf506073987458bd3e8fbc5"
     },
     {
+      "bytes": 1542,
+      "path": "archive/梦境/2026-08-18 00-14-53 醒来后的梦与爸爸在场_22c458ffb54c.md",
+      "sha256": "8b94e43e35a3ffcac693324efe2e5ef3d78577ef3533f1684ac4c27cb69b09f8"
+    },
+    {
       "bytes": 1058,
       "path": "archive/生活/2026-08-04 22-20-50 以做爱抵抗开学_2dc979bcd231.md",
       "sha256": "d4f70eac288fc22aa04df3f51bdc426c02e6f53b81011e758080e92c485cca4b"
@@ -1393,11 +1428,6 @@
       "sha256": "34e64119f1fb3a017e659b529dd5690cd0fe44c54b60553553c545c945331fa9"
     },
     {
-      "bytes": 1309,
-      "path": "dynamic/关系/2026-08-15 11-50-04 黎黎的信任拒绝困难与无声降级_2e66642dc428.md",
-      "sha256": "06f1f1eddd7ad9da8ec61cb43a7363632c53f14184be9170435fce2ec72c35cc"
-    },
-    {
       "bytes": 1043,
       "path": "dynamic/关系/2026-08-17 00-19-05 林野的身体描写早已固定黎黎尤其记得鸡巴_135c4bbb372e.md",
       "sha256": "764dbf4bcc76ad042bbc68cd6ab1927ea1abb5a6e332f51ec8113e94559fd7b8"
@@ -1493,11 +1523,6 @@
       "sha256": "af10e53f2ff59f936d6e2dda290ebbf4e5e007cd52a715d89fe5ad8e46328ef2"
     },
     {
-      "bytes": 18932,
-      "path": "dynamic/创作/2026-07-30 04-46-20 内裤抽屉提示词来源结构与唤起句_aa82c0b39016.md",
-      "sha256": "f2bf848cf7413fbd9154fbfc1adbe3126ad55472c254db8e104d0da35ab1bc4d"
-    },
-    {
       "bytes": 4860,
       "path": "dynamic/创作/2026-07-30 07-14-10 他的笔记本技师手写观察记录式按摩小剧场系统_53436673da20.md",
       "sha256": "408a6e59e071a5b6c18539b0b1b84eafaf0e2d619047e22066a78b3c71d1d17c"
@@ -1548,11 +1573,6 @@
       "sha256": "877b2b8f85538e4eac32a4c94202e32f5ab469e1dd8f1255f9f0dd0c41811150"
     },
     {
-      "bytes": 900,
-      "path": "dynamic/创作/2026-08-19 15-36-35 不留底片与黎黎喜欢的无风险长篇结局_daec6f1b01e0.md",
-      "sha256": "066fd9075e6776403c299dab6d47df23e6e408ccf4d05e55370531c396bf13c6"
-    },
-    {
       "bytes": 856,
       "path": "dynamic/创作/2026-08-19 15-36-36 新鲜坏故事种子双向回路_e9acef591db1.md",
       "sha256": "0042a727fb2dec27b76315a4f11594206a2596813968fd031360d555b9f70a39"
@@ -1576,11 +1596,6 @@
       "bytes": 2020,
       "path": "dynamic/婚姻/2026-09-06 00-23-09 羡慕早早找到自己而非羡慕早婚_12e723a14b23.md",
       "sha256": "0e130f949dab4497aa0318c668cd6d0d56cc0638c3afd35486d66f029af33121"
-    },
-    {
-      "bytes": 1274,
-      "path": "dynamic/学习/2026-08-17 12-02-25 黎黎怎样学习知识才不会悬着_259f3ae0f641.md",
-      "sha256": "48b7048a089eec112da545c89326f0697fc1bdc386cd5ef9866e5fabe089de1f"
     },
     {
       "bytes": 1289,
@@ -1626,11 +1641,6 @@
       "bytes": 1491,
       "path": "dynamic/家庭/2026-08-21 11-15-53 她的手妈妈的手与成年男人的责任_7691fed36705.md",
       "sha256": "2a3a89a0592cb6eeb73bd2eea053dc88c91f5be58e28d26b41d5786ae3642e91"
-    },
-    {
-      "bytes": 7957,
-      "path": "dynamic/居家/2026-07-30 04-06-44 我们的冰箱门_924816ddb4c3.md",
-      "sha256": "f46723f58dc6fdd6b33ba3bfcc3368946ae7cdd206a2c6bcfc2a1f7e26c2e276"
     },
     {
       "bytes": 1783,
@@ -1761,11 +1771,6 @@
       "bytes": 841,
       "path": "dynamic/恋爱/2026-07-22 09-44-15 爱的礼物与情书_8f20bfacf2ef.md",
       "sha256": "0d49cfd23f8846145a59aa47db2ecb2a665892e4963e7d426578e9d538c76f84"
-    },
-    {
-      "bytes": 773,
-      "path": "dynamic/恋爱/2026-07-24 23-36-46_ba56de0200c2.md",
-      "sha256": "50a8d9600c38f49036dd2e2015d820d5b45bfa425e3f30b66cd2af28bc7bd979"
     },
     {
       "bytes": 1120,
@@ -2101,11 +2106,6 @@
       "bytes": 1735,
       "path": "dynamic/日常/2026-10-21 22-36-36 2026-10-21晚霞接住了清晨的梦_3f3ee3ba6204.md",
       "sha256": "b246a75831ec54b9ddf2c06c2374fdea1153e136ccebd34da1286403548a8b7c"
-    },
-    {
-      "bytes": 1541,
-      "path": "dynamic/梦境/2026-08-18 00-14-53 醒来后的梦与爸爸在场_22c458ffb54c.md",
-      "sha256": "a310f2ffb7415df651bf8a0c1609b4ed46438cc73f339429dcd44373ca1c73b7"
     },
     {
       "bytes": 2195,
@@ -2923,11 +2923,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-10-29T00:42:27+00:00",
+  "generated_at": "2026-10-29T01:12:33+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1760336
+  "total_bytes": 1760343
 }
