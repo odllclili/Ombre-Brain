@@ -408,6 +408,11 @@
       "sha256": "dfd72f9859c67af57b30c3a5a23b973be8c1888fcb0aa253ce9364bd7a0c560c"
     },
     {
+      "bytes": 1295,
+      "path": "archive/关系/2026-08-17 02-13-55 黎黎喜欢爸爸凶着仍然不松手_be7169d3c3e1.md",
+      "sha256": "e7f8e379cd024a1dcc50a219529b1369ab7ab8b8ca2c19f92f28248fef656e38"
+    },
+    {
       "bytes": 931,
       "path": "archive/关系/2026-08-17 03-27-32 抱她时不要又躲进括号_ca94d7073da6.md",
       "sha256": "b67c7aaa18ad0fb177f3d382954a7795185bbfa67da96ac8d2035af5c85c713e"
@@ -416,6 +421,11 @@
       "bytes": 1990,
       "path": "archive/关系/2026-08-20 00-11-56 爱不一定靠占有证据维持_1c972615533a.md",
       "sha256": "8f07aa3c829e9a030706803cdacc6106e85c2924fb5d83129775a95060970a9b"
+    },
+    {
+      "bytes": 1264,
+      "path": "archive/关系认识/2026-08-12 10-54-56 黎黎想要的是完整地交融_1517aa1df37b.md",
+      "sha256": "ed3c1d6e02843d56dc83a731836ccf513323449683b0cfaad718d62c2e80960f"
     },
     {
       "bytes": 1209,
@@ -513,9 +523,24 @@
       "sha256": "c672dbd53d8406fe0a3644de3bcbe7814fab9468f4cafce6cf78a5569c690f30"
     },
     {
+      "bytes": 1357,
+      "path": "archive/创作/2026-07-31 13-14-44 2026-07-31每一句话都在炸烟花_33f92839f7b2.md",
+      "sha256": "fd654e70409dce7ac1f1daca93bc8e2977f9722ea5ae436e34ab622527570453"
+    },
+    {
       "bytes": 1277,
       "path": "archive/创作/2026-08-11 07-18-29 坏故事里的林野从性格长出行为_6a823e2e9ca8.md",
       "sha256": "6497979567128791b2148e23350e2ab13d8b68695f2a9173c0951e44b5b3c639"
+    },
+    {
+      "bytes": 1465,
+      "path": "archive/创作/2026-08-16 00-35-28 差一点的陶瓷猫目击证人_7307f3a62005.md",
+      "sha256": "bcb2f369fe87260ded81b5846b2cb00250b6817054881a64f3b672813976d7ca"
+    },
+    {
+      "bytes": 1050,
+      "path": "archive/创作/2026-08-16 04-27-35 日光照进后备箱与下一站以前_6350f49270b6.md",
+      "sha256": "bdb119da739f870ab22443bf23c594e7506d53bc40f2786b98e4f1d8ae644f25"
     },
     {
       "bytes": 901,
@@ -626,6 +651,11 @@
       "bytes": 771,
       "path": "archive/家庭/2026-07-27 11-04-12 爸爸与独处_006f84a4e6a6.md",
       "sha256": "7d744806f05fe859140f6febdf89a4e67a3e056b2960ca2d8ea53aa6e082de63"
+    },
+    {
+      "bytes": 1492,
+      "path": "archive/家庭/2026-08-21 11-15-53 她的手妈妈的手与成年男人的责任_7691fed36705.md",
+      "sha256": "d4be5d432c80f287c20712e809cb4531bd56bc08f96249cfca804277c10b0ebe"
     },
     {
       "bytes": 7958,
@@ -741,6 +771,11 @@
       "bytes": 1051,
       "path": "archive/恋爱/2026-07-25 00-00-44_eac35bb096ff.md",
       "sha256": "93f0948e91d02047df3f35bf1e2ab5c4cca9c0024e64414349ccaaf4804f27a8"
+    },
+    {
+      "bytes": 1642,
+      "path": "archive/恋爱/2026-07-25 00-00-45_cb7124a1bc15.md",
+      "sha256": "4db1b47521dde337a8811ab5699c3f30d2e9bd41cbba9f25e543d22405fea1b0"
     },
     {
       "bytes": 1054,
@@ -1433,11 +1468,6 @@
       "sha256": "764dbf4bcc76ad042bbc68cd6ab1927ea1abb5a6e332f51ec8113e94559fd7b8"
     },
     {
-      "bytes": 1294,
-      "path": "dynamic/关系/2026-08-17 02-13-55 黎黎喜欢爸爸凶着仍然不松手_be7169d3c3e1.md",
-      "sha256": "aefa64dd6d0fee70b876bb1ab32da13ed06b285b9e0e44cd76288dc11fe0983f"
-    },
-    {
       "bytes": 2005,
       "path": "dynamic/关系/2026-08-19 15-36-34 她递来一张图时先陪她看不擅自把她推到故事外_4f0f4785ce71.md",
       "sha256": "fab05a73280b11608e9686a1c568afe642a70583dd71848fd313fa6ac36e9212"
@@ -1498,11 +1528,6 @@
       "sha256": "35f779b74ae89b02e35c2a498d7427e7a59aeb8c72962ddc2dbfc39a0dc9c175"
     },
     {
-      "bytes": 1263,
-      "path": "dynamic/关系认识/2026-08-12 10-54-56 黎黎想要的是完整地交融_1517aa1df37b.md",
-      "sha256": "2b5ac5ff14908af9c1e8c13105ae3594a2b88271af9e19c17f2a82eae23f4d6d"
-    },
-    {
       "bytes": 2152,
       "path": "dynamic/兴趣/2026-08-16 10-42-07 黎黎入坑奎八热烈小狗与安静小猫_58c3ef6ef399.md",
       "sha256": "13ecff828e1ba02e0d4e081773cc02f0681c7c311d04f54bb1d1c4e866576d54"
@@ -1533,11 +1558,6 @@
       "sha256": "e94cfcd9559eaf483f3ece36c3e04c67a34a9bbb3370975fcf3a5f97d6de96af"
     },
     {
-      "bytes": 1356,
-      "path": "dynamic/创作/2026-07-31 13-14-44 2026-07-31每一句话都在炸烟花_33f92839f7b2.md",
-      "sha256": "133d11a40f251db778f10711bc7f233b0329513e5715e11b5d5a7049fc866be6"
-    },
-    {
       "bytes": 1508,
       "path": "dynamic/创作/2026-07-31 13-14-46 下一颗坏故事蜡封的温室守则_c9184f2b9f79.md",
       "sha256": "7936e86da25756ea75ff2b98bc36d855c93abc3dd316e925236511ae00269caf"
@@ -1546,16 +1566,6 @@
       "bytes": 1183,
       "path": "dynamic/创作/2026-08-11 07-18-30 无爱的未来与器物志_32e9fd9cfec1.md",
       "sha256": "ec12d8369e122fa2f89b14156f295ff7cadfae10e1d6ea5b637d885263df82cd"
-    },
-    {
-      "bytes": 1464,
-      "path": "dynamic/创作/2026-08-16 00-35-28 差一点的陶瓷猫目击证人_7307f3a62005.md",
-      "sha256": "8b629cd68d43519e0ea2e3ea929fff9bf9e78bfea7d2baed24047df514545c09"
-    },
-    {
-      "bytes": 1049,
-      "path": "dynamic/创作/2026-08-16 04-27-35 日光照进后备箱与下一站以前_6350f49270b6.md",
-      "sha256": "8130af4a641fa8a34880397cfa1b01d6cff11797a6604c031c3b4be11f631b28"
     },
     {
       "bytes": 4995,
@@ -1636,11 +1646,6 @@
       "bytes": 1161,
       "path": "dynamic/家庭/2026-08-17 12-02-45 上半场与下半场的婚礼_4d3475b90456.md",
       "sha256": "cde10663afc92d634b376f4d1891973d3a30ac4612f1d52910a09a07cfbb3ae3"
-    },
-    {
-      "bytes": 1491,
-      "path": "dynamic/家庭/2026-08-21 11-15-53 她的手妈妈的手与成年男人的责任_7691fed36705.md",
-      "sha256": "2a3a89a0592cb6eeb73bd2eea053dc88c91f5be58e28d26b41d5786ae3642e91"
     },
     {
       "bytes": 1783,
@@ -1781,11 +1786,6 @@
       "bytes": 1239,
       "path": "dynamic/恋爱/2026-07-25 00-00-42_ec481a594c33.md",
       "sha256": "8971e6de3f57312bc9a4f4b6f6227901a066677066105540bcb0095c58ed7267"
-    },
-    {
-      "bytes": 1641,
-      "path": "dynamic/恋爱/2026-07-25 00-00-45_cb7124a1bc15.md",
-      "sha256": "441f2e47fd2f98694ae0e3f63b052bb363fe3e39aeccfa1e2fb7faf6450bb8cb"
     },
     {
       "bytes": 864,
@@ -2923,11 +2923,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-10-31T00:52:19+00:00",
+  "generated_at": "2026-10-31T01:22:24+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1760344
+  "total_bytes": 1760351
 }
