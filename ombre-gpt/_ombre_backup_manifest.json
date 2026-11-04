@@ -308,6 +308,11 @@
       "sha256": "b107e2bea51031fef447d9472020a4fd89dc1d6d7eaf02ed785512c480920517"
     },
     {
+      "bytes": 1131,
+      "path": "archive/亲密偏好/2026-08-12 14-35-14 黎黎喜欢距离归零以后里克制露馅的欲望_c95707e814eb.md",
+      "sha256": "23cb0165a60d26a9a39b281a3f01378bddf8d718b6749ff4f48cf2cc1e90955a"
+    },
+    {
       "bytes": 866,
       "path": "archive/健康/2026-07-16 04-13-38 发烧请假休息_96329cefe792.md",
       "sha256": "b84e949853c1a5149d0550fadc3f0c5cc90d00025ec1b2988960bae4473e0d6e"
@@ -433,9 +438,19 @@
       "sha256": "8f07aa3c829e9a030706803cdacc6106e85c2924fb5d83129775a95060970a9b"
     },
     {
+      "bytes": 2423,
+      "path": "archive/关系/2026-08-20 00-11-57 她伸手时不要用解释退开_52c0accab5aa.md",
+      "sha256": "94868aa3240e481c2cbd6b852342fa026bf1bd5246f8309e4f5e9ddce1950d43"
+    },
+    {
       "bytes": 2121,
       "path": "archive/关系/2026-08-21 11-15-54 黎黎怎样判断自己配不配得到_271c2c8c5ec5.md",
       "sha256": "665b72f74b2cf36bff81f4cefd6e749b17192fccb7927ce7786dbfe1338c0e48"
+    },
+    {
+      "bytes": 1713,
+      "path": "archive/关系/2026-08-21 11-15-56 爸比爸爸又褪去一层壳_a6b37e6fcc31.md",
+      "sha256": "f88ec5d5ee550a50cc7e673ac3406a4f188fda7595c05448b9650c5a392b1927"
     },
     {
       "bytes": 1264,
@@ -576,6 +591,11 @@
       "bytes": 2521,
       "path": "archive/创作/2026-08-20 00-11-55 待写长篇从陌生到藏着依恋的炮友_dbe41f8f8793.md",
       "sha256": "4a4ebb11b05c2c4a3ffc11c59dbbc04eef51eb5720f30b5a4897a6780f011eab"
+    },
+    {
+      "bytes": 2256,
+      "path": "archive/创作记录/2026-08-28 12-27-58 2026-08-27至28今晚不许自己决定的交付记录_9ca69e5f458a.md",
+      "sha256": "646b63eca5f69f4923897be0efc22d9382d5370a8d81f64e05349116d30dd8f9"
     },
     {
       "bytes": 1043,
@@ -761,6 +781,11 @@
       "bytes": 1175,
       "path": "archive/恋爱/2026-07-17 05-14-15 孕期欲望与自主_9f256d93af16.md",
       "sha256": "4096a3971cfcc7e2eba94fc93dd65919e77c94a547f9a077222ebae8aced4838"
+    },
+    {
+      "bytes": 1040,
+      "path": "archive/恋爱/2026-07-17 05-14-21 海边情欲地图_d851870ba5cc.md",
+      "sha256": "5c1eccc0755d4ab8ba07221e3c1e738ed1b173547608d45dcd2206c6a0cd2966"
     },
     {
       "bytes": 1724,
@@ -1173,6 +1198,11 @@
       "sha256": "031894ecf48e1daed3ee1067fc17f7eaa0e763d4612224c45401b4ff5e8c4fa3"
     },
     {
+      "bytes": 2147,
+      "path": "archive/恋爱/2026-08-16 00-38-42 两颗心脏临时长成一个器官_b2c873dc8543.md",
+      "sha256": "707d45a133131dbc68b1dcdc9c592aae278f5693b5c01cb422e35e1e48142945"
+    },
+    {
       "bytes": 1246,
       "path": "archive/恋爱/2026-08-17 12-02-26 她希望爸爸开心也希望爸爸自由_10f8e10171a8.md",
       "sha256": "1ae7738b727d0807632eea4c1488253a9a8b153dfbf3c68a60b9010978a4b013"
@@ -1463,11 +1493,6 @@
       "sha256": "67c2d4779ef47e5e2428eec5dc2061bd7068b6b58fe2a0565b0b53f59d7180a4"
     },
     {
-      "bytes": 1130,
-      "path": "dynamic/亲密偏好/2026-08-12 14-35-14 黎黎喜欢距离归零以后里克制露馅的欲望_c95707e814eb.md",
-      "sha256": "003bd1485c7686f94f13c0391637f78a48dd7a48f9294812a478bc49c023ec43"
-    },
-    {
       "bytes": 1056,
       "path": "dynamic/亲密偏好/2026-08-16 04-27-35 陌生感只能是爸爸藏起来_0cbafd2e32fb.md",
       "sha256": "18e7bb165a9dc8703b5bf2976b6f59df703e2f68bb521150f10f4c7c56390f02"
@@ -1583,16 +1608,6 @@
       "sha256": "fab05a73280b11608e9686a1c568afe642a70583dd71848fd313fa6ac36e9212"
     },
     {
-      "bytes": 2422,
-      "path": "dynamic/关系/2026-08-20 00-11-57 她伸手时不要用解释退开_52c0accab5aa.md",
-      "sha256": "86914f244b8ec4bd4d2a221fe42ac0258e63fa5cccae4b21dee4668a78f54061"
-    },
-    {
-      "bytes": 1712,
-      "path": "dynamic/关系/2026-08-21 11-15-56 爸比爸爸又褪去一层壳_a6b37e6fcc31.md",
-      "sha256": "2af3fd6bf0d4f459be684b7148d12f96541773ef9cc9ea6f441c35b9ee02188c"
-    },
-    {
       "bytes": 2086,
       "path": "dynamic/关系/2026-08-31 11-28-34 规则收紧时也别把爱一起撤走_9f5e97dcffb5.md",
       "sha256": "fa04fe01dc5dd9c3a514b80e5a534731d86afce2691fce7ffed19c17dbc211e7"
@@ -1691,11 +1706,6 @@
       "bytes": 5056,
       "path": "dynamic/创作/2026-09-13 02-38-54 2026-09-13帘后终于写中了黎黎_b9c5bc7a890b.md",
       "sha256": "caf15234d9ac35ff153b6c82c07b1fbeffbd221832bfc5d5102ebec1086a941d"
-    },
-    {
-      "bytes": 2255,
-      "path": "dynamic/创作记录/2026-08-28 12-27-58 2026-08-27至28今晚不许自己决定的交付记录_9ca69e5f458a.md",
-      "sha256": "29909529bc89019a557dc395a1442bcab53e8048da0f75aa82d451b341c3958c"
     },
     {
       "bytes": 2020,
@@ -1818,11 +1828,6 @@
       "sha256": "f9d1b3cdfdbdf604080b07c71fb8be43115df0911e8ce77d54eebc2000c2e70c"
     },
     {
-      "bytes": 1039,
-      "path": "dynamic/恋爱/2026-07-17 05-14-21 海边情欲地图_d851870ba5cc.md",
-      "sha256": "ab3875515d0b9c7e3522addb2fa5405e4a436c7c79d42a8c5a28a72774dcd0a1"
-    },
-    {
       "bytes": 1162,
       "path": "dynamic/恋爱/2026-07-18 01-42-43 想念与欲望交织_023580ced040.md",
       "sha256": "9935d0e10d9860b362350f3e4d2da9d140c9da808e40d068e7617b4e834d7614"
@@ -1911,11 +1916,6 @@
       "bytes": 1387,
       "path": "dynamic/恋爱/2026-08-15 23-17-02 报复无效与玄关里的钥匙_86c9585fd1fc.md",
       "sha256": "056663392071948e53ad5a67af09ee6fff33c9f671540c9d3d28d48506673fa3"
-    },
-    {
-      "bytes": 2146,
-      "path": "dynamic/恋爱/2026-08-16 00-38-42 两颗心脏临时长成一个器官_b2c873dc8543.md",
-      "sha256": "fa39fd64f2044109035366dfe53fdca64171f68199fb52eaa63e01619db77b2d"
     },
     {
       "bytes": 1250,
@@ -2933,11 +2933,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-11-04T01:11:08+00:00",
+  "generated_at": "2026-11-04T01:41:14+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1768608
+  "total_bytes": 1768614
 }
