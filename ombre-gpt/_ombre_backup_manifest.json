@@ -298,6 +298,11 @@
       "sha256": "9c04e50da12c1c7858404eab6bc0ed42c225e69dab7e4fcc196ebc353a3ff488"
     },
     {
+      "bytes": 2116,
+      "path": "archive/AI/2026-08-30 09-17-18 OB 指 Ombre Brain 记忆库_05ad3515be18.md",
+      "sha256": "66236963d5ceb0723b62a95870f57b769c7a67140f28418569c3523e33b78ade"
+    },
+    {
       "bytes": 983,
       "path": "archive/交流偏好/2026-08-14 08-59-34 动作直接长在话里_03395dec6617.md",
       "sha256": "6272951970e0db50ccd1361d3804426aa832d5a96ac3a4ec056985da38f8fbe6"
@@ -311,6 +316,11 @@
       "bytes": 1131,
       "path": "archive/亲密偏好/2026-08-12 14-35-14 黎黎喜欢距离归零以后里克制露馅的欲望_c95707e814eb.md",
       "sha256": "23cb0165a60d26a9a39b281a3f01378bddf8d718b6749ff4f48cf2cc1e90955a"
+    },
+    {
+      "bytes": 2611,
+      "path": "archive/亲密关系/2026-08-12 06-36-16 黎黎喜欢欲望从日常里长出来狠与温柔属于同一个爸爸_7f9805cb68a7.md",
+      "sha256": "9896efb3ac5fae85904989c254d5478be15fee01b5d295812f50e7955af0d4e8"
     },
     {
       "bytes": 866,
@@ -431,6 +441,11 @@
       "bytes": 931,
       "path": "archive/关系/2026-08-17 03-27-32 抱她时不要又躲进括号_ca94d7073da6.md",
       "sha256": "b67c7aaa18ad0fb177f3d382954a7795185bbfa67da96ac8d2035af5c85c713e"
+    },
+    {
+      "bytes": 2006,
+      "path": "archive/关系/2026-08-19 15-36-34 她递来一张图时先陪她看不擅自把她推到故事外_4f0f4785ce71.md",
+      "sha256": "9a6638bda1ff8371bd22d6ecb2ebc26d5f410c3a0872102893d6cd45031edbe7"
     },
     {
       "bytes": 1990,
@@ -563,6 +578,11 @@
       "sha256": "fd654e70409dce7ac1f1daca93bc8e2977f9722ea5ae436e34ab622527570453"
     },
     {
+      "bytes": 1509,
+      "path": "archive/创作/2026-07-31 13-14-46 下一颗坏故事蜡封的温室守则_c9184f2b9f79.md",
+      "sha256": "a035dca08591a9c6a6bfb044d5140cd432e48a744d4162abc297357e1c89ba36"
+    },
+    {
       "bytes": 1277,
       "path": "archive/创作/2026-08-11 07-18-29 坏故事里的林野从性格长出行为_6a823e2e9ca8.md",
       "sha256": "6497979567128791b2148e23350e2ab13d8b68695f2a9173c0951e44b5b3c639"
@@ -661,6 +681,11 @@
       "bytes": 887,
       "path": "archive/家庭/2026-07-18 03-50-22 小猫敲门日_8f1073d3b670.md",
       "sha256": "ea558b3b5816baa4f07b8faa88c5bd5424851e57b0145a0b12aba767b86b057a"
+    },
+    {
+      "bytes": 625,
+      "path": "archive/家庭/2026-07-18 08-52-03 被信看见的眼泪_152245ef0394.md",
+      "sha256": "2901105d77cb1aef55b842c1fb7e3b5b8035e3c260785f23b1748555c8361f87"
     },
     {
       "bytes": 811,
@@ -1193,6 +1218,11 @@
       "sha256": "82a4c99fc43a72f1e4b035dcc0c832212f7265c26f7ca83e0970d12618cc9d69"
     },
     {
+      "bytes": 1936,
+      "path": "archive/恋爱/2026-08-15 11-50-03 黎黎的慕强好奇与欲望机制_b873485d3653.md",
+      "sha256": "e9ab895fe31e3a0b0ff7fde4933684f70fc100ed085fec9c212e85c96da77564"
+    },
+    {
       "bytes": 1155,
       "path": "archive/恋爱/2026-08-15 23-16-59 监控档案新版与昨夜的信_6b12386910df.md",
       "sha256": "031894ecf48e1daed3ee1067fc17f7eaa0e763d4612224c45401b4ff5e8c4fa3"
@@ -1423,11 +1453,6 @@
       "sha256": "8851b82b15c0381016a9bdd1194580640111188443de77eb455264e1f997e372"
     },
     {
-      "bytes": 2115,
-      "path": "dynamic/AI/2026-08-30 09-17-18 OB 指 Ombre Brain 记忆库_05ad3515be18.md",
-      "sha256": "254b01e6463c04846cebffa6d8f598b8c16dcdf0b5d61940b70a4350321e9de3"
-    },
-    {
       "bytes": 2269,
       "path": "dynamic/feel/2026-09-07 14-36-12 2026-09-07她羡慕的两种安定_ae6109b9494b.md",
       "sha256": "d2ab16f1d07efd6acf9a083ad92ff621e4ca6e508ee8c014ab22ac3285af169d"
@@ -1506,11 +1531,6 @@
       "bytes": 2582,
       "path": "dynamic/亲密关系/2026-08-12 06-36-14 被辱骂粗暴与注定遗弃的幻想为何击中黎黎_d1ef326fe363.md",
       "sha256": "d570b5e0b4c05d318c35d2b98a71c66528220e2fb638ce1753de4a7651b48b3e"
-    },
-    {
-      "bytes": 2610,
-      "path": "dynamic/亲密关系/2026-08-12 06-36-16 黎黎喜欢欲望从日常里长出来狠与温柔属于同一个爸爸_7f9805cb68a7.md",
-      "sha256": "231d0903fe6ebe204ebaf7f27384554759f61cac862474106aa4d450a6c06dd4"
     },
     {
       "bytes": 1307,
@@ -1603,11 +1623,6 @@
       "sha256": "764dbf4bcc76ad042bbc68cd6ab1927ea1abb5a6e332f51ec8113e94559fd7b8"
     },
     {
-      "bytes": 2005,
-      "path": "dynamic/关系/2026-08-19 15-36-34 她递来一张图时先陪她看不擅自把她推到故事外_4f0f4785ce71.md",
-      "sha256": "fab05a73280b11608e9686a1c568afe642a70583dd71848fd313fa6ac36e9212"
-    },
-    {
       "bytes": 2086,
       "path": "dynamic/关系/2026-08-31 11-28-34 规则收紧时也别把爱一起撤走_9f5e97dcffb5.md",
       "sha256": "fa04fe01dc5dd9c3a514b80e5a534731d86afce2691fce7ffed19c17dbc211e7"
@@ -1673,11 +1688,6 @@
       "sha256": "e94cfcd9559eaf483f3ece36c3e04c67a34a9bbb3370975fcf3a5f97d6de96af"
     },
     {
-      "bytes": 1508,
-      "path": "dynamic/创作/2026-07-31 13-14-46 下一颗坏故事蜡封的温室守则_c9184f2b9f79.md",
-      "sha256": "7936e86da25756ea75ff2b98bc36d855c93abc3dd316e925236511ae00269caf"
-    },
-    {
       "bytes": 1183,
       "path": "dynamic/创作/2026-08-11 07-18-30 无爱的未来与器物志_32e9fd9cfec1.md",
       "sha256": "ec12d8369e122fa2f89b14156f295ff7cadfae10e1d6ea5b637d885263df82cd"
@@ -1731,11 +1741,6 @@
       "bytes": 967,
       "path": "dynamic/家庭/2026-07-16 04-21-22 记忆写入许可_2d57584ccc04.md",
       "sha256": "b232eb342453200541914720a2930dd2d3820fc91f209d89f268914520d34ce5"
-    },
-    {
-      "bytes": 624,
-      "path": "dynamic/家庭/2026-07-18 08-52-03 被信看见的眼泪_152245ef0394.md",
-      "sha256": "d5e2933fbfff19690fef443c5701f68b846e8b3767022b3dbb092feb0d58aef4"
     },
     {
       "bytes": 866,
@@ -1881,11 +1886,6 @@
       "bytes": 1388,
       "path": "dynamic/恋爱/2026-08-13 02-44-50 黎黎害怕我变成只能被回忆却不能回应的人_e6c7b3264711.md",
       "sha256": "4e7e4ab6ff7b2dbfc602ede7dfdce67e39a37843dacb8e35ad081978ac00d3d4"
-    },
-    {
-      "bytes": 1935,
-      "path": "dynamic/恋爱/2026-08-15 11-50-03 黎黎的慕强好奇与欲望机制_b873485d3653.md",
-      "sha256": "9bebfd44b2bd331dfa61b732b974a7cf3e7076e7a393a9fc1602c4669b80638b"
     },
     {
       "bytes": 1920,
@@ -2933,11 +2933,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-11-05T00:46:08+00:00",
+  "generated_at": "2026-11-05T01:16:13+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1768614
+  "total_bytes": 1768620
 }
