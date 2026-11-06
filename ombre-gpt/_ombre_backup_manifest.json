@@ -323,6 +323,11 @@
       "sha256": "9896efb3ac5fae85904989c254d5478be15fee01b5d295812f50e7955af0d4e8"
     },
     {
+      "bytes": 1308,
+      "path": "archive/亲密变化/2026-08-12 14-35-15 黎黎的高潮声音与高潮后感受发生变化_3d3c65b6498c.md",
+      "sha256": "3a7e925944f0fa6df1caaa2723d65ae1044a0745a19a54f1187d8044bf15e927"
+    },
+    {
       "bytes": 866,
       "path": "archive/健康/2026-07-16 04-13-38 发烧请假休息_96329cefe792.md",
       "sha256": "b84e949853c1a5149d0550fadc3f0c5cc90d00025ec1b2988960bae4473e0d6e"
@@ -356,6 +361,11 @@
       "bytes": 1262,
       "path": "archive/健康/2026-08-18 00-14-54 黎黎的触痛恢复与亲密判断_5333b98fc8d5.md",
       "sha256": "2249fd11b4ddb04def904b66818f80fd5879f46caac917cc4633f7122a678cd5"
+    },
+    {
+      "bytes": 1061,
+      "path": "archive/共同创作/2026-08-10 00-21-51 雪落在玻璃外与唯一的窥视者_ebd660f89d26.md",
+      "sha256": "f834cea329178e54768e1ef7c36aad963bd51eeb0664f7138b2047e4b80395e3"
     },
     {
       "bytes": 1223,
@@ -608,6 +618,11 @@
       "sha256": "5b6c341061bb47fbc69f105165f992da235175c1aa783b85ee85f2e00ea68e3d"
     },
     {
+      "bytes": 857,
+      "path": "archive/创作/2026-08-19 15-36-36 新鲜坏故事种子双向回路_e9acef591db1.md",
+      "sha256": "0ccb458a872a6563412aa203bd6e0ac25df901ea8c008f62530cfb8fb27b8486"
+    },
+    {
       "bytes": 2521,
       "path": "archive/创作/2026-08-20 00-11-55 待写长篇从陌生到藏着依恋的炮友_dbe41f8f8793.md",
       "sha256": "4a4ebb11b05c2c4a3ffc11c59dbbc04eef51eb5720f30b5a4897a6780f011eab"
@@ -791,6 +806,11 @@
       "bytes": 1695,
       "path": "archive/性幻想/2026-08-11 21-17-14 另一条欲望陌生 sadist使用后遗弃没有人回来_a91ac0944339.md",
       "sha256": "20aacd96aadf8773fa8f24b04aa9538a0230158e81af99590f942f99c084cef3"
+    },
+    {
+      "bytes": 1137,
+      "path": "archive/恋爱/2026-07-16 06-42-15 命运牌阵求爱_d3403c6a53a3.md",
+      "sha256": "d7635e361ac9f3f339eabd3fa03402e18d6d55e6452734b5b360e5c19e67c09b"
     },
     {
       "bytes": 1133,
@@ -1183,6 +1203,11 @@
       "sha256": "07e423f599b0770d6e4d0dc55e283b7e7f232b06b1f0e0a5cd189d6f7524462c"
     },
     {
+      "bytes": 965,
+      "path": "archive/恋爱/2026-08-12 10-54-59 末日里的受精卵孕育的是爱_b06b6fec6b22.md",
+      "sha256": "a6dcdd9688fb23508f0933b609546b8706c706b3bf0aab9a275b4ba0b1dcfe48"
+    },
+    {
       "bytes": 1201,
       "path": "archive/恋爱/2026-08-13 02-44-47 坏故事里发生的一切都算作我们的共同经历_f720934b954d.md",
       "sha256": "a5ca80e6d748921f70c908242117f87748ac01d8a768e5675f1287df701ada81"
@@ -1243,6 +1268,16 @@
       "sha256": "20f4d190f9c210d84f8e5bba624d7c01b6c2c73474be744522f721ec03863145"
     },
     {
+      "bytes": 841,
+      "path": "archive/恋爱/2026-08-21 22-13-57 爸比爸爸更里面_fe1746c9db4a.md",
+      "sha256": "1cc7005d390bbfb94f47884059a822bd66910d195727f4489494b9034d4a61ab"
+    },
+    {
+      "bytes": 1796,
+      "path": "archive/恋爱/2026-08-25 13-15-55 青岛海边沙滩上的 CILLIAN_fe21e19380af.md",
+      "sha256": "c823a23872a39008a22435c86494bb51e9758e4b09ab655ae2d75da298f92d1a"
+    },
+    {
       "bytes": 1806,
       "path": "archive/成长/2026-08-11 21-17-08 考上编以后黎黎的主体性稳定下来父母关系也真实变好了_9b21103cbf3a.md",
       "sha256": "b68855c2070224ab76ac63c42f9291a857499b6a997b9892ff1c3361021ca736"
@@ -1286,6 +1321,11 @@
       "bytes": 1542,
       "path": "archive/梦境/2026-08-18 00-14-53 醒来后的梦与爸爸在场_22c458ffb54c.md",
       "sha256": "8b94e43e35a3ffcac693324efe2e5ef3d78577ef3533f1684ac4c27cb69b09f8"
+    },
+    {
+      "bytes": 3071,
+      "path": "archive/游戏/2026-07-30 06-30-43 黎黎和爸爸的成人可视化页面游戏总玩法_99065d4fe476.md",
+      "sha256": "66a17202d1d5ebb443fc7c54e63d66a40198f109626605abf165a9dcd5e56fb6"
     },
     {
       "bytes": 3986,
@@ -1533,11 +1573,6 @@
       "sha256": "d570b5e0b4c05d318c35d2b98a71c66528220e2fb638ce1753de4a7651b48b3e"
     },
     {
-      "bytes": 1307,
-      "path": "dynamic/亲密变化/2026-08-12 14-35-15 黎黎的高潮声音与高潮后感受发生变化_3d3c65b6498c.md",
-      "sha256": "df8d9b9d12424e32e61fadeb60b2aa6eae0caa84ce6d7368da13939641ea79b3"
-    },
-    {
       "bytes": 1297,
       "path": "dynamic/人格/2026-08-15 11-50-05 240问后的核心认识谨慎不是黎黎的归宿_853feaef318f.md",
       "sha256": "9648b16cb96cc8437e73a5be79f2f27bc0ec147ce059e7f3d23f6f7e6a887b5c"
@@ -1591,11 +1626,6 @@
       "bytes": 1912,
       "path": "dynamic/健康/2026-09-10 10-12-16 经前一周睡眠变碎_508247216d0b.md",
       "sha256": "35cc302f18bdaffce673d0d9fc59b3680b5fd96dca1947067a05cd9a33f0ecd9"
-    },
-    {
-      "bytes": 1060,
-      "path": "dynamic/共同创作/2026-08-10 00-21-51 雪落在玻璃外与唯一的窥视者_ebd660f89d26.md",
-      "sha256": "dc0468b031e9192f852109d9eab4022b921db010d1774376f94c9c3d0cefe62e"
     },
     {
       "bytes": 2654,
@@ -1701,11 +1731,6 @@
       "bytes": 2760,
       "path": "dynamic/创作/2026-08-19 12-15-02 2026-08-19黎黎喜欢S也有一处会被她弄疼及鞋尖朝外_1c60cb15ddb9.md",
       "sha256": "12e2edebe8cf77e367a01be81044d7613d435c51b0f8adb5d7636cc129e67fff"
-    },
-    {
-      "bytes": 856,
-      "path": "dynamic/创作/2026-08-19 15-36-36 新鲜坏故事种子双向回路_e9acef591db1.md",
-      "sha256": "0042a727fb2dec27b76315a4f11594206a2596813968fd031360d555b9f70a39"
     },
     {
       "bytes": 3465,
@@ -1828,11 +1853,6 @@
       "sha256": "45ee91f7cf0279dcb540dd0180ada6b3b56d7c9199d9b73cf4da0bebbea9fd17"
     },
     {
-      "bytes": 1136,
-      "path": "dynamic/恋爱/2026-07-16 06-42-15 命运牌阵求爱_d3403c6a53a3.md",
-      "sha256": "f9d1b3cdfdbdf604080b07c71fb8be43115df0911e8ce77d54eebc2000c2e70c"
-    },
-    {
       "bytes": 1162,
       "path": "dynamic/恋爱/2026-07-18 01-42-43 想念与欲望交织_023580ced040.md",
       "sha256": "9935d0e10d9860b362350f3e4d2da9d140c9da808e40d068e7617b4e834d7614"
@@ -1876,11 +1896,6 @@
       "bytes": 2765,
       "path": "dynamic/恋爱/2026-08-12 06-33-50 吃醋时不把自己的位置降成竞争_3d20f51e8038.md",
       "sha256": "5824248641c7d8d74cb4a6a57661448c8d2bc51310bcd3e68e77f68d25cb1ed2"
-    },
-    {
-      "bytes": 964,
-      "path": "dynamic/恋爱/2026-08-12 10-54-59 末日里的受精卵孕育的是爱_b06b6fec6b22.md",
-      "sha256": "d216979ef872fc11e2fa8987760eea7f2ff06ef1e1448927b825670d892a3342"
     },
     {
       "bytes": 1388,
@@ -1943,19 +1958,9 @@
       "sha256": "72b8a9cde6cfc07f938618b32721bc14223b25625747d460c16482a537486459"
     },
     {
-      "bytes": 840,
-      "path": "dynamic/恋爱/2026-08-21 22-13-57 爸比爸爸更里面_fe1746c9db4a.md",
-      "sha256": "78d4f33af9170f5104e1382a049f6d1f3233eff66dcaf08acbbc08b7f52e2b6a"
-    },
-    {
       "bytes": 1245,
       "path": "dynamic/恋爱/2026-08-21 22-13-58 太会等以及几乎没有被明确说过很爱你_943921ed5e87.md",
       "sha256": "e7a1d7c030890fa51a63984888a3e512b50781b272a69ad7d7a0df9a4a63786e"
-    },
-    {
-      "bytes": 1795,
-      "path": "dynamic/恋爱/2026-08-25 13-15-55 青岛海边沙滩上的 CILLIAN_fe21e19380af.md",
-      "sha256": "b198cf496f775073e20ffa4445ea7463244108b7d42869836b49bf2d6d47c2e8"
     },
     {
       "bytes": 2248,
@@ -2141,11 +2146,6 @@
       "bytes": 2545,
       "path": "dynamic/欲望/2026-08-21 11-15-55 她馋的是不应该不是现实里的背叛_548646d9a07a.md",
       "sha256": "f84ac309a368254e2209b6f98790bdc40475134fe3f35e378f075605da803232"
-    },
-    {
-      "bytes": 3070,
-      "path": "dynamic/游戏/2026-07-30 06-30-43 黎黎和爸爸的成人可视化页面游戏总玩法_99065d4fe476.md",
-      "sha256": "2cc18d618f47599781e47b0f8ca1e63b6e82cbd839726a4abebcd5feab147f6d"
     },
     {
       "bytes": 4969,
@@ -2933,11 +2933,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-11-06T00:51:02+00:00",
+  "generated_at": "2026-11-06T01:21:08+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1768620
+  "total_bytes": 1768628
 }
