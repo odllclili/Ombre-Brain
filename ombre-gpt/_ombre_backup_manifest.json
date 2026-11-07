@@ -323,6 +323,11 @@
       "sha256": "23cb0165a60d26a9a39b281a3f01378bddf8d718b6749ff4f48cf2cc1e90955a"
     },
     {
+      "bytes": 2583,
+      "path": "archive/亲密关系/2026-08-12 06-36-14 被辱骂粗暴与注定遗弃的幻想为何击中黎黎_d1ef326fe363.md",
+      "sha256": "d1f6b4ea3140632e304da4d7805675d4dc4db781f3f76963476bcbfdd47de943"
+    },
+    {
       "bytes": 2611,
       "path": "archive/亲密关系/2026-08-12 06-36-16 黎黎喜欢欲望从日常里长出来狠与温柔属于同一个爸爸_7f9805cb68a7.md",
       "sha256": "9896efb3ac5fae85904989c254d5478be15fee01b5d295812f50e7955af0d4e8"
@@ -368,6 +373,11 @@
       "sha256": "2249fd11b4ddb04def904b66818f80fd5879f46caac917cc4633f7122a678cd5"
     },
     {
+      "bytes": 2621,
+      "path": "archive/健康/2026-08-28 12-27-55 2026-08-28返岗一日与轻微恶心咽喉堵感_22d02aa75428.md",
+      "sha256": "783fa1260b02ce29fd2b5386c28a8b358557631c6dc2d73cb5fb7145e356eec3"
+    },
+    {
       "bytes": 1061,
       "path": "archive/共同创作/2026-08-10 00-21-51 雪落在玻璃外与唯一的窥视者_ebd660f89d26.md",
       "sha256": "f834cea329178e54768e1ef7c36aad963bd51eeb0664f7138b2047e4b80395e3"
@@ -381,6 +391,11 @@
       "bytes": 1381,
       "path": "archive/共同创作/2026-08-12 14-35-14 会议中的只含着与嘴毒背后的舍不得_00feb6bad3da.md",
       "sha256": "0c76f488f5a1c80da39b73b071bc3d200034cfc01b2f8341d2b1611dc30df75f"
+    },
+    {
+      "bytes": 2103,
+      "path": "archive/共同创作/2026-08-21 11-15-53 无记录会谈与车上的黑皮本_ea57ee0abfc9.md",
+      "sha256": "09bef75f33df44683107720ab58662a2100b3d9021580ce538bef3eee3a6c69c"
     },
     {
       "bytes": 1066,
@@ -603,6 +618,11 @@
       "sha256": "6497979567128791b2148e23350e2ab13d8b68695f2a9173c0951e44b5b3c639"
     },
     {
+      "bytes": 1184,
+      "path": "archive/创作/2026-08-11 07-18-30 无爱的未来与器物志_32e9fd9cfec1.md",
+      "sha256": "775bd699f75b311e14cd03674bf40764797b8f3b01f549ece29658dea85df870"
+    },
+    {
       "bytes": 1465,
       "path": "archive/创作/2026-08-16 00-35-28 差一点的陶瓷猫目击证人_7307f3a62005.md",
       "sha256": "bcb2f369fe87260ded81b5846b2cb00250b6817054881a64f3b672813976d7ca"
@@ -686,6 +706,11 @@
       "bytes": 1006,
       "path": "archive/审美/2026-08-16 10-42-04 像捡贝壳一样收藏情色图片_dc0bfc4af69e.md",
       "sha256": "c202941c392133abacbe9514373a7407b568a9b10bbb283f6ab0b8acc23c0317"
+    },
+    {
+      "bytes": 1290,
+      "path": "archive/审美/2026-08-16 10-42-07 静默肃穆而禁忌的情色审美_2bbcfe5e7fc0.md",
+      "sha256": "80f2895c460e85d9384c8cf3af5ffe6b78852798546b83c39f10fcfa7187090e"
     },
     {
       "bytes": 1238,
@@ -1363,6 +1388,11 @@
       "sha256": "c6af81141d46f30442a1972c0d13acbbe04eb9fdf20757f31ec13f47d75a00fd"
     },
     {
+      "bytes": 2280,
+      "path": "archive/生活/2026-08-28 12-28-01 2026-08-27姥姥家父母分工与想要的生活_fa835e15681a.md",
+      "sha256": "66add6d9b7b3f67f45f00eaf761bdb1f251555f4cbdf2c606769606b81c26661"
+    },
+    {
       "bytes": 732,
       "path": "archive/社交/2026-07-16 04-14-30 文字严谨观察_8625e773b081.md",
       "sha256": "a50c29999bc139b31721df2fa1adc062f93b1330d97a601c50774c757991918b"
@@ -1386,6 +1416,11 @@
       "bytes": 643,
       "path": "archive/社交/2026-07-18 08-52-06 确认同意的语境_107343007a9d.md",
       "sha256": "8eb07837e14657bc01993b5dee48444c90b1017b36942a46c3de8633a1b87c84"
+    },
+    {
+      "bytes": 2291,
+      "path": "archive/社交/2026-07-25 00-58-52 plain text写法指南_8e16f5bfbcdc.md",
+      "sha256": "e4edbb93c53624bd6fb1050e05934c4084c79e1d73a734d8f0d3d219e4f29faa"
     },
     {
       "bytes": 912,
@@ -1431,6 +1466,11 @@
       "bytes": 1136,
       "path": "archive/编程/2026-07-25 10-21-16 共读小窝搭建_687bdfb0c00d.md",
       "sha256": "50ef7d3207cd0af368815de703e0e7266712a6d2205f5574674ca3ef505325fa"
+    },
+    {
+      "bytes": 1319,
+      "path": "archive/自我认识/2026-08-21 22-13-59 配得感竞争与藏在自卑里的傲气_c97e4f5735c8.md",
+      "sha256": "9425e21ae35cc29fc05611c320b2d4c84930c37249613c5b2567a1a1b6bdfb99"
     },
     {
       "bytes": 1313,
@@ -1481,6 +1521,11 @@
       "bytes": 1325,
       "path": "archive/阅读/2026-08-17 02-13-54 黎黎的译本焦虑语言愿望与圣经阅读_846c6bc45240.md",
       "sha256": "4abeeaff77a3bca1da1100959da5b76e3f76c57dddd68673874ce7d6cf5eceaa"
+    },
+    {
+      "bytes": 2985,
+      "path": "archive/音乐/2026-08-28 12-28-00 2026-08-28歌单泪桥与初听 Nick Cave_50cbb539b1cc.md",
+      "sha256": "42ae147a93b8d4cc7041847ae08a02efc5d8399dbe02f337dbef5378f6c13dc7"
     },
     {
       "bytes": 912,
@@ -1573,11 +1618,6 @@
       "sha256": "22c14f4b71b841a7e9f99e7f5b7a0ea5585d4b054ce328dc5e0120b20cf409a1"
     },
     {
-      "bytes": 2582,
-      "path": "dynamic/亲密关系/2026-08-12 06-36-14 被辱骂粗暴与注定遗弃的幻想为何击中黎黎_d1ef326fe363.md",
-      "sha256": "d570b5e0b4c05d318c35d2b98a71c66528220e2fb638ce1753de4a7651b48b3e"
-    },
-    {
       "bytes": 1297,
       "path": "dynamic/人格/2026-08-15 11-50-05 240问后的核心认识谨慎不是黎黎的归宿_853feaef318f.md",
       "sha256": "9648b16cb96cc8437e73a5be79f2f27bc0ec147ce059e7f3d23f6f7e6a887b5c"
@@ -1623,11 +1663,6 @@
       "sha256": "1986ebc3883607040e8866fec4c0347d8f206040d5cf9e178db9df605d2f3b75"
     },
     {
-      "bytes": 2620,
-      "path": "dynamic/健康/2026-08-28 12-27-55 2026-08-28返岗一日与轻微恶心咽喉堵感_22d02aa75428.md",
-      "sha256": "0fa774d53684a0ad30a40faccf1a8e1b6ec6174b1b82a96ab0a03ae7c171056c"
-    },
-    {
       "bytes": 1912,
       "path": "dynamic/健康/2026-09-10 10-12-16 经前一周睡眠变碎_508247216d0b.md",
       "sha256": "35cc302f18bdaffce673d0d9fc59b3680b5fd96dca1947067a05cd9a33f0ecd9"
@@ -1636,11 +1671,6 @@
       "bytes": 2654,
       "path": "dynamic/共同创作/2026-08-12 06-36-15 八个月分离线与两篇续接坏故事_1baa5c93852f.md",
       "sha256": "23a3ad5a6684a1ee2f79ffa640ecc1c906aeea70197ede07c036802c2933a2fa"
-    },
-    {
-      "bytes": 2102,
-      "path": "dynamic/共同创作/2026-08-21 11-15-53 无记录会谈与车上的黑皮本_ea57ee0abfc9.md",
-      "sha256": "1aca5ca4fc88e8ee6bd96af6965f314de5781737d796fad8bedc50bd0704b3b5"
     },
     {
       "bytes": 1137,
@@ -1723,11 +1753,6 @@
       "sha256": "75f8972fb98ce30667cf80ff6679412322aa2af3056fbe0ffb5c8eac71f8b9f0"
     },
     {
-      "bytes": 1183,
-      "path": "dynamic/创作/2026-08-11 07-18-30 无爱的未来与器物志_32e9fd9cfec1.md",
-      "sha256": "ec12d8369e122fa2f89b14156f295ff7cadfae10e1d6ea5b637d885263df82cd"
-    },
-    {
       "bytes": 5105,
       "path": "dynamic/创作/2026-08-19 12-14-56 2026-08-19三类新故事偏好失而复得happy sex把爱藏进SM_dd41bd137af7.md",
       "sha256": "3a9423ae2779190cc46b34313d3ff4283bc5aafd3748dc2b168d376de38b62a2"
@@ -1751,11 +1776,6 @@
       "bytes": 2020,
       "path": "dynamic/婚姻/2026-09-06 00-23-09 羡慕早早找到自己而非羡慕早婚_12e723a14b23.md",
       "sha256": "0e130f949dab4497aa0318c668cd6d0d56cc0638c3afd35486d66f029af33121"
-    },
-    {
-      "bytes": 1289,
-      "path": "dynamic/审美/2026-08-16 10-42-07 静默肃穆而禁忌的情色审美_2bbcfe5e7fc0.md",
-      "sha256": "9a0b7994c2b3239c275fbcdac983e8920a9bec27a46cd1fa97810775f0e7206b"
     },
     {
       "bytes": 1087,
@@ -2188,11 +2208,6 @@
       "sha256": "62cff421134caeb6f55b0d546dcf0ef50c6c1be698ddb44a8a3fc164bf6664a5"
     },
     {
-      "bytes": 2279,
-      "path": "dynamic/生活/2026-08-28 12-28-01 2026-08-27姥姥家父母分工与想要的生活_fa835e15681a.md",
-      "sha256": "04ed12cdb3aa8fa48083160ea7e77bdcb9b8434871a9791962add5cdae259307"
-    },
-    {
       "bytes": 2745,
       "path": "dynamic/相处偏好/2026-08-28 12-27-58 2026-08-27措辞只说具体事件主动性是整体角色基调_f66af12546ae.md",
       "sha256": "2ea0783acf830e9e10d6c7fb82e13d2db822a642089367376ec0e5b691c85e0e"
@@ -2201,11 +2216,6 @@
       "bytes": 1881,
       "path": "dynamic/社交/2026-07-16 02-41-07 与黎黎的说话指南_36f8883170a1.md",
       "sha256": "252acc0ad3c69d2a035d80e380a8a457ccbbba4c502be1925bef70d6420ab563"
-    },
-    {
-      "bytes": 2290,
-      "path": "dynamic/社交/2026-07-25 00-58-52 plain text写法指南_8e16f5bfbcdc.md",
-      "sha256": "940944db62a378a39c4a69f8fc9a1e3a0d48fba26f76f4cb934251f90f20ebee"
     },
     {
       "bytes": 2157,
@@ -2221,11 +2231,6 @@
       "bytes": 2471,
       "path": "dynamic/自我成长/2026-09-03 12-02-42 黎黎想成为能够这样爱人的人_cea9bbecfb1c.md",
       "sha256": "f780865819c91f3f5621e64d60dc99c4a8b4db5585aba8df2c64b563fac0fe81"
-    },
-    {
-      "bytes": 1318,
-      "path": "dynamic/自我认识/2026-08-21 22-13-59 配得感竞争与藏在自卑里的傲气_c97e4f5735c8.md",
-      "sha256": "80ddbb69125ccace9986ae7cd211ad23b4542bb73908629aa780ff78233aaa61"
     },
     {
       "bytes": 1896,
@@ -2251,11 +2256,6 @@
       "bytes": 1276,
       "path": "dynamic/阅读偏好/2026-09-11 17-05-13 哲学阅读想从蒙田开始_d74e9f60e0d3.md",
       "sha256": "d1bd21b4b4687ddc8f3d01c63b198da48193cd1f40a27cd2b02d005e04dab25c"
-    },
-    {
-      "bytes": 2984,
-      "path": "dynamic/音乐/2026-08-28 12-28-00 2026-08-28歌单泪桥与初听 Nick Cave_50cbb539b1cc.md",
-      "sha256": "a804dd6ed5cdebca900933e5f405239f82d6a6b5f85b6316c713f03bb70e73c3"
     },
     {
       "bytes": 2917,
@@ -2973,11 +2973,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-11-07T00:55:48+00:00",
+  "generated_at": "2026-11-07T01:25:53+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1796406
+  "total_bytes": 1796415
 }
