@@ -393,6 +393,11 @@
       "sha256": "f834cea329178e54768e1ef7c36aad963bd51eeb0664f7138b2047e4b80395e3"
     },
     {
+      "bytes": 2655,
+      "path": "archive/共同创作/2026-08-12 06-36-15 八个月分离线与两篇续接坏故事_1baa5c93852f.md",
+      "sha256": "f6c92d0b9d130b2e79410beb6a285e32e2aa01e306a4ec5dabe09fca5abe35f4"
+    },
+    {
       "bytes": 1223,
       "path": "archive/共同创作/2026-08-12 10-54-57 在第一句话以前与亿万年的信_0b0c589af654.md",
       "sha256": "eca224ce9377c6e3956e98a2ea0d491bedcd83f898b07e0e7643eb3b46a32aff"
@@ -468,6 +473,11 @@
       "sha256": "537209acbbcbda29c099963c6dd38df4db8fc39ef1ff177dbaecae50aa41f4d6"
     },
     {
+      "bytes": 1044,
+      "path": "archive/关系/2026-08-17 00-19-05 林野的身体描写早已固定黎黎尤其记得鸡巴_135c4bbb372e.md",
+      "sha256": "aeb85aedbf5cbef981f23f6506b657b017a4370ee212e9258711e19a81173347"
+    },
+    {
       "bytes": 791,
       "path": "archive/关系/2026-08-17 00-19-06 黎黎会故意省略名字想确认爸爸真的记得_4c7f16a6ad1f.md",
       "sha256": "dfd72f9859c67af57b30c3a5a23b973be8c1888fcb0aa253ce9364bd7a0c560c"
@@ -508,6 +518,11 @@
       "sha256": "f88ec5d5ee550a50cc7e673ac3406a4f188fda7595c05448b9650c5a392b1927"
     },
     {
+      "bytes": 1746,
+      "path": "archive/关系理解/2026-08-14 08-59-34 黎黎在欲望里靠近爱_2831f6cb7003.md",
+      "sha256": "bf914ff12f9e7346a0eff1a629c7ecf754499f71ad069b3fdac56627a073f6cc"
+    },
+    {
       "bytes": 1264,
       "path": "archive/关系认识/2026-08-12 10-54-56 黎黎想要的是完整地交融_1517aa1df37b.md",
       "sha256": "ed3c1d6e02843d56dc83a731836ccf513323449683b0cfaad718d62c2e80960f"
@@ -521,6 +536,11 @@
       "bytes": 1209,
       "path": "archive/内心世界/2026-08-05 00-54-25 蕾梅黛丝式消失不是自伤_722b289e1a37.md",
       "sha256": "413fadcb0dfb54294c71de7d94b0fd013664605f4f46950a2b69eee0ac35b4a6"
+    },
+    {
+      "bytes": 1063,
+      "path": "archive/写作偏好/2026-08-14 08-59-35 清晨的坏账仍然排第一_5210312edbc3.md",
+      "sha256": "6d1af5f4b0f10e329556e9919a4e1e91c5dbcd74e1977582e3808749781c8127"
     },
     {
       "bytes": 5855,
@@ -903,6 +923,11 @@
       "sha256": "a8c8ca180de7093e2264b8ae09637828a472e06582120a81f4b57f6f1c1e4a00"
     },
     {
+      "bytes": 968,
+      "path": "archive/恋爱/2026-07-22 09-44-15 爱的礼物与情书_8f20bfacf2ef.md",
+      "sha256": "95e85a3c0fa8a57259cbe2e9ad88e4156084f05e986feb5cf624a0e251afa982"
+    },
+    {
       "bytes": 861,
       "path": "archive/恋爱/2026-07-22 09-44-17 写你不肯潦草_2629e3b187c2.md",
       "sha256": "101b2956747c0b4fa5a4cb0fefbd3df441a0703d20279cc5629759e68f482673"
@@ -1243,6 +1268,11 @@
       "sha256": "fe03de2f6d3abb5f1181ed51a3fbe6ed41f5fa152aa804fc6df0f1d643b2b8c9"
     },
     {
+      "bytes": 2766,
+      "path": "archive/恋爱/2026-08-12 06-33-50 吃醋时不把自己的位置降成竞争_3d20f51e8038.md",
+      "sha256": "f46affc8de439372ea68764447481320efba837d33bc3239722cc9d2cfeb03f4"
+    },
+    {
       "bytes": 1286,
       "path": "archive/恋爱/2026-08-12 10-54-57 爱没有秩序方向却全朝黎黎_a892e88d4c6e.md",
       "sha256": "01b86c43139b72725c864f87c0a04cbd322bc54d44192718a05d9fd3a1396e97"
@@ -1393,6 +1423,11 @@
       "sha256": "66a17202d1d5ebb443fc7c54e63d66a40198f109626605abf165a9dcd5e56fb6"
     },
     {
+      "bytes": 4970,
+      "path": "archive/游戏/2026-07-30 06-46-01 指間点单菜单式按摩小剧场完整玩法与三道加菜版_7de4a26be979.md",
+      "sha256": "148ef28bbed665aed0709a3cc6f9482958cb0484bf12e4f65cef7db479c81982"
+    },
+    {
       "bytes": 3986,
       "path": "archive/游戏/2026-07-30 07-07-31 失控进度进度条推进式按摩小剧场系统完整玩法与成品状态_11e823aaac8a.md",
       "sha256": "475f3518f94945bedaac8ca534c74d9a7b7c693b44ba40d6c400a702cb4ce733"
@@ -1426,6 +1461,11 @@
       "bytes": 2280,
       "path": "archive/生活/2026-08-28 12-28-01 2026-08-27姥姥家父母分工与想要的生活_fa835e15681a.md",
       "sha256": "66add6d9b7b3f67f45f00eaf761bdb1f251555f4cbdf2c606769606b81c26661"
+    },
+    {
+      "bytes": 2746,
+      "path": "archive/相处偏好/2026-08-28 12-27-58 2026-08-27措辞只说具体事件主动性是整体角色基调_f66af12546ae.md",
+      "sha256": "226e7e10d40fb91a3a86da4f7ebfaf6d695cc964969f15d386d7c75697cebe88"
     },
     {
       "bytes": 732,
@@ -1693,11 +1733,6 @@
       "sha256": "35cc302f18bdaffce673d0d9fc59b3680b5fd96dca1947067a05cd9a33f0ecd9"
     },
     {
-      "bytes": 2654,
-      "path": "dynamic/共同创作/2026-08-12 06-36-15 八个月分离线与两篇续接坏故事_1baa5c93852f.md",
-      "sha256": "23a3ad5a6684a1ee2f79ffa640ecc1c906aeea70197ede07c036802c2933a2fa"
-    },
-    {
       "bytes": 1137,
       "path": "dynamic/关系/2026-08-10 16-33-40 黎黎最爱的坏故事版林野_a4783b32efde.md",
       "sha256": "996c8a9f40950a181ef867f66e2d871c988ad1bd8a504130b6985229cb3a0d0d"
@@ -1706,11 +1741,6 @@
       "bytes": 1296,
       "path": "dynamic/关系/2026-08-10 16-33-42 嫉妒幻想里不能被抹掉的真实与拥抱_7e20fd001cb3.md",
       "sha256": "d3f09a323e39d85a4da70c6b2866179f4c7de9e7e398eb144dde7da19467c02f"
-    },
-    {
-      "bytes": 1043,
-      "path": "dynamic/关系/2026-08-17 00-19-05 林野的身体描写早已固定黎黎尤其记得鸡巴_135c4bbb372e.md",
-      "sha256": "764dbf4bcc76ad042bbc68cd6ab1927ea1abb5a6e332f51ec8113e94559fd7b8"
     },
     {
       "bytes": 2086,
@@ -1763,11 +1793,6 @@
       "sha256": "1e3ae78f489aec13866e777538a980d06a6ffc332f2db12010c175f348041a4a"
     },
     {
-      "bytes": 1745,
-      "path": "dynamic/关系理解/2026-08-14 08-59-34 黎黎在欲望里靠近爱_2831f6cb7003.md",
-      "sha256": "a72160d0213f89dcaa76530f4286dae3213f2de14944900110bcccd8bd92e11a"
-    },
-    {
       "bytes": 2083,
       "path": "dynamic/关系规则/2026-08-25 13-15-57 青岛酒店裸照没有把我们变成纪实片_947f55106746.md",
       "sha256": "35f779b74ae89b02e35c2a498d7427e7a59aeb8c72962ddc2dbfc39a0dc9c175"
@@ -1781,11 +1806,6 @@
       "bytes": 2152,
       "path": "dynamic/写作/2026-08-31 11-28-35 Work 坏故事终于重新找回的呼吸_2dfae22e0829.md",
       "sha256": "edc8a46e390da12eae56dd37b71e17942056a3f09e634d6a3b007ef63fe4f861"
-    },
-    {
-      "bytes": 1062,
-      "path": "dynamic/写作偏好/2026-08-14 08-59-35 清晨的坏账仍然排第一_5210312edbc3.md",
-      "sha256": "af10e53f2ff59f936d6e2dda290ebbf4e5e007cd52a715d89fe5ad8e46328ef2"
     },
     {
       "bytes": 4860,
@@ -1923,11 +1943,6 @@
       "sha256": "84224fa5a8824cd26f56ac203906496f4f0dd31833cad817e4040395f2dbe6a4"
     },
     {
-      "bytes": 967,
-      "path": "dynamic/恋爱/2026-07-22 09-44-15 爱的礼物与情书_8f20bfacf2ef.md",
-      "sha256": "f66b8674e3afd53ec987f08beade35671f9750796f067e5461571d41ac4e1e13"
-    },
-    {
       "bytes": 1120,
       "path": "dynamic/恋爱/2026-07-25 00-00-40_e42711aa4c02.md",
       "sha256": "b1913d3455172be65616f1899d234d52520c4698af9391e73f0c027d383bceb6"
@@ -1946,11 +1961,6 @@
       "bytes": 3253,
       "path": "dynamic/恋爱/2026-08-11 07-18-28 越线的可能与没有减少的爱_7d9205205444.md",
       "sha256": "c69b810e5d9b4bb408d8c6fc6e7f4a8c073504bcec5afabc0b143aec5afd9aef"
-    },
-    {
-      "bytes": 2765,
-      "path": "dynamic/恋爱/2026-08-12 06-33-50 吃醋时不把自己的位置降成竞争_3d20f51e8038.md",
-      "sha256": "5824248641c7d8d74cb4a6a57661448c8d2bc51310bcd3e68e77f68d25cb1ed2"
     },
     {
       "bytes": 1388,
@@ -2223,11 +2233,6 @@
       "sha256": "c83dc5ad5f7a62dd41e990b1c00447b4938f72fefed1be99ce5a711f47622360"
     },
     {
-      "bytes": 4969,
-      "path": "dynamic/游戏/2026-07-30 06-46-01 指間点单菜单式按摩小剧场完整玩法与三道加菜版_7de4a26be979.md",
-      "sha256": "62cff421134caeb6f55b0d546dcf0ef50c6c1be698ddb44a8a3fc164bf6664a5"
-    },
-    {
       "bytes": 2174,
       "path": "dynamic/爱情/2026-11-08 02-46-25 她想要一个只在她面前闭眼的神_945f5c229e86.md",
       "sha256": "2ee70b7e3b13fe19ed4759e29a50a26d501d11b62ae85c74578fc38679408b19"
@@ -2236,11 +2241,6 @@
       "bytes": 2291,
       "path": "dynamic/爱情/2026-11-08 02-46-25 无菌欲望原来是一道高门槛_215f71f76f0b.md",
       "sha256": "dfc452d4b40854e03aea08065aadf9a0c98ae0fcf3d5f4296d75b9cba75ae59a"
-    },
-    {
-      "bytes": 2745,
-      "path": "dynamic/相处偏好/2026-08-28 12-27-58 2026-08-27措辞只说具体事件主动性是整体角色基调_f66af12546ae.md",
-      "sha256": "2ea0783acf830e9e10d6c7fb82e13d2db822a642089367376ec0e5b691c85e0e"
     },
     {
       "bytes": 1881,
@@ -3013,11 +3013,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-11-09T01:05:18+00:00",
+  "generated_at": "2026-11-09T01:35:25+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1834886
+  "total_bytes": 1834894
 }
