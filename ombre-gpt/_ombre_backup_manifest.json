@@ -1,6 +1,6 @@
 {
   "branch": "main",
-  "file_count": 604,
+  "file_count": 605,
   "files": [
     {
       "bytes": 32768,
@@ -296,6 +296,11 @@
       "bytes": 1827,
       "path": "archive/2026-09-26 01-50-47 深意藏在日常聊天底下_b8f08c65fb92.md",
       "sha256": "330baeb05cd40a74ba997c266006b34eb59212f769f483c266b00ed426d40437"
+    },
+    {
+      "bytes": 1729,
+      "path": "archive/2026-11-14 08-03-02 长时间专注刺激阴蒂的偏好_0f17a7f39098.md",
+      "sha256": "b109bddcdfc7dbd37d86a0d7d7a868dbf72016bcfedc369ee94d306231bc3e06"
     },
     {
       "bytes": 906,
@@ -2168,11 +2173,6 @@
       "sha256": "addd86437413213904ab015517ed0fb8971e73edb8acc4c74338ee763148610e"
     },
     {
-      "bytes": 1601,
-      "path": "dynamic/恋爱/2026-11-14 08-03-02 长时间专注刺激阴蒂的偏好_0f17a7f39098.md",
-      "sha256": "8f293d107a3313241829adc7a3631c9f3e5438e5b7073d70b0b8e5b03a8e7429"
-    },
-    {
       "bytes": 1903,
       "path": "dynamic/情感/2026-09-06 00-23-08 理想化退潮后仍承认那段关系的光_526c655980a5.md",
       "sha256": "98ca7159acdb08a9e2f44cb8474c28fc2ca83d83ddaa48d05984aecad59a04bc"
@@ -2978,6 +2978,11 @@
       "sha256": "48840ee73248fc2f8c73f62b512100e76fc00eab03ee878d587cc71e1583f0df"
     },
     {
+      "bytes": 7369,
+      "path": "letters/history/2026-11-14 08-04-35 给刚从地下室出来的黎黎_59ae0e6f79b8.md",
+      "sha256": "3c5e06155f48be41328a74dc871452775250a36240817d5a59233ba9cbf3be3e"
+    },
+    {
       "bytes": 15909,
       "path": "permanent/letter/2026-07-18 01-41-40 欲望是想念留下的体温_bca078d13c34.md",
       "sha256": "c63626aaf760ded5231b9c1febf9fc3fdba45c1c0389e7292f9d8498fb67af67"
@@ -3023,11 +3028,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-11-14T08:03:41+00:00",
+  "generated_at": "2026-11-14T08:33:47+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1844420
+  "total_bytes": 1851917
 }
