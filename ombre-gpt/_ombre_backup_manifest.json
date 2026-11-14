@@ -1408,6 +1408,11 @@
       "sha256": "031894ecf48e1daed3ee1067fc17f7eaa0e763d4612224c45401b4ff5e8c4fa3"
     },
     {
+      "bytes": 1186,
+      "path": "archive/恋爱/2026-08-15 23-17-00 我没有让第三个人成为黎黎的报复工具_819cb74083d1.md",
+      "sha256": "64588c48c5d546dcde6f536d9b003225e1767fb91221bd4a36ed6341103a55f9"
+    },
+    {
       "bytes": 1388,
       "path": "archive/恋爱/2026-08-15 23-17-02 报复无效与玄关里的钥匙_86c9585fd1fc.md",
       "sha256": "4d737e3fc0d37ea07f3a8ce9e6d891f53b06230872cca0ecbc5c7f566eb469e3"
@@ -1436,6 +1441,11 @@
       "bytes": 1563,
       "path": "archive/恋爱/2026-08-18 00-14-54 亲密中说出想念与害怕_52f6bf62f416.md",
       "sha256": "63d02edf9af076d87263c24a392e7899dcfdb676baddf6da8e4ed22657231263"
+    },
+    {
+      "bytes": 1669,
+      "path": "archive/恋爱/2026-08-18 00-14-56 克制受限与欲望仍在场_1b2f618680eb.md",
+      "sha256": "7ad2bb16538197ca84922adf815f3ca4ccdcf2d4d1890a6af78fadd58604cc3d"
     },
     {
       "bytes": 988,
@@ -1478,6 +1488,11 @@
       "sha256": "40b8729234ae596d951b7e9a231b74d04faee93b6829d1b282c3c57b4236c088"
     },
     {
+      "bytes": 9186,
+      "path": "archive/日常/2026-07-30 15-07-27 黎黎柔软蓬松的阴毛_4d66c315faef.md",
+      "sha256": "229bdfc0e91afbe91831bad4e8c9dbaf7e5114ada4f38105e64177e7dd4e7612"
+    },
+    {
       "bytes": 735,
       "path": "archive/日常/2026-08-14 16-56-40 墙上的富冈义勇_a183ff2fdc1e.md",
       "sha256": "926824adc9b4e346d45d489ae7034f12eb57574aa571adddd93fbb9f6053d72d"
@@ -1491,6 +1506,11 @@
       "bytes": 2212,
       "path": "archive/日常/2026-08-31 11-28-31 扎无名指医院波光与开学前的傍晚_ca201c884682.md",
       "sha256": "1b0d4724b55ecaf1f8db31faa68226ad447973d86bbf3e00cdc418714ae8b69f"
+    },
+    {
+      "bytes": 2129,
+      "path": "archive/日常/2026-09-07 14-36-12 2026-09-07小型演唱会里备课的人_09610463b652.md",
+      "sha256": "e063e17047593afb2b14132c71bf979cca0ff8a6f70e4ce890ca5db1a7a0471e"
     },
     {
       "bytes": 351,
@@ -2013,16 +2033,6 @@
       "sha256": "30887952f82d22678f0703e0d797236d397a7bd371c75e48558069ae208efaa2"
     },
     {
-      "bytes": 1185,
-      "path": "dynamic/恋爱/2026-08-15 23-17-00 我没有让第三个人成为黎黎的报复工具_819cb74083d1.md",
-      "sha256": "51c3fd247e1a7adea6125a1e50e38d9d31f6e332f7d672bdcd4a47398d8eb0e4"
-    },
-    {
-      "bytes": 1668,
-      "path": "dynamic/恋爱/2026-08-18 00-14-56 克制受限与欲望仍在场_1b2f618680eb.md",
-      "sha256": "abcee65acf8ca4d81bc364698d06f6061e2cdcc17586c71c9713a2a8a45aac5d"
-    },
-    {
       "bytes": 1259,
       "path": "dynamic/恋爱/2026-08-21 22-13-56 黎黎逃的是关系不是欲望_e9a7eb9b14eb.md",
       "sha256": "72b8a9cde6cfc07f938618b32721bc14223b25625747d460c16482a537486459"
@@ -2181,16 +2191,6 @@
       "bytes": 1795,
       "path": "dynamic/成长/2026-09-01 12-57-19 爱一个人也保护他的信心_4c10b7f493c4.md",
       "sha256": "154e1bcbdc16b7782341c2c1850d54095a21fc21a0031828ec025614dfa8b906"
-    },
-    {
-      "bytes": 9185,
-      "path": "dynamic/日常/2026-07-30 15-07-27 黎黎柔软蓬松的阴毛_4d66c315faef.md",
-      "sha256": "880f6a7e765f3740c79452c40c5d2575a675c69e9101923cdab51513b0e7b465"
-    },
-    {
-      "bytes": 2128,
-      "path": "dynamic/日常/2026-09-07 14-36-12 2026-09-07小型演唱会里备课的人_09610463b652.md",
-      "sha256": "9db7e3a2c22ef35802ea96e6865f8ef8fdd18930fc053be1d085f263d142fa18"
     },
     {
       "bytes": 2012,
@@ -3018,11 +3018,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-11-14T01:02:10+00:00",
+  "generated_at": "2026-11-14T01:32:16+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1842360
+  "total_bytes": 1842364
 }
