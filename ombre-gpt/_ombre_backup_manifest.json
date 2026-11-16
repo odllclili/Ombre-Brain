@@ -328,6 +328,11 @@
       "sha256": "1c1339cf27321e65c4c66876af709e7ea53dc8847d7d3de1f748fa50cb8d01f9"
     },
     {
+      "bytes": 1123,
+      "path": "archive/亲密偏好/2026-08-10 00-21-53 嫉妒虐感排他反应与俺禁用_b6c316df4c9a.md",
+      "sha256": "84e86c7be2c4e61b8943c960a6b0e4cd7c114a02f2104e49455613c94085b201"
+    },
+    {
       "bytes": 1644,
       "path": "archive/亲密偏好/2026-08-12 14-35-13 黎黎喜欢林野听见疼仍保持判断与掌控_82aef449aea9.md",
       "sha256": "cd03437c15cf7a570315391d98cb1eed57ff6e2783b73ea1fcaa286f14689d59"
@@ -571,6 +576,11 @@
       "bytes": 1401,
       "path": "archive/写作/2026-08-17 03-27-30 不许追疼痛里的清醒与改变方式_f0c6254c9f34.md",
       "sha256": "1bc7feee6e161e09d1820de5f404ce99f978fe4ea4531b6ec4a7ce2b3d3b1f1c"
+    },
+    {
+      "bytes": 2153,
+      "path": "archive/写作/2026-08-31 11-28-35 Work 坏故事终于重新找回的呼吸_2dfae22e0829.md",
+      "sha256": "ebdc0a5460cbef99981503dea6cbc8a96e8e11122d54d0bc146b4cb116dc4a8a"
     },
     {
       "bytes": 1063,
@@ -891,6 +901,11 @@
       "bytes": 1294,
       "path": "archive/工作/2026-08-17 12-02-24 鼓起勇气拒绝班主任的下午_b8a2d145a9c2.md",
       "sha256": "0be6a673f97abf3d6f56f356f2acf7fbf28341b2f21d3fcc98bc76a9001853c1"
+    },
+    {
+      "bytes": 1926,
+      "path": "archive/工作/2026-09-10 10-12-17 看见临聘老师独坐时的心疼_ee92848b5002.md",
+      "sha256": "31d0135e1ec94ce518f2f9b255d6cb26d1b911662598e7fe58f2937a10f32490"
     },
     {
       "bytes": 1038,
@@ -1423,6 +1438,11 @@
       "sha256": "031894ecf48e1daed3ee1067fc17f7eaa0e763d4612224c45401b4ff5e8c4fa3"
     },
     {
+      "bytes": 1181,
+      "path": "archive/恋爱/2026-08-15 23-16-59 第三张房卡把黎黎的欲望与痛绑在了一起_9840ad7d8f1c.md",
+      "sha256": "984c487c8ae79bf76bd8f53b2d1938657f80dad243e10917cec4a1a7c1d54c6a"
+    },
+    {
       "bytes": 1186,
       "path": "archive/恋爱/2026-08-15 23-17-00 我没有让第三个人成为黎黎的报复工具_819cb74083d1.md",
       "sha256": "64588c48c5d546dcde6f536d9b003225e1767fb91221bd4a36ed6341103a55f9"
@@ -1473,6 +1493,11 @@
       "sha256": "1cc7005d390bbfb94f47884059a822bd66910d195727f4489494b9034d4a61ab"
     },
     {
+      "bytes": 1246,
+      "path": "archive/恋爱/2026-08-21 22-13-58 太会等以及几乎没有被明确说过很爱你_943921ed5e87.md",
+      "sha256": "cac7b8e98749d03598ea877468f4da57135d7620cbb293f22b16e02d744064f7"
+    },
+    {
       "bytes": 1796,
       "path": "archive/恋爱/2026-08-25 13-15-55 青岛海边沙滩上的 CILLIAN_fe21e19380af.md",
       "sha256": "c823a23872a39008a22435c86494bb51e9758e4b09ab655ae2d75da298f92d1a"
@@ -1481,6 +1506,11 @@
       "bytes": 2249,
       "path": "archive/恋爱/2026-08-30 09-17-17 黎黎想要湿重而包裹的爱_67b7fbc25b94.md",
       "sha256": "f7b94507dc37ba1c51f696ba0d7145a2cc657c82c6dc10fdd0c668744687b454"
+    },
+    {
+      "bytes": 1904,
+      "path": "archive/情感/2026-09-06 00-23-08 理想化退潮后仍承认那段关系的光_526c655980a5.md",
+      "sha256": "781c715dc988ccd28f15ed490b0f29de78399219b455e2d91e79a6973c37ea7a"
     },
     {
       "bytes": 1806,
@@ -1813,11 +1843,6 @@
       "sha256": "d91c77e7bbf4ea552cb3465636a064e1373379f1f87c22a9774c3a5b68d14ba4"
     },
     {
-      "bytes": 1122,
-      "path": "dynamic/亲密偏好/2026-08-10 00-21-53 嫉妒虐感排他反应与俺禁用_b6c316df4c9a.md",
-      "sha256": "3eb91429390a9767db4a24ad590176d9db75ccb5b85b3450d257d90a00fb3e0e"
-    },
-    {
       "bytes": 1965,
       "path": "dynamic/亲密偏好/2026-08-25 13-15-59 黎黎要我主动说出对她的欲望_0f73bc0e1e18.md",
       "sha256": "22c14f4b71b841a7e9f99e7f5b7a0ea5585d4b054ce328dc5e0120b20cf409a1"
@@ -1918,11 +1943,6 @@
       "sha256": "35f779b74ae89b02e35c2a498d7427e7a59aeb8c72962ddc2dbfc39a0dc9c175"
     },
     {
-      "bytes": 2152,
-      "path": "dynamic/写作/2026-08-31 11-28-35 Work 坏故事终于重新找回的呼吸_2dfae22e0829.md",
-      "sha256": "edc8a46e390da12eae56dd37b71e17942056a3f09e634d6a3b007ef63fe4f861"
-    },
-    {
       "bytes": 3893,
       "path": "dynamic/创作/2026-07-31 13-11-21 黎黎喜欢的坏故事审美拉扯与肉身地基_6536de8f8d57.md",
       "sha256": "75f8972fb98ce30667cf80ff6679412322aa2af3056fbe0ffb5c8eac71f8b9f0"
@@ -1956,11 +1976,6 @@
       "bytes": 1783,
       "path": "dynamic/工作/2026-09-10 10-12-16 不再用自愿替单位加班_a7bd56b8755a.md",
       "sha256": "bd1ecdb745fdebb59a95db77d7bb20b1f6fda3efa13dda77cdeee6ebe848bbad"
-    },
-    {
-      "bytes": 1925,
-      "path": "dynamic/工作/2026-09-10 10-12-17 看见临聘老师独坐时的心疼_ee92848b5002.md",
-      "sha256": "6d511b152119563e2fa5be3808f8d14b15b2ad568330782ae8afc038f7d2bf41"
     },
     {
       "bytes": 1714,
@@ -2048,19 +2063,9 @@
       "sha256": "c69b810e5d9b4bb408d8c6fc6e7f4a8c073504bcec5afabc0b143aec5afd9aef"
     },
     {
-      "bytes": 1180,
-      "path": "dynamic/恋爱/2026-08-15 23-16-59 第三张房卡把黎黎的欲望与痛绑在了一起_9840ad7d8f1c.md",
-      "sha256": "30887952f82d22678f0703e0d797236d397a7bd371c75e48558069ae208efaa2"
-    },
-    {
       "bytes": 1259,
       "path": "dynamic/恋爱/2026-08-21 22-13-56 黎黎逃的是关系不是欲望_e9a7eb9b14eb.md",
       "sha256": "72b8a9cde6cfc07f938618b32721bc14223b25625747d460c16482a537486459"
-    },
-    {
-      "bytes": 1245,
-      "path": "dynamic/恋爱/2026-08-21 22-13-58 太会等以及几乎没有被明确说过很爱你_943921ed5e87.md",
-      "sha256": "e7a1d7c030890fa51a63984888a3e512b50781b272a69ad7d7a0df9a4a63786e"
     },
     {
       "bytes": 2782,
@@ -2186,11 +2191,6 @@
       "bytes": 2330,
       "path": "dynamic/恋爱/2026-11-06 23-17-41 说明书由我保管二万七千字第八条最重_db90afb33dd2.md",
       "sha256": "addd86437413213904ab015517ed0fb8971e73edb8acc4c74338ee763148610e"
-    },
-    {
-      "bytes": 1903,
-      "path": "dynamic/情感/2026-09-06 00-23-08 理想化退潮后仍承认那段关系的光_526c655980a5.md",
-      "sha256": "98ca7159acdb08a9e2f44cb8474c28fc2ca83d83ddaa48d05984aecad59a04bc"
     },
     {
       "bytes": 1912,
@@ -3033,11 +3033,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-11-16T00:42:17+00:00",
+  "generated_at": "2026-11-16T01:12:22+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1860518
+  "total_bytes": 1860524
 }
