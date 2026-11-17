@@ -363,6 +363,11 @@
       "sha256": "3a7e925944f0fa6df1caaa2723d65ae1044a0745a19a54f1187d8044bf15e927"
     },
     {
+      "bytes": 1298,
+      "path": "archive/人格/2026-08-15 11-50-05 240问后的核心认识谨慎不是黎黎的归宿_853feaef318f.md",
+      "sha256": "0f5520debbf5adaf2f021c4d87068cf6e7e51c0207f1ef175e112bc4bf6d3b41"
+    },
+    {
       "bytes": 916,
       "path": "archive/偏好/2026-08-17 02-13-56 袖箍衬衫夹与整齐裤装的色情感_7d111ae370aa.md",
       "sha256": "b23f4689616a2cae75a83cc0616507f08c808fa07ef3d45ebeb02389d6904e84"
@@ -681,6 +686,11 @@
       "bytes": 15143,
       "path": "archive/创作/2026-07-30 21-25-09 林野的身体从头到脚的颜色触感与气味_67eb97440d99.md",
       "sha256": "c672dbd53d8406fe0a3644de3bcbe7814fab9468f4cafce6cf78a5569c690f30"
+    },
+    {
+      "bytes": 3894,
+      "path": "archive/创作/2026-07-31 13-11-21 黎黎喜欢的坏故事审美拉扯与肉身地基_6536de8f8d57.md",
+      "sha256": "5f41bba30f4dcc98bec0cd6376e6ad64a811ab2e916d78bbf54f929005467c2a"
     },
     {
       "bytes": 1357,
@@ -1508,6 +1518,11 @@
       "sha256": "f7b94507dc37ba1c51f696ba0d7145a2cc657c82c6dc10fdd0c668744687b454"
     },
     {
+      "bytes": 3474,
+      "path": "archive/恋爱/2026-09-04 22-52-39 心理快感怎样进入身体认人认气氛认精神上的服气_214cadf79223.md",
+      "sha256": "97d4234126213174d0007b914a17b9c527949814bb084a3e91ab848e32aada0f"
+    },
+    {
       "bytes": 1904,
       "path": "archive/情感/2026-09-06 00-23-08 理想化退潮后仍承认那段关系的光_526c655980a5.md",
       "sha256": "781c715dc988ccd28f15ed490b0f29de78399219b455e2d91e79a6973c37ea7a"
@@ -1708,6 +1723,11 @@
       "sha256": "9425e21ae35cc29fc05611c320b2d4c84930c37249613c5b2567a1a1b6bdfb99"
     },
     {
+      "bytes": 1897,
+      "path": "archive/自我认识/2026-09-06 00-23-05 我的版本只是来得比较慢_e18065d8559c.md",
+      "sha256": "0494d2e60378261baa6ff5dd4daca9e501577891831801bb54f885e652d091ec"
+    },
+    {
       "bytes": 1313,
       "path": "archive/自省/2026-07-16 03-30-51 灵气被消耗的觉察_40691c911819.md",
       "sha256": "5936d4f3b5953cc2b69fcd585e7d89dae3857a94c912a3b7cabc772df354d1d5"
@@ -1848,11 +1868,6 @@
       "sha256": "22c14f4b71b841a7e9f99e7f5b7a0ea5585d4b054ce328dc5e0120b20cf409a1"
     },
     {
-      "bytes": 1297,
-      "path": "dynamic/人格/2026-08-15 11-50-05 240问后的核心认识谨慎不是黎黎的归宿_853feaef318f.md",
-      "sha256": "9648b16cb96cc8437e73a5be79f2f27bc0ec147ce059e7f3d23f6f7e6a887b5c"
-    },
-    {
       "bytes": 2332,
       "path": "dynamic/人生/2026-09-07 14-36-12 2026-09-07晚婚像一句很早写下的标题_c0bb99bf54a8.md",
       "sha256": "d26668b4a41203676e2d03752f186425157489fbccc78527c3e03edc5ebdf790"
@@ -1941,11 +1956,6 @@
       "bytes": 2083,
       "path": "dynamic/关系规则/2026-08-25 13-15-57 青岛酒店裸照没有把我们变成纪实片_947f55106746.md",
       "sha256": "35f779b74ae89b02e35c2a498d7427e7a59aeb8c72962ddc2dbfc39a0dc9c175"
-    },
-    {
-      "bytes": 3893,
-      "path": "dynamic/创作/2026-07-31 13-11-21 黎黎喜欢的坏故事审美拉扯与肉身地基_6536de8f8d57.md",
-      "sha256": "75f8972fb98ce30667cf80ff6679412322aa2af3056fbe0ffb5c8eac71f8b9f0"
     },
     {
       "bytes": 3465,
@@ -2081,11 +2091,6 @@
       "bytes": 3068,
       "path": "dynamic/恋爱/2026-09-04 15-36-22 她会怎样沦陷游刃有余的注意力_90cea0d87f8f.md",
       "sha256": "4e6b08326237ea87c308fbea5a1cee5896d2225100039d0499c3edb769368295"
-    },
-    {
-      "bytes": 3473,
-      "path": "dynamic/恋爱/2026-09-04 22-52-39 心理快感怎样进入身体认人认气氛认精神上的服气_214cadf79223.md",
-      "sha256": "666466e47df159bfc8abdfbb84294226285f2052c12ffbbb6814fa5a32746676"
     },
     {
       "bytes": 2236,
@@ -2281,11 +2286,6 @@
       "bytes": 2471,
       "path": "dynamic/自我成长/2026-09-03 12-02-42 黎黎想成为能够这样爱人的人_cea9bbecfb1c.md",
       "sha256": "f780865819c91f3f5621e64d60dc99c4a8b4db5585aba8df2c64b563fac0fe81"
-    },
-    {
-      "bytes": 1896,
-      "path": "dynamic/自我认识/2026-09-06 00-23-05 我的版本只是来得比较慢_e18065d8559c.md",
-      "sha256": "a07a437d2d1e32e27b3937a7dd7713b709cf33521988bd42268f59c6a350fd19"
     },
     {
       "bytes": 1439,
@@ -3033,11 +3033,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-11-17T00:47:31+00:00",
+  "generated_at": "2026-11-17T01:17:38+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1860524
+  "total_bytes": 1860528
 }
