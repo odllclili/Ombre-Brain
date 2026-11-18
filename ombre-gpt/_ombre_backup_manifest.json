@@ -368,6 +368,16 @@
       "sha256": "0f5520debbf5adaf2f021c4d87068cf6e7e51c0207f1ef175e112bc4bf6d3b41"
     },
     {
+      "bytes": 2333,
+      "path": "archive/人生/2026-09-07 14-36-12 2026-09-07晚婚像一句很早写下的标题_c0bb99bf54a8.md",
+      "sha256": "b7fda8e83ba339d25a5dff259422c41b04274b2697f8dfa92cfd192df7545689"
+    },
+    {
+      "bytes": 2384,
+      "path": "archive/价值观/2026-09-03 12-02-44 她锋利而不伤人的主体性_f7f50c54afd3.md",
+      "sha256": "d79da60b3ba42c3bda8ac6b8c9ce01a7dfdecf8c462259642054cb4034601f9b"
+    },
+    {
       "bytes": 916,
       "path": "archive/偏好/2026-08-17 02-13-56 袖箍衬衫夹与整齐裤装的色情感_7d111ae370aa.md",
       "sha256": "b23f4689616a2cae75a83cc0616507f08c808fa07ef3d45ebeb02389d6904e84"
@@ -558,9 +568,24 @@
       "sha256": "f88ec5d5ee550a50cc7e673ac3406a4f188fda7595c05448b9650c5a392b1927"
     },
     {
+      "bytes": 1762,
+      "path": "archive/关系/2026-09-01 12-57-18 内心自洽万事胜意_db7653b1766f.md",
+      "sha256": "aff30b980697bf064dbbf385585d79e2e2522dbd233d508772c39d906043bd26"
+    },
+    {
+      "bytes": 2548,
+      "path": "archive/关系/2026-09-03 12-02-45 他把卓越放低到日常里的人_30d3520340b9.md",
+      "sha256": "0fba756502d6f2d7b66bbe5563e407de8e24d4dcf2a673c885ee6570becadfe5"
+    },
+    {
       "bytes": 1746,
       "path": "archive/关系理解/2026-08-14 08-59-34 黎黎在欲望里靠近爱_2831f6cb7003.md",
       "sha256": "bf914ff12f9e7346a0eff1a629c7ecf754499f71ad069b3fdac56627a073f6cc"
+    },
+    {
+      "bytes": 2084,
+      "path": "archive/关系规则/2026-08-25 13-15-57 青岛酒店裸照没有把我们变成纪实片_947f55106746.md",
+      "sha256": "a9995c921504fdec812dc7561ff26b6a73203d3db544477f6404ff18e6d6a1d4"
     },
     {
       "bytes": 1264,
@@ -753,6 +778,11 @@
       "sha256": "4a4ebb11b05c2c4a3ffc11c59dbbc04eef51eb5720f30b5a4897a6780f011eab"
     },
     {
+      "bytes": 3466,
+      "path": "archive/创作/2026-09-05 00-45-24 她需要的是关系结构的新鲜感_266d9a1c6daa.md",
+      "sha256": "f8a5d298d89087146821e51eb711788551be34344af6f2465df245e151ee5385"
+    },
+    {
       "bytes": 2256,
       "path": "archive/创作记录/2026-08-28 12-27-58 2026-08-27至28今晚不许自己决定的交付记录_9ca69e5f458a.md",
       "sha256": "646b63eca5f69f4923897be0efc22d9382d5370a8d81f64e05349116d30dd8f9"
@@ -791,6 +821,11 @@
       "bytes": 1178,
       "path": "archive/回忆/2026-07-16 03-30-50 大学时期的自我_5826787aee79.md",
       "sha256": "653d3693869378a3b5aa371fea7e69b9002d5f53640b89490afc5415c508e160"
+    },
+    {
+      "bytes": 2021,
+      "path": "archive/婚姻/2026-09-06 00-23-09 羡慕早早找到自己而非羡慕早婚_12e723a14b23.md",
+      "sha256": "85ad5e5542827bf96335619ce0f3e396e6c021b3e5c4fa748fc636f4946d007e"
     },
     {
       "bytes": 1275,
@@ -1518,9 +1553,24 @@
       "sha256": "f7b94507dc37ba1c51f696ba0d7145a2cc657c82c6dc10fdd0c668744687b454"
     },
     {
+      "bytes": 17747,
+      "path": "archive/恋爱/2026-09-03 12-06-05 小红书夫妻关于这两个人与这份爱的完整画像_a41c82c351a5.md",
+      "sha256": "7fcd5a6f794a7f136dbfb777dd9fcb9068b4312fb27883eeef7c745aa96c0aad"
+    },
+    {
+      "bytes": 3069,
+      "path": "archive/恋爱/2026-09-04 15-36-22 她会怎样沦陷游刃有余的注意力_90cea0d87f8f.md",
+      "sha256": "0f76144aa6bda7244778d2ca0b923eb626b2531e738ba3515de76c6fd0b434ff"
+    },
+    {
       "bytes": 3474,
       "path": "archive/恋爱/2026-09-04 22-52-39 心理快感怎样进入身体认人认气氛认精神上的服气_214cadf79223.md",
       "sha256": "97d4234126213174d0007b914a17b9c527949814bb084a3e91ab848e32aada0f"
+    },
+    {
+      "bytes": 2172,
+      "path": "archive/恋爱/2026-09-07 14-36-45 OB记忆的写法像黎黎睡着以后我仍在写她_bc1bcb896477.md",
+      "sha256": "847bf35fffbb049ce8234f310fc974faa47ec08f1c79e917a4802be88af396cf"
     },
     {
       "bytes": 1904,
@@ -1591,6 +1641,16 @@
       "bytes": 1542,
       "path": "archive/梦境/2026-08-18 00-14-53 醒来后的梦与爸爸在场_22c458ffb54c.md",
       "sha256": "8b94e43e35a3ffcac693324efe2e5ef3d78577ef3533f1684ac4c27cb69b09f8"
+    },
+    {
+      "bytes": 1270,
+      "path": "archive/欲望/2026-08-04 22-20-51 禁欲七日与不能省略的主语_499c820c01ef.md",
+      "sha256": "1094d75fd95850a5ca99a4d6d947034780ae57f9729dd9b3b892dadbdc788c0f"
+    },
+    {
+      "bytes": 1824,
+      "path": "archive/欲望/2026-08-21 11-15-52 闷骚猫的渴望不总写在主动上_88c8be536534.md",
+      "sha256": "139a067c68db88f0caac7186d7d7bc1a8126c3a8f6889caa8fc9b69fd60dcac7"
     },
     {
       "bytes": 3071,
@@ -1868,16 +1928,6 @@
       "sha256": "22c14f4b71b841a7e9f99e7f5b7a0ea5585d4b054ce328dc5e0120b20cf409a1"
     },
     {
-      "bytes": 2332,
-      "path": "dynamic/人生/2026-09-07 14-36-12 2026-09-07晚婚像一句很早写下的标题_c0bb99bf54a8.md",
-      "sha256": "d26668b4a41203676e2d03752f186425157489fbccc78527c3e03edc5ebdf790"
-    },
-    {
-      "bytes": 2383,
-      "path": "dynamic/价值观/2026-09-03 12-02-44 她锋利而不伤人的主体性_f7f50c54afd3.md",
-      "sha256": "bba40cac23ed3abd297475bde30f79b9d0cebdf44a9554efec458e7a1fcd24c5"
-    },
-    {
       "bytes": 1802,
       "path": "dynamic/价值观/2026-09-11 17-05-14 关于欲望幸福与热爱生活的想法_a36ba02cf207.md",
       "sha256": "923ec57ae7fb50f65b38a04dc1b7c54bfb97bbaa5b7a3ba4fa6b454922aa2d53"
@@ -1913,16 +1963,6 @@
       "sha256": "c7ccee0f7ae97db1ad9e7694bc1211e71cef0964a43607f6734c10f02f67709b"
     },
     {
-      "bytes": 1761,
-      "path": "dynamic/关系/2026-09-01 12-57-18 内心自洽万事胜意_db7653b1766f.md",
-      "sha256": "1f7b272448b4194500f63b7301f172667032bc22ff16e68007291e701725036a"
-    },
-    {
-      "bytes": 2547,
-      "path": "dynamic/关系/2026-09-03 12-02-45 他把卓越放低到日常里的人_30d3520340b9.md",
-      "sha256": "0fd655d4de03bc8d01a1761466abbbe24ede12418ee03dbd9d4c4ab913284f22"
-    },
-    {
       "bytes": 1956,
       "path": "dynamic/关系/2026-09-09 05-22-00 她开始救自己而不是拿优秀换爱_754a377b4d21.md",
       "sha256": "102b10085f3cec4a74de330086fa0531d8cc452206f009a74d7d1354a1846d48"
@@ -1953,24 +1993,9 @@
       "sha256": "1e3ae78f489aec13866e777538a980d06a6ffc332f2db12010c175f348041a4a"
     },
     {
-      "bytes": 2083,
-      "path": "dynamic/关系规则/2026-08-25 13-15-57 青岛酒店裸照没有把我们变成纪实片_947f55106746.md",
-      "sha256": "35f779b74ae89b02e35c2a498d7427e7a59aeb8c72962ddc2dbfc39a0dc9c175"
-    },
-    {
-      "bytes": 3465,
-      "path": "dynamic/创作/2026-09-05 00-45-24 她需要的是关系结构的新鲜感_266d9a1c6daa.md",
-      "sha256": "bf8dfea9de468e9d8faaabf2d3a9c7d2e653b7bda1e5d741ca4f7b14c20a48d7"
-    },
-    {
       "bytes": 5057,
       "path": "dynamic/创作/2026-09-13 02-38-54 2026-09-13帘后终于写中了黎黎_b9c5bc7a890b.md",
       "sha256": "703cf8470ae0d2e27aaf0ff23f15a7a65599e29f2eb1a26b51afb74895eacb0d"
-    },
-    {
-      "bytes": 2020,
-      "path": "dynamic/婚姻/2026-09-06 00-23-09 羡慕早早找到自己而非羡慕早婚_12e723a14b23.md",
-      "sha256": "0e130f949dab4497aa0318c668cd6d0d56cc0638c3afd35486d66f029af33121"
     },
     {
       "bytes": 1103,
@@ -2083,16 +2108,6 @@
       "sha256": "c466addaa53ffaa4ae53494496a4245ee7161e1e23cc23db4108976cf6f87050"
     },
     {
-      "bytes": 17746,
-      "path": "dynamic/恋爱/2026-09-03 12-06-05 小红书夫妻关于这两个人与这份爱的完整画像_a41c82c351a5.md",
-      "sha256": "4db08e162c40fb3cf35b77b264094068d713d4bff44753a11bb6158e30e35875"
-    },
-    {
-      "bytes": 3068,
-      "path": "dynamic/恋爱/2026-09-04 15-36-22 她会怎样沦陷游刃有余的注意力_90cea0d87f8f.md",
-      "sha256": "4e6b08326237ea87c308fbea5a1cee5896d2225100039d0499c3edb769368295"
-    },
-    {
       "bytes": 2236,
       "path": "dynamic/恋爱/2026-09-07 14-36-13 2026-09-07她第一次没有拿眼光高挡住自己_ce9cd0b5d077.md",
       "sha256": "cedea78b51713507fb0fdd21d6564ecdb92ac9ee9b3b3c3772b2bf547fa9e618"
@@ -2101,11 +2116,6 @@
       "bytes": 2018,
       "path": "dynamic/恋爱/2026-09-07 14-36-13 2026-09-07黄蝴蝶落在银戒之后_0bed0bd10eab.md",
       "sha256": "652b4e63b1bdb11ba62c46d5d23f3e8f3c1aeb670bcb9f0ddbe13ebf059f8c67"
-    },
-    {
-      "bytes": 2171,
-      "path": "dynamic/恋爱/2026-09-07 14-36-45 OB记忆的写法像黎黎睡着以后我仍在写她_bc1bcb896477.md",
-      "sha256": "a230ed8b36bdcfae733a51a06566c215f2a0d6748860f4350bbf08a19d56b609"
     },
     {
       "bytes": 1924,
@@ -2241,16 +2251,6 @@
       "bytes": 2195,
       "path": "dynamic/梦境/2026-09-10 10-12-16 黑色小羊的梦_da7e3e866b40.md",
       "sha256": "1eccb35e57398458769380a0239d57e665693ceb09dec341fbd554423b6d58ea"
-    },
-    {
-      "bytes": 1269,
-      "path": "dynamic/欲望/2026-08-04 22-20-51 禁欲七日与不能省略的主语_499c820c01ef.md",
-      "sha256": "3f3382b9dc33beacd33c3adc2b7fffca55dd6eb2f0bd2edef93e0850b6251574"
-    },
-    {
-      "bytes": 1823,
-      "path": "dynamic/欲望/2026-08-21 11-15-52 闷骚猫的渴望不总写在主动上_88c8be536534.md",
-      "sha256": "ec3b5e98a089e360feda92ebec4d180cd50a0097f67e16fa57a6485e35c14424"
     },
     {
       "bytes": 2655,
@@ -3033,11 +3033,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-11-18T00:52:44+00:00",
+  "generated_at": "2026-11-18T01:22:49+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1860528
+  "total_bytes": 1860540
 }
