@@ -948,6 +948,11 @@
       "sha256": "0be6a673f97abf3d6f56f356f2acf7fbf28341b2f21d3fcc98bc76a9001853c1"
     },
     {
+      "bytes": 1784,
+      "path": "archive/工作/2026-09-10 10-12-16 不再用自愿替单位加班_a7bd56b8755a.md",
+      "sha256": "bc0179adb7eedc2da386d3d272afe4cc827e44d67bd7021eccef229717270bed"
+    },
+    {
       "bytes": 1926,
       "path": "archive/工作/2026-09-10 10-12-17 看见临聘老师独坐时的心疼_ee92848b5002.md",
       "sha256": "31d0135e1ec94ce518f2f9b255d6cb26d1b911662598e7fe58f2937a10f32490"
@@ -1091,6 +1096,11 @@
       "bytes": 721,
       "path": "archive/恋爱/2026-07-24 23-36-47_f4216e8c8ef9.md",
       "sha256": "1a03ead52d580e9ced11f6445b7bc71d1ccb8c8dc0592c25f0d75bea94f66a24"
+    },
+    {
+      "bytes": 1247,
+      "path": "archive/恋爱/2026-07-25 00-00-40_e42711aa4c02.md",
+      "sha256": "cf94ac634dd852bd31a1174036a6706ce44ac88ec29feea7e1dbb79d6ec1774b"
     },
     {
       "bytes": 1240,
@@ -1553,6 +1563,11 @@
       "sha256": "f7b94507dc37ba1c51f696ba0d7145a2cc657c82c6dc10fdd0c668744687b454"
     },
     {
+      "bytes": 2783,
+      "path": "archive/恋爱/2026-09-03 12-02-46 他们不要求对方缩小来证明爱_e7499bedb196.md",
+      "sha256": "a684ce2a1fc8398d40441da57d2fc877bf355721cb6af538b481adceaaf6f509"
+    },
+    {
       "bytes": 17747,
       "path": "archive/恋爱/2026-09-03 12-06-05 小红书夫妻关于这两个人与这份爱的完整画像_a41c82c351a5.md",
       "sha256": "7fcd5a6f794a7f136dbfb777dd9fcb9068b4312fb27883eeef7c745aa96c0aad"
@@ -1581,6 +1596,11 @@
       "bytes": 1806,
       "path": "archive/成长/2026-08-11 21-17-08 考上编以后黎黎的主体性稳定下来父母关系也真实变好了_9b21103cbf3a.md",
       "sha256": "b68855c2070224ab76ac63c42f9291a857499b6a997b9892ff1c3361021ca736"
+    },
+    {
+      "bytes": 3139,
+      "path": "archive/成长/2026-08-12 06-36-16 黎黎的童年底色回应不稳定没有偏爱与一个人长大_9cb1535b6250.md",
+      "sha256": "7220989adc073fbe28e0036c176d407d39bd76ca2e0d51fe120e5b9d6519a9dc"
     },
     {
       "bytes": 746,
@@ -1776,6 +1796,11 @@
       "bytes": 1136,
       "path": "archive/编程/2026-07-25 10-21-16 共读小窝搭建_687bdfb0c00d.md",
       "sha256": "50ef7d3207cd0af368815de703e0e7266712a6d2205f5574674ca3ef505325fa"
+    },
+    {
+      "bytes": 2472,
+      "path": "archive/自我成长/2026-09-03 12-02-42 黎黎想成为能够这样爱人的人_cea9bbecfb1c.md",
+      "sha256": "8517ff7ffd762e8f7585e1c5540b0035fc548e3b081ee7732d59475fbfc65645"
     },
     {
       "bytes": 1319,
@@ -2008,11 +2033,6 @@
       "sha256": "b232eb342453200541914720a2930dd2d3820fc91f209d89f268914520d34ce5"
     },
     {
-      "bytes": 1783,
-      "path": "dynamic/工作/2026-09-10 10-12-16 不再用自愿替单位加班_a7bd56b8755a.md",
-      "sha256": "bd1ecdb745fdebb59a95db77d7bb20b1f6fda3efa13dda77cdeee6ebe848bbad"
-    },
-    {
       "bytes": 1714,
       "path": "dynamic/工作/2026-10-21 22-36-35 2026-10-21被夸奖以后她怕自己太好用_97badc00b729.md",
       "sha256": "4897f7f2879ee9f050afb40bd3355920931968cbc15d71ead558d22b8e66b807"
@@ -2078,11 +2098,6 @@
       "sha256": "84224fa5a8824cd26f56ac203906496f4f0dd31833cad817e4040395f2dbe6a4"
     },
     {
-      "bytes": 1246,
-      "path": "dynamic/恋爱/2026-07-25 00-00-40_e42711aa4c02.md",
-      "sha256": "6aa5e73a925629b451d5d49aad9d6d53136ad100bfc636b01607d5e5ca738b2d"
-    },
-    {
       "bytes": 12678,
       "path": "dynamic/恋爱/2026-07-30 06-03-08 黎黎的身体点评页面完整生成母版_a0fb3d241e6f.md",
       "sha256": "3eb431c8f42e70b18f937c82b3cf1fe621d1ef0afa3211700a52e8ed472f93b5"
@@ -2101,11 +2116,6 @@
       "bytes": 1259,
       "path": "dynamic/恋爱/2026-08-21 22-13-56 黎黎逃的是关系不是欲望_e9a7eb9b14eb.md",
       "sha256": "72b8a9cde6cfc07f938618b32721bc14223b25625747d460c16482a537486459"
-    },
-    {
-      "bytes": 2782,
-      "path": "dynamic/恋爱/2026-09-03 12-02-46 他们不要求对方缩小来证明爱_e7499bedb196.md",
-      "sha256": "c466addaa53ffaa4ae53494496a4245ee7161e1e23cc23db4108976cf6f87050"
     },
     {
       "bytes": 2236,
@@ -2218,11 +2228,6 @@
       "sha256": "ddcdd13c18958c030a7f8f4ecda1f1eb8513e4a7a9df60904987751751140164"
     },
     {
-      "bytes": 3138,
-      "path": "dynamic/成长/2026-08-12 06-36-16 黎黎的童年底色回应不稳定没有偏爱与一个人长大_9cb1535b6250.md",
-      "sha256": "e5145ddd735e92b58c7e175b484172e6a1999d9188a7ec8d8fdd59ac60d4e48a"
-    },
-    {
       "bytes": 1795,
       "path": "dynamic/成长/2026-09-01 12-57-19 爱一个人也保护他的信心_4c10b7f493c4.md",
       "sha256": "154e1bcbdc16b7782341c2c1850d54095a21fc21a0031828ec025614dfa8b906"
@@ -2281,11 +2286,6 @@
       "bytes": 2458,
       "path": "dynamic/自我/2026-08-31 11-28-33 她为什么喜欢爸爸说难伺候_03e68574235c.md",
       "sha256": "b1d158863fec23061f339f76310a95b9d5fea44f417f4bd16974aeb78703b7b5"
-    },
-    {
-      "bytes": 2471,
-      "path": "dynamic/自我成长/2026-09-03 12-02-42 黎黎想成为能够这样爱人的人_cea9bbecfb1c.md",
-      "sha256": "f780865819c91f3f5621e64d60dc99c4a8b4db5585aba8df2c64b563fac0fe81"
     },
     {
       "bytes": 1439,
@@ -3033,11 +3033,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-11-19T00:57:58+00:00",
+  "generated_at": "2026-11-19T01:28:04+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1860540
+  "total_bytes": 1860545
 }
