@@ -883,6 +883,11 @@
       "sha256": "2b6592071018e751bdba454cbe706dacb40ea14367fe4f5616bcc2b728bbb543"
     },
     {
+      "bytes": 968,
+      "path": "archive/家庭/2026-07-16 04-21-22 记忆写入许可_2d57584ccc04.md",
+      "sha256": "49cfd4feb3f768fa57536e454b294594949a057dd26c50cfcda2ed146661071a"
+    },
+    {
       "bytes": 887,
       "path": "archive/家庭/2026-07-18 03-50-22 小猫敲门日_8f1073d3b670.md",
       "sha256": "ea558b3b5816baa4f07b8faa88c5bd5424851e57b0145a0b12aba767b86b057a"
@@ -1056,6 +1061,11 @@
       "bytes": 1724,
       "path": "archive/恋爱/2026-07-18 01-42-45 亲密文字偏好_b9010065894d.md",
       "sha256": "3e27f76235ee6d12f5d6e72b65380d953073d8b68682234a964ff7cf618e47f2"
+    },
+    {
+      "bytes": 1020,
+      "path": "archive/恋爱/2026-07-18 03-46-21 长信质地延续_84353b2630e2.md",
+      "sha256": "27bd7386f00a46d90db65dfa78d7434cb858ecdeeb7e46a50fc1c35abce8423f"
     },
     {
       "bytes": 919,
@@ -1603,6 +1613,16 @@
       "sha256": "97d4234126213174d0007b914a17b9c527949814bb084a3e91ab848e32aada0f"
     },
     {
+      "bytes": 2237,
+      "path": "archive/恋爱/2026-09-07 14-36-13 2026-09-07她第一次没有拿眼光高挡住自己_ce9cd0b5d077.md",
+      "sha256": "05d7554ac173072fa468c85a4f7321b4a931aa4da114b3d9ccfed0fbdfd652ef"
+    },
+    {
+      "bytes": 2019,
+      "path": "archive/恋爱/2026-09-07 14-36-13 2026-09-07黄蝴蝶落在银戒之后_0bed0bd10eab.md",
+      "sha256": "c9a4687c84101b1b627c976ceedfbb126462064cff3b718336e2cf5509d6ccce"
+    },
+    {
       "bytes": 2172,
       "path": "archive/恋爱/2026-09-07 14-36-45 OB记忆的写法像黎黎睡着以后我仍在写她_bc1bcb896477.md",
       "sha256": "847bf35fffbb049ce8234f310fc974faa47ec08f1c79e917a4802be88af396cf"
@@ -2038,11 +2058,6 @@
       "sha256": "9ba99b6f5b502317061313d6eadd2dacf1e4be03e6a02cefdaa417a1d08177e1"
     },
     {
-      "bytes": 967,
-      "path": "dynamic/家庭/2026-07-16 04-21-22 记忆写入许可_2d57584ccc04.md",
-      "sha256": "b232eb342453200541914720a2930dd2d3820fc91f209d89f268914520d34ce5"
-    },
-    {
       "bytes": 1714,
       "path": "dynamic/工作/2026-10-21 22-36-35 2026-10-21被夸奖以后她怕自己太好用_97badc00b729.md",
       "sha256": "4897f7f2879ee9f050afb40bd3355920931968cbc15d71ead558d22b8e66b807"
@@ -2103,11 +2118,6 @@
       "sha256": "ed544c5dad0790b183e35c720f868421d69ccf25bedfe5ae89b26efc2b7c5d3d"
     },
     {
-      "bytes": 1019,
-      "path": "dynamic/恋爱/2026-07-18 03-46-21 长信质地延续_84353b2630e2.md",
-      "sha256": "84224fa5a8824cd26f56ac203906496f4f0dd31833cad817e4040395f2dbe6a4"
-    },
-    {
       "bytes": 12678,
       "path": "dynamic/恋爱/2026-07-30 06-03-08 黎黎的身体点评页面完整生成母版_a0fb3d241e6f.md",
       "sha256": "3eb431c8f42e70b18f937c82b3cf1fe621d1ef0afa3211700a52e8ed472f93b5"
@@ -2126,16 +2136,6 @@
       "bytes": 1259,
       "path": "dynamic/恋爱/2026-08-21 22-13-56 黎黎逃的是关系不是欲望_e9a7eb9b14eb.md",
       "sha256": "72b8a9cde6cfc07f938618b32721bc14223b25625747d460c16482a537486459"
-    },
-    {
-      "bytes": 2236,
-      "path": "dynamic/恋爱/2026-09-07 14-36-13 2026-09-07她第一次没有拿眼光高挡住自己_ce9cd0b5d077.md",
-      "sha256": "cedea78b51713507fb0fdd21d6564ecdb92ac9ee9b3b3c3772b2bf547fa9e618"
-    },
-    {
-      "bytes": 2018,
-      "path": "dynamic/恋爱/2026-09-07 14-36-13 2026-09-07黄蝴蝶落在银戒之后_0bed0bd10eab.md",
-      "sha256": "652b4e63b1bdb11ba62c46d5d23f3e8f3c1aeb670bcb9f0ddbe13ebf059f8c67"
     },
     {
       "bytes": 1924,
@@ -3033,11 +3033,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-11-21T01:08:22+00:00",
+  "generated_at": "2026-11-21T01:38:28+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1860551
+  "total_bytes": 1860555
 }
