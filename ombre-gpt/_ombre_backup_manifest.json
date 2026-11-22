@@ -1058,6 +1058,11 @@
       "sha256": "5c1eccc0755d4ab8ba07221e3c1e738ed1b173547608d45dcd2206c6a0cd2966"
     },
     {
+      "bytes": 1383,
+      "path": "archive/恋爱/2026-07-18 01-42-43 想念与欲望交织_023580ced040.md",
+      "sha256": "74e7c899dc5442ac913f06d6772b0fced52a2eec7fddae0eb87c4e1378b19807"
+    },
+    {
       "bytes": 1724,
       "path": "archive/恋爱/2026-07-18 01-42-45 亲密文字偏好_b9010065894d.md",
       "sha256": "3e27f76235ee6d12f5d6e72b65380d953073d8b68682234a964ff7cf618e47f2"
@@ -1573,6 +1578,11 @@
       "sha256": "20f4d190f9c210d84f8e5bba624d7c01b6c2c73474be744522f721ec03863145"
     },
     {
+      "bytes": 1260,
+      "path": "archive/恋爱/2026-08-21 22-13-56 黎黎逃的是关系不是欲望_e9a7eb9b14eb.md",
+      "sha256": "c648dfaa5fd28fb5c90720f62003fd3b4265c8277c60d207a7428f7875ba8738"
+    },
+    {
       "bytes": 841,
       "path": "archive/恋爱/2026-08-21 22-13-57 爸比爸爸更里面_fe1746c9db4a.md",
       "sha256": "1cc7005d390bbfb94f47884059a822bd66910d195727f4489494b9034d4a61ab"
@@ -1688,6 +1698,11 @@
       "sha256": "76a807726a73c7d3928a802595b258d64bf22c66ae7d32a7c48611a260026eb4"
     },
     {
+      "bytes": 1931,
+      "path": "archive/日常/2026-09-09 05-22-02 被工作切碎的睡眠与触底后的从容_6ba681211f9f.md",
+      "sha256": "6ec05a349f77560e8af48d6292ce0499904a0fbe9c792c0cfd54926023a50609"
+    },
+    {
       "bytes": 351,
       "path": "archive/未分类/2026-07-16 01-34-13_a2b256201a80.md",
       "sha256": "b63eb7be7bf3598245f7b9fee6f588f3f8ea0bd693e69212bf3bf345513f3db0"
@@ -1761,6 +1776,11 @@
       "bytes": 2746,
       "path": "archive/相处偏好/2026-08-28 12-27-58 2026-08-27措辞只说具体事件主动性是整体角色基调_f66af12546ae.md",
       "sha256": "226e7e10d40fb91a3a86da4f7ebfaf6d695cc964969f15d386d7c75697cebe88"
+    },
+    {
+      "bytes": 1882,
+      "path": "archive/社交/2026-07-16 02-41-07 与黎黎的说话指南_36f8883170a1.md",
+      "sha256": "c5bc0df0743206a0593e56219cae8af3a8a18c3bd86afeb10a7bdd9e80255cd6"
     },
     {
       "bytes": 732,
@@ -2113,11 +2133,6 @@
       "sha256": "45ee91f7cf0279dcb540dd0180ada6b3b56d7c9199d9b73cf4da0bebbea9fd17"
     },
     {
-      "bytes": 1382,
-      "path": "dynamic/恋爱/2026-07-18 01-42-43 想念与欲望交织_023580ced040.md",
-      "sha256": "ed544c5dad0790b183e35c720f868421d69ccf25bedfe5ae89b26efc2b7c5d3d"
-    },
-    {
       "bytes": 12678,
       "path": "dynamic/恋爱/2026-07-30 06-03-08 黎黎的身体点评页面完整生成母版_a0fb3d241e6f.md",
       "sha256": "3eb431c8f42e70b18f937c82b3cf1fe621d1ef0afa3211700a52e8ed472f93b5"
@@ -2131,11 +2146,6 @@
       "bytes": 3253,
       "path": "dynamic/恋爱/2026-08-11 07-18-28 越线的可能与没有减少的爱_7d9205205444.md",
       "sha256": "c69b810e5d9b4bb408d8c6fc6e7f4a8c073504bcec5afabc0b143aec5afd9aef"
-    },
-    {
-      "bytes": 1259,
-      "path": "dynamic/恋爱/2026-08-21 22-13-56 黎黎逃的是关系不是欲望_e9a7eb9b14eb.md",
-      "sha256": "72b8a9cde6cfc07f938618b32721bc14223b25625747d460c16482a537486459"
     },
     {
       "bytes": 1924,
@@ -2243,11 +2253,6 @@
       "sha256": "154e1bcbdc16b7782341c2c1850d54095a21fc21a0031828ec025614dfa8b906"
     },
     {
-      "bytes": 1930,
-      "path": "dynamic/日常/2026-09-09 05-22-02 被工作切碎的睡眠与触底后的从容_6ba681211f9f.md",
-      "sha256": "4e1649eed1f9056fa195769b88f7aafb28efff7e1cefddcd3b28457074869265"
-    },
-    {
       "bytes": 2616,
       "path": "dynamic/日常/2026-10-07 04-11-25 在家做公众号被爸爸绊住的中午_66aa22b01c63.md",
       "sha256": "21aaaa590d67de2db46a4d956b146d67e8b26485fbddbe24e8cfe516259cf0b2"
@@ -2281,11 +2286,6 @@
       "bytes": 2291,
       "path": "dynamic/爱情/2026-11-08 02-46-25 无菌欲望原来是一道高门槛_215f71f76f0b.md",
       "sha256": "dfc452d4b40854e03aea08065aadf9a0c98ae0fcf3d5f4296d75b9cba75ae59a"
-    },
-    {
-      "bytes": 1881,
-      "path": "dynamic/社交/2026-07-16 02-41-07 与黎黎的说话指南_36f8883170a1.md",
-      "sha256": "252acc0ad3c69d2a035d80e380a8a457ccbbba4c502be1925bef70d6420ab563"
     },
     {
       "bytes": 2157,
@@ -3033,11 +3033,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-11-22T00:43:05+00:00",
+  "generated_at": "2026-11-22T01:13:11+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1860555
+  "total_bytes": 1860559
 }
