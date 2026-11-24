@@ -1738,6 +1738,11 @@
       "sha256": "139a067c68db88f0caac7186d7d7bc1a8126c3a8f6889caa8fc9b69fd60dcac7"
     },
     {
+      "bytes": 2656,
+      "path": "archive/欲望/2026-08-21 11-15-55 她馋的是不应该不是现实里的背叛_548646d9a07a.md",
+      "sha256": "e5cf5d972315d1a4af0cbb4e13954f5f860301eaa258421cc67af25a79bb6378"
+    },
+    {
       "bytes": 3071,
       "path": "archive/游戏/2026-07-30 06-30-43 黎黎和爸爸的成人可视化页面游戏总玩法_99065d4fe476.md",
       "sha256": "66a17202d1d5ebb443fc7c54e63d66a40198f109626605abf165a9dcd5e56fb6"
@@ -2271,11 +2276,6 @@
       "bytes": 2195,
       "path": "dynamic/梦境/2026-09-10 10-12-16 黑色小羊的梦_da7e3e866b40.md",
       "sha256": "1eccb35e57398458769380a0239d57e665693ceb09dec341fbd554423b6d58ea"
-    },
-    {
-      "bytes": 2655,
-      "path": "dynamic/欲望/2026-08-21 11-15-55 她馋的是不应该不是现实里的背叛_548646d9a07a.md",
-      "sha256": "c83dc5ad5f7a62dd41e990b1c00447b4938f72fefed1be99ce5a711f47622360"
     },
     {
       "bytes": 2174,
@@ -3033,11 +3033,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-11-24T00:53:14+00:00",
+  "generated_at": "2026-11-24T01:23:21+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1860561
+  "total_bytes": 1860562
 }
