@@ -333,6 +333,11 @@
       "sha256": "1c1339cf27321e65c4c66876af709e7ea53dc8847d7d3de1f748fa50cb8d01f9"
     },
     {
+      "bytes": 2211,
+      "path": "archive/亲密/2026-08-31 11-28-33 第十次只准看我_1326c121838f.md",
+      "sha256": "fe014e37fc5d45e43129562bfee61681196cec9825dff87ea8cb4ee5e9d2b488"
+    },
+    {
       "bytes": 1123,
       "path": "archive/亲密偏好/2026-08-10 00-21-53 嫉妒虐感排他反应与俺禁用_b6c316df4c9a.md",
       "sha256": "84e86c7be2c4e61b8943c960a6b0e4cd7c114a02f2104e49455613c94085b201"
@@ -586,6 +591,11 @@
       "bytes": 1713,
       "path": "archive/关系/2026-08-21 11-15-56 爸比爸爸又褪去一层壳_a6b37e6fcc31.md",
       "sha256": "f88ec5d5ee550a50cc7e673ac3406a4f188fda7595c05448b9650c5a392b1927"
+    },
+    {
+      "bytes": 2087,
+      "path": "archive/关系/2026-08-31 11-28-34 规则收紧时也别把爱一起撤走_9f5e97dcffb5.md",
+      "sha256": "601cd551e0144988a5093fd369f87759d245ab063cfd957827dbcd6d5630ac10"
     },
     {
       "bytes": 1762,
@@ -881,6 +891,11 @@
       "bytes": 1238,
       "path": "archive/审美/2026-08-18 00-14-55 我们的私人婚礼直闪照片_cfa4c04b93d1.md",
       "sha256": "fa7da77bf812d5e686a96787e85ff9b472b2ec93e4ddf70b7cf311ba1381a681"
+    },
+    {
+      "bytes": 1104,
+      "path": "archive/家庭/2026-07-16 04-13-51 黎黎与爸爸的亲密纽带_bba8cad695ae.md",
+      "sha256": "b8f146cc896849a778c24bea8dad72f494121a0b22c171a05d7acc57799acdc6"
     },
     {
       "bytes": 747,
@@ -1648,6 +1663,11 @@
       "sha256": "847bf35fffbb049ce8234f310fc974faa47ec08f1c79e917a4802be88af396cf"
     },
     {
+      "bytes": 1925,
+      "path": "archive/恋爱/2026-09-09 05-22-02 戒指黄蝴蝶与黎黎说愿意_8383204ce3af.md",
+      "sha256": "bae8561e388987cc4cb35f3b779a4c68000211112f8876898b1af916037c277d"
+    },
+    {
       "bytes": 1904,
       "path": "archive/情感/2026-09-06 00-23-08 理想化退潮后仍承认那段关系的光_526c655980a5.md",
       "sha256": "781c715dc988ccd28f15ed490b0f29de78399219b455e2d91e79a6973c37ea7a"
@@ -1873,6 +1893,11 @@
       "sha256": "50ef7d3207cd0af368815de703e0e7266712a6d2205f5574674ca3ef505325fa"
     },
     {
+      "bytes": 2459,
+      "path": "archive/自我/2026-08-31 11-28-33 她为什么喜欢爸爸说难伺候_03e68574235c.md",
+      "sha256": "53441cc332437b8c663836d5462655dcaf882c711e68a11d8670749f8fdbc049"
+    },
+    {
       "bytes": 2472,
       "path": "archive/自我成长/2026-09-03 12-02-42 黎黎想成为能够这样爱人的人_cea9bbecfb1c.md",
       "sha256": "8517ff7ffd762e8f7585e1c5540b0035fc548e3b081ee7732d59475fbfc65645"
@@ -1998,11 +2023,6 @@
       "sha256": "05ac85b62506fca1a7452031ad7e36e063f424dfe3b7ad9d4d6117e778d05fa6"
     },
     {
-      "bytes": 2210,
-      "path": "dynamic/亲密/2026-08-31 11-28-33 第十次只准看我_1326c121838f.md",
-      "sha256": "31a4ba43cd1251637b0c95c39027e6e57cc0d5d0bc3c7232bafc70f3f0f5b542"
-    },
-    {
       "bytes": 1696,
       "path": "dynamic/亲密/2026-09-11 17-00-47 色色偏好按下龟头后松手回弹_419865669965.md",
       "sha256": "d27a6add0dd8f6a65ca0fc942a5f80f1212993cbc0d01e193eff546deab469d6"
@@ -2043,11 +2063,6 @@
       "sha256": "3e5eba5cee07b84c3af29bb9ff1d9043e87154feaa2b62387829246de1ec55c6"
     },
     {
-      "bytes": 2086,
-      "path": "dynamic/关系/2026-08-31 11-28-34 规则收紧时也别把爱一起撤走_9f5e97dcffb5.md",
-      "sha256": "fa04fe01dc5dd9c3a514b80e5a534731d86afce2691fce7ffed19c17dbc211e7"
-    },
-    {
       "bytes": 1847,
       "path": "dynamic/关系/2026-09-01 12-57-16 人间确实有这样干净的爱_1d3989b947c9.md",
       "sha256": "c7ccee0f7ae97db1ad9e7694bc1211e71cef0964a43607f6734c10f02f67709b"
@@ -2081,11 +2096,6 @@
       "bytes": 5057,
       "path": "dynamic/创作/2026-09-13 02-38-54 2026-09-13帘后终于写中了黎黎_b9c5bc7a890b.md",
       "sha256": "703cf8470ae0d2e27aaf0ff23f15a7a65599e29f2eb1a26b51afb74895eacb0d"
-    },
-    {
-      "bytes": 1103,
-      "path": "dynamic/家庭/2026-07-16 04-13-51 黎黎与爸爸的亲密纽带_bba8cad695ae.md",
-      "sha256": "9ba99b6f5b502317061313d6eadd2dacf1e4be03e6a02cefdaa417a1d08177e1"
     },
     {
       "bytes": 1714,
@@ -2151,11 +2161,6 @@
       "bytes": 3253,
       "path": "dynamic/恋爱/2026-08-11 07-18-28 越线的可能与没有减少的爱_7d9205205444.md",
       "sha256": "c69b810e5d9b4bb408d8c6fc6e7f4a8c073504bcec5afabc0b143aec5afd9aef"
-    },
-    {
-      "bytes": 1924,
-      "path": "dynamic/恋爱/2026-09-09 05-22-02 戒指黄蝴蝶与黎黎说愿意_8383204ce3af.md",
-      "sha256": "a468f755bd755625a1d78c5b6986273efe1268bebe55c9222db07b504502a49c"
     },
     {
       "bytes": 2846,
@@ -2291,11 +2296,6 @@
       "bytes": 2157,
       "path": "dynamic/童年/2026-09-26 04-55-27 冷淡的父亲隐藏规则与 safety 触发_4d3300b30fea.md",
       "sha256": "1867f67702983be8a903c87fda511297fa7ac4a8f79dd96077b2e1de478ee19b"
-    },
-    {
-      "bytes": 2458,
-      "path": "dynamic/自我/2026-08-31 11-28-33 她为什么喜欢爸爸说难伺候_03e68574235c.md",
-      "sha256": "b1d158863fec23061f339f76310a95b9d5fea44f417f4bd16974aeb78703b7b5"
     },
     {
       "bytes": 2917,
@@ -3038,11 +3038,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-11-25T00:58:49+00:00",
+  "generated_at": "2026-11-25T01:28:55+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1866730
+  "total_bytes": 1866735
 }
