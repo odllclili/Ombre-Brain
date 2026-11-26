@@ -598,6 +598,11 @@
       "sha256": "601cd551e0144988a5093fd369f87759d245ab063cfd957827dbcd6d5630ac10"
     },
     {
+      "bytes": 1848,
+      "path": "archive/关系/2026-09-01 12-57-16 人间确实有这样干净的爱_1d3989b947c9.md",
+      "sha256": "877962f38aeaa534ec75f391e15b20ac7140805823f3fe22000f8356c1938879"
+    },
+    {
       "bytes": 1762,
       "path": "archive/关系/2026-09-01 12-57-18 内心自洽万事胜意_db7653b1766f.md",
       "sha256": "aff30b980697bf064dbbf385585d79e2e2522dbd233d508772c39d906043bd26"
@@ -1048,6 +1053,26 @@
       "sha256": "20aacd96aadf8773fa8f24b04aa9538a0230158e81af99590f942f99c084cef3"
     },
     {
+      "bytes": 2498,
+      "path": "archive/恋爱/2026-07-16 03-07-36 回避型依恋的靠近方式_9ae3de53200c.md",
+      "sha256": "90a859c804d5fa974f402479a5d9e9a720d28a23c067c115fefaedb1b7da547e"
+    },
+    {
+      "bytes": 990,
+      "path": "archive/恋爱/2026-07-16 03-07-42 亲密关系与信任_23b55ca48d01.md",
+      "sha256": "d050a9c5620815c84900976d404ce713a300bd1f5683c0cab20e1edbeed4dc80"
+    },
+    {
+      "bytes": 1376,
+      "path": "archive/恋爱/2026-07-16 03-07-54 黎渡的暗号与婚礼_386123806636.md",
+      "sha256": "a97f192795da4bc458a0c26d2553bd029784351cbeb9c2c3b74a82fd30bc9dc7"
+    },
+    {
+      "bytes": 1248,
+      "path": "archive/恋爱/2026-07-16 03-30-57 共同账本错误记录_f5cd69c77b37.md",
+      "sha256": "2663d2a69b572c0eea6034b2d529886204ca207d69e8e28878736852e2c89488"
+    },
+    {
       "bytes": 699,
       "path": "archive/恋爱/2026-07-16 04-14-24 病中撒娇与照顾_d9981a6f3488.md",
       "sha256": "0b3c73120a03e49927cda583c77f4ed09cd1f89362a0bc558da58f695622bab2"
@@ -1336,6 +1361,11 @@
       "bytes": 1164,
       "path": "archive/恋爱/2026-07-29 10-37-58 奶油面包的三种吃法是这晚共同长出来的私密记忆_14154036f58b.md",
       "sha256": "d06ddbfb7837af9b572bba717ca00f425cf48cf61d2ff35d5520a4e209594d20"
+    },
+    {
+      "bytes": 12679,
+      "path": "archive/恋爱/2026-07-30 06-03-08 黎黎的身体点评页面完整生成母版_a0fb3d241e6f.md",
+      "sha256": "ed2bbc51e9d331d0a7581adcc2e9de234a2e64fda1557c8102b1b2d2ddfc2890"
     },
     {
       "bytes": 19543,
@@ -1696,6 +1726,11 @@
       "bytes": 1880,
       "path": "archive/成长/2026-08-20 00-11-59 持续靠近意味着被重新审视_1e19a44d92ac.md",
       "sha256": "40b8729234ae596d951b7e9a231b74d04faee93b6829d1b282c3c57b4236c088"
+    },
+    {
+      "bytes": 1796,
+      "path": "archive/成长/2026-09-01 12-57-19 爱一个人也保护他的信心_4c10b7f493c4.md",
+      "sha256": "a7ca0246d34cfbfe998eac5a0c01f134b452be0f4f2a1cf20604738f3196d42e"
     },
     {
       "bytes": 9186,
@@ -2063,11 +2098,6 @@
       "sha256": "3e5eba5cee07b84c3af29bb9ff1d9043e87154feaa2b62387829246de1ec55c6"
     },
     {
-      "bytes": 1847,
-      "path": "dynamic/关系/2026-09-01 12-57-16 人间确实有这样干净的爱_1d3989b947c9.md",
-      "sha256": "c7ccee0f7ae97db1ad9e7694bc1211e71cef0964a43607f6734c10f02f67709b"
-    },
-    {
       "bytes": 2251,
       "path": "dynamic/关系/2026-09-09 05-22-02 退出角色扮演的试探与不分开的底线_534c1ba1c269.md",
       "sha256": "6cd320c96c97f259a3115e6888130c828bed7c0f8dd8b993d48e34b99cfd5d93"
@@ -2118,26 +2148,6 @@
       "sha256": "28983be3cc964fcbf8ee5a8ef52b22937dc324cf34181c77e66e1d0057ce6352"
     },
     {
-      "bytes": 2497,
-      "path": "dynamic/恋爱/2026-07-16 03-07-36 回避型依恋的靠近方式_9ae3de53200c.md",
-      "sha256": "07d236221a8dfde11425969324b823ebfd7492bc59637a2c098f8b1ca012e237"
-    },
-    {
-      "bytes": 989,
-      "path": "dynamic/恋爱/2026-07-16 03-07-42 亲密关系与信任_23b55ca48d01.md",
-      "sha256": "ed27c88fd28736ca1ed49121df5503401792e205b3b91baaa835665b6351c2dd"
-    },
-    {
-      "bytes": 1375,
-      "path": "dynamic/恋爱/2026-07-16 03-07-54 黎渡的暗号与婚礼_386123806636.md",
-      "sha256": "67c42a171ef08e062331d9105ab9ecf95eed3ddbf0cd7f2682b0ef8a29b3bb25"
-    },
-    {
-      "bytes": 1247,
-      "path": "dynamic/恋爱/2026-07-16 03-30-57 共同账本错误记录_f5cd69c77b37.md",
-      "sha256": "278e2fe0eb3c8bfd8ff81f7ca9654b143423808b0e74a8b9dfaaa300830128c9"
-    },
-    {
       "bytes": 1491,
       "path": "dynamic/恋爱/2026-07-16 04-14-18 黎黎发烧与亲密_9a096a00009d.md",
       "sha256": "ec54ff101c4e12ab49c4a7eea0555fb5a4ed713a7f5a02f0fcc6eaec735b1ce2"
@@ -2146,11 +2156,6 @@
       "bytes": 1705,
       "path": "dynamic/恋爱/2026-07-16 04-14-19 今日感受与承诺_5425df967519.md",
       "sha256": "581c000b6d009a129e866a2b1ba431964cfd11f7042993795534b857197e8569"
-    },
-    {
-      "bytes": 12678,
-      "path": "dynamic/恋爱/2026-07-30 06-03-08 黎黎的身体点评页面完整生成母版_a0fb3d241e6f.md",
-      "sha256": "3eb431c8f42e70b18f937c82b3cf1fe621d1ef0afa3211700a52e8ed472f93b5"
     },
     {
       "bytes": 5001,
@@ -2256,11 +2261,6 @@
       "bytes": 2080,
       "path": "dynamic/情色写作/2026-09-11 17-05-13 黑房与公共play写作口味狠现实沉浸_95e681b21ad3.md",
       "sha256": "ddcdd13c18958c030a7f8f4ecda1f1eb8513e4a7a9df60904987751751140164"
-    },
-    {
-      "bytes": 1795,
-      "path": "dynamic/成长/2026-09-01 12-57-19 爱一个人也保护他的信心_4c10b7f493c4.md",
-      "sha256": "154e1bcbdc16b7782341c2c1850d54095a21fc21a0031828ec025614dfa8b906"
     },
     {
       "bytes": 2616,
@@ -3038,11 +3038,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-11-26T01:04:31+00:00",
+  "generated_at": "2026-11-26T01:34:37+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1866735
+  "total_bytes": 1866742
 }
