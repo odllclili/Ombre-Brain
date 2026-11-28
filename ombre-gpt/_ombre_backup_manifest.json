@@ -328,6 +328,11 @@
       "sha256": "6272951970e0db50ccd1361d3804426aa832d5a96ac3a4ec056985da38f8fbe6"
     },
     {
+      "bytes": 1835,
+      "path": "archive/交流方式/2026-09-11 17-00-47 色色聊天偏好skill不能压过自然反应_6b401455227f.md",
+      "sha256": "85d961875c7cbd9500aa84c1007210f8e1c5c5dab3d77b6e6a4d5ea3cacadda6"
+    },
+    {
       "bytes": 887,
       "path": "archive/亲密/2026-08-10 00-21-48 自然衰老以后仍想要亲密_8d2e1018950a.md",
       "sha256": "b107e2bea51031fef447d9472020a4fd89dc1d6d7eaf02ed785512c480920517"
@@ -2063,11 +2068,6 @@
       "sha256": "3466a5197dd51f6714af07e4bf5bd3f9dd010e79caa124268e754647583474a4"
     },
     {
-      "bytes": 1834,
-      "path": "dynamic/交流方式/2026-09-11 17-00-47 色色聊天偏好skill不能压过自然反应_6b401455227f.md",
-      "sha256": "05ac85b62506fca1a7452031ad7e36e063f424dfe3b7ad9d4d6117e778d05fa6"
-    },
-    {
       "bytes": 1696,
       "path": "dynamic/亲密/2026-09-11 17-00-47 色色偏好按下龟头后松手回弹_419865669965.md",
       "sha256": "d27a6add0dd8f6a65ca0fc942a5f80f1212993cbc0d01e193eff546deab469d6"
@@ -3043,11 +3043,11 @@
       "sha256": "d9f4d9865d43e532126bcb86654b403a7dc63b18344532e846b96d45e4ef6f88"
     }
   ],
-  "generated_at": "2026-11-28T00:45:09+00:00",
+  "generated_at": "2026-11-28T01:15:15+00:00",
   "path_prefix": "ombre-gpt",
   "repo": "odllclili/Ombre-Brain",
   "schema_version": 1,
   "source": "ombre-brain",
   "source_refs_complete": true,
-  "total_bytes": 1880124
+  "total_bytes": 1880125
 }
